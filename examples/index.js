@@ -18,7 +18,7 @@
 
 'use strict';
 
-var objectKeys = require( '@stdlib/utils/keys' );
+var objectKeys = require( '@stdlib/utils-keys' );
 var special = require( './../lib' );
 
 console.log( objectKeys( special ) );

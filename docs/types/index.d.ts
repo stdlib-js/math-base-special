@@ -21,195 +21,211 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import abs = require( '@stdlib/math/base/special/abs' );
-import abs2 = require( '@stdlib/math/base/special/abs2' );
-import abs2f = require( '@stdlib/math/base/special/abs2f' );
-import absf = require( '@stdlib/math/base/special/absf' );
-import acos = require( '@stdlib/math/base/special/acos' );
-import acosh = require( '@stdlib/math/base/special/acosh' );
-import acot = require( '@stdlib/math/base/special/acot' );
-import acoth = require( '@stdlib/math/base/special/acoth' );
-import acovercos = require( '@stdlib/math/base/special/acovercos' );
-import acoversin = require( '@stdlib/math/base/special/acoversin' );
-import ahavercos = require( '@stdlib/math/base/special/ahavercos' );
-import ahaversin = require( '@stdlib/math/base/special/ahaversin' );
-import asin = require( '@stdlib/math/base/special/asin' );
-import asinh = require( '@stdlib/math/base/special/asinh' );
-import atan = require( '@stdlib/math/base/special/atan' );
-import atan2 = require( '@stdlib/math/base/special/atan2' );
-import atanh = require( '@stdlib/math/base/special/atanh' );
-import avercos = require( '@stdlib/math/base/special/avercos' );
-import aversin = require( '@stdlib/math/base/special/aversin' );
-import bernoulli = require( '@stdlib/math/base/special/bernoulli' );
-import besselj0 = require( '@stdlib/math/base/special/besselj0' );
-import besselj1 = require( '@stdlib/math/base/special/besselj1' );
-import bessely0 = require( '@stdlib/math/base/special/bessely0' );
-import bessely1 = require( '@stdlib/math/base/special/bessely1' );
-import beta = require( '@stdlib/math/base/special/beta' );
-import betainc = require( '@stdlib/math/base/special/betainc' );
-import betaincinv = require( '@stdlib/math/base/special/betaincinv' );
-import betaln = require( '@stdlib/math/base/special/betaln' );
-import binet = require( '@stdlib/math/base/special/binet' );
-import binomcoef = require( '@stdlib/math/base/special/binomcoef' );
-import binomcoefln = require( '@stdlib/math/base/special/binomcoefln' );
-import boxcox = require( '@stdlib/math/base/special/boxcox' );
-import boxcox1p = require( '@stdlib/math/base/special/boxcox1p' );
-import boxcox1pinv = require( '@stdlib/math/base/special/boxcox1pinv' );
-import boxcoxinv = require( '@stdlib/math/base/special/boxcoxinv' );
-import cbrt = require( '@stdlib/math/base/special/cbrt' );
-import cbrtf = require( '@stdlib/math/base/special/cbrtf' );
-import ceil = require( '@stdlib/math/base/special/ceil' );
-import ceil2 = require( '@stdlib/math/base/special/ceil2' );
-import ceil10 = require( '@stdlib/math/base/special/ceil10' );
-import ceilb = require( '@stdlib/math/base/special/ceilb' );
-import ceilf = require( '@stdlib/math/base/special/ceilf' );
-import ceiln = require( '@stdlib/math/base/special/ceiln' );
-import ceilsd = require( '@stdlib/math/base/special/ceilsd' );
-import clamp = require( '@stdlib/math/base/special/clamp' );
-import clampf = require( '@stdlib/math/base/special/clampf' );
-import copysign = require( '@stdlib/math/base/special/copysign' );
-import cos = require( '@stdlib/math/base/special/cos' );
-import cosh = require( '@stdlib/math/base/special/cosh' );
-import cosm1 = require( '@stdlib/math/base/special/cosm1' );
-import cospi = require( '@stdlib/math/base/special/cospi' );
-import covercos = require( '@stdlib/math/base/special/covercos' );
-import coversin = require( '@stdlib/math/base/special/coversin' );
-import deg2rad = require( '@stdlib/math/base/special/deg2rad' );
-import deg2radf = require( '@stdlib/math/base/special/deg2radf' );
-import digamma = require( '@stdlib/math/base/special/digamma' );
-import diracDelta = require( '@stdlib/math/base/special/dirac-delta' );
-import eta = require( '@stdlib/math/base/special/dirichlet-eta' );
-import ellipe = require( '@stdlib/math/base/special/ellipe' );
-import ellipk = require( '@stdlib/math/base/special/ellipk' );
-import erf = require( '@stdlib/math/base/special/erf' );
-import erfc = require( '@stdlib/math/base/special/erfc' );
-import erfcinv = require( '@stdlib/math/base/special/erfcinv' );
-import erfinv = require( '@stdlib/math/base/special/erfinv' );
-import exp = require( '@stdlib/math/base/special/exp' );
-import exp2 = require( '@stdlib/math/base/special/exp2' );
-import exp10 = require( '@stdlib/math/base/special/exp10' );
-import expit = require( '@stdlib/math/base/special/expit' );
-import expm1 = require( '@stdlib/math/base/special/expm1' );
-import expm1rel = require( '@stdlib/math/base/special/expm1rel' );
-import factorial = require( '@stdlib/math/base/special/factorial' );
-import factorialln = require( '@stdlib/math/base/special/factorialln' );
-import fallingFactorial = require( '@stdlib/math/base/special/falling-factorial' );
-import fibonacci = require( '@stdlib/math/base/special/fibonacci' );
-import fibonacciIndex = require( '@stdlib/math/base/special/fibonacci-index' );
-import flipsign = require( '@stdlib/math/base/special/flipsign' );
-import floor = require( '@stdlib/math/base/special/floor' );
-import floor2 = require( '@stdlib/math/base/special/floor2' );
-import floor10 = require( '@stdlib/math/base/special/floor10' );
-import floorb = require( '@stdlib/math/base/special/floorb' );
-import floorf = require( '@stdlib/math/base/special/floorf' );
-import floorn = require( '@stdlib/math/base/special/floorn' );
-import floorsd = require( '@stdlib/math/base/special/floorsd' );
-import fresnel = require( '@stdlib/math/base/special/fresnel' );
-import fresnelc = require( '@stdlib/math/base/special/fresnelc' );
-import fresnels = require( '@stdlib/math/base/special/fresnels' );
-import frexp = require( '@stdlib/math/base/special/frexp' );
-import gamma = require( '@stdlib/math/base/special/gamma' );
-import gammaDeltaRatio = require( '@stdlib/math/base/special/gamma-delta-ratio' );
-import gammaLanczosSum = require( '@stdlib/math/base/special/gamma-lanczos-sum' );
-import gammaLanczosSumExpGScaled = require( '@stdlib/math/base/special/gamma-lanczos-sum-expg-scaled' );
-import gamma1pm1 = require( '@stdlib/math/base/special/gamma1pm1' );
-import gammainc = require( '@stdlib/math/base/special/gammainc' );
-import gammaincinv = require( '@stdlib/math/base/special/gammaincinv' );
-import gammaln = require( '@stdlib/math/base/special/gammaln' );
-import gcd = require( '@stdlib/math/base/special/gcd' );
-import hacovercos = require( '@stdlib/math/base/special/hacovercos' );
-import hacoversin = require( '@stdlib/math/base/special/hacoversin' );
-import havercos = require( '@stdlib/math/base/special/havercos' );
-import haversin = require( '@stdlib/math/base/special/haversin' );
-import heaviside = require( '@stdlib/math/base/special/heaviside' );
-import hypot = require( '@stdlib/math/base/special/hypot' );
-import hypotf = require( '@stdlib/math/base/special/hypotf' );
-import identity = require( '@stdlib/math/base/special/identity' );
-import identityf = require( '@stdlib/math/base/special/identityf' );
-import imul = require( '@stdlib/math/base/special/imul' );
-import imuldw = require( '@stdlib/math/base/special/imuldw' );
-import inv = require( '@stdlib/math/base/special/inv' );
-import invf = require( '@stdlib/math/base/special/invf' );
-import kernelBetainc = require( '@stdlib/math/base/special/kernel-betainc' );
-import kernelBetaincinv = require( '@stdlib/math/base/special/kernel-betaincinv' );
-import kernelCos = require( '@stdlib/math/base/special/kernel-cos' );
-import kernelSin = require( '@stdlib/math/base/special/kernel-sin' );
-import kernelTan = require( '@stdlib/math/base/special/kernel-tan' );
-import kroneckerDelta = require( '@stdlib/math/base/special/kronecker-delta' );
-import kroneckerDeltaf = require( '@stdlib/math/base/special/kronecker-deltaf' );
-import labs = require( '@stdlib/math/base/special/labs' );
-import lcm = require( '@stdlib/math/base/special/lcm' );
-import ldexp = require( '@stdlib/math/base/special/ldexp' );
-import ln = require( '@stdlib/math/base/special/ln' );
-import log = require( '@stdlib/math/base/special/log' );
-import log1mexp = require( '@stdlib/math/base/special/log1mexp' );
-import log1p = require( '@stdlib/math/base/special/log1p' );
-import log1pexp = require( '@stdlib/math/base/special/log1pexp' );
-import log2 = require( '@stdlib/math/base/special/log2' );
-import log10 = require( '@stdlib/math/base/special/log10' );
-import logaddexp = require( '@stdlib/math/base/special/logaddexp' );
-import logit = require( '@stdlib/math/base/special/logit' );
-import lucas = require( '@stdlib/math/base/special/lucas' );
-import max = require( '@stdlib/math/base/special/max' );
-import maxabs = require( '@stdlib/math/base/special/maxabs' );
-import min = require( '@stdlib/math/base/special/min' );
-import minabs = require( '@stdlib/math/base/special/minabs' );
-import minmax = require( '@stdlib/math/base/special/minmax' );
-import minmaxabs = require( '@stdlib/math/base/special/minmaxabs' );
-import modf = require( '@stdlib/math/base/special/modf' );
-import negafibonacci = require( '@stdlib/math/base/special/negafibonacci' );
-import negalucas = require( '@stdlib/math/base/special/negalucas' );
-import nonfibonacci = require( '@stdlib/math/base/special/nonfibonacci' );
-import pdiff = require( '@stdlib/math/base/special/pdiff' );
-import pdifff = require( '@stdlib/math/base/special/pdifff' );
-import polygamma = require( '@stdlib/math/base/special/polygamma' );
-import pow = require( '@stdlib/math/base/special/pow' );
-import powm1 = require( '@stdlib/math/base/special/powm1' );
-import rad2deg = require( '@stdlib/math/base/special/rad2deg' );
-import ramp = require( '@stdlib/math/base/special/ramp' );
-import rampf = require( '@stdlib/math/base/special/rampf' );
-import rempio2 = require( '@stdlib/math/base/special/rempio2' );
-import zeta = require( '@stdlib/math/base/special/riemann-zeta' );
-import risingFactorial = require( '@stdlib/math/base/special/rising-factorial' );
-import round = require( '@stdlib/math/base/special/round' );
-import round2 = require( '@stdlib/math/base/special/round2' );
-import round10 = require( '@stdlib/math/base/special/round10' );
-import roundb = require( '@stdlib/math/base/special/roundb' );
-import roundn = require( '@stdlib/math/base/special/roundn' );
-import roundsd = require( '@stdlib/math/base/special/roundsd' );
-import rsqrt = require( '@stdlib/math/base/special/rsqrt' );
-import rsqrtf = require( '@stdlib/math/base/special/rsqrtf' );
-import sici = require( '@stdlib/math/base/special/sici' );
-import signum = require( '@stdlib/math/base/special/signum' );
-import signumf = require( '@stdlib/math/base/special/signumf' );
-import sin = require( '@stdlib/math/base/special/sin' );
-import sinc = require( '@stdlib/math/base/special/sinc' );
-import sincos = require( '@stdlib/math/base/special/sincos' );
-import sincospi = require( '@stdlib/math/base/special/sincospi' );
-import sinh = require( '@stdlib/math/base/special/sinh' );
-import sinpi = require( '@stdlib/math/base/special/sinpi' );
-import spence = require( '@stdlib/math/base/special/spence' );
-import sqrt = require( '@stdlib/math/base/special/sqrt' );
-import sqrt1pm1 = require( '@stdlib/math/base/special/sqrt1pm1' );
-import sqrtf = require( '@stdlib/math/base/special/sqrtf' );
-import tan = require( '@stdlib/math/base/special/tan' );
-import tanh = require( '@stdlib/math/base/special/tanh' );
-import tribonacci = require( '@stdlib/math/base/special/tribonacci' );
-import trigamma = require( '@stdlib/math/base/special/trigamma' );
-import trunc = require( '@stdlib/math/base/special/trunc' );
-import trunc2 = require( '@stdlib/math/base/special/trunc2' );
-import trunc10 = require( '@stdlib/math/base/special/trunc10' );
-import truncb = require( '@stdlib/math/base/special/truncb' );
-import truncf = require( '@stdlib/math/base/special/truncf' );
-import truncn = require( '@stdlib/math/base/special/truncn' );
-import truncsd = require( '@stdlib/math/base/special/truncsd' );
-import uimul = require( '@stdlib/math/base/special/uimul' );
-import uimuldw = require( '@stdlib/math/base/special/uimuldw' );
-import vercos = require( '@stdlib/math/base/special/vercos' );
-import versin = require( '@stdlib/math/base/special/versin' );
-import wrap = require( '@stdlib/math/base/special/wrap' );
-import xlog1py = require( '@stdlib/math/base/special/xlog1py' );
-import xlogy = require( '@stdlib/math/base/special/xlogy' );
+import abs = require( '@stdlib/math-base-special-abs' );
+import abs2 = require( '@stdlib/math-base-special-abs2' );
+import abs2f = require( '@stdlib/math-base-special-abs2f' );
+import absf = require( '@stdlib/math-base-special-absf' );
+import acos = require( '@stdlib/math-base-special-acos' );
+import acosh = require( '@stdlib/math-base-special-acosh' );
+import acot = require( '@stdlib/math-base-special-acot' );
+import acoth = require( '@stdlib/math-base-special-acoth' );
+import acovercos = require( '@stdlib/math-base-special-acovercos' );
+import acoversin = require( '@stdlib/math-base-special-acoversin' );
+import ahavercos = require( '@stdlib/math-base-special-ahavercos' );
+import ahaversin = require( '@stdlib/math-base-special-ahaversin' );
+import asin = require( '@stdlib/math-base-special-asin' );
+import asinh = require( '@stdlib/math-base-special-asinh' );
+import atan = require( '@stdlib/math-base-special-atan' );
+import atan2 = require( '@stdlib/math-base-special-atan2' );
+import atanh = require( '@stdlib/math-base-special-atanh' );
+import avercos = require( '@stdlib/math-base-special-avercos' );
+import aversin = require( '@stdlib/math-base-special-aversin' );
+import bernoulli = require( '@stdlib/math-base-special-bernoulli' );
+import besselj0 = require( '@stdlib/math-base-special-besselj0' );
+import besselj1 = require( '@stdlib/math-base-special-besselj1' );
+import bessely0 = require( '@stdlib/math-base-special-bessely0' );
+import bessely1 = require( '@stdlib/math-base-special-bessely1' );
+import beta = require( '@stdlib/math-base-special-beta' );
+import betainc = require( '@stdlib/math-base-special-betainc' );
+import betaincinv = require( '@stdlib/math-base-special-betaincinv' );
+import betaln = require( '@stdlib/math-base-special-betaln' );
+import binet = require( '@stdlib/math-base-special-binet' );
+import binomcoef = require( '@stdlib/math-base-special-binomcoef' );
+import binomcoefln = require( '@stdlib/math-base-special-binomcoefln' );
+import boxcox = require( '@stdlib/math-base-special-boxcox' );
+import boxcox1p = require( '@stdlib/math-base-special-boxcox1p' );
+import boxcox1pinv = require( '@stdlib/math-base-special-boxcox1pinv' );
+import boxcoxinv = require( '@stdlib/math-base-special-boxcoxinv' );
+import cabs = require( '@stdlib/math-base-special-cabs' );
+import cabs2 = require( '@stdlib/math-base-special-cabs2' );
+import cbrt = require( '@stdlib/math-base-special-cbrt' );
+import cbrtf = require( '@stdlib/math-base-special-cbrtf' );
+import cceil = require( '@stdlib/math-base-special-cceil' );
+import cceiln = require( '@stdlib/math-base-special-cceiln' );
+import ccis = require( '@stdlib/math-base-special-ccis' );
+import ceil = require( '@stdlib/math-base-special-ceil' );
+import ceil2 = require( '@stdlib/math-base-special-ceil2' );
+import ceil10 = require( '@stdlib/math-base-special-ceil10' );
+import ceilb = require( '@stdlib/math-base-special-ceilb' );
+import ceilf = require( '@stdlib/math-base-special-ceilf' );
+import ceiln = require( '@stdlib/math-base-special-ceiln' );
+import ceilsd = require( '@stdlib/math-base-special-ceilsd' );
+import cexp = require( '@stdlib/math-base-special-cexp' );
+import cflipsign = require( '@stdlib/math-base-special-cflipsign' );
+import cfloor = require( '@stdlib/math-base-special-cfloor' );
+import cfloorn = require( '@stdlib/math-base-special-cfloorn' );
+import cinv = require( '@stdlib/math-base-special-cinv' );
+import clamp = require( '@stdlib/math-base-special-clamp' );
+import clampf = require( '@stdlib/math-base-special-clampf' );
+import copysign = require( '@stdlib/math-base-special-copysign' );
+import cos = require( '@stdlib/math-base-special-cos' );
+import cosh = require( '@stdlib/math-base-special-cosh' );
+import cosm1 = require( '@stdlib/math-base-special-cosm1' );
+import cospi = require( '@stdlib/math-base-special-cospi' );
+import covercos = require( '@stdlib/math-base-special-covercos' );
+import coversin = require( '@stdlib/math-base-special-coversin' );
+import cphase = require( '@stdlib/math-base-special-cphase' );
+import cpolar = require( '@stdlib/math-base-special-cpolar' );
+import cround = require( '@stdlib/math-base-special-cround' );
+import croundn = require( '@stdlib/math-base-special-croundn' );
+import csignum = require( '@stdlib/math-base-special-csignum' );
+import deg2rad = require( '@stdlib/math-base-special-deg2rad' );
+import deg2radf = require( '@stdlib/math-base-special-deg2radf' );
+import digamma = require( '@stdlib/math-base-special-digamma' );
+import diracDelta = require( '@stdlib/math-base-special-dirac-delta' );
+import eta = require( '@stdlib/math-base-special-dirichlet-eta' );
+import ellipe = require( '@stdlib/math-base-special-ellipe' );
+import ellipk = require( '@stdlib/math-base-special-ellipk' );
+import erf = require( '@stdlib/math-base-special-erf' );
+import erfc = require( '@stdlib/math-base-special-erfc' );
+import erfcinv = require( '@stdlib/math-base-special-erfcinv' );
+import erfinv = require( '@stdlib/math-base-special-erfinv' );
+import exp = require( '@stdlib/math-base-special-exp' );
+import exp2 = require( '@stdlib/math-base-special-exp2' );
+import exp10 = require( '@stdlib/math-base-special-exp10' );
+import expit = require( '@stdlib/math-base-special-expit' );
+import expm1 = require( '@stdlib/math-base-special-expm1' );
+import expm1rel = require( '@stdlib/math-base-special-expm1rel' );
+import factorial = require( '@stdlib/math-base-special-factorial' );
+import factorialln = require( '@stdlib/math-base-special-factorialln' );
+import fallingFactorial = require( '@stdlib/math-base-special-falling-factorial' );
+import fast = require( '@stdlib/math-base-special-fast' );
+import fibonacci = require( '@stdlib/math-base-special-fibonacci' );
+import fibonacciIndex = require( '@stdlib/math-base-special-fibonacci-index' );
+import flipsign = require( '@stdlib/math-base-special-flipsign' );
+import floor = require( '@stdlib/math-base-special-floor' );
+import floor2 = require( '@stdlib/math-base-special-floor2' );
+import floor10 = require( '@stdlib/math-base-special-floor10' );
+import floorb = require( '@stdlib/math-base-special-floorb' );
+import floorf = require( '@stdlib/math-base-special-floorf' );
+import floorn = require( '@stdlib/math-base-special-floorn' );
+import floorsd = require( '@stdlib/math-base-special-floorsd' );
+import fresnel = require( '@stdlib/math-base-special-fresnel' );
+import fresnelc = require( '@stdlib/math-base-special-fresnelc' );
+import fresnels = require( '@stdlib/math-base-special-fresnels' );
+import frexp = require( '@stdlib/math-base-special-frexp' );
+import gamma = require( '@stdlib/math-base-special-gamma' );
+import gammaDeltaRatio = require( '@stdlib/math-base-special-gamma-delta-ratio' );
+import gammaLanczosSum = require( '@stdlib/math-base-special-gamma-lanczos-sum' );
+import gammaLanczosSumExpGScaled = require( '@stdlib/math-base-special-gamma-lanczos-sum-expg-scaled' );
+import gamma1pm1 = require( '@stdlib/math-base-special-gamma1pm1' );
+import gammainc = require( '@stdlib/math-base-special-gammainc' );
+import gammaincinv = require( '@stdlib/math-base-special-gammaincinv' );
+import gammaln = require( '@stdlib/math-base-special-gammaln' );
+import gcd = require( '@stdlib/math-base-special-gcd' );
+import hacovercos = require( '@stdlib/math-base-special-hacovercos' );
+import hacoversin = require( '@stdlib/math-base-special-hacoversin' );
+import havercos = require( '@stdlib/math-base-special-havercos' );
+import haversin = require( '@stdlib/math-base-special-haversin' );
+import heaviside = require( '@stdlib/math-base-special-heaviside' );
+import hypot = require( '@stdlib/math-base-special-hypot' );
+import hypotf = require( '@stdlib/math-base-special-hypotf' );
+import identity = require( '@stdlib/math-base-special-identity' );
+import identityf = require( '@stdlib/math-base-special-identityf' );
+import imul = require( '@stdlib/math-base-special-imul' );
+import imuldw = require( '@stdlib/math-base-special-imuldw' );
+import inv = require( '@stdlib/math-base-special-inv' );
+import invf = require( '@stdlib/math-base-special-invf' );
+import kernelBetainc = require( '@stdlib/math-base-special-kernel-betainc' );
+import kernelBetaincinv = require( '@stdlib/math-base-special-kernel-betaincinv' );
+import kernelCos = require( '@stdlib/math-base-special-kernel-cos' );
+import kernelSin = require( '@stdlib/math-base-special-kernel-sin' );
+import kernelTan = require( '@stdlib/math-base-special-kernel-tan' );
+import kroneckerDelta = require( '@stdlib/math-base-special-kronecker-delta' );
+import kroneckerDeltaf = require( '@stdlib/math-base-special-kronecker-deltaf' );
+import labs = require( '@stdlib/math-base-special-labs' );
+import lcm = require( '@stdlib/math-base-special-lcm' );
+import ldexp = require( '@stdlib/math-base-special-ldexp' );
+import ln = require( '@stdlib/math-base-special-ln' );
+import log = require( '@stdlib/math-base-special-log' );
+import log1mexp = require( '@stdlib/math-base-special-log1mexp' );
+import log1p = require( '@stdlib/math-base-special-log1p' );
+import log1pexp = require( '@stdlib/math-base-special-log1pexp' );
+import log2 = require( '@stdlib/math-base-special-log2' );
+import log10 = require( '@stdlib/math-base-special-log10' );
+import logaddexp = require( '@stdlib/math-base-special-logaddexp' );
+import logit = require( '@stdlib/math-base-special-logit' );
+import lucas = require( '@stdlib/math-base-special-lucas' );
+import max = require( '@stdlib/math-base-special-max' );
+import maxabs = require( '@stdlib/math-base-special-maxabs' );
+import min = require( '@stdlib/math-base-special-min' );
+import minabs = require( '@stdlib/math-base-special-minabs' );
+import minmax = require( '@stdlib/math-base-special-minmax' );
+import minmaxabs = require( '@stdlib/math-base-special-minmaxabs' );
+import modf = require( '@stdlib/math-base-special-modf' );
+import negafibonacci = require( '@stdlib/math-base-special-negafibonacci' );
+import negalucas = require( '@stdlib/math-base-special-negalucas' );
+import nonfibonacci = require( '@stdlib/math-base-special-nonfibonacci' );
+import pdiff = require( '@stdlib/math-base-special-pdiff' );
+import pdifff = require( '@stdlib/math-base-special-pdifff' );
+import polygamma = require( '@stdlib/math-base-special-polygamma' );
+import pow = require( '@stdlib/math-base-special-pow' );
+import powm1 = require( '@stdlib/math-base-special-powm1' );
+import rad2deg = require( '@stdlib/math-base-special-rad2deg' );
+import ramp = require( '@stdlib/math-base-special-ramp' );
+import rampf = require( '@stdlib/math-base-special-rampf' );
+import rempio2 = require( '@stdlib/math-base-special-rempio2' );
+import zeta = require( '@stdlib/math-base-special-riemann-zeta' );
+import risingFactorial = require( '@stdlib/math-base-special-rising-factorial' );
+import round = require( '@stdlib/math-base-special-round' );
+import round2 = require( '@stdlib/math-base-special-round2' );
+import round10 = require( '@stdlib/math-base-special-round10' );
+import roundb = require( '@stdlib/math-base-special-roundb' );
+import roundn = require( '@stdlib/math-base-special-roundn' );
+import roundsd = require( '@stdlib/math-base-special-roundsd' );
+import rsqrt = require( '@stdlib/math-base-special-rsqrt' );
+import rsqrtf = require( '@stdlib/math-base-special-rsqrtf' );
+import sici = require( '@stdlib/math-base-special-sici' );
+import signum = require( '@stdlib/math-base-special-signum' );
+import signumf = require( '@stdlib/math-base-special-signumf' );
+import sin = require( '@stdlib/math-base-special-sin' );
+import sinc = require( '@stdlib/math-base-special-sinc' );
+import sincos = require( '@stdlib/math-base-special-sincos' );
+import sincospi = require( '@stdlib/math-base-special-sincospi' );
+import sinh = require( '@stdlib/math-base-special-sinh' );
+import sinpi = require( '@stdlib/math-base-special-sinpi' );
+import spence = require( '@stdlib/math-base-special-spence' );
+import sqrt = require( '@stdlib/math-base-special-sqrt' );
+import sqrt1pm1 = require( '@stdlib/math-base-special-sqrt1pm1' );
+import sqrtf = require( '@stdlib/math-base-special-sqrtf' );
+import tan = require( '@stdlib/math-base-special-tan' );
+import tanh = require( '@stdlib/math-base-special-tanh' );
+import tribonacci = require( '@stdlib/math-base-special-tribonacci' );
+import trigamma = require( '@stdlib/math-base-special-trigamma' );
+import trunc = require( '@stdlib/math-base-special-trunc' );
+import trunc2 = require( '@stdlib/math-base-special-trunc2' );
+import trunc10 = require( '@stdlib/math-base-special-trunc10' );
+import truncb = require( '@stdlib/math-base-special-truncb' );
+import truncf = require( '@stdlib/math-base-special-truncf' );
+import truncn = require( '@stdlib/math-base-special-truncn' );
+import truncsd = require( '@stdlib/math-base-special-truncsd' );
+import uimul = require( '@stdlib/math-base-special-uimul' );
+import uimuldw = require( '@stdlib/math-base-special-uimuldw' );
+import vercos = require( '@stdlib/math-base-special-vercos' );
+import versin = require( '@stdlib/math-base-special-versin' );
+import wrap = require( '@stdlib/math-base-special-wrap' );
+import xlog1py = require( '@stdlib/math-base-special-xlog1py' );
+import xlogy = require( '@stdlib/math-base-special-xlogy' );
 
 /**
 * Interface describing the `special` namespace.
@@ -582,13 +598,13 @@ interface Namespace {
 	* // returns ~0.0
 	*
 	* @example
-	* var PI = require( `@stdlib/constants/math/float64-pi` );
+	* var PI = require( `@stdlib/constants/float64/pi` );
 	*
 	* var v = ns.atan( -PI/4.0 );
 	* // returns ~-0.666
 	*
 	* @example
-	* var PI = require( `@stdlib/constants/math/float64-pi` );
+	* var PI = require( `@stdlib/constants/float64/pi` );
 	*
 	* var v = ns.atan( PI/4.0 );
 	* // returns ~0.666
@@ -1289,6 +1305,40 @@ interface Namespace {
 	boxcoxinv: typeof boxcoxinv;
 
 	/**
+	* Computes the absolute value of a complex number.
+	*
+	* ## Notes
+	*
+	* -   The absolute value of a complex number is its distance from zero.
+	*
+	* @param re - real component
+	* @param im - imaginary component
+	* @returns absolute value
+	*
+	* @example
+	* var v = ns.cabs( 5.0, 3.0 );
+	* // returns ~5.83
+	*/
+	cabs: typeof cabs;
+
+	/**
+	* Computes the squared absolute value of a complex number.
+	*
+	* ## Notes
+	*
+	* -   The absolute value of a complex number is its distance from zero.
+	*
+	* @param re - real component
+	* @param im - imaginary component
+	* @returns squared absolute value
+	*
+	* @example
+	* var v = ns.cabs2( 5.0, 3.0 );
+	* // returns 34.0
+	*/
+	cabs2: typeof cabs2;
+
+	/**
 	* Computes the cube root of a double-precision floating-point number.
 	*
 	* @param x - input value
@@ -1343,6 +1393,50 @@ interface Namespace {
 	* // returns NaN
 	*/
 	cbrtf: typeof cbrtf;
+
+	/**
+	* Rounds a complex number toward positive infinity.
+	*
+	* @param re - real component
+	* @param im - imaginary component
+	* @returns real and imaginary components
+	*
+	* @example
+	* var out = ns.cceil( 5.5, 3.3 );
+	* // returns [ 6.0, 4.0 ]
+	*/
+	cceil: typeof cceil;
+
+	/**
+	* Rounds a complex number to the nearest multiple of `10^n` toward positive infinity.
+	*
+	* @param re - real component
+	* @param im - imaginary component
+	* @param n - integer power of 10
+	* @returns real and imaginary components
+	*
+	* @example
+	* var out = ns.cceiln( 5.555, -3.333, -2 );
+	* // returns [ 5.56, -3.33 ]
+	*/
+	cceiln: typeof cceiln;
+
+	/**
+	* Computes the cis function of a complex number.
+	*
+	* @param re - real component
+	* @param im - imaginary component
+	* @returns real and imaginary components
+	*
+	* @example
+	* var v = ns.ccis( 0.0, 0.0 );
+	* // returns [ 1.0, 0.0 ]
+	*
+	* @example
+	* var v = ns.ccis( 1.0, 0.0 );
+	* // returns [ ~0.540, ~0.841 ]
+	*/
+	ccis: typeof ccis;
 
 	/**
 	* Rounds a double-precision floating-point number toward positive infinity.
@@ -1514,6 +1608,85 @@ interface Namespace {
 	* // returns 0.046875
 	*/
 	ceilsd: typeof ceilsd;
+
+	/**
+	* Computes the exponential function of a complex number.
+	*
+	* @param re - real component
+	* @param im - imaginary component
+	* @returns real and imaginary components
+	*
+	* @example
+	* var v = ns.cexp( 0.0, 0.0 );
+	* // returns [ 1.0, 0.0 ]
+	*
+	* @example
+	* var v = ns.cexp( 1.0, 0.0 );
+	* // returns [ ~2.718, 0.0 ]
+	*/
+	cexp: typeof cexp;
+
+	/**
+	* Returns a complex number with the same magnitude as `z` and the sign of `y*z`.
+	*
+	* @param re - real component
+	* @param im - imaginary component
+	* @param y - number from which to derive the sign
+	* @returns function result
+	*
+	* @example
+	* var v = ns.cflipsign( -4.2, 5.5, 66 );
+	* // returns [ -4.2, 5.5 ]
+	*
+	* @example
+	* var v = ns.cflipsign( 0.0, 0.0, -8 );
+	* // returns [ -0.0, -0.0 ]
+	*
+	* @example
+	* var v = ns.cflipsign( NaN, NaN, -9 );
+	* // returns [ NaN, NaN ]
+	*/
+	cflipsign: typeof cflipsign;
+
+	/**
+	* Rounds a complex number toward negative infinity.
+	*
+	* @param re - real component
+	* @param im - imaginary component
+	* @returns real and imaginary components
+	*
+	* @example
+	* var out = ns.cfloor( 5.5, 3.3 );
+	* // returns [ 5.0, 3.0 ]
+	*/
+	cfloor: typeof cfloor;
+
+	/**
+	* Rounds a complex number to the nearest multiple of `10^n` toward negative infinity.
+	*
+	* @param re - real component
+	* @param im - imaginary component
+	* @param n - integer power of 10
+	* @returns real and imaginary components
+	*
+	* @example
+	* var out = ns.cfloorn( 5.555, -3.333, -2 );
+	* // returns [ 5.55, -3.34 ]
+	*/
+	cfloorn: typeof cfloorn;
+
+	/**
+	* Computes the inverse of a complex number.
+	*
+	* @param re - real component
+	* @param im - imaginary component
+	* @returns real and imaginary components
+	*
+	* @example
+	* var v = ns.cinv( 2.0, 4.0 );
+	* // returns [ 0.1, -0.2 ]
+	*/
+	cinv: typeof cinv;
 
 	/**
 	* Restricts a double-precision floating-point number to a specified range.
@@ -1757,6 +1930,88 @@ interface Namespace {
 	* // returns NaN
 	*/
 	coversin: typeof coversin;
+
+	/**
+	* Computes the argument of a complex number in radians.
+	*
+	* ## Notes
+	*
+	* -   The argument of a complex number, also known as the phase, is the angle of the radius extending from the origin to the complex number plotted in the complex plane and the positive real axis.
+	*
+	* @param re - real component
+	* @param im - imaginary component
+	* @returns argument
+	*
+	* @example
+	* var phi = ns.cphase( 5.0, 3.0 );
+	* // returns ~0.5404
+	*/
+	cphase: typeof cphase;
+
+	/**
+	* Computes the absolute value and the phase of a complex number.
+	*
+	* @param re - real component
+	* @param im - imaginary component
+	* @returns absolute value and phase, respectively
+	*
+	* @example
+	* var v = ns.cpolar( 5.0, 3.0 );
+	* // returns [ ~5.83, ~0.5404 ]
+	*/
+	cpolar: typeof cpolar;
+
+	/**
+	* Rounds a complex number to the nearest integer.
+	*
+	* @param re - real component
+	* @param im - imaginary component
+	* @returns real and imaginary components
+	*
+	* @example
+	* var out = ns.cround( 5.5, 3.3 );
+	* // returns [ 6.0, 3.0 ]
+	*/
+	cround: typeof cround;
+
+	/**
+	* Rounds a complex number to the nearest multiple of `10^n`.
+	*
+	* ## Notes
+	*
+	* - When operating on floating-point numbers in bases other than `2`, rounding to specified digits can be inexact.
+	*
+	* @param re - real component
+	* @param im - imaginary component
+	* @param n - integer power of 10
+	* @returns real and imaginary components
+	*
+	* @example
+	* var out = ns.croundn( 5.555, -3.333, -2 );
+	* // returns [ 5.56, -3.34 ]
+	*/
+	croundn: typeof croundn;
+
+	/**
+	* Evaluates the signum function of a complex number.
+	*
+	* @param re - real component
+	* @param im - imaginary component
+	* @returns real and imaginary components
+	*
+	* @example
+	* var v = ns.csignum( -4.2, 5.5 );
+	* // returns [ -0.6069136033622302, 0.79476781392673 ]
+	*
+	* @example
+	* var v = ns.csignum( 0.0, 0.0 );
+	* // returns [ 0.0, 0.0 ]
+	*
+	* @example
+	* var v = ns.csignum( NaN, NaN );
+	* // returns [ NaN, NaN ]
+	*/
+	csignum: typeof csignum;
 
 	/**
 	* Converts an angle from degrees to radians.
@@ -2306,6 +2561,11 @@ interface Namespace {
 	* // returns NaN
 	*/
 	fallingFactorial: typeof fallingFactorial;
+
+	/**
+	* Standard library fast math special functions.
+	*/
+	fast: typeof fast;
 
 	/**
 	* Computes the nth Fibonacci number.

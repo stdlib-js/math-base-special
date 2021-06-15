@@ -1,1 +1,0 @@
-cmd_Release/obj.target/addon.node := g++ -shared -pthread -rdynamic -m64  -Wl,-soname=addon.node -o Release/obj.target/addon.node -Wl,--start-group Release/obj.target/addon/src/addon.o Release/obj.target/addon/src/kronecker_delta.o Release/obj.target/addon/../../napi/binary/src/main.o Release/obj.target/addon/../../assert/is-nan/src/is_nan.o -Wl,--end-group -lm
