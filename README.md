@@ -22,7 +22,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
 
-> Standard library base special math functions.
+> Base (i.e., lower-level) special math functions.
 
 <section class="installation">
 
@@ -44,7 +44,7 @@ var special = require( '@stdlib/math-base-special' );
 
 #### special
 
-Standard library base special math functions.
+Namespace for "base" (i.e., lower-level) special math functions.
 
 ```javascript
 var fcns = special;
@@ -351,6 +351,16 @@ console.log( objectKeys( special ) );
 </section>
 
 <!-- /.examples -->
+
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 
 <section class="main-repo" >
