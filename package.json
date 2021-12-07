@@ -73,6 +73,7 @@
     "@stdlib/math-base-special-boxcoxinv": "^0.0.x",
     "@stdlib/math-base-special-cabs": "^0.0.x",
     "@stdlib/math-base-special-cabs2": "^0.0.x",
+    "@stdlib/math-base-special-cabsf": "^0.0.x",
     "@stdlib/math-base-special-cbrt": "^0.0.x",
     "@stdlib/math-base-special-cbrtf": "^0.0.x",
     "@stdlib/math-base-special-cceil": "^0.0.x",
