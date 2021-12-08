@@ -90,6 +90,7 @@
     "@stdlib/math-base-special-ceilsd": "^0.0.x",
     "@stdlib/math-base-special-cexp": "^0.0.x",
     "@stdlib/math-base-special-cflipsign": "^0.0.x",
+    "@stdlib/math-base-special-cflipsignf": "^0.0.x",
     "@stdlib/math-base-special-cfloor": "^0.0.x",
     "@stdlib/math-base-special-cfloorn": "^0.0.x",
     "@stdlib/math-base-special-cidentity": "^0.0.x",
