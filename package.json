@@ -248,10 +248,11 @@
     "@stdlib/utils-define-read-only-property": "^0.0.x"
   },
   "devDependencies": {
+    "@stdlib/array-base-incrspace": "^0.0.x",
+    "@stdlib/array-base-linspace": "^0.0.x",
+    "@stdlib/array-base-zeros": "^0.0.x",
     "@stdlib/array-float32": "^0.0.x",
     "@stdlib/array-float64": "^0.0.x",
-    "@stdlib/array-incrspace": "^0.0.x",
-    "@stdlib/array-linspace": "^0.0.x",
     "@stdlib/array-uint32": "^0.0.x",
     "@stdlib/assert-is-array": "^0.0.x",
     "@stdlib/assert-is-browser": "^0.0.x",
