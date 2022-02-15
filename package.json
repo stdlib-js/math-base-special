@@ -106,6 +106,7 @@
     "@stdlib/math-base-special-cosh": "^0.0.x",
     "@stdlib/math-base-special-cosm1": "^0.0.x",
     "@stdlib/math-base-special-cospi": "^0.0.x",
+    "@stdlib/math-base-special-cot": "^0.0.x",
     "@stdlib/math-base-special-covercos": "^0.0.x",
     "@stdlib/math-base-special-coversin": "^0.0.x",
     "@stdlib/math-base-special-cphase": "^0.0.x",
