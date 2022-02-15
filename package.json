@@ -49,6 +49,7 @@
     "@stdlib/math-base-special-acsc": "^0.0.x",
     "@stdlib/math-base-special-ahavercos": "^0.0.x",
     "@stdlib/math-base-special-ahaversin": "^0.0.x",
+    "@stdlib/math-base-special-asech": "^0.0.x",
     "@stdlib/math-base-special-asin": "^0.0.x",
     "@stdlib/math-base-special-asinh": "^0.0.x",
     "@stdlib/math-base-special-atan": "^0.0.x",
