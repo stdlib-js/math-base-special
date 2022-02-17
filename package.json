@@ -114,6 +114,7 @@
     "@stdlib/math-base-special-cpolar": "^0.0.x",
     "@stdlib/math-base-special-cround": "^0.0.x",
     "@stdlib/math-base-special-croundn": "^0.0.x",
+    "@stdlib/math-base-special-csch": "^0.0.x",
     "@stdlib/math-base-special-csignum": "^0.0.x",
     "@stdlib/math-base-special-deg2rad": "^0.0.x",
     "@stdlib/math-base-special-deg2radf": "^0.0.x",
