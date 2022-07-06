@@ -251,7 +251,8 @@
     "@stdlib/math-base-special-wrap": "^0.0.x",
     "@stdlib/math-base-special-xlog1py": "^0.0.x",
     "@stdlib/math-base-special-xlogy": "^0.0.x",
-    "@stdlib/utils-define-read-only-property": "^0.0.x"
+    "@stdlib/utils-define-read-only-property": "^0.0.x",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.x"
   },
   "devDependencies": {
     "@stdlib/array-base-incrspace": "^0.0.x",
