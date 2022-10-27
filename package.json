@@ -163,6 +163,7 @@
     "@stdlib/math-base-special-gammainc": "^0.0.x",
     "@stdlib/math-base-special-gammaincinv": "^0.0.x",
     "@stdlib/math-base-special-gammaln": "^0.0.x",
+    "@stdlib/math-base-special-gammasgn": "^0.0.x",
     "@stdlib/math-base-special-gcd": "^0.0.x",
     "@stdlib/math-base-special-hacovercos": "^0.0.x",
     "@stdlib/math-base-special-hacoversin": "^0.0.x",
