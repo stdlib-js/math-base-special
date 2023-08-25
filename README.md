@@ -35,30 +35,20 @@ limitations under the License.
 
 > Base (i.e., lower-level) special math functions.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/math-base-special
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var special = require( '@stdlib/math-base-special' );
+import special from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special@deno/mod.js';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { abs, abs2, abs2f, absf, acos, acosh, acot, acoth, acovercos, acoversin, acsc, acsch, ahavercos, ahaversin, asec, asech, asin, asinh, atan, atan2, atanh, avercos, aversin, bernoulli, besselj0, besselj1, bessely0, bessely1, beta, betainc, betaincinv, betaln, binet, binomcoef, binomcoefln, boxcox, boxcox1p, boxcox1pinv, boxcoxinv, cabs, cabs2, cabs2f, cabsf, cbrt, cbrtf, cceil, cceilf, cceiln, ccis, ceil, ceil10, ceil2, ceilb, ceilf, ceiln, ceilsd, cexp, cflipsign, cflipsignf, cfloor, cfloorn, cidentity, cidentityf, cinv, clamp, clampf, copysign, copysignf, cos, cosh, cosm1, cospi, cot, coth, covercos, coversin, cphase, cpolar, cround, croundn, csch, csignum, deg2rad, deg2radf, digamma, diracDelta, ellipe, ellipj, ellipk, erf, erfc, erfcinv, erfcx, erfinv, eta, exp, exp10, exp2, expit, expm1, expm1rel, factorial, factorialln, fallingFactorial, fast, fibonacci, fibonacciIndex, flipsign, flipsignf, floor, floor10, floor2, floorb, floorf, floorn, floorsd, fresnel, fresnelc, fresnels, frexp, gamma, gamma1pm1, gammaDeltaRatio, gammaLanczosSum, gammaLanczosSumExpGScaled, gammainc, gammaincinv, gammaln, gammasgn, gcd, hacovercos, hacoversin, havercos, haversin, heaviside, hypot, hypotf, identity, identityf, inv, invf, kernelBetainc, kernelBetaincinv, kernelCos, kernelSin, kernelTan, kroneckerDelta, kroneckerDeltaf, labs, lcm, ldexp, ln, log, log10, log1mexp, log1p, log1pexp, log2, logaddexp, logit, lucas, max, maxabs, maxabsn, maxn, min, minabs, minabsn, minmax, minmaxabs, minmaxabsn, minmaxn, minn, modf, negafibonacci, negalucas, nonfibonacci, pdiff, pdifff, polygamma, pow, powm1, rad2deg, ramp, rampf, rcbrt, rempio2, risingFactorial, round, round10, round2, roundb, roundn, roundsd, rsqrt, rsqrtf, sici, signum, signumf, sin, sinc, sincos, sincospi, sinh, sinpi, spence, sqrt, sqrt1pm1, sqrtf, sqrtpi, tan, tanh, tribonacci, trigamma, trunc, trunc10, trunc2, truncb, truncf, truncn, truncsd, vercos, versin, wrap, xlog1py, xlogy, zeta } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special@deno/mod.js';
 ```
 
 #### special
@@ -383,8 +373,8 @@ Finally, the namespace exports the following kernel functions, which are mainly 
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var objectKeys = require( '@stdlib/utils-keys' );
-var special = require( '@stdlib/math-base-special' );
+import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
+import special from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special@deno/mod.js';
 
 console.log( objectKeys( special ) );
 ```
@@ -410,7 +400,7 @@ console.log( objectKeys( special ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -472,451 +462,451 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/math/base/special/kernel-betainc]: https://github.com/stdlib-js/math-base-special-kernel-betainc
+[@stdlib/math/base/special/kernel-betainc]: https://github.com/stdlib-js/math-base-special-kernel-betainc/tree/deno
 
-[@stdlib/math/base/special/kernel-betaincinv]: https://github.com/stdlib-js/math-base-special-kernel-betaincinv
+[@stdlib/math/base/special/kernel-betaincinv]: https://github.com/stdlib-js/math-base-special-kernel-betaincinv/tree/deno
 
-[@stdlib/math/base/special/kernel-cos]: https://github.com/stdlib-js/math-base-special-kernel-cos
+[@stdlib/math/base/special/kernel-cos]: https://github.com/stdlib-js/math-base-special-kernel-cos/tree/deno
 
-[@stdlib/math/base/special/kernel-sin]: https://github.com/stdlib-js/math-base-special-kernel-sin
+[@stdlib/math/base/special/kernel-sin]: https://github.com/stdlib-js/math-base-special-kernel-sin/tree/deno
 
-[@stdlib/math/base/special/kernel-tan]: https://github.com/stdlib-js/math-base-special-kernel-tan
+[@stdlib/math/base/special/kernel-tan]: https://github.com/stdlib-js/math-base-special-kernel-tan/tree/deno
 
-[@stdlib/math/base/special/rempio2]: https://github.com/stdlib-js/math-base-special-rempio2
+[@stdlib/math/base/special/rempio2]: https://github.com/stdlib-js/math-base-special-rempio2/tree/deno
 
-[@stdlib/math/base/special/fast]: https://github.com/stdlib-js/math-base-special-fast
+[@stdlib/math/base/special/fast]: https://github.com/stdlib-js/math-base-special-fast/tree/deno
 
-[@stdlib/math/base/special/acot]: https://github.com/stdlib-js/math-base-special-acot
+[@stdlib/math/base/special/acot]: https://github.com/stdlib-js/math-base-special-acot/tree/deno
 
-[@stdlib/math/base/special/acoth]: https://github.com/stdlib-js/math-base-special-acoth
+[@stdlib/math/base/special/acoth]: https://github.com/stdlib-js/math-base-special-acoth/tree/deno
 
-[@stdlib/math/base/special/acsc]: https://github.com/stdlib-js/math-base-special-acsc
+[@stdlib/math/base/special/acsc]: https://github.com/stdlib-js/math-base-special-acsc/tree/deno
 
-[@stdlib/math/base/special/acsch]: https://github.com/stdlib-js/math-base-special-acsch
+[@stdlib/math/base/special/acsch]: https://github.com/stdlib-js/math-base-special-acsch/tree/deno
 
-[@stdlib/math/base/special/asec]: https://github.com/stdlib-js/math-base-special-asec
+[@stdlib/math/base/special/asec]: https://github.com/stdlib-js/math-base-special-asec/tree/deno
 
-[@stdlib/math/base/special/asech]: https://github.com/stdlib-js/math-base-special-asech
+[@stdlib/math/base/special/asech]: https://github.com/stdlib-js/math-base-special-asech/tree/deno
 
-[@stdlib/math/base/special/bernoulli]: https://github.com/stdlib-js/math-base-special-bernoulli
+[@stdlib/math/base/special/bernoulli]: https://github.com/stdlib-js/math-base-special-bernoulli/tree/deno
 
-[@stdlib/math/base/special/beta]: https://github.com/stdlib-js/math-base-special-beta
+[@stdlib/math/base/special/beta]: https://github.com/stdlib-js/math-base-special-beta/tree/deno
 
-[@stdlib/math/base/special/betainc]: https://github.com/stdlib-js/math-base-special-betainc
+[@stdlib/math/base/special/betainc]: https://github.com/stdlib-js/math-base-special-betainc/tree/deno
 
-[@stdlib/math/base/special/betaincinv]: https://github.com/stdlib-js/math-base-special-betaincinv
+[@stdlib/math/base/special/betaincinv]: https://github.com/stdlib-js/math-base-special-betaincinv/tree/deno
 
-[@stdlib/math/base/special/betaln]: https://github.com/stdlib-js/math-base-special-betaln
+[@stdlib/math/base/special/betaln]: https://github.com/stdlib-js/math-base-special-betaln/tree/deno
 
-[@stdlib/math/base/special/binet]: https://github.com/stdlib-js/math-base-special-binet
+[@stdlib/math/base/special/binet]: https://github.com/stdlib-js/math-base-special-binet/tree/deno
 
-[@stdlib/math/base/special/binomcoef]: https://github.com/stdlib-js/math-base-special-binomcoef
+[@stdlib/math/base/special/binomcoef]: https://github.com/stdlib-js/math-base-special-binomcoef/tree/deno
 
-[@stdlib/math/base/special/binomcoefln]: https://github.com/stdlib-js/math-base-special-binomcoefln
+[@stdlib/math/base/special/binomcoefln]: https://github.com/stdlib-js/math-base-special-binomcoefln/tree/deno
 
-[@stdlib/math/base/special/boxcox]: https://github.com/stdlib-js/math-base-special-boxcox
+[@stdlib/math/base/special/boxcox]: https://github.com/stdlib-js/math-base-special-boxcox/tree/deno
 
-[@stdlib/math/base/special/boxcox1p]: https://github.com/stdlib-js/math-base-special-boxcox1p
+[@stdlib/math/base/special/boxcox1p]: https://github.com/stdlib-js/math-base-special-boxcox1p/tree/deno
 
-[@stdlib/math/base/special/boxcox1pinv]: https://github.com/stdlib-js/math-base-special-boxcox1pinv
+[@stdlib/math/base/special/boxcox1pinv]: https://github.com/stdlib-js/math-base-special-boxcox1pinv/tree/deno
 
-[@stdlib/math/base/special/boxcoxinv]: https://github.com/stdlib-js/math-base-special-boxcoxinv
+[@stdlib/math/base/special/boxcoxinv]: https://github.com/stdlib-js/math-base-special-boxcoxinv/tree/deno
 
-[@stdlib/math/base/special/cbrt]: https://github.com/stdlib-js/math-base-special-cbrt
+[@stdlib/math/base/special/cbrt]: https://github.com/stdlib-js/math-base-special-cbrt/tree/deno
 
-[@stdlib/math/base/special/cbrtf]: https://github.com/stdlib-js/math-base-special-cbrtf
+[@stdlib/math/base/special/cbrtf]: https://github.com/stdlib-js/math-base-special-cbrtf/tree/deno
 
-[@stdlib/math/base/special/ccis]: https://github.com/stdlib-js/math-base-special-ccis
+[@stdlib/math/base/special/ccis]: https://github.com/stdlib-js/math-base-special-ccis/tree/deno
 
-[@stdlib/math/base/special/cexp]: https://github.com/stdlib-js/math-base-special-cexp
+[@stdlib/math/base/special/cexp]: https://github.com/stdlib-js/math-base-special-cexp/tree/deno
 
-[@stdlib/math/base/special/cflipsign]: https://github.com/stdlib-js/math-base-special-cflipsign
+[@stdlib/math/base/special/cflipsign]: https://github.com/stdlib-js/math-base-special-cflipsign/tree/deno
 
-[@stdlib/math/base/special/cflipsignf]: https://github.com/stdlib-js/math-base-special-cflipsignf
+[@stdlib/math/base/special/cflipsignf]: https://github.com/stdlib-js/math-base-special-cflipsignf/tree/deno
 
-[@stdlib/math/base/special/cidentity]: https://github.com/stdlib-js/math-base-special-cidentity
+[@stdlib/math/base/special/cidentity]: https://github.com/stdlib-js/math-base-special-cidentity/tree/deno
 
-[@stdlib/math/base/special/cidentityf]: https://github.com/stdlib-js/math-base-special-cidentityf
+[@stdlib/math/base/special/cidentityf]: https://github.com/stdlib-js/math-base-special-cidentityf/tree/deno
 
-[@stdlib/math/base/special/cinv]: https://github.com/stdlib-js/math-base-special-cinv
+[@stdlib/math/base/special/cinv]: https://github.com/stdlib-js/math-base-special-cinv/tree/deno
 
-[@stdlib/math/base/special/copysign]: https://github.com/stdlib-js/math-base-special-copysign
+[@stdlib/math/base/special/copysign]: https://github.com/stdlib-js/math-base-special-copysign/tree/deno
 
-[@stdlib/math/base/special/copysignf]: https://github.com/stdlib-js/math-base-special-copysignf
+[@stdlib/math/base/special/copysignf]: https://github.com/stdlib-js/math-base-special-copysignf/tree/deno
 
-[@stdlib/math/base/special/cot]: https://github.com/stdlib-js/math-base-special-cot
+[@stdlib/math/base/special/cot]: https://github.com/stdlib-js/math-base-special-cot/tree/deno
 
-[@stdlib/math/base/special/coth]: https://github.com/stdlib-js/math-base-special-coth
+[@stdlib/math/base/special/coth]: https://github.com/stdlib-js/math-base-special-coth/tree/deno
 
-[@stdlib/math/base/special/cphase]: https://github.com/stdlib-js/math-base-special-cphase
+[@stdlib/math/base/special/cphase]: https://github.com/stdlib-js/math-base-special-cphase/tree/deno
 
-[@stdlib/math/base/special/cpolar]: https://github.com/stdlib-js/math-base-special-cpolar
+[@stdlib/math/base/special/cpolar]: https://github.com/stdlib-js/math-base-special-cpolar/tree/deno
 
-[@stdlib/math/base/special/csch]: https://github.com/stdlib-js/math-base-special-csch
+[@stdlib/math/base/special/csch]: https://github.com/stdlib-js/math-base-special-csch/tree/deno
 
-[@stdlib/math/base/special/deg2rad]: https://github.com/stdlib-js/math-base-special-deg2rad
+[@stdlib/math/base/special/deg2rad]: https://github.com/stdlib-js/math-base-special-deg2rad/tree/deno
 
-[@stdlib/math/base/special/deg2radf]: https://github.com/stdlib-js/math-base-special-deg2radf
+[@stdlib/math/base/special/deg2radf]: https://github.com/stdlib-js/math-base-special-deg2radf/tree/deno
 
-[@stdlib/math/base/special/digamma]: https://github.com/stdlib-js/math-base-special-digamma
+[@stdlib/math/base/special/digamma]: https://github.com/stdlib-js/math-base-special-digamma/tree/deno
 
-[@stdlib/math/base/special/dirac-delta]: https://github.com/stdlib-js/math-base-special-dirac-delta
+[@stdlib/math/base/special/dirac-delta]: https://github.com/stdlib-js/math-base-special-dirac-delta/tree/deno
 
-[@stdlib/math/base/special/dirichlet-eta]: https://github.com/stdlib-js/math-base-special-dirichlet-eta
+[@stdlib/math/base/special/dirichlet-eta]: https://github.com/stdlib-js/math-base-special-dirichlet-eta/tree/deno
 
-[@stdlib/math/base/special/ellipe]: https://github.com/stdlib-js/math-base-special-ellipe
+[@stdlib/math/base/special/ellipe]: https://github.com/stdlib-js/math-base-special-ellipe/tree/deno
 
-[@stdlib/math/base/special/ellipj]: https://github.com/stdlib-js/math-base-special-ellipj
+[@stdlib/math/base/special/ellipj]: https://github.com/stdlib-js/math-base-special-ellipj/tree/deno
 
-[@stdlib/math/base/special/ellipk]: https://github.com/stdlib-js/math-base-special-ellipk
+[@stdlib/math/base/special/ellipk]: https://github.com/stdlib-js/math-base-special-ellipk/tree/deno
 
-[@stdlib/math/base/special/erf]: https://github.com/stdlib-js/math-base-special-erf
+[@stdlib/math/base/special/erf]: https://github.com/stdlib-js/math-base-special-erf/tree/deno
 
-[@stdlib/math/base/special/erfc]: https://github.com/stdlib-js/math-base-special-erfc
+[@stdlib/math/base/special/erfc]: https://github.com/stdlib-js/math-base-special-erfc/tree/deno
 
-[@stdlib/math/base/special/erfcinv]: https://github.com/stdlib-js/math-base-special-erfcinv
+[@stdlib/math/base/special/erfcinv]: https://github.com/stdlib-js/math-base-special-erfcinv/tree/deno
 
-[@stdlib/math/base/special/erfcx]: https://github.com/stdlib-js/math-base-special-erfcx
+[@stdlib/math/base/special/erfcx]: https://github.com/stdlib-js/math-base-special-erfcx/tree/deno
 
-[@stdlib/math/base/special/erfinv]: https://github.com/stdlib-js/math-base-special-erfinv
+[@stdlib/math/base/special/erfinv]: https://github.com/stdlib-js/math-base-special-erfinv/tree/deno
 
-[@stdlib/math/base/special/factorial]: https://github.com/stdlib-js/math-base-special-factorial
+[@stdlib/math/base/special/factorial]: https://github.com/stdlib-js/math-base-special-factorial/tree/deno
 
-[@stdlib/math/base/special/factorialln]: https://github.com/stdlib-js/math-base-special-factorialln
+[@stdlib/math/base/special/factorialln]: https://github.com/stdlib-js/math-base-special-factorialln/tree/deno
 
-[@stdlib/math/base/special/falling-factorial]: https://github.com/stdlib-js/math-base-special-falling-factorial
+[@stdlib/math/base/special/falling-factorial]: https://github.com/stdlib-js/math-base-special-falling-factorial/tree/deno
 
-[@stdlib/math/base/special/fibonacci-index]: https://github.com/stdlib-js/math-base-special-fibonacci-index
+[@stdlib/math/base/special/fibonacci-index]: https://github.com/stdlib-js/math-base-special-fibonacci-index/tree/deno
 
-[@stdlib/math/base/special/fibonacci]: https://github.com/stdlib-js/math-base-special-fibonacci
+[@stdlib/math/base/special/fibonacci]: https://github.com/stdlib-js/math-base-special-fibonacci/tree/deno
 
-[@stdlib/math/base/special/flipsign]: https://github.com/stdlib-js/math-base-special-flipsign
+[@stdlib/math/base/special/flipsign]: https://github.com/stdlib-js/math-base-special-flipsign/tree/deno
 
-[@stdlib/math/base/special/flipsignf]: https://github.com/stdlib-js/math-base-special-flipsignf
+[@stdlib/math/base/special/flipsignf]: https://github.com/stdlib-js/math-base-special-flipsignf/tree/deno
 
-[@stdlib/math/base/special/fresnel]: https://github.com/stdlib-js/math-base-special-fresnel
+[@stdlib/math/base/special/fresnel]: https://github.com/stdlib-js/math-base-special-fresnel/tree/deno
 
-[@stdlib/math/base/special/fresnelc]: https://github.com/stdlib-js/math-base-special-fresnelc
+[@stdlib/math/base/special/fresnelc]: https://github.com/stdlib-js/math-base-special-fresnelc/tree/deno
 
-[@stdlib/math/base/special/fresnels]: https://github.com/stdlib-js/math-base-special-fresnels
+[@stdlib/math/base/special/fresnels]: https://github.com/stdlib-js/math-base-special-fresnels/tree/deno
 
-[@stdlib/math/base/special/frexp]: https://github.com/stdlib-js/math-base-special-frexp
+[@stdlib/math/base/special/frexp]: https://github.com/stdlib-js/math-base-special-frexp/tree/deno
 
-[@stdlib/math/base/special/gamma]: https://github.com/stdlib-js/math-base-special-gamma
+[@stdlib/math/base/special/gamma]: https://github.com/stdlib-js/math-base-special-gamma/tree/deno
 
-[@stdlib/math/base/special/gamma1pm1]: https://github.com/stdlib-js/math-base-special-gamma1pm1
+[@stdlib/math/base/special/gamma1pm1]: https://github.com/stdlib-js/math-base-special-gamma1pm1/tree/deno
 
-[@stdlib/math/base/special/gammainc]: https://github.com/stdlib-js/math-base-special-gammainc
+[@stdlib/math/base/special/gammainc]: https://github.com/stdlib-js/math-base-special-gammainc/tree/deno
 
-[@stdlib/math/base/special/gammaincinv]: https://github.com/stdlib-js/math-base-special-gammaincinv
+[@stdlib/math/base/special/gammaincinv]: https://github.com/stdlib-js/math-base-special-gammaincinv/tree/deno
 
-[@stdlib/math/base/special/gammaln]: https://github.com/stdlib-js/math-base-special-gammaln
+[@stdlib/math/base/special/gammaln]: https://github.com/stdlib-js/math-base-special-gammaln/tree/deno
 
-[@stdlib/math/base/special/gammasgn]: https://github.com/stdlib-js/math-base-special-gammasgn
+[@stdlib/math/base/special/gammasgn]: https://github.com/stdlib-js/math-base-special-gammasgn/tree/deno
 
-[@stdlib/math/base/special/gcd]: https://github.com/stdlib-js/math-base-special-gcd
+[@stdlib/math/base/special/gcd]: https://github.com/stdlib-js/math-base-special-gcd/tree/deno
 
-[@stdlib/math/base/special/heaviside]: https://github.com/stdlib-js/math-base-special-heaviside
+[@stdlib/math/base/special/heaviside]: https://github.com/stdlib-js/math-base-special-heaviside/tree/deno
 
-[@stdlib/math/base/special/hypot]: https://github.com/stdlib-js/math-base-special-hypot
+[@stdlib/math/base/special/hypot]: https://github.com/stdlib-js/math-base-special-hypot/tree/deno
 
-[@stdlib/math/base/special/hypotf]: https://github.com/stdlib-js/math-base-special-hypotf
+[@stdlib/math/base/special/hypotf]: https://github.com/stdlib-js/math-base-special-hypotf/tree/deno
 
-[@stdlib/math/base/special/identity]: https://github.com/stdlib-js/math-base-special-identity
+[@stdlib/math/base/special/identity]: https://github.com/stdlib-js/math-base-special-identity/tree/deno
 
-[@stdlib/math/base/special/identityf]: https://github.com/stdlib-js/math-base-special-identityf
+[@stdlib/math/base/special/identityf]: https://github.com/stdlib-js/math-base-special-identityf/tree/deno
 
-[@stdlib/math/base/special/inv]: https://github.com/stdlib-js/math-base-special-inv
+[@stdlib/math/base/special/inv]: https://github.com/stdlib-js/math-base-special-inv/tree/deno
 
-[@stdlib/math/base/special/invf]: https://github.com/stdlib-js/math-base-special-invf
+[@stdlib/math/base/special/invf]: https://github.com/stdlib-js/math-base-special-invf/tree/deno
 
-[@stdlib/math/base/special/kronecker-delta]: https://github.com/stdlib-js/math-base-special-kronecker-delta
+[@stdlib/math/base/special/kronecker-delta]: https://github.com/stdlib-js/math-base-special-kronecker-delta/tree/deno
 
-[@stdlib/math/base/special/kronecker-deltaf]: https://github.com/stdlib-js/math-base-special-kronecker-deltaf
+[@stdlib/math/base/special/kronecker-deltaf]: https://github.com/stdlib-js/math-base-special-kronecker-deltaf/tree/deno
 
-[@stdlib/math/base/special/lcm]: https://github.com/stdlib-js/math-base-special-lcm
+[@stdlib/math/base/special/lcm]: https://github.com/stdlib-js/math-base-special-lcm/tree/deno
 
-[@stdlib/math/base/special/ldexp]: https://github.com/stdlib-js/math-base-special-ldexp
+[@stdlib/math/base/special/ldexp]: https://github.com/stdlib-js/math-base-special-ldexp/tree/deno
 
-[@stdlib/math/base/special/lucas]: https://github.com/stdlib-js/math-base-special-lucas
+[@stdlib/math/base/special/lucas]: https://github.com/stdlib-js/math-base-special-lucas/tree/deno
 
-[@stdlib/math/base/special/max]: https://github.com/stdlib-js/math-base-special-max
+[@stdlib/math/base/special/max]: https://github.com/stdlib-js/math-base-special-max/tree/deno
 
-[@stdlib/math/base/special/maxn]: https://github.com/stdlib-js/math-base-special-maxn
+[@stdlib/math/base/special/maxn]: https://github.com/stdlib-js/math-base-special-maxn/tree/deno
 
-[@stdlib/math/base/special/min]: https://github.com/stdlib-js/math-base-special-min
+[@stdlib/math/base/special/min]: https://github.com/stdlib-js/math-base-special-min/tree/deno
 
-[@stdlib/math/base/special/minmax]: https://github.com/stdlib-js/math-base-special-minmax
+[@stdlib/math/base/special/minmax]: https://github.com/stdlib-js/math-base-special-minmax/tree/deno
 
-[@stdlib/math/base/special/minmaxn]: https://github.com/stdlib-js/math-base-special-minmaxn
+[@stdlib/math/base/special/minmaxn]: https://github.com/stdlib-js/math-base-special-minmaxn/tree/deno
 
-[@stdlib/math/base/special/minn]: https://github.com/stdlib-js/math-base-special-minn
+[@stdlib/math/base/special/minn]: https://github.com/stdlib-js/math-base-special-minn/tree/deno
 
-[@stdlib/math/base/special/modf]: https://github.com/stdlib-js/math-base-special-modf
+[@stdlib/math/base/special/modf]: https://github.com/stdlib-js/math-base-special-modf/tree/deno
 
-[@stdlib/math/base/special/negafibonacci]: https://github.com/stdlib-js/math-base-special-negafibonacci
+[@stdlib/math/base/special/negafibonacci]: https://github.com/stdlib-js/math-base-special-negafibonacci/tree/deno
 
-[@stdlib/math/base/special/negalucas]: https://github.com/stdlib-js/math-base-special-negalucas
+[@stdlib/math/base/special/negalucas]: https://github.com/stdlib-js/math-base-special-negalucas/tree/deno
 
-[@stdlib/math/base/special/nonfibonacci]: https://github.com/stdlib-js/math-base-special-nonfibonacci
+[@stdlib/math/base/special/nonfibonacci]: https://github.com/stdlib-js/math-base-special-nonfibonacci/tree/deno
 
-[@stdlib/math/base/special/pdiff]: https://github.com/stdlib-js/math-base-special-pdiff
+[@stdlib/math/base/special/pdiff]: https://github.com/stdlib-js/math-base-special-pdiff/tree/deno
 
-[@stdlib/math/base/special/pdifff]: https://github.com/stdlib-js/math-base-special-pdifff
+[@stdlib/math/base/special/pdifff]: https://github.com/stdlib-js/math-base-special-pdifff/tree/deno
 
-[@stdlib/math/base/special/polygamma]: https://github.com/stdlib-js/math-base-special-polygamma
+[@stdlib/math/base/special/polygamma]: https://github.com/stdlib-js/math-base-special-polygamma/tree/deno
 
-[@stdlib/math/base/special/rad2deg]: https://github.com/stdlib-js/math-base-special-rad2deg
+[@stdlib/math/base/special/rad2deg]: https://github.com/stdlib-js/math-base-special-rad2deg/tree/deno
 
-[@stdlib/math/base/special/ramp]: https://github.com/stdlib-js/math-base-special-ramp
+[@stdlib/math/base/special/ramp]: https://github.com/stdlib-js/math-base-special-ramp/tree/deno
 
-[@stdlib/math/base/special/rampf]: https://github.com/stdlib-js/math-base-special-rampf
+[@stdlib/math/base/special/rampf]: https://github.com/stdlib-js/math-base-special-rampf/tree/deno
 
-[@stdlib/math/base/special/rcbrt]: https://github.com/stdlib-js/math-base-special-rcbrt
+[@stdlib/math/base/special/rcbrt]: https://github.com/stdlib-js/math-base-special-rcbrt/tree/deno
 
-[@stdlib/math/base/special/riemann-zeta]: https://github.com/stdlib-js/math-base-special-riemann-zeta
+[@stdlib/math/base/special/riemann-zeta]: https://github.com/stdlib-js/math-base-special-riemann-zeta/tree/deno
 
-[@stdlib/math/base/special/rsqrt]: https://github.com/stdlib-js/math-base-special-rsqrt
+[@stdlib/math/base/special/rsqrt]: https://github.com/stdlib-js/math-base-special-rsqrt/tree/deno
 
-[@stdlib/math/base/special/rsqrtf]: https://github.com/stdlib-js/math-base-special-rsqrtf
+[@stdlib/math/base/special/rsqrtf]: https://github.com/stdlib-js/math-base-special-rsqrtf/tree/deno
 
-[@stdlib/math/base/special/sici]: https://github.com/stdlib-js/math-base-special-sici
+[@stdlib/math/base/special/sici]: https://github.com/stdlib-js/math-base-special-sici/tree/deno
 
-[@stdlib/math/base/special/spence]: https://github.com/stdlib-js/math-base-special-spence
+[@stdlib/math/base/special/spence]: https://github.com/stdlib-js/math-base-special-spence/tree/deno
 
-[@stdlib/math/base/special/sqrt]: https://github.com/stdlib-js/math-base-special-sqrt
+[@stdlib/math/base/special/sqrt]: https://github.com/stdlib-js/math-base-special-sqrt/tree/deno
 
-[@stdlib/math/base/special/sqrt1pm1]: https://github.com/stdlib-js/math-base-special-sqrt1pm1
+[@stdlib/math/base/special/sqrt1pm1]: https://github.com/stdlib-js/math-base-special-sqrt1pm1/tree/deno
 
-[@stdlib/math/base/special/sqrtf]: https://github.com/stdlib-js/math-base-special-sqrtf
+[@stdlib/math/base/special/sqrtf]: https://github.com/stdlib-js/math-base-special-sqrtf/tree/deno
 
-[@stdlib/math/base/special/sqrtpi]: https://github.com/stdlib-js/math-base-special-sqrtpi
+[@stdlib/math/base/special/sqrtpi]: https://github.com/stdlib-js/math-base-special-sqrtpi/tree/deno
 
-[@stdlib/math/base/special/tribonacci]: https://github.com/stdlib-js/math-base-special-tribonacci
+[@stdlib/math/base/special/tribonacci]: https://github.com/stdlib-js/math-base-special-tribonacci/tree/deno
 
-[@stdlib/math/base/special/trigamma]: https://github.com/stdlib-js/math-base-special-trigamma
+[@stdlib/math/base/special/trigamma]: https://github.com/stdlib-js/math-base-special-trigamma/tree/deno
 
-[@stdlib/math/base/special/wrap]: https://github.com/stdlib-js/math-base-special-wrap
+[@stdlib/math/base/special/wrap]: https://github.com/stdlib-js/math-base-special-wrap/tree/deno
 
-[@stdlib/math/base/special/abs]: https://github.com/stdlib-js/math-base-special-abs
+[@stdlib/math/base/special/abs]: https://github.com/stdlib-js/math-base-special-abs/tree/deno
 
-[@stdlib/math/base/special/abs2]: https://github.com/stdlib-js/math-base-special-abs2
+[@stdlib/math/base/special/abs2]: https://github.com/stdlib-js/math-base-special-abs2/tree/deno
 
-[@stdlib/math/base/special/abs2f]: https://github.com/stdlib-js/math-base-special-abs2f
+[@stdlib/math/base/special/abs2f]: https://github.com/stdlib-js/math-base-special-abs2f/tree/deno
 
-[@stdlib/math/base/special/absf]: https://github.com/stdlib-js/math-base-special-absf
+[@stdlib/math/base/special/absf]: https://github.com/stdlib-js/math-base-special-absf/tree/deno
 
-[@stdlib/math/base/special/cabs]: https://github.com/stdlib-js/math-base-special-cabs
+[@stdlib/math/base/special/cabs]: https://github.com/stdlib-js/math-base-special-cabs/tree/deno
 
-[@stdlib/math/base/special/cabs2]: https://github.com/stdlib-js/math-base-special-cabs2
+[@stdlib/math/base/special/cabs2]: https://github.com/stdlib-js/math-base-special-cabs2/tree/deno
 
-[@stdlib/math/base/special/cabs2f]: https://github.com/stdlib-js/math-base-special-cabs2f
+[@stdlib/math/base/special/cabs2f]: https://github.com/stdlib-js/math-base-special-cabs2f/tree/deno
 
-[@stdlib/math/base/special/cabsf]: https://github.com/stdlib-js/math-base-special-cabsf
+[@stdlib/math/base/special/cabsf]: https://github.com/stdlib-js/math-base-special-cabsf/tree/deno
 
-[@stdlib/math/base/special/cceil]: https://github.com/stdlib-js/math-base-special-cceil
+[@stdlib/math/base/special/cceil]: https://github.com/stdlib-js/math-base-special-cceil/tree/deno
 
-[@stdlib/math/base/special/cceilf]: https://github.com/stdlib-js/math-base-special-cceilf
+[@stdlib/math/base/special/cceilf]: https://github.com/stdlib-js/math-base-special-cceilf/tree/deno
 
-[@stdlib/math/base/special/cceiln]: https://github.com/stdlib-js/math-base-special-cceiln
+[@stdlib/math/base/special/cceiln]: https://github.com/stdlib-js/math-base-special-cceiln/tree/deno
 
-[@stdlib/math/base/special/ceil]: https://github.com/stdlib-js/math-base-special-ceil
+[@stdlib/math/base/special/ceil]: https://github.com/stdlib-js/math-base-special-ceil/tree/deno
 
-[@stdlib/math/base/special/ceil10]: https://github.com/stdlib-js/math-base-special-ceil10
+[@stdlib/math/base/special/ceil10]: https://github.com/stdlib-js/math-base-special-ceil10/tree/deno
 
-[@stdlib/math/base/special/ceil2]: https://github.com/stdlib-js/math-base-special-ceil2
+[@stdlib/math/base/special/ceil2]: https://github.com/stdlib-js/math-base-special-ceil2/tree/deno
 
-[@stdlib/math/base/special/ceilb]: https://github.com/stdlib-js/math-base-special-ceilb
+[@stdlib/math/base/special/ceilb]: https://github.com/stdlib-js/math-base-special-ceilb/tree/deno
 
-[@stdlib/math/base/special/ceilf]: https://github.com/stdlib-js/math-base-special-ceilf
+[@stdlib/math/base/special/ceilf]: https://github.com/stdlib-js/math-base-special-ceilf/tree/deno
 
-[@stdlib/math/base/special/ceiln]: https://github.com/stdlib-js/math-base-special-ceiln
+[@stdlib/math/base/special/ceiln]: https://github.com/stdlib-js/math-base-special-ceiln/tree/deno
 
-[@stdlib/math/base/special/ceilsd]: https://github.com/stdlib-js/math-base-special-ceilsd
+[@stdlib/math/base/special/ceilsd]: https://github.com/stdlib-js/math-base-special-ceilsd/tree/deno
 
-[@stdlib/math/base/special/cfloor]: https://github.com/stdlib-js/math-base-special-cfloor
+[@stdlib/math/base/special/cfloor]: https://github.com/stdlib-js/math-base-special-cfloor/tree/deno
 
-[@stdlib/math/base/special/cfloorn]: https://github.com/stdlib-js/math-base-special-cfloorn
+[@stdlib/math/base/special/cfloorn]: https://github.com/stdlib-js/math-base-special-cfloorn/tree/deno
 
-[@stdlib/math/base/special/clamp]: https://github.com/stdlib-js/math-base-special-clamp
+[@stdlib/math/base/special/clamp]: https://github.com/stdlib-js/math-base-special-clamp/tree/deno
 
-[@stdlib/math/base/special/clampf]: https://github.com/stdlib-js/math-base-special-clampf
+[@stdlib/math/base/special/clampf]: https://github.com/stdlib-js/math-base-special-clampf/tree/deno
 
-[@stdlib/math/base/special/cround]: https://github.com/stdlib-js/math-base-special-cround
+[@stdlib/math/base/special/cround]: https://github.com/stdlib-js/math-base-special-cround/tree/deno
 
-[@stdlib/math/base/special/croundn]: https://github.com/stdlib-js/math-base-special-croundn
+[@stdlib/math/base/special/croundn]: https://github.com/stdlib-js/math-base-special-croundn/tree/deno
 
-[@stdlib/math/base/special/csignum]: https://github.com/stdlib-js/math-base-special-csignum
+[@stdlib/math/base/special/csignum]: https://github.com/stdlib-js/math-base-special-csignum/tree/deno
 
-[@stdlib/math/base/special/floor]: https://github.com/stdlib-js/math-base-special-floor
+[@stdlib/math/base/special/floor]: https://github.com/stdlib-js/math-base-special-floor/tree/deno
 
-[@stdlib/math/base/special/floor10]: https://github.com/stdlib-js/math-base-special-floor10
+[@stdlib/math/base/special/floor10]: https://github.com/stdlib-js/math-base-special-floor10/tree/deno
 
-[@stdlib/math/base/special/floor2]: https://github.com/stdlib-js/math-base-special-floor2
+[@stdlib/math/base/special/floor2]: https://github.com/stdlib-js/math-base-special-floor2/tree/deno
 
-[@stdlib/math/base/special/floorb]: https://github.com/stdlib-js/math-base-special-floorb
+[@stdlib/math/base/special/floorb]: https://github.com/stdlib-js/math-base-special-floorb/tree/deno
 
-[@stdlib/math/base/special/floorf]: https://github.com/stdlib-js/math-base-special-floorf
+[@stdlib/math/base/special/floorf]: https://github.com/stdlib-js/math-base-special-floorf/tree/deno
 
-[@stdlib/math/base/special/floorn]: https://github.com/stdlib-js/math-base-special-floorn
+[@stdlib/math/base/special/floorn]: https://github.com/stdlib-js/math-base-special-floorn/tree/deno
 
-[@stdlib/math/base/special/floorsd]: https://github.com/stdlib-js/math-base-special-floorsd
+[@stdlib/math/base/special/floorsd]: https://github.com/stdlib-js/math-base-special-floorsd/tree/deno
 
-[@stdlib/math/base/special/labs]: https://github.com/stdlib-js/math-base-special-labs
+[@stdlib/math/base/special/labs]: https://github.com/stdlib-js/math-base-special-labs/tree/deno
 
-[@stdlib/math/base/special/maxabs]: https://github.com/stdlib-js/math-base-special-maxabs
+[@stdlib/math/base/special/maxabs]: https://github.com/stdlib-js/math-base-special-maxabs/tree/deno
 
-[@stdlib/math/base/special/maxabsn]: https://github.com/stdlib-js/math-base-special-maxabsn
+[@stdlib/math/base/special/maxabsn]: https://github.com/stdlib-js/math-base-special-maxabsn/tree/deno
 
-[@stdlib/math/base/special/minabs]: https://github.com/stdlib-js/math-base-special-minabs
+[@stdlib/math/base/special/minabs]: https://github.com/stdlib-js/math-base-special-minabs/tree/deno
 
-[@stdlib/math/base/special/minabsn]: https://github.com/stdlib-js/math-base-special-minabsn
+[@stdlib/math/base/special/minabsn]: https://github.com/stdlib-js/math-base-special-minabsn/tree/deno
 
-[@stdlib/math/base/special/minmaxabs]: https://github.com/stdlib-js/math-base-special-minmaxabs
+[@stdlib/math/base/special/minmaxabs]: https://github.com/stdlib-js/math-base-special-minmaxabs/tree/deno
 
-[@stdlib/math/base/special/minmaxabsn]: https://github.com/stdlib-js/math-base-special-minmaxabsn
+[@stdlib/math/base/special/minmaxabsn]: https://github.com/stdlib-js/math-base-special-minmaxabsn/tree/deno
 
-[@stdlib/math/base/special/round]: https://github.com/stdlib-js/math-base-special-round
+[@stdlib/math/base/special/round]: https://github.com/stdlib-js/math-base-special-round/tree/deno
 
-[@stdlib/math/base/special/round10]: https://github.com/stdlib-js/math-base-special-round10
+[@stdlib/math/base/special/round10]: https://github.com/stdlib-js/math-base-special-round10/tree/deno
 
-[@stdlib/math/base/special/round2]: https://github.com/stdlib-js/math-base-special-round2
+[@stdlib/math/base/special/round2]: https://github.com/stdlib-js/math-base-special-round2/tree/deno
 
-[@stdlib/math/base/special/roundb]: https://github.com/stdlib-js/math-base-special-roundb
+[@stdlib/math/base/special/roundb]: https://github.com/stdlib-js/math-base-special-roundb/tree/deno
 
-[@stdlib/math/base/special/roundn]: https://github.com/stdlib-js/math-base-special-roundn
+[@stdlib/math/base/special/roundn]: https://github.com/stdlib-js/math-base-special-roundn/tree/deno
 
-[@stdlib/math/base/special/roundsd]: https://github.com/stdlib-js/math-base-special-roundsd
+[@stdlib/math/base/special/roundsd]: https://github.com/stdlib-js/math-base-special-roundsd/tree/deno
 
-[@stdlib/math/base/special/signum]: https://github.com/stdlib-js/math-base-special-signum
+[@stdlib/math/base/special/signum]: https://github.com/stdlib-js/math-base-special-signum/tree/deno
 
-[@stdlib/math/base/special/signumf]: https://github.com/stdlib-js/math-base-special-signumf
+[@stdlib/math/base/special/signumf]: https://github.com/stdlib-js/math-base-special-signumf/tree/deno
 
-[@stdlib/math/base/special/trunc]: https://github.com/stdlib-js/math-base-special-trunc
+[@stdlib/math/base/special/trunc]: https://github.com/stdlib-js/math-base-special-trunc/tree/deno
 
-[@stdlib/math/base/special/trunc10]: https://github.com/stdlib-js/math-base-special-trunc10
+[@stdlib/math/base/special/trunc10]: https://github.com/stdlib-js/math-base-special-trunc10/tree/deno
 
-[@stdlib/math/base/special/trunc2]: https://github.com/stdlib-js/math-base-special-trunc2
+[@stdlib/math/base/special/trunc2]: https://github.com/stdlib-js/math-base-special-trunc2/tree/deno
 
-[@stdlib/math/base/special/truncb]: https://github.com/stdlib-js/math-base-special-truncb
+[@stdlib/math/base/special/truncb]: https://github.com/stdlib-js/math-base-special-truncb/tree/deno
 
-[@stdlib/math/base/special/truncf]: https://github.com/stdlib-js/math-base-special-truncf
+[@stdlib/math/base/special/truncf]: https://github.com/stdlib-js/math-base-special-truncf/tree/deno
 
-[@stdlib/math/base/special/truncn]: https://github.com/stdlib-js/math-base-special-truncn
+[@stdlib/math/base/special/truncn]: https://github.com/stdlib-js/math-base-special-truncn/tree/deno
 
-[@stdlib/math/base/special/truncsd]: https://github.com/stdlib-js/math-base-special-truncsd
+[@stdlib/math/base/special/truncsd]: https://github.com/stdlib-js/math-base-special-truncsd/tree/deno
 
-[@stdlib/math/base/special/besselj0]: https://github.com/stdlib-js/math-base-special-besselj0
+[@stdlib/math/base/special/besselj0]: https://github.com/stdlib-js/math-base-special-besselj0/tree/deno
 
-[@stdlib/math/base/special/besselj1]: https://github.com/stdlib-js/math-base-special-besselj1
+[@stdlib/math/base/special/besselj1]: https://github.com/stdlib-js/math-base-special-besselj1/tree/deno
 
-[@stdlib/math/base/special/bessely0]: https://github.com/stdlib-js/math-base-special-bessely0
+[@stdlib/math/base/special/bessely0]: https://github.com/stdlib-js/math-base-special-bessely0/tree/deno
 
-[@stdlib/math/base/special/bessely1]: https://github.com/stdlib-js/math-base-special-bessely1
+[@stdlib/math/base/special/bessely1]: https://github.com/stdlib-js/math-base-special-bessely1/tree/deno
 
-[@stdlib/math/base/special/acos]: https://github.com/stdlib-js/math-base-special-acos
+[@stdlib/math/base/special/acos]: https://github.com/stdlib-js/math-base-special-acos/tree/deno
 
-[@stdlib/math/base/special/acosh]: https://github.com/stdlib-js/math-base-special-acosh
+[@stdlib/math/base/special/acosh]: https://github.com/stdlib-js/math-base-special-acosh/tree/deno
 
-[@stdlib/math/base/special/acovercos]: https://github.com/stdlib-js/math-base-special-acovercos
+[@stdlib/math/base/special/acovercos]: https://github.com/stdlib-js/math-base-special-acovercos/tree/deno
 
-[@stdlib/math/base/special/acoversin]: https://github.com/stdlib-js/math-base-special-acoversin
+[@stdlib/math/base/special/acoversin]: https://github.com/stdlib-js/math-base-special-acoversin/tree/deno
 
-[@stdlib/math/base/special/ahavercos]: https://github.com/stdlib-js/math-base-special-ahavercos
+[@stdlib/math/base/special/ahavercos]: https://github.com/stdlib-js/math-base-special-ahavercos/tree/deno
 
-[@stdlib/math/base/special/ahaversin]: https://github.com/stdlib-js/math-base-special-ahaversin
+[@stdlib/math/base/special/ahaversin]: https://github.com/stdlib-js/math-base-special-ahaversin/tree/deno
 
-[@stdlib/math/base/special/asin]: https://github.com/stdlib-js/math-base-special-asin
+[@stdlib/math/base/special/asin]: https://github.com/stdlib-js/math-base-special-asin/tree/deno
 
-[@stdlib/math/base/special/asinh]: https://github.com/stdlib-js/math-base-special-asinh
+[@stdlib/math/base/special/asinh]: https://github.com/stdlib-js/math-base-special-asinh/tree/deno
 
-[@stdlib/math/base/special/atan]: https://github.com/stdlib-js/math-base-special-atan
+[@stdlib/math/base/special/atan]: https://github.com/stdlib-js/math-base-special-atan/tree/deno
 
-[@stdlib/math/base/special/atan2]: https://github.com/stdlib-js/math-base-special-atan2
+[@stdlib/math/base/special/atan2]: https://github.com/stdlib-js/math-base-special-atan2/tree/deno
 
-[@stdlib/math/base/special/atanh]: https://github.com/stdlib-js/math-base-special-atanh
+[@stdlib/math/base/special/atanh]: https://github.com/stdlib-js/math-base-special-atanh/tree/deno
 
-[@stdlib/math/base/special/avercos]: https://github.com/stdlib-js/math-base-special-avercos
+[@stdlib/math/base/special/avercos]: https://github.com/stdlib-js/math-base-special-avercos/tree/deno
 
-[@stdlib/math/base/special/aversin]: https://github.com/stdlib-js/math-base-special-aversin
+[@stdlib/math/base/special/aversin]: https://github.com/stdlib-js/math-base-special-aversin/tree/deno
 
-[@stdlib/math/base/special/cos]: https://github.com/stdlib-js/math-base-special-cos
+[@stdlib/math/base/special/cos]: https://github.com/stdlib-js/math-base-special-cos/tree/deno
 
-[@stdlib/math/base/special/cosh]: https://github.com/stdlib-js/math-base-special-cosh
+[@stdlib/math/base/special/cosh]: https://github.com/stdlib-js/math-base-special-cosh/tree/deno
 
-[@stdlib/math/base/special/cosm1]: https://github.com/stdlib-js/math-base-special-cosm1
+[@stdlib/math/base/special/cosm1]: https://github.com/stdlib-js/math-base-special-cosm1/tree/deno
 
-[@stdlib/math/base/special/cospi]: https://github.com/stdlib-js/math-base-special-cospi
+[@stdlib/math/base/special/cospi]: https://github.com/stdlib-js/math-base-special-cospi/tree/deno
 
-[@stdlib/math/base/special/covercos]: https://github.com/stdlib-js/math-base-special-covercos
+[@stdlib/math/base/special/covercos]: https://github.com/stdlib-js/math-base-special-covercos/tree/deno
 
-[@stdlib/math/base/special/coversin]: https://github.com/stdlib-js/math-base-special-coversin
+[@stdlib/math/base/special/coversin]: https://github.com/stdlib-js/math-base-special-coversin/tree/deno
 
-[@stdlib/math/base/special/hacovercos]: https://github.com/stdlib-js/math-base-special-hacovercos
+[@stdlib/math/base/special/hacovercos]: https://github.com/stdlib-js/math-base-special-hacovercos/tree/deno
 
-[@stdlib/math/base/special/hacoversin]: https://github.com/stdlib-js/math-base-special-hacoversin
+[@stdlib/math/base/special/hacoversin]: https://github.com/stdlib-js/math-base-special-hacoversin/tree/deno
 
-[@stdlib/math/base/special/havercos]: https://github.com/stdlib-js/math-base-special-havercos
+[@stdlib/math/base/special/havercos]: https://github.com/stdlib-js/math-base-special-havercos/tree/deno
 
-[@stdlib/math/base/special/haversin]: https://github.com/stdlib-js/math-base-special-haversin
+[@stdlib/math/base/special/haversin]: https://github.com/stdlib-js/math-base-special-haversin/tree/deno
 
-[@stdlib/math/base/special/rising-factorial]: https://github.com/stdlib-js/math-base-special-rising-factorial
+[@stdlib/math/base/special/rising-factorial]: https://github.com/stdlib-js/math-base-special-rising-factorial/tree/deno
 
-[@stdlib/math/base/special/sin]: https://github.com/stdlib-js/math-base-special-sin
+[@stdlib/math/base/special/sin]: https://github.com/stdlib-js/math-base-special-sin/tree/deno
 
-[@stdlib/math/base/special/sinc]: https://github.com/stdlib-js/math-base-special-sinc
+[@stdlib/math/base/special/sinc]: https://github.com/stdlib-js/math-base-special-sinc/tree/deno
 
-[@stdlib/math/base/special/sincos]: https://github.com/stdlib-js/math-base-special-sincos
+[@stdlib/math/base/special/sincos]: https://github.com/stdlib-js/math-base-special-sincos/tree/deno
 
-[@stdlib/math/base/special/sincospi]: https://github.com/stdlib-js/math-base-special-sincospi
+[@stdlib/math/base/special/sincospi]: https://github.com/stdlib-js/math-base-special-sincospi/tree/deno
 
-[@stdlib/math/base/special/sinh]: https://github.com/stdlib-js/math-base-special-sinh
+[@stdlib/math/base/special/sinh]: https://github.com/stdlib-js/math-base-special-sinh/tree/deno
 
-[@stdlib/math/base/special/sinpi]: https://github.com/stdlib-js/math-base-special-sinpi
+[@stdlib/math/base/special/sinpi]: https://github.com/stdlib-js/math-base-special-sinpi/tree/deno
 
-[@stdlib/math/base/special/tan]: https://github.com/stdlib-js/math-base-special-tan
+[@stdlib/math/base/special/tan]: https://github.com/stdlib-js/math-base-special-tan/tree/deno
 
-[@stdlib/math/base/special/tanh]: https://github.com/stdlib-js/math-base-special-tanh
+[@stdlib/math/base/special/tanh]: https://github.com/stdlib-js/math-base-special-tanh/tree/deno
 
-[@stdlib/math/base/special/vercos]: https://github.com/stdlib-js/math-base-special-vercos
+[@stdlib/math/base/special/vercos]: https://github.com/stdlib-js/math-base-special-vercos/tree/deno
 
-[@stdlib/math/base/special/versin]: https://github.com/stdlib-js/math-base-special-versin
+[@stdlib/math/base/special/versin]: https://github.com/stdlib-js/math-base-special-versin/tree/deno
 
-[@stdlib/math/base/special/exp]: https://github.com/stdlib-js/math-base-special-exp
+[@stdlib/math/base/special/exp]: https://github.com/stdlib-js/math-base-special-exp/tree/deno
 
-[@stdlib/math/base/special/exp10]: https://github.com/stdlib-js/math-base-special-exp10
+[@stdlib/math/base/special/exp10]: https://github.com/stdlib-js/math-base-special-exp10/tree/deno
 
-[@stdlib/math/base/special/exp2]: https://github.com/stdlib-js/math-base-special-exp2
+[@stdlib/math/base/special/exp2]: https://github.com/stdlib-js/math-base-special-exp2/tree/deno
 
-[@stdlib/math/base/special/expit]: https://github.com/stdlib-js/math-base-special-expit
+[@stdlib/math/base/special/expit]: https://github.com/stdlib-js/math-base-special-expit/tree/deno
 
-[@stdlib/math/base/special/expm1]: https://github.com/stdlib-js/math-base-special-expm1
+[@stdlib/math/base/special/expm1]: https://github.com/stdlib-js/math-base-special-expm1/tree/deno
 
-[@stdlib/math/base/special/expm1rel]: https://github.com/stdlib-js/math-base-special-expm1rel
+[@stdlib/math/base/special/expm1rel]: https://github.com/stdlib-js/math-base-special-expm1rel/tree/deno
 
-[@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln
+[@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln/tree/deno
 
-[@stdlib/math/base/special/log]: https://github.com/stdlib-js/math-base-special-log
+[@stdlib/math/base/special/log]: https://github.com/stdlib-js/math-base-special-log/tree/deno
 
-[@stdlib/math/base/special/log10]: https://github.com/stdlib-js/math-base-special-log10
+[@stdlib/math/base/special/log10]: https://github.com/stdlib-js/math-base-special-log10/tree/deno
 
-[@stdlib/math/base/special/log1mexp]: https://github.com/stdlib-js/math-base-special-log1mexp
+[@stdlib/math/base/special/log1mexp]: https://github.com/stdlib-js/math-base-special-log1mexp/tree/deno
 
-[@stdlib/math/base/special/log1p]: https://github.com/stdlib-js/math-base-special-log1p
+[@stdlib/math/base/special/log1p]: https://github.com/stdlib-js/math-base-special-log1p/tree/deno
 
-[@stdlib/math/base/special/log1pexp]: https://github.com/stdlib-js/math-base-special-log1pexp
+[@stdlib/math/base/special/log1pexp]: https://github.com/stdlib-js/math-base-special-log1pexp/tree/deno
 
-[@stdlib/math/base/special/log2]: https://github.com/stdlib-js/math-base-special-log2
+[@stdlib/math/base/special/log2]: https://github.com/stdlib-js/math-base-special-log2/tree/deno
 
-[@stdlib/math/base/special/logaddexp]: https://github.com/stdlib-js/math-base-special-logaddexp
+[@stdlib/math/base/special/logaddexp]: https://github.com/stdlib-js/math-base-special-logaddexp/tree/deno
 
-[@stdlib/math/base/special/pow]: https://github.com/stdlib-js/math-base-special-pow
+[@stdlib/math/base/special/pow]: https://github.com/stdlib-js/math-base-special-pow/tree/deno
 
-[@stdlib/math/base/special/powm1]: https://github.com/stdlib-js/math-base-special-powm1
+[@stdlib/math/base/special/powm1]: https://github.com/stdlib-js/math-base-special-powm1/tree/deno
 
-[@stdlib/math/base/special/xlog1py]: https://github.com/stdlib-js/math-base-special-xlog1py
+[@stdlib/math/base/special/xlog1py]: https://github.com/stdlib-js/math-base-special-xlog1py/tree/deno
 
-[@stdlib/math/base/special/xlogy]: https://github.com/stdlib-js/math-base-special-xlogy
+[@stdlib/math/base/special/xlogy]: https://github.com/stdlib-js/math-base-special-xlogy/tree/deno
 
 <!-- </toc-links> -->
 
