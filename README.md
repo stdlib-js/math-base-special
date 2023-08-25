@@ -18,6 +18,17 @@ limitations under the License.
 
 -->
 
+
+<details>
+  <summary>
+    About stdlib...
+  </summary>
+  <p>We believe in a future in which the web is a preferred environment for numerical computation. To help realize this future, we've built stdlib. stdlib is a standard library, with an emphasis on numerical and scientific computation, written in JavaScript (and C) for execution in browsers and in Node.js.</p>
+  <p>The library is fully decomposable, being architected in such a way that you can swap out and mix and match APIs and functionality to cater to your exact preferences and use cases.</p>
+  <p>When you use stdlib, you can be absolutely certain that you are using the most thorough, rigorous, well-written, studied, documented, tested, measured, and high-quality code out there.</p>
+  <p>To join us in bringing numerical computing to the web, get started by checking us out on <a href="https://github.com/stdlib-js/stdlib">GitHub</a>, and please consider <a href="https://opencollective.com/stdlib">financially supporting stdlib</a>. We greatly appreciate your continued support!</p>
+</details>
+
 # Special Functions
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
@@ -177,7 +188,7 @@ var fcns = special;
 -   <span class="signature">[`clamp( v, min, max )`][@stdlib/math/base/special/clamp]</span><span class="delimiter">: </span><span class="description">restrict a double-precision floating-point number to a specified range.</span>
 -   <span class="signature">[`clampf( v, min, max )`][@stdlib/math/base/special/clampf]</span><span class="delimiter">: </span><span class="description">restrict a single-precision floating-point number to a specified range.</span>
 -   <span class="signature">[`cround( z )`][@stdlib/math/base/special/cround]</span><span class="delimiter">: </span><span class="description">round each component of a double-precision complex floating-point number to the nearest integer.</span>
--   <span class="signature">[`croundn( [out,] re, im, n )`][@stdlib/math/base/special/croundn]</span><span class="delimiter">: </span><span class="description">round a complex number to the nearest multiple of `10^n`.</span>
+-   <span class="signature">[`croundn( z, n )`][@stdlib/math/base/special/croundn]</span><span class="delimiter">: </span><span class="description">round each component of a double-precision complex floating-point number to the nearest multiple of `10^n`.</span>
 -   <span class="signature">[`csignum( z )`][@stdlib/math/base/special/csignum]</span><span class="delimiter">: </span><span class="description">evaluate the signum function of a double-precision complex floating-point number.</span>
 -   <span class="signature">[`floor( x )`][@stdlib/math/base/special/floor]</span><span class="delimiter">: </span><span class="description">round a double-precision floating-point number toward negative infinity.</span>
 -   <span class="signature">[`floor10( x )`][@stdlib/math/base/special/floor10]</span><span class="delimiter">: </span><span class="description">round a numeric value to the nearest power of 10 toward negative infinity.</span>
@@ -197,7 +208,7 @@ var fcns = special;
 -   <span class="signature">[`round10( x )`][@stdlib/math/base/special/round10]</span><span class="delimiter">: </span><span class="description">round a numeric value to the nearest power of 10 on a linear scale.</span>
 -   <span class="signature">[`round2( x )`][@stdlib/math/base/special/round2]</span><span class="delimiter">: </span><span class="description">round a numeric value to the nearest power of two on a linear scale.</span>
 -   <span class="signature">[`roundb( x, n, b )`][@stdlib/math/base/special/roundb]</span><span class="delimiter">: </span><span class="description">round a numeric value to the nearest multiple of b^n on a linear scale.</span>
--   <span class="signature">[`roundn( x, n )`][@stdlib/math/base/special/roundn]</span><span class="delimiter">: </span><span class="description">round a numeric value to the nearest multiple of 10^n.</span>
+-   <span class="signature">[`roundn( x, n )`][@stdlib/math/base/special/roundn]</span><span class="delimiter">: </span><span class="description">round a double-precision floating-point number to the nearest multiple of 10^n.</span>
 -   <span class="signature">[`roundsd( x, n[, b] )`][@stdlib/math/base/special/roundsd]</span><span class="delimiter">: </span><span class="description">round a numeric value to the nearest number with `n` significant figures.</span>
 -   <span class="signature">[`signum( x )`][@stdlib/math/base/special/signum]</span><span class="delimiter">: </span><span class="description">signum function.</span>
 -   <span class="signature">[`signumf( x )`][@stdlib/math/base/special/signumf]</span><span class="delimiter">: </span><span class="description">signum function.</span>
@@ -251,7 +262,7 @@ var fcns = special;
 -   <span class="signature">[`cot( x )`][@stdlib/math/base/special/cot]</span><span class="delimiter">: </span><span class="description">evaluate the cotangent of a number.</span>
 -   <span class="signature">[`coth( x )`][@stdlib/math/base/special/coth]</span><span class="delimiter">: </span><span class="description">compute the hyperbolic cotangent of a number.</span>
 -   <span class="signature">[`cphase( z )`][@stdlib/math/base/special/cphase]</span><span class="delimiter">: </span><span class="description">compute the argument of a double-precision complex floating-point number in radians.</span>
--   <span class="signature">[`cpolar( [out,] re, im )`][@stdlib/math/base/special/cpolar]</span><span class="delimiter">: </span><span class="description">compute the absolute value and phase of a complex number.</span>
+-   <span class="signature">[`cpolar( z )`][@stdlib/math/base/special/cpolar]</span><span class="delimiter">: </span><span class="description">compute the absolute value and phase of a double-precision complex floating-point number.</span>
 -   <span class="signature">[`csch( x )`][@stdlib/math/base/special/csch]</span><span class="delimiter">: </span><span class="description">compute the hyperbolic cosecant of a number.</span>
 -   <span class="signature">[`deg2rad( x )`][@stdlib/math/base/special/deg2rad]</span><span class="delimiter">: </span><span class="description">convert an angle from degrees to radians.</span>
 -   <span class="signature">[`deg2radf( x )`][@stdlib/math/base/special/deg2radf]</span><span class="delimiter">: </span><span class="description">convert an angle from degrees to radians (single-precision).</span>
