@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import special from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special/tags). For example,
+
+```javascript
 import special from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special@v0.2.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { abs, abs2, abs2f, absf, acos, acosh, acot, acoth, acovercos, acoversin, acsc, acsch, ahavercos, ahaversin, asec, asech, asin, asinh, atan, atan2, atanh, avercos, aversin, bernoulli, besselj0, besselj1, bessely0, bessely1, beta, betainc, betaincinv, betaln, binet, binomcoef, binomcoefln, boxcox, boxcox1p, boxcox1pinv, boxcoxinv, cabs, cabs2, cabs2f, cabsf, cbrt, cbrtf, cceil, cceilf, cceiln, ccis, ceil, ceil10, ceil2, ceilb, ceilf, ceiln, ceilsd, cexp, cflipsign, cflipsignf, cfloor, cfloorn, cidentity, cidentityf, cinv, clamp, clampf, copysign, copysignf, cos, cosh, cosm1, cospi, cot, coth, covercos, coversin, cphase, cpolar, cround, croundn, csch, csignum, deg2rad, deg2radf, digamma, diracDelta, ellipe, ellipj, ellipk, erf, erfc, erfcinv, erfcx, erfinv, eta, exp, exp10, exp2, expit, expm1, expm1rel, factorial, factorial2, factorialln, fallingFactorial, fast, fibonacci, fibonacciIndex, flipsign, flipsignf, floor, floor10, floor2, floorb, floorf, floorn, floorsd, fresnel, fresnelc, fresnels, frexp, gamma, gamma1pm1, gammaDeltaRatio, gammaLanczosSum, gammaLanczosSumExpGScaled, gammainc, gammaincinv, gammaln, gammasgn, gcd, hacovercos, hacoversin, havercos, haversin, heaviside, hypot, hypotf, identity, identityf, inv, invf, kernelBetainc, kernelBetaincinv, kernelCos, kernelSin, kernelTan, kroneckerDelta, kroneckerDeltaf, labs, lcm, ldexp, ln, log, log10, log1mexp, log1p, log1pexp, log1pmx, log2, logaddexp, logit, lucas, max, maxabs, maxabsn, maxn, min, minabs, minabsn, minmax, minmaxabs, minmaxabsn, minmaxn, minn, modf, negafibonacci, negalucas, nonfibonacci, pdiff, pdifff, polygamma, pow, powm1, rad2deg, ramp, rampf, rcbrt, rempio2, risingFactorial, round, round10, round2, roundb, roundn, roundsd, rsqrt, rsqrtf, sici, signum, signumf, sin, sinc, sincos, sincospi, sinh, sinpi, spence, sqrt, sqrt1pm1, sqrtf, sqrtpi, tan, tanh, tribonacci, trigamma, trunc, trunc10, trunc2, truncb, truncf, truncn, truncsd, vercos, versin, wrap, xlog1py, xlogy, zeta } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special@v0.2.0-deno/mod.js';
+import { abs, abs2, abs2f, absf, acos, acosh, acot, acoth, acovercos, acoversin, acsc, acsch, ahavercos, ahaversin, asec, asech, asin, asinh, atan, atan2, atanh, avercos, aversin, bernoulli, besselj0, besselj1, bessely0, bessely1, beta, betainc, betaincinv, betaln, binet, binomcoef, binomcoefln, boxcox, boxcox1p, boxcox1pinv, boxcoxinv, cabs, cabs2, cabs2f, cabsf, cbrt, cbrtf, cceil, cceilf, cceiln, ccis, ceil, ceil10, ceil2, ceilb, ceilf, ceiln, ceilsd, cexp, cflipsign, cflipsignf, cfloor, cfloorn, cidentity, cidentityf, cinv, clamp, clampf, copysign, copysignf, cos, cosh, cosm1, cospi, cot, coth, covercos, coversin, cphase, cpolar, cround, croundn, csch, csignum, deg2rad, deg2radf, digamma, diracDelta, ellipe, ellipj, ellipk, erf, erfc, erfcinv, erfcx, erfinv, eta, exp, exp10, exp2, expit, expm1, expm1rel, factorial, factorial2, factorialln, fallingFactorial, fast, fibonacci, fibonacciIndex, flipsign, flipsignf, floor, floor10, floor2, floorb, floorf, floorn, floorsd, fresnel, fresnelc, fresnels, frexp, gamma, gamma1pm1, gammaDeltaRatio, gammaLanczosSum, gammaLanczosSumExpGScaled, gammainc, gammaincinv, gammaln, gammasgn, gcd, hacovercos, hacoversin, havercos, haversin, heaviside, hypot, hypotf, identity, identityf, inv, invf, kernelBetainc, kernelBetaincinv, kernelCos, kernelSin, kernelTan, kroneckerDelta, kroneckerDeltaf, labs, lcm, ldexp, ln, log, log10, log1mexp, log1p, log1pexp, log1pmx, log2, logaddexp, logit, lucas, max, maxabs, maxabsn, maxn, min, minabs, minabsn, minmax, minmaxabs, minmaxabsn, minmaxn, minn, modf, negafibonacci, negalucas, nonfibonacci, pdiff, pdifff, polygamma, pow, powm1, rad2deg, ramp, rampf, rcbrt, rempio2, risingFactorial, round, round10, round2, roundb, roundn, roundsd, rsqrt, rsqrtf, sici, signum, signumf, sin, sinc, sincos, sincospi, sinh, sinpi, spence, sqrt, sqrt1pm1, sqrtf, sqrtpi, tan, tanh, tribonacci, trigamma, trunc, trunc10, trunc2, truncb, truncf, truncn, truncsd, vercos, versin, wrap, xlog1py, xlogy, zeta } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special@deno/mod.js';
 ```
 
 #### special
@@ -376,7 +381,7 @@ Finally, the namespace exports the following kernel functions, which are mainly 
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import special from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special@v0.2.0-deno/mod.js';
+import special from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special@deno/mod.js';
 
 console.log( objectKeys( special ) );
 ```
