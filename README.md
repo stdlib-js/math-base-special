@@ -35,20 +35,32 @@ limitations under the License.
 
 > Base (i.e., lower-level) special math functions.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import special from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { abs, abs2, abs2f, absf, acos, acosd, acosf, acosh, acot, acotd, acotf, acoth, acovercos, acoversin, acsc, acscd, acscdf, acscf, acsch, ahavercos, ahaversin, asec, asecd, asecdf, asecf, asech, asin, asind, asindf, asinf, asinh, atan, atan2, atand, atanf, atanh, avercos, aversin, bernoulli, besselj0, besselj1, bessely0, bessely1, beta, betainc, betaincinv, betaln, binet, binomcoef, binomcoefln, boxcox, boxcox1p, boxcox1pinv, boxcoxinv, cabs, cabs2, cabs2f, cabsf, cbrt, cbrtf, cceil, cceilf, cceiln, ccis, ceil, ceil10, ceil2, ceilb, ceilf, ceiln, ceilsd, cexp, cflipsign, cflipsignf, cfloor, cfloorn, cidentity, cidentityf, cinv, clamp, clampf, copysign, copysignf, cos, cosd, cosh, cosm1, cospi, cot, cotd, coth, covercos, coversin, cphase, cpolar, cround, croundn, csc, cscd, csch, csignum, deg2rad, deg2radf, digamma, diracDelta, ellipe, ellipj, ellipk, erf, erfc, erfcinv, erfcx, erfinv, eta, exp, exp10, exp2, expit, expm1, expm1rel, factorial, factorial2, factorialln, fallingFactorial, fast, fibonacci, fibonacciIndex, flipsign, flipsignf, floor, floor10, floor2, floorb, floorf, floorn, floorsd, fresnel, fresnelc, fresnels, frexp, gamma, gamma1pm1, gammaDeltaRatio, gammaLanczosSum, gammaLanczosSumExpGScaled, gammainc, gammaincinv, gammaln, gammasgn, gcd, hacovercos, hacoversin, havercos, haversin, heaviside, hypot, hypotf, identity, identityf, inv, invf, kernelBetainc, kernelBetaincinv, kernelCos, kernelLog1p, kernelSin, kernelTan, kroneckerDelta, kroneckerDeltaf, labs, lcm, ldexp, ln, log, log10, log1mexp, log1p, log1pexp, log1pmx, log2, logaddexp, logit, lucas, max, maxabs, maxabsn, maxn, min, minabs, minabsn, minmax, minmaxabs, minmaxabsn, minmaxn, minn, modf, negafibonacci, negalucas, nonfibonacci, pdiff, pdifff, polygamma, pow, powm1, rad2deg, rad2degf, ramp, rampf, rcbrt, rcbrtf, rempio2, risingFactorial, round, round10, round2, roundb, roundn, roundsd, rsqrt, rsqrtf, secd, sici, signum, signumf, sin, sinc, sincos, sincospi, sinh, sinpi, spence, sqrt, sqrt1pm1, sqrtf, sqrtpi, tan, tand, tanh, tribonacci, trigamma, trunc, trunc10, trunc2, truncb, truncf, truncn, truncsd, vercos, versin, wrap, xlog1py, xlogy, zeta } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special@esm/index.mjs';
+var special = require( '@stdlib/math-base-special' );
 ```
 
 #### special
@@ -72,6 +84,7 @@ var fcns = special;
 -   <span class="signature">[`expit( x )`][@stdlib/math/base/special/expit]</span><span class="delimiter">: </span><span class="description">compute the standard logistic function.</span>
 -   <span class="signature">[`expm1( x )`][@stdlib/math/base/special/expm1]</span><span class="delimiter">: </span><span class="description">compute `exp(x) - 1`.</span>
 -   <span class="signature">[`expm1rel( x )`][@stdlib/math/base/special/expm1rel]</span><span class="delimiter">: </span><span class="description">compute the relative error exponential.</span>
+-   <span class="signature">[`kernelLog1p( f )`][@stdlib/math/base/special/kernel-log1p]</span><span class="delimiter">: </span><span class="description">compute `log(1+f) - f` for `1+f` in `~[sqrt(2)/2, sqrt(2)]`.</span>
 -   <span class="signature">[`ln( x )`][@stdlib/math/base/special/ln]</span><span class="delimiter">: </span><span class="description">evaluate the natural logarithm of a double-precision floating-point number.</span>
 -   <span class="signature">[`log( x, b )`][@stdlib/math/base/special/log]</span><span class="delimiter">: </span><span class="description">compute the base `b` logarithm.</span>
 -   <span class="signature">[`log10( x )`][@stdlib/math/base/special/log10]</span><span class="delimiter">: </span><span class="description">evaluate the common logarithm.</span>
@@ -97,19 +110,27 @@ var fcns = special;
 <div class="namespace-toc">
 
 -   <span class="signature">[`acos( x )`][@stdlib/math/base/special/acos]</span><span class="delimiter">: </span><span class="description">compute the arccosine of a double-precision floating-point number.</span>
+-   <span class="signature">[`acosd( x )`][@stdlib/math/base/special/acosd]</span><span class="delimiter">: </span><span class="description">compute the arccosine in degrees of a double-precision floating-point number.</span>
+-   <span class="signature">[`acosf( x )`][@stdlib/math/base/special/acosf]</span><span class="delimiter">: </span><span class="description">compute the arccosine of a single-precision floating-point number.</span>
 -   <span class="signature">[`acosh( x )`][@stdlib/math/base/special/acosh]</span><span class="delimiter">: </span><span class="description">compute the hyperbolic arccosine of a double-precision floating-point number.</span>
 -   <span class="signature">[`acovercos( x )`][@stdlib/math/base/special/acovercos]</span><span class="delimiter">: </span><span class="description">compute the inverse coversed cosine.</span>
 -   <span class="signature">[`acoversin( x )`][@stdlib/math/base/special/acoversin]</span><span class="delimiter">: </span><span class="description">compute the inverse coversed sine.</span>
 -   <span class="signature">[`ahavercos( x )`][@stdlib/math/base/special/ahavercos]</span><span class="delimiter">: </span><span class="description">compute the inverse half-value versed cosine.</span>
 -   <span class="signature">[`ahaversin( x )`][@stdlib/math/base/special/ahaversin]</span><span class="delimiter">: </span><span class="description">compute the inverse half-value versed sine.</span>
 -   <span class="signature">[`asin( x )`][@stdlib/math/base/special/asin]</span><span class="delimiter">: </span><span class="description">compute the arcsine of a double-precision floating-point number.</span>
+-   <span class="signature">[`asind( x )`][@stdlib/math/base/special/asind]</span><span class="delimiter">: </span><span class="description">compute the arcsine (in degrees) of a double-precision floating-point number.</span>
+-   <span class="signature">[`asindf( x )`][@stdlib/math/base/special/asindf]</span><span class="delimiter">: </span><span class="description">compute the arcsine (in degrees) of a single-precision floating-point number.</span>
+-   <span class="signature">[`asinf( x )`][@stdlib/math/base/special/asinf]</span><span class="delimiter">: </span><span class="description">compute the arcsine of a single-precision floating-point number.</span>
 -   <span class="signature">[`asinh( x )`][@stdlib/math/base/special/asinh]</span><span class="delimiter">: </span><span class="description">compute the hyperbolic arcsine of a double-precision floating-point number.</span>
 -   <span class="signature">[`atan( x )`][@stdlib/math/base/special/atan]</span><span class="delimiter">: </span><span class="description">compute the arctangent of a double-precision floating-point number.</span>
 -   <span class="signature">[`atan2( y, x )`][@stdlib/math/base/special/atan2]</span><span class="delimiter">: </span><span class="description">compute the angle in the plane (in radians) between the positive x-axis and the ray from `(0,0)` to the point `(x,y)`.</span>
+-   <span class="signature">[`atand( x )`][@stdlib/math/base/special/atand]</span><span class="delimiter">: </span><span class="description">compute the arctangent in degrees of a double-precision floating-point number.</span>
+-   <span class="signature">[`atanf( x )`][@stdlib/math/base/special/atanf]</span><span class="delimiter">: </span><span class="description">compute the arctangent of a single-precision floating-point number.</span>
 -   <span class="signature">[`atanh( x )`][@stdlib/math/base/special/atanh]</span><span class="delimiter">: </span><span class="description">compute the hyperbolic arctangent of a double-precision floating-point number.</span>
 -   <span class="signature">[`avercos( x )`][@stdlib/math/base/special/avercos]</span><span class="delimiter">: </span><span class="description">compute the inverse versed cosine.</span>
 -   <span class="signature">[`aversin( x )`][@stdlib/math/base/special/aversin]</span><span class="delimiter">: </span><span class="description">compute the inverse versed sine.</span>
 -   <span class="signature">[`cos( x )`][@stdlib/math/base/special/cos]</span><span class="delimiter">: </span><span class="description">compute the cosine of a number.</span>
+-   <span class="signature">[`cosd( x )`][@stdlib/math/base/special/cosd]</span><span class="delimiter">: </span><span class="description">computes the cosine of an angle measured in degrees.</span>
 -   <span class="signature">[`cosh( x )`][@stdlib/math/base/special/cosh]</span><span class="delimiter">: </span><span class="description">compute the hyperbolic cosine of a double-precision floating-point number.</span>
 -   <span class="signature">[`cosm1( x )`][@stdlib/math/base/special/cosm1]</span><span class="delimiter">: </span><span class="description">compute `cos(x) - 1`.</span>
 -   <span class="signature">[`cospi( x )`][@stdlib/math/base/special/cospi]</span><span class="delimiter">: </span><span class="description">compute the cosine of a number times π.</span>
@@ -127,6 +148,7 @@ var fcns = special;
 -   <span class="signature">[`sinh( x )`][@stdlib/math/base/special/sinh]</span><span class="delimiter">: </span><span class="description">compute the hyperbolic sine of a double-precision floating-point number.</span>
 -   <span class="signature">[`sinpi( x )`][@stdlib/math/base/special/sinpi]</span><span class="delimiter">: </span><span class="description">compute the sine of a number times π.</span>
 -   <span class="signature">[`tan( x )`][@stdlib/math/base/special/tan]</span><span class="delimiter">: </span><span class="description">evaluate the tangent of a number.</span>
+-   <span class="signature">[`tand( x )`][@stdlib/math/base/special/tand]</span><span class="delimiter">: </span><span class="description">computes the tangent of an angle measured in degrees.</span>
 -   <span class="signature">[`tanh( x )`][@stdlib/math/base/special/tanh]</span><span class="delimiter">: </span><span class="description">compute the hyperbolic tangent of a double-precision floating-point number.</span>
 -   <span class="signature">[`vercos( x )`][@stdlib/math/base/special/vercos]</span><span class="delimiter">: </span><span class="description">compute the versed cosine.</span>
 -   <span class="signature">[`versin( x )`][@stdlib/math/base/special/versin]</span><span class="delimiter">: </span><span class="description">compute the versed sine.</span>
@@ -222,10 +244,18 @@ var fcns = special;
 <div class="namespace-toc">
 
 -   <span class="signature">[`acot( x )`][@stdlib/math/base/special/acot]</span><span class="delimiter">: </span><span class="description">compute the inverse cotangent of a double-precision floating-point number.</span>
+-   <span class="signature">[`acotd( x )`][@stdlib/math/base/special/acotd]</span><span class="delimiter">: </span><span class="description">compute the arccotangent in degrees of a double-precision floating-point number.</span>
+-   <span class="signature">[`acotf( x )`][@stdlib/math/base/special/acotf]</span><span class="delimiter">: </span><span class="description">compute the inverse cotangent of a single-precision floating-point number.</span>
 -   <span class="signature">[`acoth( x )`][@stdlib/math/base/special/acoth]</span><span class="delimiter">: </span><span class="description">compute the inverse hyperbolic cotangent of a double-precision floating-point number.</span>
 -   <span class="signature">[`acsc( x )`][@stdlib/math/base/special/acsc]</span><span class="delimiter">: </span><span class="description">compute the arccosecant of a number.</span>
+-   <span class="signature">[`acscd( x )`][@stdlib/math/base/special/acscd]</span><span class="delimiter">: </span><span class="description">compute the arccosecant in degrees of a double-precision floating-point number.</span>
+-   <span class="signature">[`acscdf( x )`][@stdlib/math/base/special/acscdf]</span><span class="delimiter">: </span><span class="description">compute the arccosecant (in degrees) of a single-precision floating-point number.</span>
+-   <span class="signature">[`acscf( x )`][@stdlib/math/base/special/acscf]</span><span class="delimiter">: </span><span class="description">compute the arccosecant of a single-precision floating-point number.</span>
 -   <span class="signature">[`acsch( x )`][@stdlib/math/base/special/acsch]</span><span class="delimiter">: </span><span class="description">compute the hyperbolic arccosecant of a number.</span>
 -   <span class="signature">[`asec( x )`][@stdlib/math/base/special/asec]</span><span class="delimiter">: </span><span class="description">compute the inverse (arc) secant of a number.</span>
+-   <span class="signature">[`asecd( x )`][@stdlib/math/base/special/asecd]</span><span class="delimiter">: </span><span class="description">compute the arcsecant (in degrees) of a double-precision floating-point number.</span>
+-   <span class="signature">[`asecdf( x )`][@stdlib/math/base/special/asecdf]</span><span class="delimiter">: </span><span class="description">compute the arcsecant (in degrees) of a single-precision floating-point number.</span>
+-   <span class="signature">[`asecf( x )`][@stdlib/math/base/special/asecf]</span><span class="delimiter">: </span><span class="description">compute the inverse (arc) secant of a single-precision floating-point number.</span>
 -   <span class="signature">[`asech( x )`][@stdlib/math/base/special/asech]</span><span class="delimiter">: </span><span class="description">compute the hyperbolic arcsecant of a number.</span>
 -   <span class="signature">[`bernoulli( n )`][@stdlib/math/base/special/bernoulli]</span><span class="delimiter">: </span><span class="description">compute the nth Bernoulli number.</span>
 -   <span class="signature">[`beta( x, y )`][@stdlib/math/base/special/beta]</span><span class="delimiter">: </span><span class="description">beta function.</span>
@@ -251,9 +281,12 @@ var fcns = special;
 -   <span class="signature">[`copysign( x, y )`][@stdlib/math/base/special/copysign]</span><span class="delimiter">: </span><span class="description">return a double-precision floating-point number with the magnitude of `x` and the sign of `y`.</span>
 -   <span class="signature">[`copysignf( x, y )`][@stdlib/math/base/special/copysignf]</span><span class="delimiter">: </span><span class="description">return a single-precision floating-point number with the magnitude of `x` and the sign of `y`.</span>
 -   <span class="signature">[`cot( x )`][@stdlib/math/base/special/cot]</span><span class="delimiter">: </span><span class="description">evaluate the cotangent of a number.</span>
+-   <span class="signature">[`cotd( x )`][@stdlib/math/base/special/cotd]</span><span class="delimiter">: </span><span class="description">compute the cotangent of an angle measured in degrees.</span>
 -   <span class="signature">[`coth( x )`][@stdlib/math/base/special/coth]</span><span class="delimiter">: </span><span class="description">compute the hyperbolic cotangent of a number.</span>
 -   <span class="signature">[`cphase( z )`][@stdlib/math/base/special/cphase]</span><span class="delimiter">: </span><span class="description">compute the argument of a double-precision complex floating-point number in radians.</span>
 -   <span class="signature">[`cpolar( z )`][@stdlib/math/base/special/cpolar]</span><span class="delimiter">: </span><span class="description">compute the absolute value and phase of a double-precision complex floating-point number.</span>
+-   <span class="signature">[`csc`][@stdlib/math/base/special/csc]</span><span class="delimiter">: </span><span class="description">evaluate the cosecant of a number.</span>
+-   <span class="signature">[`cscd( x )`][@stdlib/math/base/special/cscd]</span><span class="delimiter">: </span><span class="description">compute the cosecant of a degree.</span>
 -   <span class="signature">[`csch( x )`][@stdlib/math/base/special/csch]</span><span class="delimiter">: </span><span class="description">compute the hyperbolic cosecant of a number.</span>
 -   <span class="signature">[`deg2rad( x )`][@stdlib/math/base/special/deg2rad]</span><span class="delimiter">: </span><span class="description">convert an angle from degrees to radians.</span>
 -   <span class="signature">[`deg2radf( x )`][@stdlib/math/base/special/deg2radf]</span><span class="delimiter">: </span><span class="description">convert an angle from degrees to radians (single-precision).</span>
@@ -313,12 +346,15 @@ var fcns = special;
 -   <span class="signature">[`pdifff( x, y )`][@stdlib/math/base/special/pdifff]</span><span class="delimiter">: </span><span class="description">return the positive difference between `x` and `y`.</span>
 -   <span class="signature">[`polygamma( n, x )`][@stdlib/math/base/special/polygamma]</span><span class="delimiter">: </span><span class="description">polygamma function.</span>
 -   <span class="signature">[`rad2deg( x )`][@stdlib/math/base/special/rad2deg]</span><span class="delimiter">: </span><span class="description">convert an angle from radians to degrees.</span>
+-   <span class="signature">[`rad2degf( x )`][@stdlib/math/base/special/rad2degf]</span><span class="delimiter">: </span><span class="description">convert an angle from radians to degrees (single-precision).</span>
 -   <span class="signature">[`ramp( x )`][@stdlib/math/base/special/ramp]</span><span class="delimiter">: </span><span class="description">evaluate the ramp function.</span>
 -   <span class="signature">[`rampf( x )`][@stdlib/math/base/special/rampf]</span><span class="delimiter">: </span><span class="description">evaluate the ramp function.</span>
 -   <span class="signature">[`rcbrt( x )`][@stdlib/math/base/special/rcbrt]</span><span class="delimiter">: </span><span class="description">compute the reciprocal of the principal cube root of a double-precision floating-point number.</span>
+-   <span class="signature">[`rcbrtf( x )`][@stdlib/math/base/special/rcbrtf]</span><span class="delimiter">: </span><span class="description">compute the reciprocal of the principal cube root of a single-precision floating-point number.</span>
 -   <span class="signature">[`zeta( s )`][@stdlib/math/base/special/riemann-zeta]</span><span class="delimiter">: </span><span class="description">riemann zeta function.</span>
 -   <span class="signature">[`rsqrt( x )`][@stdlib/math/base/special/rsqrt]</span><span class="delimiter">: </span><span class="description">compute the reciprocal of the principal square root of a double-precision floating-point number.</span>
 -   <span class="signature">[`rsqrtf( x )`][@stdlib/math/base/special/rsqrtf]</span><span class="delimiter">: </span><span class="description">compute the reciprocal of the principal square root of a single-precision floating-point number.</span>
+-   <span class="signature">[`secd( x )`][@stdlib/math/base/special/secd]</span><span class="delimiter">: </span><span class="description">compute the secant of an angle measured in degrees.</span>
 -   <span class="signature">[`sici( x )`][@stdlib/math/base/special/sici]</span><span class="delimiter">: </span><span class="description">compute the sine and cosine integrals.</span>
 -   <span class="signature">[`spence( x )`][@stdlib/math/base/special/spence]</span><span class="delimiter">: </span><span class="description">spence’s function, also known as the dilogarithm.</span>
 -   <span class="signature">[`sqrt( x )`][@stdlib/math/base/special/sqrt]</span><span class="delimiter">: </span><span class="description">compute the principal square root of a double-precision floating-point number.</span>
@@ -374,20 +410,11 @@ Finally, the namespace exports the following kernel functions, which are mainly 
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import special from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var special = require( '@stdlib/math-base-special' );
 
 console.log( objectKeys( special ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -411,7 +438,7 @@ console.log( objectKeys( special ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -476,455 +503,503 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/math/base/special/kernel-betainc]: https://github.com/stdlib-js/math-base-special-kernel-betainc/tree/esm
+[@stdlib/math/base/special/kernel-betainc]: https://github.com/stdlib-js/math-base-special-kernel-betainc
 
-[@stdlib/math/base/special/kernel-betaincinv]: https://github.com/stdlib-js/math-base-special-kernel-betaincinv/tree/esm
+[@stdlib/math/base/special/kernel-betaincinv]: https://github.com/stdlib-js/math-base-special-kernel-betaincinv
 
-[@stdlib/math/base/special/kernel-cos]: https://github.com/stdlib-js/math-base-special-kernel-cos/tree/esm
+[@stdlib/math/base/special/kernel-cos]: https://github.com/stdlib-js/math-base-special-kernel-cos
 
-[@stdlib/math/base/special/kernel-sin]: https://github.com/stdlib-js/math-base-special-kernel-sin/tree/esm
+[@stdlib/math/base/special/kernel-sin]: https://github.com/stdlib-js/math-base-special-kernel-sin
 
-[@stdlib/math/base/special/kernel-tan]: https://github.com/stdlib-js/math-base-special-kernel-tan/tree/esm
+[@stdlib/math/base/special/kernel-tan]: https://github.com/stdlib-js/math-base-special-kernel-tan
 
-[@stdlib/math/base/special/rempio2]: https://github.com/stdlib-js/math-base-special-rempio2/tree/esm
+[@stdlib/math/base/special/rempio2]: https://github.com/stdlib-js/math-base-special-rempio2
 
-[@stdlib/math/base/special/fast]: https://github.com/stdlib-js/math-base-special-fast/tree/esm
+[@stdlib/math/base/special/fast]: https://github.com/stdlib-js/math-base-special-fast
 
-[@stdlib/math/base/special/acot]: https://github.com/stdlib-js/math-base-special-acot/tree/esm
+[@stdlib/math/base/special/acot]: https://github.com/stdlib-js/math-base-special-acot
 
-[@stdlib/math/base/special/acoth]: https://github.com/stdlib-js/math-base-special-acoth/tree/esm
+[@stdlib/math/base/special/acotd]: https://github.com/stdlib-js/math-base-special-acotd
 
-[@stdlib/math/base/special/acsc]: https://github.com/stdlib-js/math-base-special-acsc/tree/esm
+[@stdlib/math/base/special/acotf]: https://github.com/stdlib-js/math-base-special-acotf
 
-[@stdlib/math/base/special/acsch]: https://github.com/stdlib-js/math-base-special-acsch/tree/esm
+[@stdlib/math/base/special/acoth]: https://github.com/stdlib-js/math-base-special-acoth
 
-[@stdlib/math/base/special/asec]: https://github.com/stdlib-js/math-base-special-asec/tree/esm
+[@stdlib/math/base/special/acsc]: https://github.com/stdlib-js/math-base-special-acsc
 
-[@stdlib/math/base/special/asech]: https://github.com/stdlib-js/math-base-special-asech/tree/esm
+[@stdlib/math/base/special/acscd]: https://github.com/stdlib-js/math-base-special-acscd
 
-[@stdlib/math/base/special/bernoulli]: https://github.com/stdlib-js/math-base-special-bernoulli/tree/esm
+[@stdlib/math/base/special/acscdf]: https://github.com/stdlib-js/math-base-special-acscdf
 
-[@stdlib/math/base/special/beta]: https://github.com/stdlib-js/math-base-special-beta/tree/esm
+[@stdlib/math/base/special/acscf]: https://github.com/stdlib-js/math-base-special-acscf
 
-[@stdlib/math/base/special/betainc]: https://github.com/stdlib-js/math-base-special-betainc/tree/esm
+[@stdlib/math/base/special/acsch]: https://github.com/stdlib-js/math-base-special-acsch
 
-[@stdlib/math/base/special/betaincinv]: https://github.com/stdlib-js/math-base-special-betaincinv/tree/esm
+[@stdlib/math/base/special/asec]: https://github.com/stdlib-js/math-base-special-asec
 
-[@stdlib/math/base/special/betaln]: https://github.com/stdlib-js/math-base-special-betaln/tree/esm
+[@stdlib/math/base/special/asecd]: https://github.com/stdlib-js/math-base-special-asecd
 
-[@stdlib/math/base/special/binet]: https://github.com/stdlib-js/math-base-special-binet/tree/esm
+[@stdlib/math/base/special/asecdf]: https://github.com/stdlib-js/math-base-special-asecdf
 
-[@stdlib/math/base/special/binomcoef]: https://github.com/stdlib-js/math-base-special-binomcoef/tree/esm
+[@stdlib/math/base/special/asecf]: https://github.com/stdlib-js/math-base-special-asecf
 
-[@stdlib/math/base/special/binomcoefln]: https://github.com/stdlib-js/math-base-special-binomcoefln/tree/esm
+[@stdlib/math/base/special/asech]: https://github.com/stdlib-js/math-base-special-asech
 
-[@stdlib/math/base/special/boxcox]: https://github.com/stdlib-js/math-base-special-boxcox/tree/esm
+[@stdlib/math/base/special/bernoulli]: https://github.com/stdlib-js/math-base-special-bernoulli
 
-[@stdlib/math/base/special/boxcox1p]: https://github.com/stdlib-js/math-base-special-boxcox1p/tree/esm
+[@stdlib/math/base/special/beta]: https://github.com/stdlib-js/math-base-special-beta
 
-[@stdlib/math/base/special/boxcox1pinv]: https://github.com/stdlib-js/math-base-special-boxcox1pinv/tree/esm
+[@stdlib/math/base/special/betainc]: https://github.com/stdlib-js/math-base-special-betainc
 
-[@stdlib/math/base/special/boxcoxinv]: https://github.com/stdlib-js/math-base-special-boxcoxinv/tree/esm
+[@stdlib/math/base/special/betaincinv]: https://github.com/stdlib-js/math-base-special-betaincinv
 
-[@stdlib/math/base/special/cbrt]: https://github.com/stdlib-js/math-base-special-cbrt/tree/esm
+[@stdlib/math/base/special/betaln]: https://github.com/stdlib-js/math-base-special-betaln
 
-[@stdlib/math/base/special/cbrtf]: https://github.com/stdlib-js/math-base-special-cbrtf/tree/esm
+[@stdlib/math/base/special/binet]: https://github.com/stdlib-js/math-base-special-binet
 
-[@stdlib/math/base/special/ccis]: https://github.com/stdlib-js/math-base-special-ccis/tree/esm
+[@stdlib/math/base/special/binomcoef]: https://github.com/stdlib-js/math-base-special-binomcoef
 
-[@stdlib/math/base/special/cexp]: https://github.com/stdlib-js/math-base-special-cexp/tree/esm
+[@stdlib/math/base/special/binomcoefln]: https://github.com/stdlib-js/math-base-special-binomcoefln
 
-[@stdlib/math/base/special/cflipsign]: https://github.com/stdlib-js/math-base-special-cflipsign/tree/esm
+[@stdlib/math/base/special/boxcox]: https://github.com/stdlib-js/math-base-special-boxcox
 
-[@stdlib/math/base/special/cflipsignf]: https://github.com/stdlib-js/math-base-special-cflipsignf/tree/esm
+[@stdlib/math/base/special/boxcox1p]: https://github.com/stdlib-js/math-base-special-boxcox1p
 
-[@stdlib/math/base/special/cidentity]: https://github.com/stdlib-js/math-base-special-cidentity/tree/esm
+[@stdlib/math/base/special/boxcox1pinv]: https://github.com/stdlib-js/math-base-special-boxcox1pinv
 
-[@stdlib/math/base/special/cidentityf]: https://github.com/stdlib-js/math-base-special-cidentityf/tree/esm
+[@stdlib/math/base/special/boxcoxinv]: https://github.com/stdlib-js/math-base-special-boxcoxinv
 
-[@stdlib/math/base/special/cinv]: https://github.com/stdlib-js/math-base-special-cinv/tree/esm
+[@stdlib/math/base/special/cbrt]: https://github.com/stdlib-js/math-base-special-cbrt
 
-[@stdlib/math/base/special/copysign]: https://github.com/stdlib-js/math-base-special-copysign/tree/esm
+[@stdlib/math/base/special/cbrtf]: https://github.com/stdlib-js/math-base-special-cbrtf
 
-[@stdlib/math/base/special/copysignf]: https://github.com/stdlib-js/math-base-special-copysignf/tree/esm
+[@stdlib/math/base/special/ccis]: https://github.com/stdlib-js/math-base-special-ccis
 
-[@stdlib/math/base/special/cot]: https://github.com/stdlib-js/math-base-special-cot/tree/esm
+[@stdlib/math/base/special/cexp]: https://github.com/stdlib-js/math-base-special-cexp
 
-[@stdlib/math/base/special/coth]: https://github.com/stdlib-js/math-base-special-coth/tree/esm
+[@stdlib/math/base/special/cflipsign]: https://github.com/stdlib-js/math-base-special-cflipsign
 
-[@stdlib/math/base/special/cphase]: https://github.com/stdlib-js/math-base-special-cphase/tree/esm
+[@stdlib/math/base/special/cflipsignf]: https://github.com/stdlib-js/math-base-special-cflipsignf
 
-[@stdlib/math/base/special/cpolar]: https://github.com/stdlib-js/math-base-special-cpolar/tree/esm
+[@stdlib/math/base/special/cidentity]: https://github.com/stdlib-js/math-base-special-cidentity
 
-[@stdlib/math/base/special/csch]: https://github.com/stdlib-js/math-base-special-csch/tree/esm
+[@stdlib/math/base/special/cidentityf]: https://github.com/stdlib-js/math-base-special-cidentityf
 
-[@stdlib/math/base/special/deg2rad]: https://github.com/stdlib-js/math-base-special-deg2rad/tree/esm
+[@stdlib/math/base/special/cinv]: https://github.com/stdlib-js/math-base-special-cinv
 
-[@stdlib/math/base/special/deg2radf]: https://github.com/stdlib-js/math-base-special-deg2radf/tree/esm
+[@stdlib/math/base/special/copysign]: https://github.com/stdlib-js/math-base-special-copysign
 
-[@stdlib/math/base/special/digamma]: https://github.com/stdlib-js/math-base-special-digamma/tree/esm
+[@stdlib/math/base/special/copysignf]: https://github.com/stdlib-js/math-base-special-copysignf
 
-[@stdlib/math/base/special/dirac-delta]: https://github.com/stdlib-js/math-base-special-dirac-delta/tree/esm
+[@stdlib/math/base/special/cot]: https://github.com/stdlib-js/math-base-special-cot
 
-[@stdlib/math/base/special/dirichlet-eta]: https://github.com/stdlib-js/math-base-special-dirichlet-eta/tree/esm
+[@stdlib/math/base/special/cotd]: https://github.com/stdlib-js/math-base-special-cotd
 
-[@stdlib/math/base/special/ellipe]: https://github.com/stdlib-js/math-base-special-ellipe/tree/esm
+[@stdlib/math/base/special/coth]: https://github.com/stdlib-js/math-base-special-coth
 
-[@stdlib/math/base/special/ellipj]: https://github.com/stdlib-js/math-base-special-ellipj/tree/esm
+[@stdlib/math/base/special/cphase]: https://github.com/stdlib-js/math-base-special-cphase
 
-[@stdlib/math/base/special/ellipk]: https://github.com/stdlib-js/math-base-special-ellipk/tree/esm
+[@stdlib/math/base/special/cpolar]: https://github.com/stdlib-js/math-base-special-cpolar
 
-[@stdlib/math/base/special/erf]: https://github.com/stdlib-js/math-base-special-erf/tree/esm
+[@stdlib/math/base/special/csc]: https://github.com/stdlib-js/math-base-special-csc
 
-[@stdlib/math/base/special/erfc]: https://github.com/stdlib-js/math-base-special-erfc/tree/esm
+[@stdlib/math/base/special/cscd]: https://github.com/stdlib-js/math-base-special-cscd
 
-[@stdlib/math/base/special/erfcinv]: https://github.com/stdlib-js/math-base-special-erfcinv/tree/esm
+[@stdlib/math/base/special/csch]: https://github.com/stdlib-js/math-base-special-csch
 
-[@stdlib/math/base/special/erfcx]: https://github.com/stdlib-js/math-base-special-erfcx/tree/esm
+[@stdlib/math/base/special/deg2rad]: https://github.com/stdlib-js/math-base-special-deg2rad
 
-[@stdlib/math/base/special/erfinv]: https://github.com/stdlib-js/math-base-special-erfinv/tree/esm
+[@stdlib/math/base/special/deg2radf]: https://github.com/stdlib-js/math-base-special-deg2radf
 
-[@stdlib/math/base/special/factorial]: https://github.com/stdlib-js/math-base-special-factorial/tree/esm
+[@stdlib/math/base/special/digamma]: https://github.com/stdlib-js/math-base-special-digamma
 
-[@stdlib/math/base/special/factorial2]: https://github.com/stdlib-js/math-base-special-factorial2/tree/esm
+[@stdlib/math/base/special/dirac-delta]: https://github.com/stdlib-js/math-base-special-dirac-delta
 
-[@stdlib/math/base/special/factorialln]: https://github.com/stdlib-js/math-base-special-factorialln/tree/esm
+[@stdlib/math/base/special/dirichlet-eta]: https://github.com/stdlib-js/math-base-special-dirichlet-eta
 
-[@stdlib/math/base/special/falling-factorial]: https://github.com/stdlib-js/math-base-special-falling-factorial/tree/esm
+[@stdlib/math/base/special/ellipe]: https://github.com/stdlib-js/math-base-special-ellipe
 
-[@stdlib/math/base/special/fibonacci-index]: https://github.com/stdlib-js/math-base-special-fibonacci-index/tree/esm
+[@stdlib/math/base/special/ellipj]: https://github.com/stdlib-js/math-base-special-ellipj
 
-[@stdlib/math/base/special/fibonacci]: https://github.com/stdlib-js/math-base-special-fibonacci/tree/esm
+[@stdlib/math/base/special/ellipk]: https://github.com/stdlib-js/math-base-special-ellipk
 
-[@stdlib/math/base/special/flipsign]: https://github.com/stdlib-js/math-base-special-flipsign/tree/esm
+[@stdlib/math/base/special/erf]: https://github.com/stdlib-js/math-base-special-erf
 
-[@stdlib/math/base/special/flipsignf]: https://github.com/stdlib-js/math-base-special-flipsignf/tree/esm
+[@stdlib/math/base/special/erfc]: https://github.com/stdlib-js/math-base-special-erfc
 
-[@stdlib/math/base/special/fresnel]: https://github.com/stdlib-js/math-base-special-fresnel/tree/esm
+[@stdlib/math/base/special/erfcinv]: https://github.com/stdlib-js/math-base-special-erfcinv
 
-[@stdlib/math/base/special/fresnelc]: https://github.com/stdlib-js/math-base-special-fresnelc/tree/esm
+[@stdlib/math/base/special/erfcx]: https://github.com/stdlib-js/math-base-special-erfcx
 
-[@stdlib/math/base/special/fresnels]: https://github.com/stdlib-js/math-base-special-fresnels/tree/esm
+[@stdlib/math/base/special/erfinv]: https://github.com/stdlib-js/math-base-special-erfinv
 
-[@stdlib/math/base/special/frexp]: https://github.com/stdlib-js/math-base-special-frexp/tree/esm
+[@stdlib/math/base/special/factorial]: https://github.com/stdlib-js/math-base-special-factorial
 
-[@stdlib/math/base/special/gamma]: https://github.com/stdlib-js/math-base-special-gamma/tree/esm
+[@stdlib/math/base/special/factorial2]: https://github.com/stdlib-js/math-base-special-factorial2
 
-[@stdlib/math/base/special/gamma1pm1]: https://github.com/stdlib-js/math-base-special-gamma1pm1/tree/esm
+[@stdlib/math/base/special/factorialln]: https://github.com/stdlib-js/math-base-special-factorialln
 
-[@stdlib/math/base/special/gammainc]: https://github.com/stdlib-js/math-base-special-gammainc/tree/esm
+[@stdlib/math/base/special/falling-factorial]: https://github.com/stdlib-js/math-base-special-falling-factorial
 
-[@stdlib/math/base/special/gammaincinv]: https://github.com/stdlib-js/math-base-special-gammaincinv/tree/esm
+[@stdlib/math/base/special/fibonacci-index]: https://github.com/stdlib-js/math-base-special-fibonacci-index
 
-[@stdlib/math/base/special/gammaln]: https://github.com/stdlib-js/math-base-special-gammaln/tree/esm
+[@stdlib/math/base/special/fibonacci]: https://github.com/stdlib-js/math-base-special-fibonacci
 
-[@stdlib/math/base/special/gammasgn]: https://github.com/stdlib-js/math-base-special-gammasgn/tree/esm
+[@stdlib/math/base/special/flipsign]: https://github.com/stdlib-js/math-base-special-flipsign
 
-[@stdlib/math/base/special/gcd]: https://github.com/stdlib-js/math-base-special-gcd/tree/esm
+[@stdlib/math/base/special/flipsignf]: https://github.com/stdlib-js/math-base-special-flipsignf
 
-[@stdlib/math/base/special/heaviside]: https://github.com/stdlib-js/math-base-special-heaviside/tree/esm
+[@stdlib/math/base/special/fresnel]: https://github.com/stdlib-js/math-base-special-fresnel
 
-[@stdlib/math/base/special/hypot]: https://github.com/stdlib-js/math-base-special-hypot/tree/esm
+[@stdlib/math/base/special/fresnelc]: https://github.com/stdlib-js/math-base-special-fresnelc
 
-[@stdlib/math/base/special/hypotf]: https://github.com/stdlib-js/math-base-special-hypotf/tree/esm
+[@stdlib/math/base/special/fresnels]: https://github.com/stdlib-js/math-base-special-fresnels
 
-[@stdlib/math/base/special/identity]: https://github.com/stdlib-js/math-base-special-identity/tree/esm
+[@stdlib/math/base/special/frexp]: https://github.com/stdlib-js/math-base-special-frexp
 
-[@stdlib/math/base/special/identityf]: https://github.com/stdlib-js/math-base-special-identityf/tree/esm
+[@stdlib/math/base/special/gamma]: https://github.com/stdlib-js/math-base-special-gamma
 
-[@stdlib/math/base/special/inv]: https://github.com/stdlib-js/math-base-special-inv/tree/esm
+[@stdlib/math/base/special/gamma1pm1]: https://github.com/stdlib-js/math-base-special-gamma1pm1
 
-[@stdlib/math/base/special/invf]: https://github.com/stdlib-js/math-base-special-invf/tree/esm
+[@stdlib/math/base/special/gammainc]: https://github.com/stdlib-js/math-base-special-gammainc
 
-[@stdlib/math/base/special/kronecker-delta]: https://github.com/stdlib-js/math-base-special-kronecker-delta/tree/esm
+[@stdlib/math/base/special/gammaincinv]: https://github.com/stdlib-js/math-base-special-gammaincinv
 
-[@stdlib/math/base/special/kronecker-deltaf]: https://github.com/stdlib-js/math-base-special-kronecker-deltaf/tree/esm
+[@stdlib/math/base/special/gammaln]: https://github.com/stdlib-js/math-base-special-gammaln
 
-[@stdlib/math/base/special/lcm]: https://github.com/stdlib-js/math-base-special-lcm/tree/esm
+[@stdlib/math/base/special/gammasgn]: https://github.com/stdlib-js/math-base-special-gammasgn
 
-[@stdlib/math/base/special/ldexp]: https://github.com/stdlib-js/math-base-special-ldexp/tree/esm
+[@stdlib/math/base/special/gcd]: https://github.com/stdlib-js/math-base-special-gcd
 
-[@stdlib/math/base/special/lucas]: https://github.com/stdlib-js/math-base-special-lucas/tree/esm
+[@stdlib/math/base/special/heaviside]: https://github.com/stdlib-js/math-base-special-heaviside
 
-[@stdlib/math/base/special/max]: https://github.com/stdlib-js/math-base-special-max/tree/esm
+[@stdlib/math/base/special/hypot]: https://github.com/stdlib-js/math-base-special-hypot
 
-[@stdlib/math/base/special/maxn]: https://github.com/stdlib-js/math-base-special-maxn/tree/esm
+[@stdlib/math/base/special/hypotf]: https://github.com/stdlib-js/math-base-special-hypotf
 
-[@stdlib/math/base/special/min]: https://github.com/stdlib-js/math-base-special-min/tree/esm
+[@stdlib/math/base/special/identity]: https://github.com/stdlib-js/math-base-special-identity
 
-[@stdlib/math/base/special/minmax]: https://github.com/stdlib-js/math-base-special-minmax/tree/esm
+[@stdlib/math/base/special/identityf]: https://github.com/stdlib-js/math-base-special-identityf
 
-[@stdlib/math/base/special/minmaxn]: https://github.com/stdlib-js/math-base-special-minmaxn/tree/esm
+[@stdlib/math/base/special/inv]: https://github.com/stdlib-js/math-base-special-inv
 
-[@stdlib/math/base/special/minn]: https://github.com/stdlib-js/math-base-special-minn/tree/esm
+[@stdlib/math/base/special/invf]: https://github.com/stdlib-js/math-base-special-invf
 
-[@stdlib/math/base/special/modf]: https://github.com/stdlib-js/math-base-special-modf/tree/esm
+[@stdlib/math/base/special/kronecker-delta]: https://github.com/stdlib-js/math-base-special-kronecker-delta
 
-[@stdlib/math/base/special/negafibonacci]: https://github.com/stdlib-js/math-base-special-negafibonacci/tree/esm
+[@stdlib/math/base/special/kronecker-deltaf]: https://github.com/stdlib-js/math-base-special-kronecker-deltaf
 
-[@stdlib/math/base/special/negalucas]: https://github.com/stdlib-js/math-base-special-negalucas/tree/esm
+[@stdlib/math/base/special/lcm]: https://github.com/stdlib-js/math-base-special-lcm
 
-[@stdlib/math/base/special/nonfibonacci]: https://github.com/stdlib-js/math-base-special-nonfibonacci/tree/esm
+[@stdlib/math/base/special/ldexp]: https://github.com/stdlib-js/math-base-special-ldexp
 
-[@stdlib/math/base/special/pdiff]: https://github.com/stdlib-js/math-base-special-pdiff/tree/esm
+[@stdlib/math/base/special/lucas]: https://github.com/stdlib-js/math-base-special-lucas
 
-[@stdlib/math/base/special/pdifff]: https://github.com/stdlib-js/math-base-special-pdifff/tree/esm
+[@stdlib/math/base/special/max]: https://github.com/stdlib-js/math-base-special-max
 
-[@stdlib/math/base/special/polygamma]: https://github.com/stdlib-js/math-base-special-polygamma/tree/esm
+[@stdlib/math/base/special/maxn]: https://github.com/stdlib-js/math-base-special-maxn
 
-[@stdlib/math/base/special/rad2deg]: https://github.com/stdlib-js/math-base-special-rad2deg/tree/esm
+[@stdlib/math/base/special/min]: https://github.com/stdlib-js/math-base-special-min
 
-[@stdlib/math/base/special/ramp]: https://github.com/stdlib-js/math-base-special-ramp/tree/esm
+[@stdlib/math/base/special/minmax]: https://github.com/stdlib-js/math-base-special-minmax
 
-[@stdlib/math/base/special/rampf]: https://github.com/stdlib-js/math-base-special-rampf/tree/esm
+[@stdlib/math/base/special/minmaxn]: https://github.com/stdlib-js/math-base-special-minmaxn
 
-[@stdlib/math/base/special/rcbrt]: https://github.com/stdlib-js/math-base-special-rcbrt/tree/esm
+[@stdlib/math/base/special/minn]: https://github.com/stdlib-js/math-base-special-minn
 
-[@stdlib/math/base/special/riemann-zeta]: https://github.com/stdlib-js/math-base-special-riemann-zeta/tree/esm
+[@stdlib/math/base/special/modf]: https://github.com/stdlib-js/math-base-special-modf
 
-[@stdlib/math/base/special/rsqrt]: https://github.com/stdlib-js/math-base-special-rsqrt/tree/esm
+[@stdlib/math/base/special/negafibonacci]: https://github.com/stdlib-js/math-base-special-negafibonacci
 
-[@stdlib/math/base/special/rsqrtf]: https://github.com/stdlib-js/math-base-special-rsqrtf/tree/esm
+[@stdlib/math/base/special/negalucas]: https://github.com/stdlib-js/math-base-special-negalucas
 
-[@stdlib/math/base/special/sici]: https://github.com/stdlib-js/math-base-special-sici/tree/esm
+[@stdlib/math/base/special/nonfibonacci]: https://github.com/stdlib-js/math-base-special-nonfibonacci
 
-[@stdlib/math/base/special/spence]: https://github.com/stdlib-js/math-base-special-spence/tree/esm
+[@stdlib/math/base/special/pdiff]: https://github.com/stdlib-js/math-base-special-pdiff
 
-[@stdlib/math/base/special/sqrt]: https://github.com/stdlib-js/math-base-special-sqrt/tree/esm
+[@stdlib/math/base/special/pdifff]: https://github.com/stdlib-js/math-base-special-pdifff
 
-[@stdlib/math/base/special/sqrt1pm1]: https://github.com/stdlib-js/math-base-special-sqrt1pm1/tree/esm
+[@stdlib/math/base/special/polygamma]: https://github.com/stdlib-js/math-base-special-polygamma
 
-[@stdlib/math/base/special/sqrtf]: https://github.com/stdlib-js/math-base-special-sqrtf/tree/esm
+[@stdlib/math/base/special/rad2deg]: https://github.com/stdlib-js/math-base-special-rad2deg
 
-[@stdlib/math/base/special/sqrtpi]: https://github.com/stdlib-js/math-base-special-sqrtpi/tree/esm
+[@stdlib/math/base/special/rad2degf]: https://github.com/stdlib-js/math-base-special-rad2degf
 
-[@stdlib/math/base/special/tribonacci]: https://github.com/stdlib-js/math-base-special-tribonacci/tree/esm
+[@stdlib/math/base/special/ramp]: https://github.com/stdlib-js/math-base-special-ramp
 
-[@stdlib/math/base/special/trigamma]: https://github.com/stdlib-js/math-base-special-trigamma/tree/esm
+[@stdlib/math/base/special/rampf]: https://github.com/stdlib-js/math-base-special-rampf
 
-[@stdlib/math/base/special/wrap]: https://github.com/stdlib-js/math-base-special-wrap/tree/esm
+[@stdlib/math/base/special/rcbrt]: https://github.com/stdlib-js/math-base-special-rcbrt
 
-[@stdlib/math/base/special/abs]: https://github.com/stdlib-js/math-base-special-abs/tree/esm
+[@stdlib/math/base/special/rcbrtf]: https://github.com/stdlib-js/math-base-special-rcbrtf
 
-[@stdlib/math/base/special/abs2]: https://github.com/stdlib-js/math-base-special-abs2/tree/esm
+[@stdlib/math/base/special/riemann-zeta]: https://github.com/stdlib-js/math-base-special-riemann-zeta
 
-[@stdlib/math/base/special/abs2f]: https://github.com/stdlib-js/math-base-special-abs2f/tree/esm
+[@stdlib/math/base/special/rsqrt]: https://github.com/stdlib-js/math-base-special-rsqrt
 
-[@stdlib/math/base/special/absf]: https://github.com/stdlib-js/math-base-special-absf/tree/esm
+[@stdlib/math/base/special/rsqrtf]: https://github.com/stdlib-js/math-base-special-rsqrtf
 
-[@stdlib/math/base/special/cabs]: https://github.com/stdlib-js/math-base-special-cabs/tree/esm
+[@stdlib/math/base/special/secd]: https://github.com/stdlib-js/math-base-special-secd
 
-[@stdlib/math/base/special/cabs2]: https://github.com/stdlib-js/math-base-special-cabs2/tree/esm
+[@stdlib/math/base/special/sici]: https://github.com/stdlib-js/math-base-special-sici
 
-[@stdlib/math/base/special/cabs2f]: https://github.com/stdlib-js/math-base-special-cabs2f/tree/esm
+[@stdlib/math/base/special/spence]: https://github.com/stdlib-js/math-base-special-spence
 
-[@stdlib/math/base/special/cabsf]: https://github.com/stdlib-js/math-base-special-cabsf/tree/esm
+[@stdlib/math/base/special/sqrt]: https://github.com/stdlib-js/math-base-special-sqrt
 
-[@stdlib/math/base/special/cceil]: https://github.com/stdlib-js/math-base-special-cceil/tree/esm
+[@stdlib/math/base/special/sqrt1pm1]: https://github.com/stdlib-js/math-base-special-sqrt1pm1
 
-[@stdlib/math/base/special/cceilf]: https://github.com/stdlib-js/math-base-special-cceilf/tree/esm
+[@stdlib/math/base/special/sqrtf]: https://github.com/stdlib-js/math-base-special-sqrtf
 
-[@stdlib/math/base/special/cceiln]: https://github.com/stdlib-js/math-base-special-cceiln/tree/esm
+[@stdlib/math/base/special/sqrtpi]: https://github.com/stdlib-js/math-base-special-sqrtpi
 
-[@stdlib/math/base/special/ceil]: https://github.com/stdlib-js/math-base-special-ceil/tree/esm
+[@stdlib/math/base/special/tribonacci]: https://github.com/stdlib-js/math-base-special-tribonacci
 
-[@stdlib/math/base/special/ceil10]: https://github.com/stdlib-js/math-base-special-ceil10/tree/esm
+[@stdlib/math/base/special/trigamma]: https://github.com/stdlib-js/math-base-special-trigamma
 
-[@stdlib/math/base/special/ceil2]: https://github.com/stdlib-js/math-base-special-ceil2/tree/esm
+[@stdlib/math/base/special/wrap]: https://github.com/stdlib-js/math-base-special-wrap
 
-[@stdlib/math/base/special/ceilb]: https://github.com/stdlib-js/math-base-special-ceilb/tree/esm
+[@stdlib/math/base/special/abs]: https://github.com/stdlib-js/math-base-special-abs
 
-[@stdlib/math/base/special/ceilf]: https://github.com/stdlib-js/math-base-special-ceilf/tree/esm
+[@stdlib/math/base/special/abs2]: https://github.com/stdlib-js/math-base-special-abs2
 
-[@stdlib/math/base/special/ceiln]: https://github.com/stdlib-js/math-base-special-ceiln/tree/esm
+[@stdlib/math/base/special/abs2f]: https://github.com/stdlib-js/math-base-special-abs2f
 
-[@stdlib/math/base/special/ceilsd]: https://github.com/stdlib-js/math-base-special-ceilsd/tree/esm
+[@stdlib/math/base/special/absf]: https://github.com/stdlib-js/math-base-special-absf
 
-[@stdlib/math/base/special/cfloor]: https://github.com/stdlib-js/math-base-special-cfloor/tree/esm
+[@stdlib/math/base/special/cabs]: https://github.com/stdlib-js/math-base-special-cabs
 
-[@stdlib/math/base/special/cfloorn]: https://github.com/stdlib-js/math-base-special-cfloorn/tree/esm
+[@stdlib/math/base/special/cabs2]: https://github.com/stdlib-js/math-base-special-cabs2
 
-[@stdlib/math/base/special/clamp]: https://github.com/stdlib-js/math-base-special-clamp/tree/esm
+[@stdlib/math/base/special/cabs2f]: https://github.com/stdlib-js/math-base-special-cabs2f
 
-[@stdlib/math/base/special/clampf]: https://github.com/stdlib-js/math-base-special-clampf/tree/esm
+[@stdlib/math/base/special/cabsf]: https://github.com/stdlib-js/math-base-special-cabsf
 
-[@stdlib/math/base/special/cround]: https://github.com/stdlib-js/math-base-special-cround/tree/esm
+[@stdlib/math/base/special/cceil]: https://github.com/stdlib-js/math-base-special-cceil
 
-[@stdlib/math/base/special/croundn]: https://github.com/stdlib-js/math-base-special-croundn/tree/esm
+[@stdlib/math/base/special/cceilf]: https://github.com/stdlib-js/math-base-special-cceilf
 
-[@stdlib/math/base/special/csignum]: https://github.com/stdlib-js/math-base-special-csignum/tree/esm
+[@stdlib/math/base/special/cceiln]: https://github.com/stdlib-js/math-base-special-cceiln
 
-[@stdlib/math/base/special/floor]: https://github.com/stdlib-js/math-base-special-floor/tree/esm
+[@stdlib/math/base/special/ceil]: https://github.com/stdlib-js/math-base-special-ceil
 
-[@stdlib/math/base/special/floor10]: https://github.com/stdlib-js/math-base-special-floor10/tree/esm
+[@stdlib/math/base/special/ceil10]: https://github.com/stdlib-js/math-base-special-ceil10
 
-[@stdlib/math/base/special/floor2]: https://github.com/stdlib-js/math-base-special-floor2/tree/esm
+[@stdlib/math/base/special/ceil2]: https://github.com/stdlib-js/math-base-special-ceil2
 
-[@stdlib/math/base/special/floorb]: https://github.com/stdlib-js/math-base-special-floorb/tree/esm
+[@stdlib/math/base/special/ceilb]: https://github.com/stdlib-js/math-base-special-ceilb
 
-[@stdlib/math/base/special/floorf]: https://github.com/stdlib-js/math-base-special-floorf/tree/esm
+[@stdlib/math/base/special/ceilf]: https://github.com/stdlib-js/math-base-special-ceilf
 
-[@stdlib/math/base/special/floorn]: https://github.com/stdlib-js/math-base-special-floorn/tree/esm
+[@stdlib/math/base/special/ceiln]: https://github.com/stdlib-js/math-base-special-ceiln
 
-[@stdlib/math/base/special/floorsd]: https://github.com/stdlib-js/math-base-special-floorsd/tree/esm
+[@stdlib/math/base/special/ceilsd]: https://github.com/stdlib-js/math-base-special-ceilsd
 
-[@stdlib/math/base/special/labs]: https://github.com/stdlib-js/math-base-special-labs/tree/esm
+[@stdlib/math/base/special/cfloor]: https://github.com/stdlib-js/math-base-special-cfloor
 
-[@stdlib/math/base/special/maxabs]: https://github.com/stdlib-js/math-base-special-maxabs/tree/esm
+[@stdlib/math/base/special/cfloorn]: https://github.com/stdlib-js/math-base-special-cfloorn
 
-[@stdlib/math/base/special/maxabsn]: https://github.com/stdlib-js/math-base-special-maxabsn/tree/esm
+[@stdlib/math/base/special/clamp]: https://github.com/stdlib-js/math-base-special-clamp
 
-[@stdlib/math/base/special/minabs]: https://github.com/stdlib-js/math-base-special-minabs/tree/esm
+[@stdlib/math/base/special/clampf]: https://github.com/stdlib-js/math-base-special-clampf
 
-[@stdlib/math/base/special/minabsn]: https://github.com/stdlib-js/math-base-special-minabsn/tree/esm
+[@stdlib/math/base/special/cround]: https://github.com/stdlib-js/math-base-special-cround
 
-[@stdlib/math/base/special/minmaxabs]: https://github.com/stdlib-js/math-base-special-minmaxabs/tree/esm
+[@stdlib/math/base/special/croundn]: https://github.com/stdlib-js/math-base-special-croundn
 
-[@stdlib/math/base/special/minmaxabsn]: https://github.com/stdlib-js/math-base-special-minmaxabsn/tree/esm
+[@stdlib/math/base/special/csignum]: https://github.com/stdlib-js/math-base-special-csignum
 
-[@stdlib/math/base/special/round]: https://github.com/stdlib-js/math-base-special-round/tree/esm
+[@stdlib/math/base/special/floor]: https://github.com/stdlib-js/math-base-special-floor
 
-[@stdlib/math/base/special/round10]: https://github.com/stdlib-js/math-base-special-round10/tree/esm
+[@stdlib/math/base/special/floor10]: https://github.com/stdlib-js/math-base-special-floor10
 
-[@stdlib/math/base/special/round2]: https://github.com/stdlib-js/math-base-special-round2/tree/esm
+[@stdlib/math/base/special/floor2]: https://github.com/stdlib-js/math-base-special-floor2
 
-[@stdlib/math/base/special/roundb]: https://github.com/stdlib-js/math-base-special-roundb/tree/esm
+[@stdlib/math/base/special/floorb]: https://github.com/stdlib-js/math-base-special-floorb
 
-[@stdlib/math/base/special/roundn]: https://github.com/stdlib-js/math-base-special-roundn/tree/esm
+[@stdlib/math/base/special/floorf]: https://github.com/stdlib-js/math-base-special-floorf
 
-[@stdlib/math/base/special/roundsd]: https://github.com/stdlib-js/math-base-special-roundsd/tree/esm
+[@stdlib/math/base/special/floorn]: https://github.com/stdlib-js/math-base-special-floorn
 
-[@stdlib/math/base/special/signum]: https://github.com/stdlib-js/math-base-special-signum/tree/esm
+[@stdlib/math/base/special/floorsd]: https://github.com/stdlib-js/math-base-special-floorsd
 
-[@stdlib/math/base/special/signumf]: https://github.com/stdlib-js/math-base-special-signumf/tree/esm
+[@stdlib/math/base/special/labs]: https://github.com/stdlib-js/math-base-special-labs
 
-[@stdlib/math/base/special/trunc]: https://github.com/stdlib-js/math-base-special-trunc/tree/esm
+[@stdlib/math/base/special/maxabs]: https://github.com/stdlib-js/math-base-special-maxabs
 
-[@stdlib/math/base/special/trunc10]: https://github.com/stdlib-js/math-base-special-trunc10/tree/esm
+[@stdlib/math/base/special/maxabsn]: https://github.com/stdlib-js/math-base-special-maxabsn
 
-[@stdlib/math/base/special/trunc2]: https://github.com/stdlib-js/math-base-special-trunc2/tree/esm
+[@stdlib/math/base/special/minabs]: https://github.com/stdlib-js/math-base-special-minabs
 
-[@stdlib/math/base/special/truncb]: https://github.com/stdlib-js/math-base-special-truncb/tree/esm
+[@stdlib/math/base/special/minabsn]: https://github.com/stdlib-js/math-base-special-minabsn
 
-[@stdlib/math/base/special/truncf]: https://github.com/stdlib-js/math-base-special-truncf/tree/esm
+[@stdlib/math/base/special/minmaxabs]: https://github.com/stdlib-js/math-base-special-minmaxabs
 
-[@stdlib/math/base/special/truncn]: https://github.com/stdlib-js/math-base-special-truncn/tree/esm
+[@stdlib/math/base/special/minmaxabsn]: https://github.com/stdlib-js/math-base-special-minmaxabsn
 
-[@stdlib/math/base/special/truncsd]: https://github.com/stdlib-js/math-base-special-truncsd/tree/esm
+[@stdlib/math/base/special/round]: https://github.com/stdlib-js/math-base-special-round
 
-[@stdlib/math/base/special/besselj0]: https://github.com/stdlib-js/math-base-special-besselj0/tree/esm
+[@stdlib/math/base/special/round10]: https://github.com/stdlib-js/math-base-special-round10
 
-[@stdlib/math/base/special/besselj1]: https://github.com/stdlib-js/math-base-special-besselj1/tree/esm
+[@stdlib/math/base/special/round2]: https://github.com/stdlib-js/math-base-special-round2
 
-[@stdlib/math/base/special/bessely0]: https://github.com/stdlib-js/math-base-special-bessely0/tree/esm
+[@stdlib/math/base/special/roundb]: https://github.com/stdlib-js/math-base-special-roundb
 
-[@stdlib/math/base/special/bessely1]: https://github.com/stdlib-js/math-base-special-bessely1/tree/esm
+[@stdlib/math/base/special/roundn]: https://github.com/stdlib-js/math-base-special-roundn
 
-[@stdlib/math/base/special/acos]: https://github.com/stdlib-js/math-base-special-acos/tree/esm
+[@stdlib/math/base/special/roundsd]: https://github.com/stdlib-js/math-base-special-roundsd
 
-[@stdlib/math/base/special/acosh]: https://github.com/stdlib-js/math-base-special-acosh/tree/esm
+[@stdlib/math/base/special/signum]: https://github.com/stdlib-js/math-base-special-signum
 
-[@stdlib/math/base/special/acovercos]: https://github.com/stdlib-js/math-base-special-acovercos/tree/esm
+[@stdlib/math/base/special/signumf]: https://github.com/stdlib-js/math-base-special-signumf
 
-[@stdlib/math/base/special/acoversin]: https://github.com/stdlib-js/math-base-special-acoversin/tree/esm
+[@stdlib/math/base/special/trunc]: https://github.com/stdlib-js/math-base-special-trunc
 
-[@stdlib/math/base/special/ahavercos]: https://github.com/stdlib-js/math-base-special-ahavercos/tree/esm
+[@stdlib/math/base/special/trunc10]: https://github.com/stdlib-js/math-base-special-trunc10
 
-[@stdlib/math/base/special/ahaversin]: https://github.com/stdlib-js/math-base-special-ahaversin/tree/esm
+[@stdlib/math/base/special/trunc2]: https://github.com/stdlib-js/math-base-special-trunc2
 
-[@stdlib/math/base/special/asin]: https://github.com/stdlib-js/math-base-special-asin/tree/esm
+[@stdlib/math/base/special/truncb]: https://github.com/stdlib-js/math-base-special-truncb
 
-[@stdlib/math/base/special/asinh]: https://github.com/stdlib-js/math-base-special-asinh/tree/esm
+[@stdlib/math/base/special/truncf]: https://github.com/stdlib-js/math-base-special-truncf
 
-[@stdlib/math/base/special/atan]: https://github.com/stdlib-js/math-base-special-atan/tree/esm
+[@stdlib/math/base/special/truncn]: https://github.com/stdlib-js/math-base-special-truncn
 
-[@stdlib/math/base/special/atan2]: https://github.com/stdlib-js/math-base-special-atan2/tree/esm
+[@stdlib/math/base/special/truncsd]: https://github.com/stdlib-js/math-base-special-truncsd
 
-[@stdlib/math/base/special/atanh]: https://github.com/stdlib-js/math-base-special-atanh/tree/esm
+[@stdlib/math/base/special/besselj0]: https://github.com/stdlib-js/math-base-special-besselj0
 
-[@stdlib/math/base/special/avercos]: https://github.com/stdlib-js/math-base-special-avercos/tree/esm
+[@stdlib/math/base/special/besselj1]: https://github.com/stdlib-js/math-base-special-besselj1
 
-[@stdlib/math/base/special/aversin]: https://github.com/stdlib-js/math-base-special-aversin/tree/esm
+[@stdlib/math/base/special/bessely0]: https://github.com/stdlib-js/math-base-special-bessely0
 
-[@stdlib/math/base/special/cos]: https://github.com/stdlib-js/math-base-special-cos/tree/esm
+[@stdlib/math/base/special/bessely1]: https://github.com/stdlib-js/math-base-special-bessely1
 
-[@stdlib/math/base/special/cosh]: https://github.com/stdlib-js/math-base-special-cosh/tree/esm
+[@stdlib/math/base/special/acos]: https://github.com/stdlib-js/math-base-special-acos
 
-[@stdlib/math/base/special/cosm1]: https://github.com/stdlib-js/math-base-special-cosm1/tree/esm
+[@stdlib/math/base/special/acosd]: https://github.com/stdlib-js/math-base-special-acosd
 
-[@stdlib/math/base/special/cospi]: https://github.com/stdlib-js/math-base-special-cospi/tree/esm
+[@stdlib/math/base/special/acosf]: https://github.com/stdlib-js/math-base-special-acosf
 
-[@stdlib/math/base/special/covercos]: https://github.com/stdlib-js/math-base-special-covercos/tree/esm
+[@stdlib/math/base/special/acosh]: https://github.com/stdlib-js/math-base-special-acosh
 
-[@stdlib/math/base/special/coversin]: https://github.com/stdlib-js/math-base-special-coversin/tree/esm
+[@stdlib/math/base/special/acovercos]: https://github.com/stdlib-js/math-base-special-acovercos
 
-[@stdlib/math/base/special/hacovercos]: https://github.com/stdlib-js/math-base-special-hacovercos/tree/esm
+[@stdlib/math/base/special/acoversin]: https://github.com/stdlib-js/math-base-special-acoversin
 
-[@stdlib/math/base/special/hacoversin]: https://github.com/stdlib-js/math-base-special-hacoversin/tree/esm
+[@stdlib/math/base/special/ahavercos]: https://github.com/stdlib-js/math-base-special-ahavercos
 
-[@stdlib/math/base/special/havercos]: https://github.com/stdlib-js/math-base-special-havercos/tree/esm
+[@stdlib/math/base/special/ahaversin]: https://github.com/stdlib-js/math-base-special-ahaversin
 
-[@stdlib/math/base/special/haversin]: https://github.com/stdlib-js/math-base-special-haversin/tree/esm
+[@stdlib/math/base/special/asin]: https://github.com/stdlib-js/math-base-special-asin
 
-[@stdlib/math/base/special/rising-factorial]: https://github.com/stdlib-js/math-base-special-rising-factorial/tree/esm
+[@stdlib/math/base/special/asind]: https://github.com/stdlib-js/math-base-special-asind
 
-[@stdlib/math/base/special/sin]: https://github.com/stdlib-js/math-base-special-sin/tree/esm
+[@stdlib/math/base/special/asindf]: https://github.com/stdlib-js/math-base-special-asindf
 
-[@stdlib/math/base/special/sinc]: https://github.com/stdlib-js/math-base-special-sinc/tree/esm
+[@stdlib/math/base/special/asinf]: https://github.com/stdlib-js/math-base-special-asinf
 
-[@stdlib/math/base/special/sincos]: https://github.com/stdlib-js/math-base-special-sincos/tree/esm
+[@stdlib/math/base/special/asinh]: https://github.com/stdlib-js/math-base-special-asinh
 
-[@stdlib/math/base/special/sincospi]: https://github.com/stdlib-js/math-base-special-sincospi/tree/esm
+[@stdlib/math/base/special/atan]: https://github.com/stdlib-js/math-base-special-atan
 
-[@stdlib/math/base/special/sinh]: https://github.com/stdlib-js/math-base-special-sinh/tree/esm
+[@stdlib/math/base/special/atan2]: https://github.com/stdlib-js/math-base-special-atan2
 
-[@stdlib/math/base/special/sinpi]: https://github.com/stdlib-js/math-base-special-sinpi/tree/esm
+[@stdlib/math/base/special/atand]: https://github.com/stdlib-js/math-base-special-atand
 
-[@stdlib/math/base/special/tan]: https://github.com/stdlib-js/math-base-special-tan/tree/esm
+[@stdlib/math/base/special/atanf]: https://github.com/stdlib-js/math-base-special-atanf
 
-[@stdlib/math/base/special/tanh]: https://github.com/stdlib-js/math-base-special-tanh/tree/esm
+[@stdlib/math/base/special/atanh]: https://github.com/stdlib-js/math-base-special-atanh
 
-[@stdlib/math/base/special/vercos]: https://github.com/stdlib-js/math-base-special-vercos/tree/esm
+[@stdlib/math/base/special/avercos]: https://github.com/stdlib-js/math-base-special-avercos
 
-[@stdlib/math/base/special/versin]: https://github.com/stdlib-js/math-base-special-versin/tree/esm
+[@stdlib/math/base/special/aversin]: https://github.com/stdlib-js/math-base-special-aversin
 
-[@stdlib/math/base/special/exp]: https://github.com/stdlib-js/math-base-special-exp/tree/esm
+[@stdlib/math/base/special/cos]: https://github.com/stdlib-js/math-base-special-cos
 
-[@stdlib/math/base/special/exp10]: https://github.com/stdlib-js/math-base-special-exp10/tree/esm
+[@stdlib/math/base/special/cosd]: https://github.com/stdlib-js/math-base-special-cosd
 
-[@stdlib/math/base/special/exp2]: https://github.com/stdlib-js/math-base-special-exp2/tree/esm
+[@stdlib/math/base/special/cosh]: https://github.com/stdlib-js/math-base-special-cosh
 
-[@stdlib/math/base/special/expit]: https://github.com/stdlib-js/math-base-special-expit/tree/esm
+[@stdlib/math/base/special/cosm1]: https://github.com/stdlib-js/math-base-special-cosm1
 
-[@stdlib/math/base/special/expm1]: https://github.com/stdlib-js/math-base-special-expm1/tree/esm
+[@stdlib/math/base/special/cospi]: https://github.com/stdlib-js/math-base-special-cospi
 
-[@stdlib/math/base/special/expm1rel]: https://github.com/stdlib-js/math-base-special-expm1rel/tree/esm
+[@stdlib/math/base/special/covercos]: https://github.com/stdlib-js/math-base-special-covercos
 
-[@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln/tree/esm
+[@stdlib/math/base/special/coversin]: https://github.com/stdlib-js/math-base-special-coversin
 
-[@stdlib/math/base/special/log]: https://github.com/stdlib-js/math-base-special-log/tree/esm
+[@stdlib/math/base/special/hacovercos]: https://github.com/stdlib-js/math-base-special-hacovercos
 
-[@stdlib/math/base/special/log10]: https://github.com/stdlib-js/math-base-special-log10/tree/esm
+[@stdlib/math/base/special/hacoversin]: https://github.com/stdlib-js/math-base-special-hacoversin
 
-[@stdlib/math/base/special/log1mexp]: https://github.com/stdlib-js/math-base-special-log1mexp/tree/esm
+[@stdlib/math/base/special/havercos]: https://github.com/stdlib-js/math-base-special-havercos
 
-[@stdlib/math/base/special/log1p]: https://github.com/stdlib-js/math-base-special-log1p/tree/esm
+[@stdlib/math/base/special/haversin]: https://github.com/stdlib-js/math-base-special-haversin
 
-[@stdlib/math/base/special/log1pexp]: https://github.com/stdlib-js/math-base-special-log1pexp/tree/esm
+[@stdlib/math/base/special/rising-factorial]: https://github.com/stdlib-js/math-base-special-rising-factorial
 
-[@stdlib/math/base/special/log1pmx]: https://github.com/stdlib-js/math-base-special-log1pmx/tree/esm
+[@stdlib/math/base/special/sin]: https://github.com/stdlib-js/math-base-special-sin
 
-[@stdlib/math/base/special/log2]: https://github.com/stdlib-js/math-base-special-log2/tree/esm
+[@stdlib/math/base/special/sinc]: https://github.com/stdlib-js/math-base-special-sinc
 
-[@stdlib/math/base/special/logaddexp]: https://github.com/stdlib-js/math-base-special-logaddexp/tree/esm
+[@stdlib/math/base/special/sincos]: https://github.com/stdlib-js/math-base-special-sincos
 
-[@stdlib/math/base/special/pow]: https://github.com/stdlib-js/math-base-special-pow/tree/esm
+[@stdlib/math/base/special/sincospi]: https://github.com/stdlib-js/math-base-special-sincospi
 
-[@stdlib/math/base/special/powm1]: https://github.com/stdlib-js/math-base-special-powm1/tree/esm
+[@stdlib/math/base/special/sinh]: https://github.com/stdlib-js/math-base-special-sinh
 
-[@stdlib/math/base/special/xlog1py]: https://github.com/stdlib-js/math-base-special-xlog1py/tree/esm
+[@stdlib/math/base/special/sinpi]: https://github.com/stdlib-js/math-base-special-sinpi
 
-[@stdlib/math/base/special/xlogy]: https://github.com/stdlib-js/math-base-special-xlogy/tree/esm
+[@stdlib/math/base/special/tan]: https://github.com/stdlib-js/math-base-special-tan
+
+[@stdlib/math/base/special/tand]: https://github.com/stdlib-js/math-base-special-tand
+
+[@stdlib/math/base/special/tanh]: https://github.com/stdlib-js/math-base-special-tanh
+
+[@stdlib/math/base/special/vercos]: https://github.com/stdlib-js/math-base-special-vercos
+
+[@stdlib/math/base/special/versin]: https://github.com/stdlib-js/math-base-special-versin
+
+[@stdlib/math/base/special/exp]: https://github.com/stdlib-js/math-base-special-exp
+
+[@stdlib/math/base/special/exp10]: https://github.com/stdlib-js/math-base-special-exp10
+
+[@stdlib/math/base/special/exp2]: https://github.com/stdlib-js/math-base-special-exp2
+
+[@stdlib/math/base/special/expit]: https://github.com/stdlib-js/math-base-special-expit
+
+[@stdlib/math/base/special/expm1]: https://github.com/stdlib-js/math-base-special-expm1
+
+[@stdlib/math/base/special/expm1rel]: https://github.com/stdlib-js/math-base-special-expm1rel
+
+[@stdlib/math/base/special/kernel-log1p]: https://github.com/stdlib-js/math-base-special-kernel-log1p
+
+[@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln
+
+[@stdlib/math/base/special/log]: https://github.com/stdlib-js/math-base-special-log
+
+[@stdlib/math/base/special/log10]: https://github.com/stdlib-js/math-base-special-log10
+
+[@stdlib/math/base/special/log1mexp]: https://github.com/stdlib-js/math-base-special-log1mexp
+
+[@stdlib/math/base/special/log1p]: https://github.com/stdlib-js/math-base-special-log1p
+
+[@stdlib/math/base/special/log1pexp]: https://github.com/stdlib-js/math-base-special-log1pexp
+
+[@stdlib/math/base/special/log1pmx]: https://github.com/stdlib-js/math-base-special-log1pmx
+
+[@stdlib/math/base/special/log2]: https://github.com/stdlib-js/math-base-special-log2
+
+[@stdlib/math/base/special/logaddexp]: https://github.com/stdlib-js/math-base-special-logaddexp
+
+[@stdlib/math/base/special/pow]: https://github.com/stdlib-js/math-base-special-pow
+
+[@stdlib/math/base/special/powm1]: https://github.com/stdlib-js/math-base-special-powm1
+
+[@stdlib/math/base/special/xlog1py]: https://github.com/stdlib-js/math-base-special-xlog1py
+
+[@stdlib/math/base/special/xlogy]: https://github.com/stdlib-js/math-base-special-xlogy
 
 <!-- </toc-links> -->
 
