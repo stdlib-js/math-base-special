@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-07)
+## Unreleased (2024-06-13)
 
 <section class="packages">
 
@@ -1317,6 +1317,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-cos-unreleased">
+
+#### [@stdlib/math/base/special/cos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cos)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`343da6f`](https://github.com/stdlib-js/stdlib/commit/343da6faa466294331be4befd603fde2faa83503) - add C implementation for `math/base/special/cos`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-cosd-unreleased">
 
 #### [@stdlib/math/base/special/cosd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cosd)
@@ -1427,6 +1449,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-coversin-unreleased">
+
+#### [@stdlib/math/base/special/coversin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/coversin)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`3cf2e89`](https://github.com/stdlib-js/stdlib/commit/3cf2e897adf5128f94bd7279e88ca9d42dfe7caa) - add C implementation for `math/base/special/coversin` [(##2361)](#2361)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-cphase-unreleased">
 
 #### [@stdlib/math/base/special/cphase](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cphase)
@@ -1525,6 +1569,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`fdba877`](https://github.com/stdlib-js/stdlib/commit/fdba877adb81859aa87b72685f19a8921d4dd8db) - add C implementation for `math/base/special/csc` [(##2367)](#2367 )
 -   [`b60ef62`](https://github.com/stdlib-js/stdlib/commit/b60ef6245ac44dbef3076f1122e91f4aa8406e6c) - add `math/base/special/csc`
 
 </section>
@@ -2542,6 +2587,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-lnf-unreleased">
+
+#### [@stdlib/math/base/special/lnf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/lnf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b6edfd8`](https://github.com/stdlib-js/stdlib/commit/b6edfd8f1953792320b89f18ff4d059dceec3631) - add `math/base/special/lnf`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-log-unreleased">
 
 #### [@stdlib/math/base/special/log](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/log)
@@ -2958,6 +3025,60 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-nanmax-unreleased">
+
+#### [@stdlib/math/base/special/nanmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/nanmax)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`bffee89`](https://github.com/stdlib-js/stdlib/commit/bffee891fd783eebc475e8ecefa035025df7f2dd) - add `math/base/special/nanmax`
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`a4dee7d`](https://github.com/stdlib-js/stdlib/commit/a4dee7d62df7875184dfc8fc3212afe086587353) - move repl.txt file and address feedback
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-nanmin-unreleased">
+
+#### [@stdlib/math/base/special/nanmin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/nanmin)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a985cc2`](https://github.com/stdlib-js/stdlib/commit/a985cc224aa74759783c5c4d9577769a36ed818f) - add `math/base/special/nanmin`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-negafibonacci-unreleased">
 
 #### [@stdlib/math/base/special/negafibonacci](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/negafibonacci)
@@ -3080,6 +3201,38 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-rempio2-unreleased">
+
+#### [@stdlib/math/base/special/rempio2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/rempio2)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`0b633eb`](https://github.com/stdlib-js/stdlib/commit/0b633eb2afe0641b963621048a3ce93795c8d92b) - add C implementation for `math/base/special/rempio2`
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`ae92cf0`](https://github.com/stdlib-js/stdlib/commit/ae92cf0e2ff55d9e0d490ece6bd32eb8da0506a9) - use significand mask in `math/base/special/rempio2` [(##2366)](#2366)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-round-unreleased">
 
 #### [@stdlib/math/base/special/round](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/round)
@@ -3145,6 +3298,28 @@ This release closes the following issue:
 ##### Features
 
 -   [`58e8c9a`](https://github.com/stdlib-js/stdlib/commit/58e8c9a6ceb0573af6906d96b49327802fec4604) - add `math/base/special/secd`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-sin-unreleased">
+
+#### [@stdlib/math/base/special/sin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/sin)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ddf4bdb`](https://github.com/stdlib-js/stdlib/commit/ddf4bdb3e92d8817fa57bdefe8d375f40b4abdfa) - add C implementation for `math/base/special/sin`
 
 </section>
 
@@ -3386,7 +3561,7 @@ A total of 22 issues were closed in this release:
 
 ### Contributors
 
-A total of 21 people contributed to this release. Thank you to the following contributors:
+A total of 23 people contributed to this release. Thank you to the following contributors:
 
 -   Adarsh Palaskar
 -   Aman Bhansali
@@ -3403,6 +3578,8 @@ A total of 21 people contributed to this release. Thank you to the following con
 -   Pranavchiku
 -   Pushpendra Chandravanshi
 -   Rejoan Sardar
+-   Ridam Garg
+-   RidamGarg
 -   Rutam
 -   Sai Srikar Dumpeti
 -   Shashank Shekhar Singh
@@ -3420,6 +3597,25 @@ A total of 21 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`822491d`](https://github.com/stdlib-js/stdlib/commit/822491dd173e2ca1195c4b4f4600419f55b5ee15) - **docs:** fix function signature in table of contents [(##2371)](#2371 ) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`fdba877`](https://github.com/stdlib-js/stdlib/commit/fdba877adb81859aa87b72685f19a8921d4dd8db) - **feat:** add C implementation for `math/base/special/csc` [(##2367)](#2367 ) _(by Gunj Joshi)_
+-   [`ae92cf0`](https://github.com/stdlib-js/stdlib/commit/ae92cf0e2ff55d9e0d490ece6bd32eb8da0506a9) - **fix:** use significand mask in `math/base/special/rempio2` [(##2366)](#2366) _(by Gunj Joshi)_
+-   [`9df1610`](https://github.com/stdlib-js/stdlib/commit/9df16105aa2d89808d3395c610334ca9cce35b3c) - **docs:** remove long comment [(##2634)](#2634) _(by Gunj Joshi)_
+-   [`3cf2e89`](https://github.com/stdlib-js/stdlib/commit/3cf2e897adf5128f94bd7279e88ca9d42dfe7caa) - **feat:** add C implementation for `math/base/special/coversin` [(##2361)](#2361) _(by Gunj Joshi)_
+-   [`34bc79c`](https://github.com/stdlib-js/stdlib/commit/34bc79cf154e0c82320c4a60c2cc805434a4b6e6) - **chore:** delete extra repl.txt file _(by Philipp Burckhardt)_
+-   [`a4dee7d`](https://github.com/stdlib-js/stdlib/commit/a4dee7d62df7875184dfc8fc3212afe086587353) - **fix:** move repl.txt file and address feedback _(by Philipp Burckhardt)_
+-   [`a7e5bb3`](https://github.com/stdlib-js/stdlib/commit/a7e5bb34eb13a2f774dd4e6840854266215b1264) - **chore:** update line endings _(by Philipp Burckhardt)_
+-   [`bffee89`](https://github.com/stdlib-js/stdlib/commit/bffee891fd783eebc475e8ecefa035025df7f2dd) - **feat:** add `math/base/special/nanmax` _(by Ridam Garg, stdlib-bot, Philipp Burckhardt)_
+-   [`46ff6c1`](https://github.com/stdlib-js/stdlib/commit/46ff6c17fe80cb1a7e153ac1fc728d6dab2195cf) - **docs:** update description per conventions _(by Philipp Burckhardt)_
+-   [`29fbbb6`](https://github.com/stdlib-js/stdlib/commit/29fbbb62d94cb2af1d8856004b75c03daf942053) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`fb04f19`](https://github.com/stdlib-js/stdlib/commit/fb04f1968006f8bee36735f9b71d857f478bb6c1) - **refactor:** reduce test tolerance and fix casting [(#2356)](https://github.com/stdlib-js/stdlib/pull/2356) _(by Gunj Joshi)_
+-   [`ced30b0`](https://github.com/stdlib-js/stdlib/commit/ced30b0e285117ad5bcdf6cc940329aadc826e21) - **refactor:** use constant packages and remove unused include [(#2355)](https://github.com/stdlib-js/stdlib/pull/2355) _(by Gunj Joshi)_
+-   [`343da6f`](https://github.com/stdlib-js/stdlib/commit/343da6faa466294331be4befd603fde2faa83503) - **feat:** add C implementation for `math/base/special/cos` _(by Gunj Joshi, Philipp Burckhardt)_
+-   [`a985cc2`](https://github.com/stdlib-js/stdlib/commit/a985cc224aa74759783c5c4d9577769a36ed818f) - **feat:** add `math/base/special/nanmin` _(by Ridam Garg, RidamGarg, stdlib-bot, Philipp Burckhardt)_
+-   [`ddf4bdb`](https://github.com/stdlib-js/stdlib/commit/ddf4bdb3e92d8817fa57bdefe8d375f40b4abdfa) - **feat:** add C implementation for `math/base/special/sin` _(by Gunj Joshi, Philipp Burckhardt)_
+-   [`b6edfd8`](https://github.com/stdlib-js/stdlib/commit/b6edfd8f1953792320b89f18ff4d059dceec3631) - **feat:** add `math/base/special/lnf` _(by Gunj Joshi, Philipp Burckhardt)_
+-   [`0b633eb`](https://github.com/stdlib-js/stdlib/commit/0b633eb2afe0641b963621048a3ce93795c8d92b) - **feat:** add C implementation for `math/base/special/rempio2` _(by Gunj Joshi, Philipp Burckhardt, Athan Reines)_
+-   [`1b5abe6`](https://github.com/stdlib-js/stdlib/commit/1b5abe6cb97ca371aeeae5ef5e39e9ef20898e52) - **chore:** update package meta data [(#2344)](https://github.com/stdlib-js/stdlib/pull/2344) _(by stdlib-bot, Athan Reines)_
 -   [`e612af5`](https://github.com/stdlib-js/stdlib/commit/e612af58d0e5374e3ed17f0278d2538aec9b37e1) - **docs:** update namespace table of contents [(#2314)](https://github.com/stdlib-js/stdlib/pull/2314) _(by stdlib-bot, Athan Reines)_
 -   [`95cd4ef`](https://github.com/stdlib-js/stdlib/commit/95cd4ef83e181ffbf50aeef1a6e44e14338d1261) - **docs:** update namespace TypeScript declarations [(#2312)](https://github.com/stdlib-js/stdlib/pull/2312) _(by stdlib-bot, Athan Reines)_
 -   [`e382574`](https://github.com/stdlib-js/stdlib/commit/e3825741e7ba30619c392ce88c5236d3b6454899) - **feat:** add C implementation for `math/base/special/spence` [(#2298)](https://github.com/stdlib-js/stdlib/pull/2298) _(by Gunj Joshi, Athan Reines, Philipp Burckhardt)_
