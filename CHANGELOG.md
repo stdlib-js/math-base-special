@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-14)
+## Unreleased (2024-07-18)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`81b48ae`](https://github.com/stdlib-js/stdlib/commit/81b48aeb9d5d2b16fe039f9db7e710c95a35585f) - update namespace TypeScript declarations [(##2621)](#2621)
 -   [`09618b7`](https://github.com/stdlib-js/stdlib/commit/09618b7064d674d3e4afd1f67d877b1388098784) - update namespace TypeScript declarations
 -   [`44d752e`](https://github.com/stdlib-js/stdlib/commit/44d752efc62e7aa8cd05690a117c58de029aafc8) - add new special functions to `math/base/special` namespace
 
@@ -987,6 +988,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-beta-unreleased">
+
+#### [@stdlib/math/base/special/beta](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/beta)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d4fd701`](https://github.com/stdlib-js/stdlib/commit/d4fd701ae65d28edea1410a6f5a757ac39214f68) - add C implementation for `math/base/special/beta`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-boxcox-unreleased">
 
 #### [@stdlib/math/base/special/boxcox](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/boxcox)
@@ -1185,6 +1208,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-ceil2-unreleased">
+
+#### [@stdlib/math/base/special/ceil2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/ceil2)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`06fd785`](https://github.com/stdlib-js/stdlib/commit/06fd785919d2ef770b5a2bffd69dd4d3c36e8294) - add C implementation for `math/base/special/ceil2` [(##2602)](#2602)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-cexp-unreleased">
 
 #### [@stdlib/math/base/special/cexp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cexp)
@@ -1349,6 +1394,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`c811882`](https://github.com/stdlib-js/stdlib/commit/c8118827f71ca602ccfea2721df03afbbd3857e5) - add C implementation for `math/base/special/cosd` [(##2393)](#2393)
 -   [`0b0e240`](https://github.com/stdlib-js/stdlib/commit/0b0e240f6959ac1dae3bc00fe42b9930eb887e93) - add `math/base/special/cosd`
 
 </section>
@@ -1383,6 +1429,50 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-cospi-unreleased">
+
+#### [@stdlib/math/base/special/cospi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cospi)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`58da03b`](https://github.com/stdlib-js/stdlib/commit/58da03b9aae58c600fc67d46e396ac6f1e2de1d0) - add C implementation for `math/base/special/cospi` [(##2612)](#2612)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-cot-unreleased">
+
+#### [@stdlib/math/base/special/cot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cot)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8304a04`](https://github.com/stdlib-js/stdlib/commit/8304a041c10450a797c64c2fffafc6b0e4bd1a04) - add C implementation for `math/base/special/cot`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-cotd-unreleased">
 
 #### [@stdlib/math/base/special/cotd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cotd)
@@ -1393,6 +1483,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`c9ab1f2`](https://github.com/stdlib-js/stdlib/commit/c9ab1f2313cac54672d24e82665a13ff37b79a93) - add C implementation for `math/base/special/cotd` [(##2443)](#2443)
 -   [`c5e01bf`](https://github.com/stdlib-js/stdlib/commit/c5e01bf5b7718ded999fa1f4841407ed27bfdfc1) - add `math/base/special/cotd`
 
 </section>
@@ -1442,6 +1533,28 @@ This release closes the following issue:
 </section>
 
 <!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-covercos-unreleased">
+
+#### [@stdlib/math/base/special/covercos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/covercos)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`7b85db8`](https://github.com/stdlib-js/stdlib/commit/7b85db803f6a6bce2999bfe8b2513edb08e15a67) - add C implementation for `math/base/special/covercos` [(##2377)](#2377)
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -1592,6 +1705,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`e7938d9`](https://github.com/stdlib-js/stdlib/commit/e7938d964046b7a61dbc89d23f39daebf4545a47) - add C implementation for `math/base/special/cscd` [(##2378)](#2378)
 -   [`bb6ac7e`](https://github.com/stdlib-js/stdlib/commit/bb6ac7ec68ee6a78cffd9527e477a2bc0fdcdf17) - add `math/base/special/cscd`
 
 </section>
@@ -1653,6 +1767,28 @@ This release closes the following issue:
 </section>
 
 <!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-digamma-unreleased">
+
+#### [@stdlib/math/base/special/digamma](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/digamma)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`337adbf`](https://github.com/stdlib-js/stdlib/commit/337adbf93822a5ab1adb5256594855e344e9414c) - add C implementation for `math/base/special/digamma` [(##2533)](#2533 )
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -1815,6 +1951,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-erfinv-unreleased">
+
+#### [@stdlib/math/base/special/erfinv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/erfinv)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`7ddca8e`](https://github.com/stdlib-js/stdlib/commit/7ddca8e7270b9d325d8047524a62381fb56dfc5e) - add C implementation for `math/base/special/erfinv`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-exp-unreleased">
 
 #### [@stdlib/math/base/special/exp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/exp)
@@ -1940,6 +2098,28 @@ This release closes the following issue:
 </section>
 
 <!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-factorial-unreleased">
+
+#### [@stdlib/math/base/special/factorial](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/factorial)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`cc98b20`](https://github.com/stdlib-js/stdlib/commit/cc98b20ab91590c526896d547e447f107fc714aa) - add C implementation for `math/base/special/factorial` [(##2618)](#2618 )
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -2299,6 +2479,151 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-floor10-unreleased">
+
+#### [@stdlib/math/base/special/floor10](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/floor10)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`1f99cd7`](https://github.com/stdlib-js/stdlib/commit/1f99cd7f06bd5e3027f29c6d816ea39e8624cab1) - add C implementation for `math/base/special/floor10` [(##2619)](#2619)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-floor2-unreleased">
+
+#### [@stdlib/math/base/special/floor2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/floor2)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`82c8ae0`](https://github.com/stdlib-js/stdlib/commit/82c8ae03edea7886ce0f67ca6e1c2a3028ef8fd9) - add C implementation for `math/base/special/floor2`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-floorb-unreleased">
+
+#### [@stdlib/math/base/special/floorb](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/floorb)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`dcb1b32`](https://github.com/stdlib-js/stdlib/commit/dcb1b32226e846c8c5219507bc30dce3bbcf19d2) - add C implementation for `math/base/special/floorb` [(##2620)](#2620)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-floorsd-unreleased">
+
+#### [@stdlib/math/base/special/floorsd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/floorsd)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`fe25386`](https://github.com/stdlib-js/stdlib/commit/fe25386fdcdbb684dc96990ba12171d5bf62df6d) - add C implementation for `math/base/special/floorsd` [(##2603)](#2603)
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`691e774`](https://github.com/stdlib-js/stdlib/commit/691e774930ab3d983998e53ad16dbf4bd5eb0c76): make base parameter compulsory in `math/base/special/floorsd`
+-   [`691e774`](https://github.com/stdlib-js/stdlib/commit/691e774930ab3d983998e53ad16dbf4bd5eb0c76): The base parameter must now be provided explicitly.  
+
+    -   Previously, the base parameter had a default value of 10. Now it has to be supplied explicitly.
+    Before:
+    ```
+    var v = floorsd( 3.141592653589793, 5 );
+    // returns 3.1415
+    ```
+    After:
+    ```
+    var v = floorsd( 3.141592653589793, 5, 10 );
+    // returns 3.1415
+    ```
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-fmod-unreleased">
+
+#### [@stdlib/math/base/special/fmod](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fmod)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8558d86`](https://github.com/stdlib-js/stdlib/commit/8558d869aed0f22f0fbdcd54321c5058c954df89) - add `math/base/special/fmod` [(##2562)](#2562)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[##2405](#2405)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-frexp-unreleased">
 
 #### [@stdlib/math/base/special/frexp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/frexp)
@@ -2314,6 +2639,28 @@ This release closes the following issue:
 </section>
 
 <!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-gamma-unreleased">
+
+#### [@stdlib/math/base/special/gamma](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/gamma)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`35af244`](https://github.com/stdlib-js/stdlib/commit/35af24442f634296da8248552f307229b1214c08) - add C implementation for `math/base/special/gamma`
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -2426,6 +2773,94 @@ This release closes the following issue:
 </section>
 
 <!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-hacovercos-unreleased">
+
+#### [@stdlib/math/base/special/hacovercos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/hacovercos)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d07c8ff`](https://github.com/stdlib-js/stdlib/commit/d07c8ffc9328edf8c4acb24029f13d2e37575fae) - add C implementation for `math/base/special/hacovercos` [(##2388)](#2388)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-hacoversin-unreleased">
+
+#### [@stdlib/math/base/special/hacoversin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/hacoversin)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`806075b`](https://github.com/stdlib-js/stdlib/commit/806075b124d1ab4fb7a541c117e0c7b6399a08b9) - add C implementation for `math/base/special/hacoversin` [(##2387)](#2387)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-havercos-unreleased">
+
+#### [@stdlib/math/base/special/havercos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/havercos)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d0f9748`](https://github.com/stdlib-js/stdlib/commit/d0f97483ab6edaf668b7693dd7b96d527823f14b) - add C implementation for `math/base/special/havercos` [(##2410)](#2410 )
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-haversin-unreleased">
+
+#### [@stdlib/math/base/special/haversin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/haversin)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a50d33d`](https://github.com/stdlib-js/stdlib/commit/a50d33db8b44799d80958be0403f1315389b9c7c) - add C implementation for `math/base/special/haversin` [(##2408)](#2408)
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -3123,6 +3558,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-pow-unreleased">
+
+#### [@stdlib/math/base/special/pow](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/pow)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4a0235a`](https://github.com/stdlib-js/stdlib/commit/4a0235a063e46d679253b6511fe7e9dbd4a9d625) - add C implementation for `math/base/special/pow`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-rad2deg-unreleased">
 
 #### [@stdlib/math/base/special/rad2deg](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/rad2deg)
@@ -3265,6 +3722,72 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-round10-unreleased">
+
+#### [@stdlib/math/base/special/round10](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/round10)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`dbef328`](https://github.com/stdlib-js/stdlib/commit/dbef3280431240b7a2cc358a54923481115adb24) - add C implementation for `math/base/special/round10`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-round2-unreleased">
+
+#### [@stdlib/math/base/special/round2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/round2)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`efc3551`](https://github.com/stdlib-js/stdlib/commit/efc3551764c30c6cae9a48058cae2868d4055190) - add C implementation for `math/base/special/round2` [(##2537)](#2537)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-roundb-unreleased">
+
+#### [@stdlib/math/base/special/roundb](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/roundb)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`2e723fb`](https://github.com/stdlib-js/stdlib/commit/2e723fbb6e3acfca2d0d413c26c96a207a616636) - add C implementation for `math/base/special/roundb`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-roundn-unreleased">
 
 #### [@stdlib/math/base/special/roundn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/roundn)
@@ -3297,6 +3820,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`60ed341`](https://github.com/stdlib-js/stdlib/commit/60ed34151e9e36c332da8fdca5ad187d6f38c3df) - add C implementation for `math/base/special/secd` [(##2406)](#2406)
 -   [`58e8c9a`](https://github.com/stdlib-js/stdlib/commit/58e8c9a6ceb0573af6906d96b49327802fec4604) - add `math/base/special/secd`
 
 </section>
@@ -3346,6 +3870,28 @@ This release closes the following issue:
 </section>
 
 <!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-sinpi-unreleased">
+
+#### [@stdlib/math/base/special/sinpi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/sinpi)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d6c4251`](https://github.com/stdlib-js/stdlib/commit/d6c4251492f60d2a3871e679fb67a35c57973056) - add C implementation for `math/base/special/sinpi` [(##2610)](#2610)
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -3463,6 +4009,7 @@ A total of 2 issues were closed in this release:
 
 ##### Features
 
+-   [`cb7d879`](https://github.com/stdlib-js/stdlib/commit/cb7d8790c02f7ce9df7d5c22e662d74ad9b95cd9) - add C implementation for `math/base/special/tand` [(##2411)](#2411 )
 -   [`025c2c1`](https://github.com/stdlib-js/stdlib/commit/025c2c164f6d51a2192399d0c237d78a139ff772) - add `math/base/special/tand`
 
 </section>
@@ -3490,6 +4037,116 @@ A total of 2 issues were closed in this release:
 </section>
 
 <!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-trunc10-unreleased">
+
+#### [@stdlib/math/base/special/trunc10](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/trunc10)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`581f5a0`](https://github.com/stdlib-js/stdlib/commit/581f5a0dd601746dbf6366d073dcc391efc601d7) - add C implementation for `math/base/special/trunc10` [(##2451)](#2451)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-trunc2-unreleased">
+
+#### [@stdlib/math/base/special/trunc2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/trunc2)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`523d68f`](https://github.com/stdlib-js/stdlib/commit/523d68f43c345228b28262e88dc2d820b6ad7592) - add C implementation for `math/base/special/trunc2` [(##2436)](#2436)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-truncn-unreleased">
+
+#### [@stdlib/math/base/special/truncn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/truncn)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e8932ee`](https://github.com/stdlib-js/stdlib/commit/e8932ee36e54cf9fd4594abfedc91b5ff718f2fd) - add C implementation for `math/base/special/truncn`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-vercos-unreleased">
+
+#### [@stdlib/math/base/special/vercos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/vercos)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a4b2764`](https://github.com/stdlib-js/stdlib/commit/a4b276428bdc454a9412550375813f92bd242540) - add C implementation for `math/base/special/vercos` [(##2397)](#2397 )
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-versin-unreleased">
+
+#### [@stdlib/math/base/special/versin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/versin)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`06f8b4a`](https://github.com/stdlib-js/stdlib/commit/06f8b4ad6fd804cd127387fa6a645cce0ee05250) - add C implementation for `math/base/special/versin` [(##2398)](#2398 )
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -3567,13 +4224,36 @@ A total of 2 issues were closed in this release:
 
 <!-- /.packages -->
 
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`691e774`](https://github.com/stdlib-js/stdlib/commit/691e774930ab3d983998e53ad16dbf4bd5eb0c76): make base parameter compulsory in `math/base/special/floorsd`
+-   [`691e774`](https://github.com/stdlib-js/stdlib/commit/691e774930ab3d983998e53ad16dbf4bd5eb0c76): The base parameter must now be provided explicitly.  
+
+    -   Previously, the base parameter had a default value of 10. Now it has to be supplied explicitly.
+    Before:
+    ```
+    var v = floorsd( 3.141592653589793, 5 );
+    // returns 3.1415
+    ```
+    After:
+    ```
+    var v = floorsd( 3.141592653589793, 5, 10 );
+    // returns 3.1415
+    ```
+
+</section>
+
+<!-- /.breaking-changes -->
+
 <section class="issues">
 
 ### Closed Issues
 
-A total of 22 issues were closed in this release:
+A total of 23 issues were closed in this release:
 
-[#733](https://github.com/stdlib-js/stdlib/issues/733), [#894](https://github.com/stdlib-js/stdlib/issues/894), [#968](https://github.com/stdlib-js/stdlib/pull/968), [#1701](https://github.com/stdlib-js/stdlib/issues/1701), [##2170 ](#2170 ), [##2150](#2150), [#772](https://github.com/stdlib-js/stdlib/issues/772), [#860](https://github.com/stdlib-js/stdlib/issues/860), [#1718](https://github.com/stdlib-js/stdlib/issues/1718), [#1822](https://github.com/stdlib-js/stdlib/issues/1822), [#1931 ](https://github.com/stdlib-js/stdlib/issues/1931 ), [#1938](https://github.com/stdlib-js/stdlib/issues/1938), [#1944](https://github.com/stdlib-js/stdlib/issues/1944), [#2035](https://github.com/stdlib-js/stdlib/issues/2035), [#2081](https://github.com/stdlib-js/stdlib/issues/2081), [#2109](https://github.com/stdlib-js/stdlib/issues/2109), [#2113](https://github.com/stdlib-js/stdlib/issues/2113), [#2118](https://github.com/stdlib-js/stdlib/issues/2118), [#2124](https://github.com/stdlib-js/stdlib/issues/2124), [#todo#2113](stdlib-js/todo#2113), [##1816](#1816), [##776](#776)
+[##2405](#2405), [#733](https://github.com/stdlib-js/stdlib/issues/733), [#772](https://github.com/stdlib-js/stdlib/issues/772), [#860](https://github.com/stdlib-js/stdlib/issues/860), [#894](https://github.com/stdlib-js/stdlib/issues/894), [#968](https://github.com/stdlib-js/stdlib/pull/968), [#1701](https://github.com/stdlib-js/stdlib/issues/1701), [##2170 ](#2170 ), [##2150](#2150), [#1718](https://github.com/stdlib-js/stdlib/issues/1718), [#1822](https://github.com/stdlib-js/stdlib/issues/1822), [#1931 ](https://github.com/stdlib-js/stdlib/issues/1931 ), [#1938](https://github.com/stdlib-js/stdlib/issues/1938), [#1944](https://github.com/stdlib-js/stdlib/issues/1944), [#2035](https://github.com/stdlib-js/stdlib/issues/2035), [#2081](https://github.com/stdlib-js/stdlib/issues/2081), [#2109](https://github.com/stdlib-js/stdlib/issues/2109), [#2113](https://github.com/stdlib-js/stdlib/issues/2113), [#2118](https://github.com/stdlib-js/stdlib/issues/2118), [#2124](https://github.com/stdlib-js/stdlib/issues/2124), [#todo#2113](stdlib-js/todo#2113), [##1816](#1816), [##776](#776)
 
 </section>
 
@@ -3583,10 +4263,12 @@ A total of 22 issues were closed in this release:
 
 ### Contributors
 
-A total of 24 people contributed to this release. Thank you to the following contributors:
+A total of 26 people contributed to this release. Thank you to the following contributors:
 
 -   Adarsh Palaskar
 -   Aman Bhansali
+-   Athan
+-   Athan Reines
 -   Athan Reines
 -   Athan Reines
 -   Athan Reines
@@ -3620,6 +4302,71 @@ A total of 24 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`81b48ae`](https://github.com/stdlib-js/stdlib/commit/81b48aeb9d5d2b16fe039f9db7e710c95a35585f) - **feat:** update namespace TypeScript declarations [(##2621)](#2621) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`691e774`](https://github.com/stdlib-js/stdlib/commit/691e774930ab3d983998e53ad16dbf4bd5eb0c76) - **refactor:** make base parameter compulsory in `math/base/special/floorsd` [(##2617)](#2617) _(by Gunj Joshi)_
+-   [`dcb1b32`](https://github.com/stdlib-js/stdlib/commit/dcb1b32226e846c8c5219507bc30dce3bbcf19d2) - **feat:** add C implementation for `math/base/special/floorb` [(##2620)](#2620) _(by Gunj Joshi)_
+-   [`cc98b20`](https://github.com/stdlib-js/stdlib/commit/cc98b20ab91590c526896d547e447f107fc714aa) - **feat:** add C implementation for `math/base/special/factorial` [(##2618)](#2618 ) _(by Gunj Joshi)_
+-   [`1f99cd7`](https://github.com/stdlib-js/stdlib/commit/1f99cd7f06bd5e3027f29c6d816ea39e8624cab1) - **feat:** add C implementation for `math/base/special/floor10` [(##2619)](#2619) _(by Gunj Joshi)_
+-   [`0d796b2`](https://github.com/stdlib-js/stdlib/commit/0d796b2a86fe0a08d1f3ed1827aaf2ce355f9b4f) - **refactor:** use stdlib APIs and adjust test tolerances _(by Athan Reines)_
+-   [`d6c4251`](https://github.com/stdlib-js/stdlib/commit/d6c4251492f60d2a3871e679fb67a35c57973056) - **feat:** add C implementation for `math/base/special/sinpi` [(##2610)](#2610) _(by Gunj Joshi)_
+-   [`58da03b`](https://github.com/stdlib-js/stdlib/commit/58da03b9aae58c600fc67d46e396ac6f1e2de1d0) - **feat:** add C implementation for `math/base/special/cospi` [(##2612)](#2612) _(by Gunj Joshi)_
+-   [`32bbcb3`](https://github.com/stdlib-js/stdlib/commit/32bbcb3b3dae1f028fd18166ee7875a93d44d0ee) - **refactor:** update paths _(by Athan Reines)_
+-   [`5072206`](https://github.com/stdlib-js/stdlib/commit/50722067d1c17e17be721982e5a99ed65868d9ae) - **refactor:** fix function name _(by Athan Reines)_
+-   [`8d4c46b`](https://github.com/stdlib-js/stdlib/commit/8d4c46b10ca912401e0ff0caa37a17cd3c443c2f) - **refactor:** update paths _(by Athan Reines)_
+-   [`ed9c0a5`](https://github.com/stdlib-js/stdlib/commit/ed9c0a5e55ff09af3dd6af8c38615480e2c1828e) - **refactor:** update paths _(by Athan Reines)_
+-   [`18b3c79`](https://github.com/stdlib-js/stdlib/commit/18b3c79c5035c7082618b7379cd6576e64393a96) - **refactor:** update paths _(by Athan Reines)_
+-   [`8908bda`](https://github.com/stdlib-js/stdlib/commit/8908bda11588f80edf375466ae9e84a3d70cf7d3) - **refactor:** update paths _(by Athan Reines)_
+-   [`06fd785`](https://github.com/stdlib-js/stdlib/commit/06fd785919d2ef770b5a2bffd69dd4d3c36e8294) - **feat:** add C implementation for `math/base/special/ceil2` [(##2602)](#2602) _(by Gunj Joshi)_
+-   [`fe25386`](https://github.com/stdlib-js/stdlib/commit/fe25386fdcdbb684dc96990ba12171d5bf62df6d) - **feat:** add C implementation for `math/base/special/floorsd` [(##2603)](#2603) _(by Gunj Joshi)_
+-   [`08dbbe5`](https://github.com/stdlib-js/stdlib/commit/08dbbe5a6fa6a3b82c049ef03deaa6eb8daaaee9) - **test:** add tests for negative values in `math/base/special/fmod` [(#2600)](https://github.com/stdlib-js/stdlib/pull/2600) _(by Gunj Joshi)_
+-   [`d04dcbd`](https://github.com/stdlib-js/stdlib/commit/d04dcbd6dc3b0bf4a89bd3947d317fa5ff15bb38) - **docs:** remove private annotations in C comments _(by Philipp Burckhardt)_
+-   [`35af244`](https://github.com/stdlib-js/stdlib/commit/35af24442f634296da8248552f307229b1214c08) - **feat:** add C implementation for `math/base/special/gamma` _(by Gunj Joshi, Philipp Burckhardt)_
+-   [`26337e1`](https://github.com/stdlib-js/stdlib/commit/26337e1644c963b8006e38c4b5e2ee74eac8e33f) - **docs:** fix return annotation tag in C comments _(by Philipp Burckhardt)_
+-   [`8558d86`](https://github.com/stdlib-js/stdlib/commit/8558d869aed0f22f0fbdcd54321c5058c954df89) - **feat:** add `math/base/special/fmod` [(##2562)](#2562) _(by Gunj Joshi)_
+-   [`e9d0de8`](https://github.com/stdlib-js/stdlib/commit/e9d0de8077f47e49ff703c1b106e262454e5d15d) - **chore:** update package meta data [(#2596)](https://github.com/stdlib-js/stdlib/pull/2596) _(by stdlib-bot, Athan Reines)_
+-   [`2e723fb`](https://github.com/stdlib-js/stdlib/commit/2e723fbb6e3acfca2d0d413c26c96a207a616636) - **feat:** add C implementation for `math/base/special/roundb` _(by Gunj Joshi, Philipp Burckhardt)_
+-   [`e8932ee`](https://github.com/stdlib-js/stdlib/commit/e8932ee36e54cf9fd4594abfedc91b5ff718f2fd) - **feat:** add C implementation for `math/base/special/truncn` _(by Gunj Joshi)_
+-   [`ed638e3`](https://github.com/stdlib-js/stdlib/commit/ed638e392f7425c899abda488b943d0ffbd37f78) - **docs:** update Boost version and fix C function name in README.md [(##2577)](#2577) _(by Gunj Joshi)_
+-   [`53eb98c`](https://github.com/stdlib-js/stdlib/commit/53eb98c30fe092a4871e92001be36318626fd68f) - **docs:** fix function name [(#2579)](https://github.com/stdlib-js/stdlib/pull/2579) _(by Gunj Joshi)_
+-   [`b4cde28`](https://github.com/stdlib-js/stdlib/commit/b4cde28b465725e0d2f2e84757a4a533834503c7) - **docs:** fix function name [(#2580)](https://github.com/stdlib-js/stdlib/pull/2580) _(by Gunj Joshi)_
+-   [`337adbf`](https://github.com/stdlib-js/stdlib/commit/337adbf93822a5ab1adb5256594855e344e9414c) - **feat:** add C implementation for `math/base/special/digamma` [(##2533)](#2533 ) _(by Gunj Joshi)_
+-   [`dbef328`](https://github.com/stdlib-js/stdlib/commit/dbef3280431240b7a2cc358a54923481115adb24) - **feat:** add C implementation for `math/base/special/round10` _(by Gunj Joshi)_
+-   [`ca18359`](https://github.com/stdlib-js/stdlib/commit/ca18359c4b18000828a214bc52a32db7ac6c1121) - **refactor:** update to use stdlib `pow` [(#2539)](https://github.com/stdlib-js/stdlib/pull/2539) _(by Gunj Joshi)_
+-   [`efc3551`](https://github.com/stdlib-js/stdlib/commit/efc3551764c30c6cae9a48058cae2868d4055190) - **feat:** add C implementation for `math/base/special/round2` [(##2537)](#2537) _(by Gunj Joshi)_
+-   [`62e703a`](https://github.com/stdlib-js/stdlib/commit/62e703a5eb7df95a40b3592366da89c5ff42a1b1) - **docs:** add missing `@private` in `math/base/special/round/lib/native.js` [(##2536)](#2536) _(by Gunj Joshi)_
+-   [`659f752`](https://github.com/stdlib-js/stdlib/commit/659f752db18317bf5fc237fdbcad0d74b61e1ed9) - **style:** add missing spaces _(by Philipp Burckhardt)_
+-   [`a78f7d1`](https://github.com/stdlib-js/stdlib/commit/a78f7d1b859b6b1d7b0bc0ee4daf76789e3e0910) - **style:** add missing spaces _(by Philipp Burckhardt)_
+-   [`d4fd701`](https://github.com/stdlib-js/stdlib/commit/d4fd701ae65d28edea1410a6f5a757ac39214f68) - **feat:** add C implementation for `math/base/special/beta` _(by Gunj Joshi, Philipp Burckhardt)_
+-   [`39ecc03`](https://github.com/stdlib-js/stdlib/commit/39ecc037f60bef2fa539739fa3ad4556b09f3918) - **chore:** update package meta data [(#2530)](https://github.com/stdlib-js/stdlib/pull/2530) _(by stdlib-bot, Athan Reines)_
+-   [`457662c`](https://github.com/stdlib-js/stdlib/commit/457662c8e8bcd3ff74edc7d820d882119b40cfbe) - **style:** add linebreak _(by Athan Reines)_
+-   [`2789eff`](https://github.com/stdlib-js/stdlib/commit/2789eff674a6832e11cb4ec0f8f4090bf05554b2) - **docs:** fix function name in README example [(#2506)](https://github.com/stdlib-js/stdlib/pull/2506) _(by Gunj Joshi)_
+-   [`82c8ae0`](https://github.com/stdlib-js/stdlib/commit/82c8ae03edea7886ce0f67ca6e1c2a3028ef8fd9) - **feat:** add C implementation for `math/base/special/floor2` _(by Gunj Joshi)_
+-   [`2f62c39`](https://github.com/stdlib-js/stdlib/commit/2f62c39e03c5445f3cc3b91226453c2eed366013) - **chore:** update package meta data [(##2481)](#2481) _(by stdlib-bot)_
+-   [`581f5a0`](https://github.com/stdlib-js/stdlib/commit/581f5a0dd601746dbf6366d073dcc391efc601d7) - **feat:** add C implementation for `math/base/special/trunc10` [(##2451)](#2451) _(by Gunj Joshi)_
+-   [`9e56edf`](https://github.com/stdlib-js/stdlib/commit/9e56edf06218960bb5a3b1c22a5a2198f2dc0cb9) - **chore:** minor clean-up of `math/base/special/acsc` _(by Pranav Goswami, Athan Reines, Philipp Burckhardt)_
+-   [`50d806d`](https://github.com/stdlib-js/stdlib/commit/50d806dd22dd25a6f6f2900bb5a8ccc0ed7ef232) - **test:** add missing test for `math/base/special/cotd` [(#2449)](https://github.com/stdlib-js/stdlib/pull/2449) _(by Gunj Joshi)_
+-   [`c9ab1f2`](https://github.com/stdlib-js/stdlib/commit/c9ab1f2313cac54672d24e82665a13ff37b79a93) - **feat:** add C implementation for `math/base/special/cotd` [(##2443)](#2443) _(by Gunj Joshi)_
+-   [`523d68f`](https://github.com/stdlib-js/stdlib/commit/523d68f43c345228b28262e88dc2d820b6ad7592) - **feat:** add C implementation for `math/base/special/trunc2` [(##2436)](#2436) _(by Gunj Joshi)_
+-   [`e26363d`](https://github.com/stdlib-js/stdlib/commit/e26363d5a9df20243c6be186bbf63017517c5839) - **chore:** update package meta data [(#2439)](https://github.com/stdlib-js/stdlib/pull/2439) _(by stdlib-bot, Athan Reines)_
+-   [`377403b`](https://github.com/stdlib-js/stdlib/commit/377403b1ecb696a54e038b8750efd09481fe3ba0) - **test:** add missing tests for `math/base/special/cosd` [(#2418)](https://github.com/stdlib-js/stdlib/pull/2418) _(by Gunj Joshi)_
+-   [`c88dbaa`](https://github.com/stdlib-js/stdlib/commit/c88dbaaf68dd67dc5bdd7bb71ef9ed4ad01ef42a) - **test:** add missing tests for `math/base/special/tand` [(#2417)](https://github.com/stdlib-js/stdlib/pull/2417) _(by Gunj Joshi)_
+-   [`a50d33d`](https://github.com/stdlib-js/stdlib/commit/a50d33db8b44799d80958be0403f1315389b9c7c) - **feat:** add C implementation for `math/base/special/haversin` [(##2408)](#2408) _(by Gunj Joshi)_
+-   [`1ea46e9`](https://github.com/stdlib-js/stdlib/commit/1ea46e990236941d977d6dc872ba0475eab366e8) - **docs:** use correct function name in example in `math/base/special/hacoversin` [(##2409)](#2409 ) _(by Gunj Joshi)_
+-   [`d0f9748`](https://github.com/stdlib-js/stdlib/commit/d0f97483ab6edaf668b7693dd7b96d527823f14b) - **feat:** add C implementation for `math/base/special/havercos` [(##2410)](#2410 ) _(by Gunj Joshi)_
+-   [`cb7d879`](https://github.com/stdlib-js/stdlib/commit/cb7d8790c02f7ce9df7d5c22e662d74ad9b95cd9) - **feat:** add C implementation for `math/base/special/tand` [(##2411)](#2411 ) _(by Gunj Joshi)_
+-   [`7ddca8e`](https://github.com/stdlib-js/stdlib/commit/7ddca8e7270b9d325d8047524a62381fb56dfc5e) - **feat:** add C implementation for `math/base/special/erfinv` _(by Pranav Goswami, Philipp Burckhardt)_
+-   [`4a0235a`](https://github.com/stdlib-js/stdlib/commit/4a0235a063e46d679253b6511fe7e9dbd4a9d625) - **feat:** add C implementation for `math/base/special/pow` _(by Aman Bhansali, Athan, Philipp Burckhardt)_
+-   [`60ed341`](https://github.com/stdlib-js/stdlib/commit/60ed34151e9e36c332da8fdca5ad187d6f38c3df) - **feat:** add C implementation for `math/base/special/secd` [(##2406)](#2406) _(by Gunj Joshi)_
+-   [`a4b2764`](https://github.com/stdlib-js/stdlib/commit/a4b276428bdc454a9412550375813f92bd242540) - **feat:** add C implementation for `math/base/special/vercos` [(##2397)](#2397 ) _(by Gunj Joshi)_
+-   [`06f8b4a`](https://github.com/stdlib-js/stdlib/commit/06f8b4ad6fd804cd127387fa6a645cce0ee05250) - **feat:** add C implementation for `math/base/special/versin` [(##2398)](#2398 ) _(by Gunj Joshi)_
+-   [`c811882`](https://github.com/stdlib-js/stdlib/commit/c8118827f71ca602ccfea2721df03afbbd3857e5) - **feat:** add C implementation for `math/base/special/cosd` [(##2393)](#2393) _(by Gunj Joshi)_
+-   [`806075b`](https://github.com/stdlib-js/stdlib/commit/806075b124d1ab4fb7a541c117e0c7b6399a08b9) - **feat:** add C implementation for `math/base/special/hacoversin` [(##2387)](#2387) _(by Gunj Joshi)_
+-   [`d07c8ff`](https://github.com/stdlib-js/stdlib/commit/d07c8ffc9328edf8c4acb24029f13d2e37575fae) - **feat:** add C implementation for `math/base/special/hacovercos` [(##2388)](#2388) _(by Gunj Joshi)_
+-   [`11c882d`](https://github.com/stdlib-js/stdlib/commit/11c882dcc261abe6a898a3061b45af7f0d4a41cd) - **chore:** update package meta data [(##2379)](#2379) _(by stdlib-bot, Athan Reines)_
+-   [`7b85db8`](https://github.com/stdlib-js/stdlib/commit/7b85db803f6a6bce2999bfe8b2513edb08e15a67) - **feat:** add C implementation for `math/base/special/covercos` [(##2377)](#2377) _(by Gunj Joshi)_
+-   [`e7938d9`](https://github.com/stdlib-js/stdlib/commit/e7938d964046b7a61dbc89d23f39daebf4545a47) - **feat:** add C implementation for `math/base/special/cscd` [(##2378)](#2378) _(by Gunj Joshi)_
+-   [`8304a04`](https://github.com/stdlib-js/stdlib/commit/8304a041c10450a797c64c2fffafc6b0e4bd1a04) - **feat:** add C implementation for `math/base/special/cot` _(by Gunj Joshi, Philipp Burckhardt)_
+-   [`4c95c5a`](https://github.com/stdlib-js/stdlib/commit/4c95c5ac1cc58e3ed3db0b13a653ad7680a0393a) - **docs:** use descriptive variable names [(##2373)](#2373) _(by Gunj Joshi)_
 -   [`c1ef722`](https://github.com/stdlib-js/stdlib/commit/c1ef722991b1743b02c897332d0e2b3005a97494) - **docs:** update return annotation value [(##2370)](#2370) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`6199f14`](https://github.com/stdlib-js/stdlib/commit/6199f14235f3aff23b57504bd62923ebf45555e0) - **feat:** add C implementation for `math/base/special/tan` _(by Gunj Joshi)_
 -   [`822491d`](https://github.com/stdlib-js/stdlib/commit/822491dd173e2ca1195c4b4f4600419f55b5ee15) - **docs:** fix function signature in table of contents [(##2371)](#2371 ) _(by stdlib-bot, Philipp Burckhardt)_
