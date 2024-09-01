@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-19)
+## Unreleased (2024-09-01)
 
 <section class="packages">
 
@@ -36,6 +36,72 @@
 </section>
 
 <!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-acotdf-unreleased">
+
+#### [@stdlib/math/base/special/acotdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acotdf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`50b38f9`](https://github.com/stdlib-js/stdlib/commit/50b38f941b50a3f71b531d965c7312d4c6932f84) - add `math/base/special/acotdf` [(#2799)](https://github.com/stdlib-js/stdlib/pull/2799)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-atandf-unreleased">
+
+#### [@stdlib/math/base/special/atandf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/atandf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`1f7fd37`](https://github.com/stdlib-js/stdlib/commit/1f7fd373c939151c685875e1e0d2f146f072ce26) - add `math/base/special/atandf` [(#2841)](https://github.com/stdlib-js/stdlib/pull/2841)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-avercosf-unreleased">
+
+#### [@stdlib/math/base/special/avercosf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/avercosf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`6b76aa9`](https://github.com/stdlib-js/stdlib/commit/6b76aa904c33cbe3f3c28b61ae7797e444d13e52) - add `math/base/special/avercosf` [(#2846)](https://github.com/stdlib-js/stdlib/pull/2846)
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -232,6 +298,138 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-ldexpf-unreleased">
+
+#### [@stdlib/math/base/special/ldexpf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/ldexpf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`71c43cf`](https://github.com/stdlib-js/stdlib/commit/71c43cf5165749e2ce2647cb52d92f6c97f16959) - add `math/base/special/ldexpf`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-logf-unreleased">
+
+#### [@stdlib/math/base/special/logf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/logf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`6c8f019`](https://github.com/stdlib-js/stdlib/commit/6c8f019db8adb12466250957693edb9830496a7b) - add `math/base/special/logf`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-maxabsf-unreleased">
+
+#### [@stdlib/math/base/special/maxabsf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/maxabsf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ff629c7`](https://github.com/stdlib-js/stdlib/commit/ff629c760ef40d9245a87a56716ea7a12145f6b2) - add `math/base/special/maxabsf`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-maxf-unreleased">
+
+#### [@stdlib/math/base/special/maxf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/maxf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`15878f9`](https://github.com/stdlib-js/stdlib/commit/15878f9056d9e0e4bae0411870655316bf68dff3) - add `math/base/special/maxf` [(#2816)](https://github.com/stdlib-js/stdlib/pull/2816)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-minabsf-unreleased">
+
+#### [@stdlib/math/base/special/minabsf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/minabsf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d01e0f3`](https://github.com/stdlib-js/stdlib/commit/d01e0f34931b9fd522f3d8de3e2a0ad5c1ac0890) - add `math/base/special/minabsf`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-minf-unreleased">
+
+#### [@stdlib/math/base/special/minf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/minf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ef703d6`](https://github.com/stdlib-js/stdlib/commit/ef703d629af0fa6f4a34e697a26beea37dc7345c) - add `math/base/special/minf` [(#2820)](https://github.com/stdlib-js/stdlib/pull/2820)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-roundf-unreleased">
 
 #### [@stdlib/math/base/special/roundf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/roundf)
@@ -298,6 +496,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-xlogyf-unreleased">
+
+#### [@stdlib/math/base/special/xlogyf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/xlogyf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`16c19b6`](https://github.com/stdlib-js/stdlib/commit/16c19b67c7452b3ae9755cc7ef2a5d2540ab1cf9) - add `math/base/special/xlogyf` [(#2813)](https://github.com/stdlib-js/stdlib/pull/2813)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -334,6 +554,19 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`ff629c7`](https://github.com/stdlib-js/stdlib/commit/ff629c760ef40d9245a87a56716ea7a12145f6b2) - **feat:** add `math/base/special/maxabsf` _(by Gunj Joshi, Philipp Burckhardt)_
+-   [`6b76aa9`](https://github.com/stdlib-js/stdlib/commit/6b76aa904c33cbe3f3c28b61ae7797e444d13e52) - **feat:** add `math/base/special/avercosf` [(#2846)](https://github.com/stdlib-js/stdlib/pull/2846) _(by Gunj Joshi)_
+-   [`f65c856`](https://github.com/stdlib-js/stdlib/commit/f65c8563ab3b3a25883d020332f4a594aa69892a) - **refactor:** use stdlib `fmod` and `DDD_D` napi function in `math/base/special/wrap` [(#2814)](https://github.com/stdlib-js/stdlib/pull/2814) _(by Gunj Joshi)_
+-   [`d01e0f3`](https://github.com/stdlib-js/stdlib/commit/d01e0f34931b9fd522f3d8de3e2a0ad5c1ac0890) - **feat:** add `math/base/special/minabsf` _(by Gunj Joshi, Philipp Burckhardt)_
+-   [`1f7fd37`](https://github.com/stdlib-js/stdlib/commit/1f7fd373c939151c685875e1e0d2f146f072ce26) - **feat:** add `math/base/special/atandf` [(#2841)](https://github.com/stdlib-js/stdlib/pull/2841) _(by Gunj Joshi)_
+-   [`1288e7e`](https://github.com/stdlib-js/stdlib/commit/1288e7e8b4bf92af109871d4e75c91e707449575) - **refactor:** use `stdlib_base_fmod` instead of built-in in `math/base/special/gcd` _(by Gunj Joshi)_
+-   [`0ab9fc7`](https://github.com/stdlib-js/stdlib/commit/0ab9fc7de86012c670189711b6c6627b41119537) - **test:** add and modify tests [(#2830)](https://github.com/stdlib-js/stdlib/pull/2830) _(by Gunj Joshi)_
+-   [`16c19b6`](https://github.com/stdlib-js/stdlib/commit/16c19b67c7452b3ae9755cc7ef2a5d2540ab1cf9) - **feat:** add `math/base/special/xlogyf` [(#2813)](https://github.com/stdlib-js/stdlib/pull/2813) _(by Gunj Joshi)_
+-   [`71c43cf`](https://github.com/stdlib-js/stdlib/commit/71c43cf5165749e2ce2647cb52d92f6c97f16959) - **feat:** add `math/base/special/ldexpf` _(by Gunj Joshi, Philipp Burckhardt)_
+-   [`6c8f019`](https://github.com/stdlib-js/stdlib/commit/6c8f019db8adb12466250957693edb9830496a7b) - **feat:** add `math/base/special/logf` _(by Gunj Joshi, Philipp Burckhardt)_
+-   [`50b38f9`](https://github.com/stdlib-js/stdlib/commit/50b38f941b50a3f71b531d965c7312d4c6932f84) - **feat:** add `math/base/special/acotdf` [(#2799)](https://github.com/stdlib-js/stdlib/pull/2799) _(by Gunj Joshi)_
+-   [`15878f9`](https://github.com/stdlib-js/stdlib/commit/15878f9056d9e0e4bae0411870655316bf68dff3) - **feat:** add `math/base/special/maxf` [(#2816)](https://github.com/stdlib-js/stdlib/pull/2816) _(by Gunj Joshi)_
+-   [`ef703d6`](https://github.com/stdlib-js/stdlib/commit/ef703d629af0fa6f4a34e697a26beea37dc7345c) - **feat:** add `math/base/special/minf` [(#2820)](https://github.com/stdlib-js/stdlib/pull/2820) _(by Gunj Joshi, Athan Reines)_
 -   [`0dd0377`](https://github.com/stdlib-js/stdlib/commit/0dd03776ccc026cb8682de5b0e48e9e3f215ea19) - **docs:** update namespace ToCs _(by Athan Reines)_
 -   [`abcf36e`](https://github.com/stdlib-js/stdlib/commit/abcf36e4c2ff11c808a22217d4d6ebb506f0df1d) - **fix:** remove extra slash from dependency in `manifest.json`  _(by Philipp Burckhardt)_
 -   [`588c4b4`](https://github.com/stdlib-js/stdlib/commit/588c4b4156c4efee6a90b34b329c39f3c8f4a9d6) - **docs:** update function description in `math/base/special/log` _(by Gunj Joshi, Philipp Burckhardt)_
