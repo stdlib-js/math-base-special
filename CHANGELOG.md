@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-01)
+## Unreleased (2024-09-28)
 
 <section class="packages">
 
@@ -65,6 +65,50 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-acovercosf-unreleased">
+
+#### [@stdlib/math/base/special/acovercosf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acovercosf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4dbd685`](https://github.com/stdlib-js/stdlib/commit/4dbd685129b1ee7a1f459b77e791314c0bef49e7) - add `math/base/special/acovercosf`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-acoversinf-unreleased">
+
+#### [@stdlib/math/base/special/acoversinf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acoversinf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b2268e5`](https://github.com/stdlib-js/stdlib/commit/b2268e57b78b3a774f37e984faebd95ac7c0ba69) - add `math/base/special/acoversinf` [(#2860)](https://github.com/stdlib-js/stdlib/pull/2860 )
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-atandf-unreleased">
 
 #### [@stdlib/math/base/special/atandf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/atandf)
@@ -98,6 +142,28 @@
 ##### Features
 
 -   [`6b76aa9`](https://github.com/stdlib-js/stdlib/commit/6b76aa904c33cbe3f3c28b61ae7797e444d13e52) - add `math/base/special/avercosf` [(#2846)](https://github.com/stdlib-js/stdlib/pull/2846)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-aversinf-unreleased">
+
+#### [@stdlib/math/base/special/aversinf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/aversinf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4bddc16`](https://github.com/stdlib-js/stdlib/commit/4bddc16dfcdc4d18a95bbd08abc869f58d77396b) - add `math/base/special/aversinf` [(#2852)](https://github.com/stdlib-js/stdlib/pull/2852)
 
 </section>
 
@@ -199,6 +265,28 @@
 ##### Features
 
 -   [`7502603`](https://github.com/stdlib-js/stdlib/commit/75026039180c76cf376d7550d7470c57a11780cd) - add C implementation for `math/base/special/betaln`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-erfcx-unreleased">
+
+#### [@stdlib/math/base/special/erfcx](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/erfcx)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`67d2064`](https://github.com/stdlib-js/stdlib/commit/67d206479d7216260d585173d253b1cb48b118f6) - add C implementation for `@stdlib/math-base/special/erfcx`
 
 </section>
 
@@ -538,9 +626,10 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Ayaka
 -   Gunj Joshi
 -   Philipp Burckhardt
 
@@ -554,6 +643,33 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`b89c97c`](https://github.com/stdlib-js/stdlib/commit/b89c97ce0b812ff0b2aab16b4d77969d44fe3e8c) - **docs:** resolve lint errors in TS declaration files _(by Philipp Burckhardt)_
+-   [`08f9c1a`](https://github.com/stdlib-js/stdlib/commit/08f9c1af6dee1cc36cda84b10230500e75d53ff5) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`9e689ff`](https://github.com/stdlib-js/stdlib/commit/9e689ffcb7c6223afc521f1e574b42f10921cf5e) - **chore:** fix indentation in manifest.json files _(by Philipp Burckhardt)_
+-   [`177f16c`](https://github.com/stdlib-js/stdlib/commit/177f16cd80b9072714e7b4e976487e5e6dd19761) - **chore:** update package meta data [(#2933)](https://github.com/stdlib-js/stdlib/pull/2933) _(by stdlib-bot, Athan Reines)_
+-   [`f387603`](https://github.com/stdlib-js/stdlib/commit/f387603e739f88a38af3263ce6ff675ad903ee8c) - **docs:** consistently use declarative instead of imperative sentences outside of intros _(by Philipp Burckhardt)_
+-   [`ed44fee`](https://github.com/stdlib-js/stdlib/commit/ed44feecb9eaa5e0849d1a533e5415624d0aa338) - **style:** use imperative in package.json description and end with period _(by Philipp Burckhardt)_
+-   [`0c994ee`](https://github.com/stdlib-js/stdlib/commit/0c994ee22c77c217aa48d6833e4e11ffe733e9bb) - **docs:** update descriptions and add structured package data [(#2914)](https://github.com/stdlib-js/stdlib/pull/2914) _(by Gunj Joshi, Athan Reines)_
+-   [`f51140f`](https://github.com/stdlib-js/stdlib/commit/f51140ffe79720148d77a5ea56e92911787a3175) - **chore:** add structured package data for `math/base/special/pow` [(#2912)](https://github.com/stdlib-js/stdlib/pull/2912) _(by Gunj Joshi)_
+-   [`2658654`](https://github.com/stdlib-js/stdlib/commit/265865470275173da9d6efb8c0c2c8b00eb2c999) - **chore:** add structured package data for `math/base/special/cbrt` [(#2909)](https://github.com/stdlib-js/stdlib/pull/2909) _(by Gunj Joshi)_
+-   [`65d1c5b`](https://github.com/stdlib-js/stdlib/commit/65d1c5be91c83d9eea3c73fec21abbeb592d434f) - **bench:** remove `f` suffix in C benchmark [(#2911)](https://github.com/stdlib-js/stdlib/pull/2911) _(by Gunj Joshi)_
+-   [`595c932`](https://github.com/stdlib-js/stdlib/commit/595c932bffba6011fddaa4c5c3c5f4733732539d) - **chore:** add structured package data for `math/base/special/exp` [(#2893)](https://github.com/stdlib-js/stdlib/pull/2893) _(by Gunj Joshi, Athan Reines)_
+-   [`e3777f7`](https://github.com/stdlib-js/stdlib/commit/e3777f7f9bde86ae783ed5252a7e0b97b605d264) - **test:** fix typos in test descriptions [(#2885)](https://github.com/stdlib-js/stdlib/pull/2885) _(by Gunj Joshi)_
+-   [`11e3050`](https://github.com/stdlib-js/stdlib/commit/11e3050a0ec978695f2d7d8655676445561be69a) - **chore:** update package meta data [(#2884)](https://github.com/stdlib-js/stdlib/pull/2884) _(by stdlib-bot, Athan Reines)_
+-   [`f33f82c`](https://github.com/stdlib-js/stdlib/commit/f33f82c44a8eb9557fc86fbe41a32fe816954a46) - **docs:** use operation name and style fixes in `math/base/special/aversinf` [(#2876)](https://github.com/stdlib-js/stdlib/pull/2876) _(by Gunj Joshi)_
+-   [`1233cc4`](https://github.com/stdlib-js/stdlib/commit/1233cc4f11b4ddd0c6e1c919085dc4b9fc6fa483) - **docs:** fix equations, whitespace, and line wrapping [(#2878)](https://github.com/stdlib-js/stdlib/pull/2878) _(by Gunj Joshi)_
+-   [`4e5bf6f`](https://github.com/stdlib-js/stdlib/commit/4e5bf6f7aa5de6b1b638e976ec5def4697a3b352) - **docs:** update examples [(#2875)](https://github.com/stdlib-js/stdlib/pull/2875) _(by Gunj Joshi, Athan Reines)_
+-   [`f13d569`](https://github.com/stdlib-js/stdlib/commit/f13d56957a00c6ffea87a0cc7fd243cd871a213f) - **docs:** update examples and fix whitespace [(#2865)](https://github.com/stdlib-js/stdlib/pull/2865) _(by Gunj Joshi, Athan Reines)_
+-   [`35462f8`](https://github.com/stdlib-js/stdlib/commit/35462f8357fdcb513679a7344fa3a5cc4c3ef55f) - **style:** update heading and fix line wrapping [(#2867)](https://github.com/stdlib-js/stdlib/pull/2867) _(by Gunj Joshi)_
+-   [`6c838b0`](https://github.com/stdlib-js/stdlib/commit/6c838b02c4cc9afa7befcdfbb6617b5c367713cb) - **docs:** fix line wrapping and description [(#2874)](https://github.com/stdlib-js/stdlib/pull/2874) _(by Gunj Joshi)_
+-   [`7edbd56`](https://github.com/stdlib-js/stdlib/commit/7edbd56db6a1dc6aa955a47be48120c410e1c6af) - **docs:** update examples [(#2873)](https://github.com/stdlib-js/stdlib/pull/2873) _(by Gunj Joshi, Athan Reines)_
+-   [`b7e79ad`](https://github.com/stdlib-js/stdlib/commit/b7e79ad951c4e439ca972dc57dd88de9e38f814c) - **docs:** update function descriptions and fix style nits [(#2870)](https://github.com/stdlib-js/stdlib/pull/2870) _(by Gunj Joshi)_
+-   [`a294334`](https://github.com/stdlib-js/stdlib/commit/a294334209d981a41f61bda8fd222e1c555f0c5a) - **style:** fix spacing [(#2872)](https://github.com/stdlib-js/stdlib/pull/2872) _(by Gunj Joshi)_
+-   [`1f5dba3`](https://github.com/stdlib-js/stdlib/commit/1f5dba3820e6cc2283b593ec2bf4942404ddd3d2) - **style:** remove empty line [(#2869)](https://github.com/stdlib-js/stdlib/pull/2869) _(by Gunj Joshi)_
+-   [`b2268e5`](https://github.com/stdlib-js/stdlib/commit/b2268e57b78b3a774f37e984faebd95ac7c0ba69) - **feat:** add `math/base/special/acoversinf` [(#2860)](https://github.com/stdlib-js/stdlib/pull/2860 ) _(by Gunj Joshi)_
+-   [`67d2064`](https://github.com/stdlib-js/stdlib/commit/67d206479d7216260d585173d253b1cb48b118f6) - **feat:** add C implementation for `@stdlib/math-base/special/erfcx` _(by Ayaka, Athan Reines, Gunj Joshi, Philipp Burckhardt)_
+-   [`4dbd685`](https://github.com/stdlib-js/stdlib/commit/4dbd685129b1ee7a1f459b77e791314c0bef49e7) - **feat:** add `math/base/special/acovercosf` _(by Gunj Joshi)_
+-   [`4bddc16`](https://github.com/stdlib-js/stdlib/commit/4bddc16dfcdc4d18a95bbd08abc869f58d77396b) - **feat:** add `math/base/special/aversinf` [(#2852)](https://github.com/stdlib-js/stdlib/pull/2852) _(by Gunj Joshi)_
 -   [`ff629c7`](https://github.com/stdlib-js/stdlib/commit/ff629c760ef40d9245a87a56716ea7a12145f6b2) - **feat:** add `math/base/special/maxabsf` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`6b76aa9`](https://github.com/stdlib-js/stdlib/commit/6b76aa904c33cbe3f3c28b61ae7797e444d13e52) - **feat:** add `math/base/special/avercosf` [(#2846)](https://github.com/stdlib-js/stdlib/pull/2846) _(by Gunj Joshi)_
 -   [`f65c856`](https://github.com/stdlib-js/stdlib/commit/f65c8563ab3b3a25883d020332f4a594aa69892a) - **refactor:** use stdlib `fmod` and `DDD_D` napi function in `math/base/special/wrap` [(#2814)](https://github.com/stdlib-js/stdlib/pull/2814) _(by Gunj Joshi)_
@@ -5152,20 +5268,17 @@ A total of 20 issues were closed in this release:
 
 ### Contributors
 
-A total of 21 people contributed to this release. Thank you to the following contributors:
+A total of 18 people contributed to this release. Thank you to the following contributors:
 
 -   Adarsh Palaskar
 -   Aman Bhansali
--   Athan
 -   Athan Reines
 -   Ayaka
 -   Gunj Joshi
 -   Lovelin
 -   Mihir Pandit
 -   Philipp Burckhardt
--   Pranav
 -   Pranav Goswami
--   Pranavchiku
 -   Pushpendra Chandravanshi
 -   Rejoan Sardar
 -   Ridam Garg
@@ -14263,7 +14376,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 -   Athan Reines
 -   Jordan Gallivan
 -   Philipp Burckhardt
--   Pranav
+-   Pranav Goswami
 -   Stephannie Jiménez Gacha
 
 </section>
