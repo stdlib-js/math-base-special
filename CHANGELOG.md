@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-01)
+## Unreleased (2024-11-01)
 
 <section class="packages">
 
@@ -36,6 +36,28 @@
 </section>
 
 <!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-acosdf-unreleased">
+
+#### [@stdlib/math/base/special/acosdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acosdf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b18921a`](https://github.com/stdlib-js/stdlib/commit/b18921a136da2755efccfd6ae23c8b3f5aaa8f4a) - add `math/base/special/acosdf` [(#3015)](https://github.com/stdlib-js/stdlib/pull/3015)
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -276,6 +298,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-erf-unreleased">
+
+#### [@stdlib/math/base/special/erf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/erf)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`3e201d7`](https://github.com/stdlib-js/stdlib/commit/3e201d779fa5844dd5808418f103f37d1a905d61) - update function alias and add WebAssembly configuration
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-erfcx-unreleased">
 
 #### [@stdlib/math/base/special/erfcx](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/erfcx)
@@ -430,6 +474,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-lucas-unreleased">
+
+#### [@stdlib/math/base/special/lucas](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/lucas)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`16c903b`](https://github.com/stdlib-js/stdlib/commit/16c903bdbd31c7d81bc3d6811e942e35c6de38e6) - add missing `native.js` and fix indentation [(#2975)](https://github.com/stdlib-js/stdlib/pull/2975)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-maxabsf-unreleased">
 
 #### [@stdlib/math/base/special/maxabsf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/maxabsf)
@@ -518,6 +584,94 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-nanmax-unreleased">
+
+#### [@stdlib/math/base/special/nanmax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/nanmax)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`bccdfa2`](https://github.com/stdlib-js/stdlib/commit/bccdfa26987e00d4994a7a1d8265a21c5545ff98) - add C implementation for `math/base/special/nanmax` [(#3031)](https://github.com/stdlib-js/stdlib/pull/3031)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-nanmaxf-unreleased">
+
+#### [@stdlib/math/base/special/nanmaxf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/nanmaxf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`84b8294`](https://github.com/stdlib-js/stdlib/commit/84b8294c2d5494ff5eaaa2652dda81671e728068) - add `math/base/special/nanmaxf` [(#3035)](https://github.com/stdlib-js/stdlib/pull/3035)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-nanmin-unreleased">
+
+#### [@stdlib/math/base/special/nanmin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/nanmin)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`04b72af`](https://github.com/stdlib-js/stdlib/commit/04b72af273ca022bd8295379edc5ff04a03d23e7) - add C implementation for `math/base/special/nanmin` [(#3004)](https://github.com/stdlib-js/stdlib/pull/3004)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-nanminf-unreleased">
+
+#### [@stdlib/math/base/special/nanminf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/nanminf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`30d56c3`](https://github.com/stdlib-js/stdlib/commit/30d56c355e6fa871ff5e42ac12d30ecd95011e00) - add `math/base/special/nanminf` [(#3034)](https://github.com/stdlib-js/stdlib/pull/3034)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-roundf-unreleased">
 
 #### [@stdlib/math/base/special/roundf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/roundf)
@@ -533,6 +687,40 @@
 </section>
 
 <!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-sec-unreleased">
+
+#### [@stdlib/math/base/special/sec](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/sec)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ed4c8d6`](https://github.com/stdlib-js/stdlib/commit/ed4c8d65a020d119c4baa1eb6716751c75cf8a07) - add support for secant functionality `math/base/special/sec` [(#3027)](https://github.com/stdlib-js/stdlib/pull/3027)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#225](https://github.com/stdlib-js/stdlib/issues/225)
+
+</section>
+
+<!-- /.issues -->
 
 </details>
 
@@ -622,12 +810,27 @@
 
 <!-- /.breaking-changes -->
 
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#225](https://github.com/stdlib-js/stdlib/issues/225)
+
+</section>
+
+<!-- /.issues -->
+
 <section class="contributors">
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
+-   Aayush Khanna
+-   AbhijitRaut04
+-   Aman Bhansali
 -   Athan Reines
 -   Ayaka
 -   Gunj Joshi
@@ -643,6 +846,45 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`ed4c8d6`](https://github.com/stdlib-js/stdlib/commit/ed4c8d65a020d119c4baa1eb6716751c75cf8a07) - **feat:** add support for secant functionality `math/base/special/sec` [(#3027)](https://github.com/stdlib-js/stdlib/pull/3027) _(by AbhijitRaut04, Athan Reines, Philipp Burckhardt)_
+-   [`b18921a`](https://github.com/stdlib-js/stdlib/commit/b18921a136da2755efccfd6ae23c8b3f5aaa8f4a) - **feat:** add `math/base/special/acosdf` [(#3015)](https://github.com/stdlib-js/stdlib/pull/3015) _(by Aayush Khanna, Athan Reines)_
+-   [`60522bf`](https://github.com/stdlib-js/stdlib/commit/60522bfc0b5574d348301e788400178156731024) - **docs:** fix operator [(#3039)](https://github.com/stdlib-js/stdlib/pull/3039) _(by Gunj Joshi)_
+-   [`84b8294`](https://github.com/stdlib-js/stdlib/commit/84b8294c2d5494ff5eaaa2652dda81671e728068) - **feat:** add `math/base/special/nanmaxf` [(#3035)](https://github.com/stdlib-js/stdlib/pull/3035) _(by Gunj Joshi, Athan Reines)_
+-   [`f770fc2`](https://github.com/stdlib-js/stdlib/commit/f770fc258b7976ebd51fb501290cb33296d2e036) - **docs:** add missing fields in `package.json` [(#3036)](https://github.com/stdlib-js/stdlib/pull/3036) _(by Gunj Joshi)_
+-   [`30d56c3`](https://github.com/stdlib-js/stdlib/commit/30d56c355e6fa871ff5e42ac12d30ecd95011e00) - **feat:** add `math/base/special/nanminf` [(#3034)](https://github.com/stdlib-js/stdlib/pull/3034) _(by Gunj Joshi)_
+-   [`bccdfa2`](https://github.com/stdlib-js/stdlib/commit/bccdfa26987e00d4994a7a1d8265a21c5545ff98) - **feat:** add C implementation for `math/base/special/nanmax` [(#3031)](https://github.com/stdlib-js/stdlib/pull/3031) _(by Gunj Joshi, Athan Reines)_
+-   [`2e8204e`](https://github.com/stdlib-js/stdlib/commit/2e8204e28f8bf5a3952938d5f6ff5160e027d175) - **docs:** use correct format specifier [(#3033)](https://github.com/stdlib-js/stdlib/pull/3033) _(by Gunj Joshi)_
+-   [`dce31cc`](https://github.com/stdlib-js/stdlib/commit/dce31cca0315ae50904c7fc34a95bb427bd03192) - **docs:** fix function name in examples [(#3032)](https://github.com/stdlib-js/stdlib/pull/3032) _(by Gunj Joshi)_
+-   [`06981ee`](https://github.com/stdlib-js/stdlib/commit/06981eeef888c1b48ed3824051cbdccbaa49983c) - **build:** add WebAssembly configuration for `math/base/special/abs2f` and `math/base/special/sqrtf` [(#3026)](https://github.com/stdlib-js/stdlib/pull/3026) _(by Aman Bhansali, Athan Reines)_
+-   [`d1d770a`](https://github.com/stdlib-js/stdlib/commit/d1d770a78549d322db7b06bff07f21d057ac60de) - **build:** add WebAssembly configuration for `math/base/special/absf` [(#3023)](https://github.com/stdlib-js/stdlib/pull/3023) _(by Aman Bhansali)_
+-   [`a2823da`](https://github.com/stdlib-js/stdlib/commit/a2823daab06f206a71291e6415a1cf09b5d01528) - **chore:** update package meta data [(#3019)](https://github.com/stdlib-js/stdlib/pull/3019) _(by stdlib-bot, Athan Reines)_
+-   [`04b72af`](https://github.com/stdlib-js/stdlib/commit/04b72af273ca022bd8295379edc5ff04a03d23e7) - **feat:** add C implementation for `math/base/special/nanmin` [(#3004)](https://github.com/stdlib-js/stdlib/pull/3004) _(by Gunj Joshi, Athan Reines)_
+-   [`325ca07`](https://github.com/stdlib-js/stdlib/commit/325ca074aa79d05fc6aa551d035d600b7bb66f2e) - **bench:** refactor benchmarks _(by Athan Reines)_
+-   [`c6fe24f`](https://github.com/stdlib-js/stdlib/commit/c6fe24f012b118f30347d075ce52169c8423fbf5) - **bench:** refactor benchmarks _(by Athan Reines)_
+-   [`923a355`](https://github.com/stdlib-js/stdlib/commit/923a3553d58b3dac76c22d895bf0bf7c7c3bc75e) - **bench:** refactor C benchmarks _(by Athan Reines)_
+-   [`2b30eb7`](https://github.com/stdlib-js/stdlib/commit/2b30eb7d91ebcad9919546040198fad15c54b2b8) - **bench:** refactor C benchmarks _(by Athan Reines)_
+-   [`33494b7`](https://github.com/stdlib-js/stdlib/commit/33494b7c0d3bba12b17fc6f0b6990cdadc9c04aa) - **build:** add WebAssembly configuration _(by Athan Reines)_
+-   [`6c58a22`](https://github.com/stdlib-js/stdlib/commit/6c58a22b6f7e514fb358c3256b9573357e4baa65) - **bench:** refactor benchmarks _(by Athan Reines)_
+-   [`870f645`](https://github.com/stdlib-js/stdlib/commit/870f64561a7d90579bd92920c8733a205ed0a55c) - **build:** add WebAssembly configuration _(by Athan Reines)_
+-   [`2ce25ea`](https://github.com/stdlib-js/stdlib/commit/2ce25ea8e857700287558847d93b108f3ca6b33d) - **build:** add WebAssembly configuration _(by Athan Reines)_
+-   [`d71493e`](https://github.com/stdlib-js/stdlib/commit/d71493e2f9ec53c9b7168ae0baf81731ebf15a9d) - **build:** add WebAssembly configuration _(by Athan Reines)_
+-   [`03a4ad7`](https://github.com/stdlib-js/stdlib/commit/03a4ad79edbde3654b67e84a4f8d19ad0f670003) - **style:** fix spacing _(by Athan Reines)_
+-   [`4a94497`](https://github.com/stdlib-js/stdlib/commit/4a94497c4e429430d5409d65ef55c0077ca1edbd) - **docs:** update function description in `math/base/special/min` [(#2998)](https://github.com/stdlib-js/stdlib/pull/2998) _(by Gunj Joshi)_
+-   [`3a595ac`](https://github.com/stdlib-js/stdlib/commit/3a595acf04202235c63824e0ebe99f584d83ce47) - **docs:** update function description in `math/base/special/max` [(#2999)](https://github.com/stdlib-js/stdlib/pull/2999) _(by Gunj Joshi)_
+-   [`2b6f932`](https://github.com/stdlib-js/stdlib/commit/2b6f932477bdbbfe755ee3ff9bd0a04020b049bd) - **build:** add WebAssembly configuration to `math/base/special/abs2` and `math/base/special/sqrt` [(#2989)](https://github.com/stdlib-js/stdlib/pull/2989) _(by Aman Bhansali, Athan Reines)_
+-   [`edabc3d`](https://github.com/stdlib-js/stdlib/commit/edabc3d28079c34951d12a94071233dc17cfdb66) - **build:** fix Makefile contents _(by Philipp Burckhardt)_
+-   [`24fadbf`](https://github.com/stdlib-js/stdlib/commit/24fadbf27f7a01624648ed5bea5cce504b3f65d1) - **bench:** fix runner _(by Athan Reines)_
+-   [`8f0f3b6`](https://github.com/stdlib-js/stdlib/commit/8f0f3b65ddcd28963d55d7956a22d801f59155fa) - **bench:** use SpecialFunctions package _(by Athan Reines)_
+-   [`c94a8b2`](https://github.com/stdlib-js/stdlib/commit/c94a8b2eee5d00c623ecccbb0aeef4daefb4ed06) - **bench:** update value ranges _(by Athan Reines)_
+-   [`2e75575`](https://github.com/stdlib-js/stdlib/commit/2e7557545d196c0af52afe1df1800735d7068836) - **build:** add WebAssembly configuration _(by Athan Reines)_
+-   [`4531104`](https://github.com/stdlib-js/stdlib/commit/45311043928ef04b43f9045965c4c5fdacf3f434) - **build:** add WebAssembly configuration _(by Athan Reines)_
+-   [`c20c2c3`](https://github.com/stdlib-js/stdlib/commit/c20c2c34c3f7f87ab1902cbbefaffd1729077370) - **build:** add WebAssembly configuration _(by Athan Reines)_
+-   [`6b54c29`](https://github.com/stdlib-js/stdlib/commit/6b54c297e4f7eb90c4c6432896a2a62c4cb77de4) - **build:** add WebAssembly configuration _(by Athan Reines)_
+-   [`3e201d7`](https://github.com/stdlib-js/stdlib/commit/3e201d779fa5844dd5808418f103f37d1a905d61) - **fix:** update function alias and add WebAssembly configuration _(by Athan Reines)_
+-   [`644c390`](https://github.com/stdlib-js/stdlib/commit/644c39075c6d5b630f8d0e2fce1ecbde540a9892) - **build:** add WebAssembly configuration and fix indentation _(by Athan Reines)_
+-   [`c24de14`](https://github.com/stdlib-js/stdlib/commit/c24de14b9ee9c026f00c40ed378077007a8054b0) - **chore:** clean-up docs, benchmarks, and examples _(by Athan Reines)_
+-   [`16c903b`](https://github.com/stdlib-js/stdlib/commit/16c903bdbd31c7d81bc3d6811e942e35c6de38e6) - **fix:** add missing `native.js` and fix indentation [(#2975)](https://github.com/stdlib-js/stdlib/pull/2975) _(by Gunj Joshi)_
+-   [`aa94a37`](https://github.com/stdlib-js/stdlib/commit/aa94a37728cfa9d7356f9a9880bfc411f302443a) - **refactor:** remove hardcoded constant [(#2970)](https://github.com/stdlib-js/stdlib/pull/2970) _(by Gunj Joshi)_
 -   [`abf0407`](https://github.com/stdlib-js/stdlib/commit/abf040787f6598438b0100a729a8331b7f80f62f) - **chore:** resolve lint errors in TS files _(by Philipp Burckhardt)_
 -   [`b89c97c`](https://github.com/stdlib-js/stdlib/commit/b89c97ce0b812ff0b2aab16b4d77969d44fe3e8c) - **docs:** resolve lint errors in TS declaration files _(by Philipp Burckhardt)_
 -   [`08f9c1a`](https://github.com/stdlib-js/stdlib/commit/08f9c1af6dee1cc36cda84b10230500e75d53ff5) - **chore:** minor clean-up _(by Philipp Burckhardt)_
