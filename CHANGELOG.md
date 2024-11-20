@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-01)
+## Unreleased (2024-11-20)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190)
 -   [`5b184b6`](https://github.com/stdlib-js/stdlib/commit/5b184b681a3d1d5c3fea30b9d8f4630c86eb44af) - add C implementation for `math/base/special/binomcoefln`
 -   [`06b8011`](https://github.com/stdlib-js/stdlib/commit/06b80119890e1868578ba4904e9efaa071b27b05) - add C implementation for `math/base/special/binomcoef`
 
@@ -36,6 +37,18 @@
 </section>
 
 <!-- /.bug-fixes -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec): update namespace declarations
+
+    -   To migrate, users should consult the corresponding packages containing the respective implementations to determine what is breaking. The primary breakages come from the `blas/*` namespace, where we recently refactored how top-level BLAS APIs operate on input arguments.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -131,6 +144,62 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-ahavercosf-unreleased">
+
+#### [@stdlib/math/base/special/ahavercosf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/ahavercosf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`fc38ed8`](https://github.com/stdlib-js/stdlib/commit/fc38ed8247ba61728a368306323ad70cda5895d6) - add `math/base/special/ahavercosf` [(#3072)](https://github.com/stdlib-js/stdlib/pull/3072)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#649](https://github.com/stdlib-js/stdlib/issues/649)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-ahaversinf-unreleased">
+
+#### [@stdlib/math/base/special/ahaversinf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/ahaversinf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`545a050`](https://github.com/stdlib-js/stdlib/commit/545a05093d99910b39773f57d3df2da9232b24f5) - add `math/base/special/ahaversinf` [(#3076)](https://github.com/stdlib-js/stdlib/pull/3076)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-atandf-unreleased">
 
 #### [@stdlib/math/base/special/atandf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/atandf)
@@ -190,6 +259,40 @@
 </section>
 
 <!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-bernoulli-unreleased">
+
+#### [@stdlib/math/base/special/bernoulli](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/bernoulli)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`47cfa90`](https://github.com/stdlib-js/stdlib/commit/47cfa907d643a00ac5b3fce9967e655401e110f8) - update the return value for `n=1` in `math/base/special/bernoulli` [(#3108)](https://github.com/stdlib-js/stdlib/pull/3108)
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`47cfa90`](https://github.com/stdlib-js/stdlib/commit/47cfa907d643a00ac5b3fce9967e655401e110f8): update return value for `n=1`
+
+    -   In order to migrate and preserve prior behavior, users should special case `n=1` and return `0`. The change in this commit aligns return values with SymPy and R; although, other libraries and envs choose to return `-0.5`.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -298,6 +401,74 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-cfloorf-unreleased">
+
+#### [@stdlib/math/base/special/cfloorf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cfloorf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`6556a46`](https://github.com/stdlib-js/stdlib/commit/6556a46aa3a6dffdff6becd4fb98d32421b3e7f2) - add `math/base/special/cfloorf` [(#3058)](https://github.com/stdlib-js/stdlib/pull/3058)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#649](https://github.com/stdlib-js/stdlib/issues/649)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-croundf-unreleased">
+
+#### [@stdlib/math/base/special/croundf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/croundf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d9a93be`](https://github.com/stdlib-js/stdlib/commit/d9a93be954f04720bb5b03512be42c9ce6201088) - add `math/base/special/croundf` [(#3061)](https://github.com/stdlib-js/stdlib/pull/3061)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#649](https://github.com/stdlib-js/stdlib/issues/649)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-erf-unreleased">
 
 #### [@stdlib/math/base/special/erf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/erf)
@@ -364,6 +535,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-fmodf-unreleased">
+
+#### [@stdlib/math/base/special/fmodf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fmodf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`7fd112c`](https://github.com/stdlib-js/stdlib/commit/7fd112c799e3a864d975357b2066e45f4196653e) - add `math/base/special/fmodf` [(#3059)](https://github.com/stdlib-js/stdlib/pull/3059)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-gamma-delta-ratio-unreleased">
 
 #### [@stdlib/math/base/special/gamma-delta-ratio](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/gamma-delta-ratio)
@@ -419,6 +612,28 @@
 ##### Features
 
 -   [`d745814`](https://github.com/stdlib-js/stdlib/commit/d74581415b30604ce6db2b3a2c4f242040eb3e8e) - add C implementation for `math/base/special/gammaln` [(#2636)](https://github.com/stdlib-js/stdlib/pull/2636)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-gcdf-unreleased">
+
+#### [@stdlib/math/base/special/gcdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/gcdf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f8bcfd8`](https://github.com/stdlib-js/stdlib/commit/f8bcfd832483d46068c710b6854d5f97bcb778fd) - add `math/base/special/gcdf` [(#2997)](https://github.com/stdlib-js/stdlib/pull/2997)
 
 </section>
 
@@ -802,6 +1017,14 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec): update namespace declarations
+
+    -   To migrate, users should consult the corresponding packages containing the respective implementations to determine what is breaking. The primary breakages come from the `blas/*` namespace, where we recently refactored how top-level BLAS APIs operate on input arguments.
+
+-   [`47cfa90`](https://github.com/stdlib-js/stdlib/commit/47cfa907d643a00ac5b3fce9967e655401e110f8): update return value for `n=1`
+
+    -   In order to migrate and preserve prior behavior, users should special case `n=1` and return `0`. The change in this commit aligns return values with SymPy and R; although, other libraries and envs choose to return `-0.5`.
+
 -   [`0ae49fb`](https://github.com/stdlib-js/stdlib/commit/0ae49fba6e79599a4b8b1be464a7570a3c7f6d83): update C API name
 
     -   This commit changes the name of the C API from `stdlib_base_j1` to `stdlib_base_besselj1`. This ensures that the C function name more closely matches the global namespace name and helps protect against future naming collisions. To migrate, users should update their call signatures accordingly.
@@ -814,9 +1037,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 4 issues were closed in this release:
 
-[#225](https://github.com/stdlib-js/stdlib/issues/225)
+[#225](https://github.com/stdlib-js/stdlib/issues/225), [#649](https://github.com/stdlib-js/stdlib/issues/649), [#649](https://github.com/stdlib-js/stdlib/issues/649), [#649](https://github.com/stdlib-js/stdlib/issues/649)
 
 </section>
 
@@ -826,7 +1049,7 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 7 people contributed to this release. Thank you to the following contributors:
+A total of 8 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   AbhijitRaut04
@@ -834,6 +1057,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 -   Athan Reines
 -   Ayaka
 -   Gunj Joshi
+-   Gururaj Gurram
 -   Philipp Burckhardt
 
 </section>
@@ -846,6 +1070,22 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - **feat:** update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`72bf083`](https://github.com/stdlib-js/stdlib/commit/72bf083eb1bbc829eebbbff32f73fc2a202b2570) - **refactor:** update benchmarks and test fixtures in `math/base/special/ahavercosf` [(#3118)](https://github.com/stdlib-js/stdlib/pull/3118) _(by Gunj Joshi)_
+-   [`163a3e7`](https://github.com/stdlib-js/stdlib/commit/163a3e7fa2c7429f88b2dd69df42572f9ff0af9d) - **refactor:** update benchmark, add `f` suffixes, missing spaces in `math/base/special/gcdf` [(#3121)](https://github.com/stdlib-js/stdlib/pull/3121) _(by Gunj Joshi, Athan Reines)_
+-   [`3c5c933`](https://github.com/stdlib-js/stdlib/commit/3c5c933c86f7243e8872dcf3cb7548d0399b1b35) - **refactor:** update benchmarks and test fixtures in `math/base/special/ahaversinf` [(#3119)](https://github.com/stdlib-js/stdlib/pull/3119) _(by Gunj Joshi)_
+-   [`8a03f83`](https://github.com/stdlib-js/stdlib/commit/8a03f833d9808c17418225664d7250b94fb0e1b5) - **refactor:** use constant package in `math/base/special/fmodf` (#3120) [(#3120)](https://github.com/stdlib-js/stdlib/pull/3120) _(by Gunj Joshi)_
+-   [`e5bfdff`](https://github.com/stdlib-js/stdlib/commit/e5bfdff2d2c137f84eb5f925f8d63a3729d05eb2) - **docs:** update functions descriptions in `math/base/special/cceil` [(#3114)](https://github.com/stdlib-js/stdlib/pull/3114) _(by Gunj Joshi)_
+-   [`79dc5cf`](https://github.com/stdlib-js/stdlib/commit/79dc5cf4044f4f90a7005389e4740f14a820a967) - **bench:** generate numbers outside loops in `math/base/special/cfloorf` [(#3113)](https://github.com/stdlib-js/stdlib/pull/3113) _(by Gunj Joshi)_
+-   [`47cfa90`](https://github.com/stdlib-js/stdlib/commit/47cfa907d643a00ac5b3fce9967e655401e110f8) - **feat:** update the return value for `n=1` in `math/base/special/bernoulli` [(#3108)](https://github.com/stdlib-js/stdlib/pull/3108) _(by Gunj Joshi, Athan Reines)_
+-   [`d88cd86`](https://github.com/stdlib-js/stdlib/commit/d88cd86622b7a4ebffcb4b57aa60d5b7292fee73) - **refactor:** use constants, `FI_F` for addon and style fixes in `math/base/special/ldexpf` [(#2868)](https://github.com/stdlib-js/stdlib/pull/2868) _(by Gunj Joshi)_
+-   [`d9a93be`](https://github.com/stdlib-js/stdlib/commit/d9a93be954f04720bb5b03512be42c9ce6201088) - **feat:** add `math/base/special/croundf` [(#3061)](https://github.com/stdlib-js/stdlib/pull/3061) _(by Gururaj Gurram, Philipp Burckhardt)_
+-   [`f8bcfd8`](https://github.com/stdlib-js/stdlib/commit/f8bcfd832483d46068c710b6854d5f97bcb778fd) - **feat:** add `math/base/special/gcdf` [(#2997)](https://github.com/stdlib-js/stdlib/pull/2997) _(by Aayush Khanna, Philipp Burckhardt)_
+-   [`6556a46`](https://github.com/stdlib-js/stdlib/commit/6556a46aa3a6dffdff6becd4fb98d32421b3e7f2) - **feat:** add `math/base/special/cfloorf` [(#3058)](https://github.com/stdlib-js/stdlib/pull/3058) _(by Aayush Khanna)_
+-   [`7fd112c`](https://github.com/stdlib-js/stdlib/commit/7fd112c799e3a864d975357b2066e45f4196653e) - **feat:** add `math/base/special/fmodf` [(#3059)](https://github.com/stdlib-js/stdlib/pull/3059) _(by Gunj Joshi, Philipp Burckhardt)_
+-   [`545a050`](https://github.com/stdlib-js/stdlib/commit/545a05093d99910b39773f57d3df2da9232b24f5) - **feat:** add `math/base/special/ahaversinf` [(#3076)](https://github.com/stdlib-js/stdlib/pull/3076) _(by Aayush Khanna)_
+-   [`fc38ed8`](https://github.com/stdlib-js/stdlib/commit/fc38ed8247ba61728a368306323ad70cda5895d6) - **feat:** add `math/base/special/ahavercosf` [(#3072)](https://github.com/stdlib-js/stdlib/pull/3072) _(by Aayush Khanna, Philipp Burckhardt)_
+-   [`e093a4d`](https://github.com/stdlib-js/stdlib/commit/e093a4d6a41d7686cc780fd1935bd925ccbbe155) - **refactor:** use external constant and update license in `math/base/special/pow` [(#3082)](https://github.com/stdlib-js/stdlib/pull/3082) _(by Gunj Joshi)_
 -   [`ed4c8d6`](https://github.com/stdlib-js/stdlib/commit/ed4c8d65a020d119c4baa1eb6716751c75cf8a07) - **feat:** add support for secant functionality `math/base/special/sec` [(#3027)](https://github.com/stdlib-js/stdlib/pull/3027) _(by AbhijitRaut04, Athan Reines, Philipp Burckhardt)_
 -   [`b18921a`](https://github.com/stdlib-js/stdlib/commit/b18921a136da2755efccfd6ae23c8b3f5aaa8f4a) - **feat:** add `math/base/special/acosdf` [(#3015)](https://github.com/stdlib-js/stdlib/pull/3015) _(by Aayush Khanna, Athan Reines)_
 -   [`60522bf`](https://github.com/stdlib-js/stdlib/commit/60522bfc0b5574d348301e788400178156731024) - **docs:** fix operator [(#3039)](https://github.com/stdlib-js/stdlib/pull/3039) _(by Gunj Joshi)_
@@ -14086,6 +14326,18 @@ This release closes the following issue:
 
 <!-- /.breaking-changes -->
 
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#895](https://github.com/stdlib-js/stdlib/issues/895)
+
+</section>
+
+<!-- /.issues -->
+
 </details>
 
 </section>
@@ -14602,9 +14854,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 2 issues were closed in this release:
+A total of 3 issues were closed in this release:
 
-[#892](https://github.com/stdlib-js/stdlib/issues/892), [#893](https://github.com/stdlib-js/stdlib/issues/893)
+[#892](https://github.com/stdlib-js/stdlib/issues/892), [#893](https://github.com/stdlib-js/stdlib/issues/893), [#895](https://github.com/stdlib-js/stdlib/issues/895)
 
 </section>
 
