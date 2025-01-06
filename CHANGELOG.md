@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-09)
+## Unreleased (2025-01-06)
 
 <section class="packages">
 
@@ -908,6 +908,18 @@
 
 <!-- /.reverts -->
 
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3393](https://github.com/stdlib-js/stdlib/issues/3393)
+
+</section>
+
+<!-- /.issues -->
+
 </details>
 
 </section>
@@ -1411,6 +1423,28 @@ This release closes the following issue:
 </section>
 
 <!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-falling-factorial-unreleased">
+
+#### [@stdlib/math/base/special/falling-factorial](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/falling-factorial)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b518ff1`](https://github.com/stdlib-js/stdlib/commit/b518ff110e120612be4d53b9f124a3c210711610) - add C implementation for `math/base/special/falling-factorial`
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -2494,6 +2528,50 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-negalucasf-unreleased">
+
+#### [@stdlib/math/base/special/negalucasf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/negalucasf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`3b4514d`](https://github.com/stdlib-js/stdlib/commit/3b4514d1272ea9e4863381e3d0febd02ba8d230f) - add `math/base/special/negalucasf`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-nonfibonaccif-unreleased">
+
+#### [@stdlib/math/base/special/nonfibonaccif](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/nonfibonaccif)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`7245f3c`](https://github.com/stdlib-js/stdlib/commit/7245f3c8cf9139b72f6f058e8c878b13e02ded9f) - add `math/base/special/nonfibonaccif` [(#3391)](https://github.com/stdlib-js/stdlib/pull/3391)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-pow-unreleased">
 
 #### [@stdlib/math/base/special/pow](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/pow)
@@ -2946,6 +3024,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-sqrtpif-unreleased">
+
+#### [@stdlib/math/base/special/sqrtpif](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/sqrtpif)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`aa5c7a8`](https://github.com/stdlib-js/stdlib/commit/aa5c7a80994aa8c6198b92f20dec9c451b05d1be) - add `math/base/special/sqrtpif`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-tan-unreleased">
 
 #### [@stdlib/math/base/special/tan](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/tan)
@@ -3172,9 +3272,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 2 issues were closed in this release:
+A total of 3 issues were closed in this release:
 
-[#225](https://github.com/stdlib-js/stdlib/issues/225), [#649](https://github.com/stdlib-js/stdlib/issues/649)
+[#225](https://github.com/stdlib-js/stdlib/issues/225), [#649](https://github.com/stdlib-js/stdlib/issues/649), [#3393](https://github.com/stdlib-js/stdlib/issues/3393)
 
 </section>
 
@@ -3205,6 +3305,50 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`321e49e`](https://github.com/stdlib-js/stdlib/commit/321e49e9965648f1b5eb6a840fe454959af0ec49) - **docs:** add missing periods to list items _(by Philipp Burckhardt)_
+-   [`a3301a2`](https://github.com/stdlib-js/stdlib/commit/a3301a2bde94e8c07888a1db589d189e9ecfc347) - **docs:** update related packages sections [(#4517)](https://github.com/stdlib-js/stdlib/pull/4517) _(by stdlib-bot)_
+-   [`14706e4`](https://github.com/stdlib-js/stdlib/commit/14706e4baccbf3b827e12cae163d7b98a96b0fa8) - **docs:** update related packages sections [(#4445)](https://github.com/stdlib-js/stdlib/pull/4445) _(by stdlib-bot)_
+-   [`b518ff1`](https://github.com/stdlib-js/stdlib/commit/b518ff110e120612be4d53b9f124a3c210711610) - **feat:** add C implementation for `math/base/special/falling-factorial` _(by Gunj Joshi, stdlib-bot, Philipp Burckhardt)_
+-   [`0d52a8a`](https://github.com/stdlib-js/stdlib/commit/0d52a8a0eec7221c0147185c4ce3317db0458498) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`4301694`](https://github.com/stdlib-js/stdlib/commit/43016945387e02d6396d33cb7134c62c977b7fd8) - **docs:** update related packages sections [(#4362)](https://github.com/stdlib-js/stdlib/pull/4362) _(by stdlib-bot)_
+-   [`8f2808d`](https://github.com/stdlib-js/stdlib/commit/8f2808dec8c8a6508841e86453fba823823efc6c) - **docs:** update related packages sections [(#4302)](https://github.com/stdlib-js/stdlib/pull/4302) _(by stdlib-bot)_
+-   [`a6f3921`](https://github.com/stdlib-js/stdlib/commit/a6f3921560705503dcb5ee2575dd2f11417f58fb) - **docs:** update related packages sections [(#4242)](https://github.com/stdlib-js/stdlib/pull/4242) _(by stdlib-bot, Athan Reines)_
+-   [`7245f3c`](https://github.com/stdlib-js/stdlib/commit/7245f3c8cf9139b72f6f058e8c878b13e02ded9f) - **feat:** add `math/base/special/nonfibonaccif` [(#3391)](https://github.com/stdlib-js/stdlib/pull/3391) _(by Aayush Khanna, Athan Reines, Gunj Joshi, stdlib-bot)_
+-   [`4a70790`](https://github.com/stdlib-js/stdlib/commit/4a707903dfef7c2b56216000165706497d19a251) - **style:** add missing spaces _(by Philipp Burckhardt)_
+-   [`ed5c4cc`](https://github.com/stdlib-js/stdlib/commit/ed5c4cccc06ad98f4de90310bf24a5a373761b43) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`90e96d0`](https://github.com/stdlib-js/stdlib/commit/90e96d01b7a32ec3b71caf3e5f57528338199a8f) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`7d6450c`](https://github.com/stdlib-js/stdlib/commit/7d6450c671dd91fffbec536a216a76f9e094dad0) - **docs:** update related packages sections [(#4186)](https://github.com/stdlib-js/stdlib/pull/4186) _(by stdlib-bot)_
+-   [`b7867cb`](https://github.com/stdlib-js/stdlib/commit/b7867cbb3a4fc453e19203794402c36f19b264fd) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`d3d3d14`](https://github.com/stdlib-js/stdlib/commit/d3d3d14939ac77ab7d5a4476551108f8ff1c3f1f) - **docs:** update related packages sections [(#4149)](https://github.com/stdlib-js/stdlib/pull/4149) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
+-   [`0ba282b`](https://github.com/stdlib-js/stdlib/commit/0ba282b89c384f06bbe3ff8ecd71982f05209606) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`318f280`](https://github.com/stdlib-js/stdlib/commit/318f28057bf00d910a656c4f315b8de17f89d3b5) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`c13062e`](https://github.com/stdlib-js/stdlib/commit/c13062e5b90cbe28ec62f0b690211bd14b626cf3) - **style:** update to use tabs for indentation _(by Philipp Burckhardt)_
+-   [`2ea848b`](https://github.com/stdlib-js/stdlib/commit/2ea848b62b686e1e9d861f7df25ece23a7d80798) - **style:** update to use tabs for indentation _(by Philipp Burckhardt)_
+-   [`6a0d6b8`](https://github.com/stdlib-js/stdlib/commit/6a0d6b861f8e2079a501ca4e46a9175440eedb46) - **style:** update to use tabs for indentation _(by Philipp Burckhardt)_
+-   [`5b71452`](https://github.com/stdlib-js/stdlib/commit/5b71452bd40811341a2e4eaab018c3cc17c5feac) - **docs:** update related packages sections [(#4135)](https://github.com/stdlib-js/stdlib/pull/4135) _(by stdlib-bot, Athan Reines)_
+-   [`f13ddb2`](https://github.com/stdlib-js/stdlib/commit/f13ddb2eb01e5520b6fa98634bbf9de76793036f) - **style:** use spaces for alignment in C comments _(by Philipp Burckhardt)_
+-   [`c322b66`](https://github.com/stdlib-js/stdlib/commit/c322b6647751b73a9d0fe12bf5665e8e2243d4ca) - **docs:** update related packages sections [(#4070)](https://github.com/stdlib-js/stdlib/pull/4070) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`8bf8285`](https://github.com/stdlib-js/stdlib/commit/8bf8285aba0ecbd00ae145c4c5c098cd28135814) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`8785e54`](https://github.com/stdlib-js/stdlib/commit/8785e54ec82782d7d01912988596c9d7d2bf06d0) - **refactor:** replace built-ins by stdlib packages, update benchmarks in `math/base/special/trunc` [(#3941)](https://github.com/stdlib-js/stdlib/pull/3941) _(by Gunj Joshi, Athan Reines)_
+-   [`db76062`](https://github.com/stdlib-js/stdlib/commit/db76062ddee3a358ddb2ac1dc725610516b2891f) - **docs:** update function descriptions and move link [(#4015)](https://github.com/stdlib-js/stdlib/pull/4015) _(by Gunj Joshi)_
+-   [`66b4609`](https://github.com/stdlib-js/stdlib/commit/66b4609cee9e428f80bc78da231d2be8e7b223cc) - **refactor:** use inbuilt macro instead of new variable for `MAX_SAFE_NTH_LUCAS` [(#3980)](https://github.com/stdlib-js/stdlib/pull/3980) _(by Aayush Khanna)_
+-   [`32deb11`](https://github.com/stdlib-js/stdlib/commit/32deb11c6a2453748d8db9554b6bb3fdb73a077f) - **docs:** update related packages sections [(#3976)](https://github.com/stdlib-js/stdlib/pull/3976) _(by stdlib-bot)_
+-   [`0e887d5`](https://github.com/stdlib-js/stdlib/commit/0e887d567344c8a31a382266389022ec26f2bcca) - **style:** add missing spaces _(by Philipp Burckhardt)_
+-   [`ff25e13`](https://github.com/stdlib-js/stdlib/commit/ff25e1324e1507cc076078e82badce7fdf7915f6) - **docs:** remove excess whitespace _(by Philipp Burckhardt)_
+-   [`6bbf2d6`](https://github.com/stdlib-js/stdlib/commit/6bbf2d67034e056190594bf2bceca4eb40a66b6f) - **style:** fix indentation _(by Philipp Burckhardt)_
+-   [`0756fb5`](https://github.com/stdlib-js/stdlib/commit/0756fb583ae0061031335704fdc46805f408f9c9) - **style:** remove empty lines _(by Philipp Burckhardt)_
+-   [`cfc0665`](https://github.com/stdlib-js/stdlib/commit/cfc0665435a1f99158d7fed39b8873dea6aa6209) - **docs:** add missing private tag _(by Philipp Burckhardt)_
+-   [`e450426`](https://github.com/stdlib-js/stdlib/commit/e450426813957ec4de5e31434edb969741db7c94) - **bench:** add missing native suffix _(by Philipp Burckhardt)_
+-   [`3b4514d`](https://github.com/stdlib-js/stdlib/commit/3b4514d1272ea9e4863381e3d0febd02ba8d230f) - **feat:** add `math/base/special/negalucasf` _(by Aayush Khanna, stdlib-bot, Philipp Burckhardt)_
+-   [`aa5c7a8`](https://github.com/stdlib-js/stdlib/commit/aa5c7a80994aa8c6198b92f20dec9c451b05d1be) - **feat:** add `math/base/special/sqrtpif` _(by Gururaj Gurram, stdlib-bot, Gunj Joshi, Philipp Burckhardt)_
+-   [`b8c41df`](https://github.com/stdlib-js/stdlib/commit/b8c41df78cd2cdc9cd3c3c6b223759d32f4f6e14) - **docs:** update related packages sections [(#3915)](https://github.com/stdlib-js/stdlib/pull/3915) _(by stdlib-bot)_
+-   [`6e69af4`](https://github.com/stdlib-js/stdlib/commit/6e69af4a9b1be98b8972e9f81a3b1fce73cdde43) - **refactor:** update `math/base/special/cexp` to follow latest project conventions [(#3394)](https://github.com/stdlib-js/stdlib/pull/3394) _(by Aayush Khanna, Gunj Joshi)_
+-   [`a851ddd`](https://github.com/stdlib-js/stdlib/commit/a851ddd8d5db62a664386d59c9c39a0b82ac7c0c) - **bench:** refactor benchmarks and update function parameter description [(#3907)](https://github.com/stdlib-js/stdlib/pull/3907) _(by Gunj Joshi)_
+-   [`5cb36ef`](https://github.com/stdlib-js/stdlib/commit/5cb36ef4c6f8158585ac88867a8dec21ed3fa372) - **docs:** update related packages sections [(#3890)](https://github.com/stdlib-js/stdlib/pull/3890) _(by stdlib-bot)_
+-   [`195f3ee`](https://github.com/stdlib-js/stdlib/commit/195f3eeb93f855e75880ad14e7166b77abdd4283) - **refactor:** use stdlib constant in `math/base/special/riemann-zeta` [(#3320)](https://github.com/stdlib-js/stdlib/pull/3320) _(by Gunj Joshi)_
+-   [`bf5643f`](https://github.com/stdlib-js/stdlib/commit/bf5643fb1a3f32a60903d8e210f71571e609119f) - **docs:** update related packages sections [(#3404)](https://github.com/stdlib-js/stdlib/pull/3404) _(by stdlib-bot)_
+-   [`1c56b73`](https://github.com/stdlib-js/stdlib/commit/1c56b737ec018cc818cebf19e5c7947fa684e126) - **docs:** update related packages sections [(#3380)](https://github.com/stdlib-js/stdlib/pull/3380) _(by stdlib-bot)_
 -   [`0a8192d`](https://github.com/stdlib-js/stdlib/commit/0a8192d68506a2abf4c3e52e1af9f1510e1660b4) - **docs:** update related packages sections [(#3370)](https://github.com/stdlib-js/stdlib/pull/3370) _(by stdlib-bot)_
 -   [`a64ea86`](https://github.com/stdlib-js/stdlib/commit/a64ea86886d159e09b37e8591fc53d9944618204) - **feat:** update namespace TypeScript declarations [(#3371)](https://github.com/stdlib-js/stdlib/pull/3371) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`7e8187a`](https://github.com/stdlib-js/stdlib/commit/7e8187a766886c2fb9cdc356cf781f0a1802172c) - **docs:** update related packages sections [(#3368)](https://github.com/stdlib-js/stdlib/pull/3368) _(by stdlib-bot)_
@@ -7922,7 +8066,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 -   Athan Reines
 -   Ayaka
 -   Gunj Joshi
--   Lovelin
+-   Lovelin Dhoni J B
 -   Mihir Pandit
 -   Philipp Burckhardt
 -   Pranav Goswami
@@ -8210,7 +8354,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 -   [`23f2db6`](https://github.com/stdlib-js/stdlib/commit/23f2db6d4d754350e5bf5c00958e2093d30d086e) - **feat:** add C implementation for `math/base/special/ellipe` [(#1452)](https://github.com/stdlib-js/stdlib/pull/1452) _(by Gunj Joshi, Athan Reines, Pranav Goswami)_
 -   [`8484053`](https://github.com/stdlib-js/stdlib/commit/84840535f83baa0b4638c5cf467144d4b0eb40d6) - **fix:** rename configuration file [(#1730)](https://github.com/stdlib-js/stdlib/pull/1730) _(by Pranav Goswami)_
 -   [`ca6614a`](https://github.com/stdlib-js/stdlib/commit/ca6614abe2ae5acdcfd6eccaf49a65215f60d99e) - **fix:** add missing gypfile field entries _(by Philipp Burckhardt)_
--   [`1aaab57`](https://github.com/stdlib-js/stdlib/commit/1aaab5736f41d8330154339c52f8755381f04667) - **feat:** add C implementation for `math/base/special/coth` _(by Lovelin)_
+-   [`1aaab57`](https://github.com/stdlib-js/stdlib/commit/1aaab5736f41d8330154339c52f8755381f04667) - **feat:** add C implementation for `math/base/special/coth` _(by Lovelin Dhoni J B)_
 -   [`d829b75`](https://github.com/stdlib-js/stdlib/commit/d829b759e2910479911a3998c065b2cf2abf491e) - **docs:** fix errors in various C examples [(#1691)](https://github.com/stdlib-js/stdlib/pull/1691) _(by Pranav Goswami)_
 -   [`94d7738`](https://github.com/stdlib-js/stdlib/commit/94d7738c835898f9fa6d8904ebd230401aaf8958) - **docs:** remove blank lines [(#1682)](https://github.com/stdlib-js/stdlib/pull/1682) _(by stdlib-bot)_
 -   [`c86db95`](https://github.com/stdlib-js/stdlib/commit/c86db9526dbc39bc2fc97fdb5fde9f97d73a1133) - **feat:** add C implementation for `math/base/special/log` _(by Aman Bhansali, Pranav)_
