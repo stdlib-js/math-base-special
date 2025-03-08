@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-06)
+## Unreleased (2025-03-08)
 
 <section class="packages">
 
@@ -1110,6 +1110,28 @@ This release closes the following issue:
 </section>
 
 <!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-cotd-unreleased">
+
+#### [@stdlib/math/base/special/cotd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cotd)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`75941b9`](https://github.com/stdlib-js/stdlib/commit/75941b94bd2713c857146756596925bb4299af6e) - update `math/base/special/cotd` to match correct reference implementation [(#5813)](https://github.com/stdlib-js/stdlib/pull/5813)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 </details>
 
@@ -3238,6 +3260,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-sincosd-unreleased">
+
+#### [@stdlib/math/base/special/sincosd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/sincosd)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`6d7317a`](https://github.com/stdlib-js/stdlib/commit/6d7317af46884dca86c9775ca98d5c275d5fe05a) - add `math/base/special/sincosd` [(#5837)](https://github.com/stdlib-js/stdlib/pull/5837)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-sincospi-unreleased">
 
 #### [@stdlib/math/base/special/sincospi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/sincospi)
@@ -3670,6 +3714,13 @@ A total of 15 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`c52b466`](https://github.com/stdlib-js/stdlib/commit/c52b4669f8f55271054c3e0fc1c959e4d5de2d29) - **docs:** update namespace table of contents [(#5870)](https://github.com/stdlib-js/stdlib/pull/5870) _(by stdlib-bot)_
+-   [`9c97323`](https://github.com/stdlib-js/stdlib/commit/9c97323a8d2417f53c7fa94009b67e7b26212842) - **test:** fix use of `tape.skip` [(#5872)](https://github.com/stdlib-js/stdlib/pull/5872) _(by Karan Anand)_
+-   [`83f88d9`](https://github.com/stdlib-js/stdlib/commit/83f88d9366f1b39342a43ddfc6e36273be38a4ee) - **docs:** update function descriptions [(#5866)](https://github.com/stdlib-js/stdlib/pull/5866) _(by Karan Anand)_
+-   [`6d7317a`](https://github.com/stdlib-js/stdlib/commit/6d7317af46884dca86c9775ca98d5c275d5fe05a) - **feat:** add `math/base/special/sincosd` [(#5837)](https://github.com/stdlib-js/stdlib/pull/5837) _(by Karan Anand, Gunj Joshi)_
+-   [`75941b9`](https://github.com/stdlib-js/stdlib/commit/75941b94bd2713c857146756596925bb4299af6e) - **fix:** update `math/base/special/cotd` to match correct reference implementation [(#5813)](https://github.com/stdlib-js/stdlib/pull/5813) _(by Karan Anand)_
+-   [`73d8eb8`](https://github.com/stdlib-js/stdlib/commit/73d8eb85e52e10d7928ec64809752baa2b23e4cc) - **bench:** refactor random generation in `math/base/special/ceil*` [(#5834)](https://github.com/stdlib-js/stdlib/pull/5834) _(by Saurabh Singh)_
+-   [`1e8a149`](https://github.com/stdlib-js/stdlib/commit/1e8a1497524689db341608fb6a04e7adb6b9e90d) - **bench:** replace custom `sincos` function with built-in Julia implementation [(#5838)](https://github.com/stdlib-js/stdlib/pull/5838) _(by Karan Anand)_
 -   [`1f73fef`](https://github.com/stdlib-js/stdlib/commit/1f73fef9451cc77da8f45dfeb28c359685321859) - **feat:** update namespace TypeScript declarations [(#5816)](https://github.com/stdlib-js/stdlib/pull/5816) _(by stdlib-bot)_
 -   [`406337f`](https://github.com/stdlib-js/stdlib/commit/406337fc2a5709ef967afbd6be8b25b0a89a3c30) - **fix:** update `math/base/special/cscd` to match correct reference implementation [(#5811)](https://github.com/stdlib-js/stdlib/pull/5811) _(by Karan Anand)_
 -   [`f5459a7`](https://github.com/stdlib-js/stdlib/commit/f5459a759caf08cf4fb882609678e878785d6dc7) - **fix:** update `math/base/special/secd` to match correct reference implementation [(#5810)](https://github.com/stdlib-js/stdlib/pull/5810) _(by Karan Anand)_
