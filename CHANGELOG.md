@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-08)
+## Unreleased (2025-03-10)
 
 <section class="packages">
 
@@ -3714,6 +3714,7 @@ A total of 15 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`6fa8a1b`](https://github.com/stdlib-js/stdlib/commit/6fa8a1bb1c4963e417439f8730a5799a8c013d86) - **chore:** address commit comments [(#5875)](https://github.com/stdlib-js/stdlib/pull/5875) _(by Karan Anand)_
 -   [`b688f77`](https://github.com/stdlib-js/stdlib/commit/b688f776dca5b304aa3360bd5716d1d44e5ee846) - **docs:** update namespace TypeScript declarations [(#5868)](https://github.com/stdlib-js/stdlib/pull/5868) _(by stdlib-bot)_
 -   [`c52b466`](https://github.com/stdlib-js/stdlib/commit/c52b4669f8f55271054c3e0fc1c959e4d5de2d29) - **docs:** update namespace table of contents [(#5870)](https://github.com/stdlib-js/stdlib/pull/5870) _(by stdlib-bot)_
 -   [`9c97323`](https://github.com/stdlib-js/stdlib/commit/9c97323a8d2417f53c7fa94009b67e7b26212842) - **test:** fix use of `tape.skip` [(#5872)](https://github.com/stdlib-js/stdlib/pull/5872) _(by Karan Anand)_
