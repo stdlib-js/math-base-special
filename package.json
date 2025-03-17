@@ -193,7 +193,6 @@
     "@stdlib/math-base-special-heaviside": "^0.2.2",
     "@stdlib/math-base-special-hypot": "^0.2.2",
     "@stdlib/math-base-special-hypotf": "^0.2.2",
-    "@stdlib/math-base-special-identityf": "^0.2.2",
     "@stdlib/math-base-special-inv": "^0.2.2",
     "@stdlib/math-base-special-invf": "^0.2.2",
     "@stdlib/math-base-special-kernel-betainc": "^0.2.2",
