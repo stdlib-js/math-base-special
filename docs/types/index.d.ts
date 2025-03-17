@@ -177,7 +177,6 @@ import haversin = require( '@stdlib/math-base-special-haversin' );
 import heaviside = require( '@stdlib/math-base-special-heaviside' );
 import hypot = require( '@stdlib/math-base-special-hypot' );
 import hypotf = require( '@stdlib/math-base-special-hypotf' );
-import identity = require( '@stdlib/math-base-special-identity' );
 import identityf = require( '@stdlib/math-base-special-identityf' );
 import inv = require( '@stdlib/math-base-special-inv' );
 import invf = require( '@stdlib/math-base-special-invf' );
@@ -4653,34 +4652,6 @@ interface Namespace {
 	* // returns 0.0
 	*/
 	hypotf: typeof hypotf;
-
-	/**
-	* Evaluates the identity function for double-precision floating-point number `x`.
-	*
-	* @param x - input value
-	* @returns input value
-	*
-	* @example
-	* var v = ns.identity( -1.0 );
-	* // returns -1.0
-	*
-	* @example
-	* var v = ns.identity( 2.0 );
-	* // returns 2.0
-	*
-	* @example
-	* var v = ns.identity( 0.0 );
-	* // returns 0.0
-	*
-	* @example
-	* var v = ns.identity( -0.0 );
-	* // returns -0.0
-	*
-	* @example
-	* var v = ns.identity( NaN );
-	* // returns NaN
-	*/
-	identity: typeof identity;
 
 	/**
 	* Evaluates the identity function for single-precision floating-point number `x`.

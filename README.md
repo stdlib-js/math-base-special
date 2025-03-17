@@ -323,7 +323,7 @@ var fcns = special;
 -   <span class="signature">[`heaviside( x[, continuity] )`][@stdlib/math/base/special/heaviside]</span><span class="delimiter">: </span><span class="description">evaluate the Heaviside function.</span>
 -   <span class="signature">[`hypot( x, y )`][@stdlib/math/base/special/hypot]</span><span class="delimiter">: </span><span class="description">compute the hypotenuse avoiding overflow and underflow.</span>
 -   <span class="signature">[`hypotf( x, y )`][@stdlib/math/base/special/hypotf]</span><span class="delimiter">: </span><span class="description">compute the hypotenuse avoiding overflow and underflow (single-precision).</span>
--   <span class="signature">[`identity( x )`][@stdlib/math/base/special/identity]</span><span class="delimiter">: </span><span class="description">evaluate the identity function of a double-precision floating-point number.</span>
+-   <span class="signature">[`identity( x )`][@stdlib/number/float64/base/identity]</span><span class="delimiter">: </span><span class="description">evaluate the identity function of a double-precision floating-point number.</span>
 -   <span class="signature">[`identityf( x )`][@stdlib/math/base/special/identityf]</span><span class="delimiter">: </span><span class="description">evaluate the identity function of a single-precision floating-point number.</span>
 -   <span class="signature">[`inv( x )`][@stdlib/math/base/special/inv]</span><span class="delimiter">: </span><span class="description">compute the multiplicative inverse of a double-precision floating-point number.</span>
 -   <span class="signature">[`invf( x )`][@stdlib/math/base/special/invf]</span><span class="delimiter">: </span><span class="description">compute the multiplicative inverse of a single-precision floating-point number.</span>
@@ -677,7 +677,7 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/math/base/special/hypotf]: https://github.com/stdlib-js/math-base-special-hypotf
 
-[@stdlib/math/base/special/identity]: https://github.com/stdlib-js/math-base-special-identity
+[@stdlib/number/float64/base/identity]: https://github.com/stdlib-js/number-float64-base-identity
 
 [@stdlib/math/base/special/identityf]: https://github.com/stdlib-js/math-base-special-identityf
 
