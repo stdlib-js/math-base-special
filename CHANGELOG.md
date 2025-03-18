@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-17)
+## Unreleased (2025-03-18)
 
 <section class="packages">
 
@@ -53,6 +53,56 @@
 <section class="breaking-changes">
 
 ##### BREAKING CHANGES
+
+-   [`0ebeaf8`](https://github.com/stdlib-js/stdlib/commit/0ebeaf89ad1af59fb5e998d259d717a588fdcbb3): remove `cidentity`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex-float64/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
 
 -   [`36d3db3`](https://github.com/stdlib-js/stdlib/commit/36d3db3e658584389593390b81866b367bf9c5fa): remove `identityf`
 
@@ -1122,6 +1172,78 @@ This release closes the following issue:
 </section>
 
 <!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-cidentity-unreleased">
+
+#### [@stdlib/math/base/special/cidentity](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cidentity)
+
+<details>
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`7a67cff`](https://github.com/stdlib-js/stdlib/commit/7a67cfff161e9d66bb3c624d45a4428766efb007): remove `math/base/special/cidentity`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/complex-float64/base/identity` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -3944,6 +4066,108 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`7a67cff`](https://github.com/stdlib-js/stdlib/commit/7a67cfff161e9d66bb3c624d45a4428766efb007): remove `math/base/special/cidentity`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/complex-float64/base/identity` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`0ebeaf8`](https://github.com/stdlib-js/stdlib/commit/0ebeaf89ad1af59fb5e998d259d717a588fdcbb3): remove `cidentity`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex-float64/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
 -   [`53bb578`](https://github.com/stdlib-js/stdlib/commit/53bb578118172e65c51bee68712fcac8526011c1): remove `math/base/special/identityf`
 
     -   To migrate, users should update their require/import paths to use
@@ -4211,6 +4435,9 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`7a67cff`](https://github.com/stdlib-js/stdlib/commit/7a67cfff161e9d66bb3c624d45a4428766efb007) - **remove:** remove `math/base/special/cidentity` _(by Gururaj Gurram)_
+-   [`74826d6`](https://github.com/stdlib-js/stdlib/commit/74826d6d9c5c800da64c3a9821a511fef2fd0a67) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`0ebeaf8`](https://github.com/stdlib-js/stdlib/commit/0ebeaf89ad1af59fb5e998d259d717a588fdcbb3) - **remove:** remove `cidentity` from namespace _(by Gururaj Gurram)_
 -   [`53bb578`](https://github.com/stdlib-js/stdlib/commit/53bb578118172e65c51bee68712fcac8526011c1) - **remove:** remove `math/base/special/identityf` _(by Gururaj Gurram)_
 -   [`74b15bb`](https://github.com/stdlib-js/stdlib/commit/74b15bba6c22bcdd23d61a4e8996a59c7ef0f041) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`36d3db3`](https://github.com/stdlib-js/stdlib/commit/36d3db3e658584389593390b81866b367bf9c5fa) - **remove:** remove `identityf` from namespace _(by Gururaj Gurram)_
