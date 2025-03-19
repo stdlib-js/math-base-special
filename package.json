@@ -112,7 +112,6 @@
     "@stdlib/math-base-special-cflipsignf": "^0.2.2",
     "@stdlib/math-base-special-cfloor": "^0.2.2",
     "@stdlib/math-base-special-cfloorn": "^0.2.2",
-    "@stdlib/math-base-special-cidentityf": "^0.2.2",
     "@stdlib/math-base-special-cinv": "^0.2.2",
     "@stdlib/math-base-special-clamp": "^0.2.2",
     "@stdlib/math-base-special-clampf": "^0.2.2",
