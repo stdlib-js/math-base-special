@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-27)
+## Unreleased (2025-04-19)
 
 <section class="packages">
 
@@ -260,6 +260,18 @@
 </section>
 
 <!-- /.breaking-changes -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5862](https://github.com/stdlib-js/stdlib/issues/5862)
+
+</section>
+
+<!-- /.issues -->
 
 </details>
 
@@ -675,6 +687,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-atan2d-unreleased">
+
+#### [@stdlib/math/base/special/atan2d](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/atan2d)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f9cd43c`](https://github.com/stdlib-js/stdlib/commit/f9cd43c1179fb822caa68afbfc6af56d2e128e9e) - add `math/base/special/atan2d` [(#6273)](https://github.com/stdlib-js/stdlib/pull/6273)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-atandf-unreleased">
 
 #### [@stdlib/math/base/special/atandf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/atandf)
@@ -994,6 +1028,30 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-cabs2f-unreleased">
+
+#### [@stdlib/math/base/special/cabs2f](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cabs2f)
+
+<details>
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`d89509f`](https://github.com/stdlib-js/stdlib/commit/d89509f17211915d1fd25c735efc40c2e54cc239): migrate to `stdlib_complex64_t`
+
+    -   To migrate, users should update their usage of `complex` to `stdlib_complex64_t` which is available via `@stdlib/complex-float32/ctor` package.
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-cabsf-unreleased">
 
 #### [@stdlib/math/base/special/cabsf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cabsf)
@@ -1077,6 +1135,42 @@ This release closes the following issue:
 </section>
 
 <!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-cceilf-unreleased">
+
+#### [@stdlib/math/base/special/cceilf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cceilf)
+
+<details>
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`0a3d6a1`](https://github.com/stdlib-js/stdlib/commit/0a3d6a1c7a55a18c65e2eef4a309d431c7a3346a): migrate to `stdlib_complex64_t`
+
+    -   To migrate, users should update their usage of `complex` to `stdlib_complex64_t` which is available via `@stdlib/complex-float32/ctor` package.
+
+</section>
+
+<!-- /.breaking-changes -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3398](https://github.com/stdlib-js/stdlib/issues/3398)
+
+</section>
+
+<!-- /.issues -->
 
 </details>
 
@@ -1706,6 +1800,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-csignumf-unreleased">
+
+#### [@stdlib/math/base/special/csignumf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/csignumf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`9b72f0c`](https://github.com/stdlib-js/stdlib/commit/9b72f0cc9ae1a8fe839c8fc873bc3cd7b68dcb76) - add `math/base/special/csignumf` [(#6361)](https://github.com/stdlib-js/stdlib/pull/6361)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-dirac-delta-unreleased">
 
 #### [@stdlib/math/base/special/dirac-delta](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/dirac-delta)
@@ -2018,6 +2134,16 @@ This release closes the following issue:
 
 <details>
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`3560ebc`](https://github.com/stdlib-js/stdlib/commit/3560ebc03ba92b358e142ebbafd6dfe873f5d40a) - add missing include
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="reverts">
 
 ##### Reverts
@@ -2027,6 +2153,50 @@ This release closes the following issue:
 </section>
 
 <!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-fibonacci-indexf-unreleased">
+
+#### [@stdlib/math/base/special/fibonacci-indexf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fibonacci-indexf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b2f8db2`](https://github.com/stdlib-js/stdlib/commit/b2f8db2d210d980e4921f2a35f7bee359917bcef) - add `math/base/special/fibonacci-indexf` [(#6320)](https://github.com/stdlib-js/stdlib/pull/6320)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-fibonaccif-unreleased">
+
+#### [@stdlib/math/base/special/fibonaccif](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fibonaccif)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8297683`](https://github.com/stdlib-js/stdlib/commit/82976838f1d49e5439f658f19c6bc2b9c21c771e) - add `math/base/special/fibonaccif` [(#6257)](https://github.com/stdlib-js/stdlib/pull/6257)
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -2365,6 +2535,50 @@ A total of 2 issues were closed in this release:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-hypot-unreleased">
+
+#### [@stdlib/math/base/special/hypot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/hypot)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`0dc5e1f`](https://github.com/stdlib-js/stdlib/commit/0dc5e1f8a98e82310a309649f58a0dc3acfedb68) - update `hypot` to follow the IEEE 754-2019 standard [(#6509)](https://github.com/stdlib-js/stdlib/pull/6509)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-hypotf-unreleased">
+
+#### [@stdlib/math/base/special/hypotf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/hypotf)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`8af2d8d`](https://github.com/stdlib-js/stdlib/commit/8af2d8d5690438af3fb3bcbc03b304ab4bef13cf) - update `hypotf` to follow the IEEE 754-2019 standard [(#6511)](https://github.com/stdlib-js/stdlib/pull/6511)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-identity-unreleased">
 
 #### [@stdlib/math/base/special/identity](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/identity)
@@ -2683,6 +2897,18 @@ This release closes the following issue:
 
 <!-- /.reverts -->
 
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#6499](https://github.com/stdlib-js/stdlib/issues/6499)
+
+</section>
+
+<!-- /.issues -->
+
 </details>
 
 </section>
@@ -2793,6 +3019,18 @@ This release closes the following issue:
 
 <!-- /.reverts -->
 
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#6499](https://github.com/stdlib-js/stdlib/issues/6499)
+
+</section>
+
+<!-- /.issues -->
+
 </details>
 
 </section>
@@ -2836,6 +3074,18 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#6499](https://github.com/stdlib-js/stdlib/issues/6499)
+
+</section>
+
+<!-- /.issues -->
 
 </details>
 
@@ -2909,6 +3159,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-lucasf-unreleased">
+
+#### [@stdlib/math/base/special/lucasf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/lucasf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`3656652`](https://github.com/stdlib-js/stdlib/commit/36566524e333dabea3b4b47c00b154accc1c2c23) - add `math/base/special/lucasf` [(#6223)](https://github.com/stdlib-js/stdlib/pull/6223)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-max-unreleased">
 
 #### [@stdlib/math/base/special/max](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/max)
@@ -2946,6 +3218,18 @@ This release closes the following issue:
 </section>
 
 <!-- /.reverts -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#6384](https://github.com/stdlib-js/stdlib/issues/6384)
+
+</section>
+
+<!-- /.issues -->
 
 </details>
 
@@ -3913,6 +4197,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`3eeefe6`](https://github.com/stdlib-js/stdlib/commit/3eeefe6514916836d5fd798809bdf8a230d61e4b) - update `sind` to follow the IEEE 754-2019 standard [(#6592)](https://github.com/stdlib-js/stdlib/pull/6592)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -4268,6 +4562,14 @@ This release closes the following issue:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`0a3d6a1`](https://github.com/stdlib-js/stdlib/commit/0a3d6a1c7a55a18c65e2eef4a309d431c7a3346a): migrate to `stdlib_complex64_t`
+
+    -   To migrate, users should update their usage of `complex` to `stdlib_complex64_t` which is available via `@stdlib/complex-float32/ctor` package.
+
+-   [`d89509f`](https://github.com/stdlib-js/stdlib/commit/d89509f17211915d1fd25c735efc40c2e54cc239): migrate to `stdlib_complex64_t`
+
+    -   To migrate, users should update their usage of `complex` to `stdlib_complex64_t` which is available via `@stdlib/complex-float32/ctor` package.
 
 -   [`42aab9b`](https://github.com/stdlib-js/stdlib/commit/42aab9b7f3e2cb90710712f21c7e4d2b613b6a9d): use stdlib C complex64 dtype
 
@@ -4701,9 +5003,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 18 issues were closed in this release:
+A total of 22 issues were closed in this release:
 
-[#122](https://github.com/stdlib-js/stdlib/issues/122), [#216](https://github.com/stdlib-js/stdlib/pull/216), [#225](https://github.com/stdlib-js/stdlib/issues/225), [#649](https://github.com/stdlib-js/stdlib/issues/649), [#3357](https://github.com/stdlib-js/stdlib/issues/3357), [#3393](https://github.com/stdlib-js/stdlib/issues/3393), [#5199](https://github.com/stdlib-js/stdlib/issues/5199), [#5274](https://github.com/stdlib-js/stdlib/issues/5274), [#5359](https://github.com/stdlib-js/stdlib/issues/5359), [#5360](https://github.com/stdlib-js/stdlib/issues/5360), [#5363](https://github.com/stdlib-js/stdlib/issues/5363), [#5398](https://github.com/stdlib-js/stdlib/issues/5398), [#5399](https://github.com/stdlib-js/stdlib/issues/5399), [#5526](https://github.com/stdlib-js/stdlib/issues/5526), [#5893](https://github.com/stdlib-js/stdlib/issues/5893), [#5898](https://github.com/stdlib-js/stdlib/issues/5898), [#5961](https://github.com/stdlib-js/stdlib/issues/5961), [#6005](https://github.com/stdlib-js/stdlib/issues/6005)
+[#122](https://github.com/stdlib-js/stdlib/issues/122), [#216](https://github.com/stdlib-js/stdlib/pull/216), [#225](https://github.com/stdlib-js/stdlib/issues/225), [#649](https://github.com/stdlib-js/stdlib/issues/649), [#3357](https://github.com/stdlib-js/stdlib/issues/3357), [#3393](https://github.com/stdlib-js/stdlib/issues/3393), [#3398](https://github.com/stdlib-js/stdlib/issues/3398), [#5199](https://github.com/stdlib-js/stdlib/issues/5199), [#5274](https://github.com/stdlib-js/stdlib/issues/5274), [#5359](https://github.com/stdlib-js/stdlib/issues/5359), [#5360](https://github.com/stdlib-js/stdlib/issues/5360), [#5363](https://github.com/stdlib-js/stdlib/issues/5363), [#5398](https://github.com/stdlib-js/stdlib/issues/5398), [#5399](https://github.com/stdlib-js/stdlib/issues/5399), [#5526](https://github.com/stdlib-js/stdlib/issues/5526), [#5862](https://github.com/stdlib-js/stdlib/issues/5862), [#5893](https://github.com/stdlib-js/stdlib/issues/5893), [#5898](https://github.com/stdlib-js/stdlib/issues/5898), [#5961](https://github.com/stdlib-js/stdlib/issues/5961), [#6005](https://github.com/stdlib-js/stdlib/issues/6005), [#6384](https://github.com/stdlib-js/stdlib/issues/6384), [#6499](https://github.com/stdlib-js/stdlib/issues/6499)
 
 </section>
 
@@ -4713,11 +5015,12 @@ A total of 18 issues were closed in this release:
 
 ### Contributors
 
-A total of 20 people contributed to this release. Thank you to the following contributors:
+A total of 25 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Abhijit Raut
 -   Aman Bhansali
+-   Anshu Kumar
 -   Athan Reines
 -   Ayaka
 -   GK Bishnoi
@@ -4732,9 +5035,13 @@ A total of 20 people contributed to this release. Thank you to the following con
 -   Krishnam Agarwal
 -   Neeraj Pathak
 -   Philipp Burckhardt
+-   PrathamBhamare
+-   SAHIL KUMAR
+-   Sahil Goyal
 -   Saurabh Singh
 -   Vivek Maurya
 -   ditsu
+-   hrshya
 
 </section>
 
@@ -4746,6 +5053,105 @@ A total of 20 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`d4d57c3`](https://github.com/stdlib-js/stdlib/commit/d4d57c376c6abdcaf1993d7893129b75af4f2056) - **docs:** update namespace table of contents [(#6719)](https://github.com/stdlib-js/stdlib/pull/6719) _(by stdlib-bot)_
+-   [`76ad4ca`](https://github.com/stdlib-js/stdlib/commit/76ad4ca02df8a1e1492d3428457a44717e866fc2) - **docs:** replace manual `for` loop in examples [(#6623)](https://github.com/stdlib-js/stdlib/pull/6623) _(by Harsh, Athan Reines, hrshya, stdlib-bot)_
+-   [`0a3d6a1`](https://github.com/stdlib-js/stdlib/commit/0a3d6a1c7a55a18c65e2eef4a309d431c7a3346a) - **refactor:** update `math/base/special/cceilf` to follow latest project conventions [(#3400)](https://github.com/stdlib-js/stdlib/pull/3400) _(by Aayush Khanna, stdlib-bot, Karan Anand, Athan Reines)_
+-   [`d89509f`](https://github.com/stdlib-js/stdlib/commit/d89509f17211915d1fd25c735efc40c2e54cc239) - **refactor:** update `math/base/special/cabs2f` to follow latest project conventions [(#4767)](https://github.com/stdlib-js/stdlib/pull/4767) _(by Vivek Maurya, stdlib-bot, Karan Anand)_
+-   [`3656652`](https://github.com/stdlib-js/stdlib/commit/36566524e333dabea3b4b47c00b154accc1c2c23) - **feat:** add `math/base/special/lucasf` [(#6223)](https://github.com/stdlib-js/stdlib/pull/6223) _(by Harsh, stdlib-bot, Karan Anand)_
+-   [`b8286e1`](https://github.com/stdlib-js/stdlib/commit/b8286e14368fbfaba1b39964f9ebe11801edaea0) - **bench:** updates random value generation and docs [(#6658)](https://github.com/stdlib-js/stdlib/pull/6658) _(by Harsh)_
+-   [`fcd86ae`](https://github.com/stdlib-js/stdlib/commit/fcd86aee610050abf370c84b7d464de0bb2b486e) - **style:** fix missing space _(by Athan Reines)_
+-   [`5a5ac9d`](https://github.com/stdlib-js/stdlib/commit/5a5ac9dafe89d2980d079ae6c074c04be445c7b8) - **docs:** fix return value interpolation _(by Athan Reines)_
+-   [`0283c27`](https://github.com/stdlib-js/stdlib/commit/0283c27a0c7795f636dddb096ed5d59e1597b0ad) - **bench:** update random value generation [(#6649)](https://github.com/stdlib-js/stdlib/pull/6649) _(by Harsh)_
+-   [`b2f8db2`](https://github.com/stdlib-js/stdlib/commit/b2f8db2d210d980e4921f2a35f7bee359917bcef) - **feat:** add `math/base/special/fibonacci-indexf` [(#6320)](https://github.com/stdlib-js/stdlib/pull/6320) _(by Karan Anand, Athan Reines, stdlib-bot)_
+-   [`3560ebc`](https://github.com/stdlib-js/stdlib/commit/3560ebc03ba92b358e142ebbafd6dfe873f5d40a) - **fix:** add missing include _(by Athan Reines)_
+-   [`dac7fbc`](https://github.com/stdlib-js/stdlib/commit/dac7fbc738bdf94b2cdbe3de731876d4521ee802) - **docs:** replace manual `for` loop in examples [(#6636)](https://github.com/stdlib-js/stdlib/pull/6636) _(by Harsh, Athan Reines)_
+-   [`2698899`](https://github.com/stdlib-js/stdlib/commit/2698899da2e36275d50a66632de336c26dead00a) - **docs:** replace manual `for` loop in examples [(#6637)](https://github.com/stdlib-js/stdlib/pull/6637) _(by Harsh)_
+-   [`0395909`](https://github.com/stdlib-js/stdlib/commit/03959095fb9ffbe34ca9603b27c5204ce82d8c89) - **docs:** replace manual `for` loop in examples [(#6638)](https://github.com/stdlib-js/stdlib/pull/6638) _(by Harsh)_
+-   [`46cbdfe`](https://github.com/stdlib-js/stdlib/commit/46cbdfeff1b3f2dc38a442eafaf0cc25239fc518) - **docs:** replace manual `for` loop in examples [(#6639)](https://github.com/stdlib-js/stdlib/pull/6639) _(by Harsh)_
+-   [`df1110f`](https://github.com/stdlib-js/stdlib/commit/df1110fd63db25a7adf9f78416bf0377742622e4) - **docs:** replace manual `for` loop in examples [(#6640)](https://github.com/stdlib-js/stdlib/pull/6640) _(by Harsh)_
+-   [`d069841`](https://github.com/stdlib-js/stdlib/commit/d0698415fd26eb45c1cab1e1be0e4551fdae5656) - **docs:** replace manual `for` loop in examples [(#6641)](https://github.com/stdlib-js/stdlib/pull/6641) _(by Harsh)_
+-   [`f1d9b23`](https://github.com/stdlib-js/stdlib/commit/f1d9b232a15c53531ab7110d2f9ccf4ff6db9a5e) - **bench:** update random value generation [(#6645)](https://github.com/stdlib-js/stdlib/pull/6645) _(by Harsh)_
+-   [`cae9a13`](https://github.com/stdlib-js/stdlib/commit/cae9a136511539fae4e92823d912e27dfbedfe6d) - **docs:** replace manual `for` loop in examples [(#6635)](https://github.com/stdlib-js/stdlib/pull/6635) _(by Harsh)_
+-   [`5982554`](https://github.com/stdlib-js/stdlib/commit/59825542a6f81a71eb16ce2007aac9c12f351938) - **docs:** replace manual `for` loop in examples [(#6644)](https://github.com/stdlib-js/stdlib/pull/6644) _(by Harsh)_
+-   [`3c14a0f`](https://github.com/stdlib-js/stdlib/commit/3c14a0ff86030c922414336e82cb027deb18d709) - **docs:** replace manual `for` loop in examples [(#6643)](https://github.com/stdlib-js/stdlib/pull/6643) _(by Harsh)_
+-   [`a03db66`](https://github.com/stdlib-js/stdlib/commit/a03db667d2c00aeb97920126637fd792e5784de4) - **bench:** fix random value generation _(by Athan Reines)_
+-   [`48f3de7`](https://github.com/stdlib-js/stdlib/commit/48f3de7b465186d4ed11e85e22c0668ac9dd827b) - **docs:** replace manual `for` loop in examples [(#6622)](https://github.com/stdlib-js/stdlib/pull/6622) _(by Harsh, Athan Reines)_
+-   [`5087e64`](https://github.com/stdlib-js/stdlib/commit/5087e644a4ad2a77078326a1272a2197bf3f5649) - **docs:** replace manual `for` loop in examples [(#6621)](https://github.com/stdlib-js/stdlib/pull/6621) _(by Harsh)_
+-   [`c9cacbf`](https://github.com/stdlib-js/stdlib/commit/c9cacbfe7c80e80d5205c867b49bdeb199a76986) - **test:** add tests for IEEE 754-2019 compliance [(#6571)](https://github.com/stdlib-js/stdlib/pull/6571) _(by Karan Anand, stdlib-bot)_
+-   [`864fc4f`](https://github.com/stdlib-js/stdlib/commit/864fc4ffe65a2f6455f92ac10947d9921e23c355) - **test:** add tests for IEEE 754-2019 compliance [(#6620)](https://github.com/stdlib-js/stdlib/pull/6620) _(by Karan Anand, stdlib-bot)_
+-   [`1446cc7`](https://github.com/stdlib-js/stdlib/commit/1446cc7f7868cb001f89e41ee6a2961a72b904f4) - **test:** add tests for IEEE 754-2019 compliance [(#6594)](https://github.com/stdlib-js/stdlib/pull/6594) _(by Karan Anand, stdlib-bot)_
+-   [`b76169a`](https://github.com/stdlib-js/stdlib/commit/b76169aa779df0938d243db1f92dbd6b81f458ac) - **test:** add tests for IEEE 754-2019 compliance [(#6593)](https://github.com/stdlib-js/stdlib/pull/6593) _(by Karan Anand, stdlib-bot)_
+-   [`3eeefe6`](https://github.com/stdlib-js/stdlib/commit/3eeefe6514916836d5fd798809bdf8a230d61e4b) - **fix:** update `sind` to follow the IEEE 754-2019 standard [(#6592)](https://github.com/stdlib-js/stdlib/pull/6592) _(by Karan Anand)_
+-   [`ba0637b`](https://github.com/stdlib-js/stdlib/commit/ba0637b9a4bae1689e15af9afb262de249764881) - **test:** add tests for IEEE 754-2019 compliance [(#6597)](https://github.com/stdlib-js/stdlib/pull/6597) _(by Karan Anand)_
+-   [`ae963e1`](https://github.com/stdlib-js/stdlib/commit/ae963e14fa197282ac501261a0d08b04a0e0f4a5) - **docs:** replace manual `for` loop in examples [(#6587)](https://github.com/stdlib-js/stdlib/pull/6587) _(by Harsh)_
+-   [`dfddd73`](https://github.com/stdlib-js/stdlib/commit/dfddd7395392b17193734b0977955042cb85bb6b) - **docs:** replace manual `for` loop in examples [(#6608)](https://github.com/stdlib-js/stdlib/pull/6608) _(by Harsh, Athan Reines)_
+-   [`dd5765d`](https://github.com/stdlib-js/stdlib/commit/dd5765d771186bddbbc716d577bb94eafc0ac36b) - **docs:** replace manual `for` loop in examples [(#6607)](https://github.com/stdlib-js/stdlib/pull/6607) _(by Harsh)_
+-   [`1bb6df3`](https://github.com/stdlib-js/stdlib/commit/1bb6df3267f4100a30d0c71c05197716cd314fda) - **docs:** replace manual `for` loop in examples [(#6611)](https://github.com/stdlib-js/stdlib/pull/6611) _(by Harsh)_
+-   [`4a76339`](https://github.com/stdlib-js/stdlib/commit/4a76339547e841d83692c3d8e5f364568de055d5) - **docs:** replace manual `for` loop in examples [(#6612)](https://github.com/stdlib-js/stdlib/pull/6612) _(by Harsh)_
+-   [`2f78853`](https://github.com/stdlib-js/stdlib/commit/2f788539be521ba8e7e1c76a37e9fddc57530596) - **docs:** update related packages sections [(#6617)](https://github.com/stdlib-js/stdlib/pull/6617) _(by stdlib-bot)_
+-   [`1019217`](https://github.com/stdlib-js/stdlib/commit/10192179ef8278f942ac9909b382381f8740e9f0) - **test:** add tests for IEEE 754-2019 compliance [(#6595)](https://github.com/stdlib-js/stdlib/pull/6595) _(by Karan Anand)_
+-   [`1065e83`](https://github.com/stdlib-js/stdlib/commit/1065e83f34259320e8bf014f28094a5240cb0374) - **test:** add tests for IEEE 754-2019 compliance [(#6599)](https://github.com/stdlib-js/stdlib/pull/6599) _(by Karan Anand)_
+-   [`630ddb7`](https://github.com/stdlib-js/stdlib/commit/630ddb777824b5f6e501fda6dadf4ce41dccb964) - **test:** replace equal with strictEqual _(by Karan Anand)_
+-   [`64023d1`](https://github.com/stdlib-js/stdlib/commit/64023d131d8bc0a2dc2f3617db7f5bb8eb54583c) - **test:** add tests for IEEE 754-2019 compliance [(#6573)](https://github.com/stdlib-js/stdlib/pull/6573) _(by Karan Anand)_
+-   [`0e376f8`](https://github.com/stdlib-js/stdlib/commit/0e376f8bb234692a55dc57773533114a5512cddd) - **test:** add tests for IEEE 754-2019 compliance [(#6570)](https://github.com/stdlib-js/stdlib/pull/6570) _(by Karan Anand)_
+-   [`9211c88`](https://github.com/stdlib-js/stdlib/commit/9211c88ad8ecd436a2fb5311eb00ace0ac8d6f9d) - **test:** add tests for IEEE 754-2019 compliance [(#6561)](https://github.com/stdlib-js/stdlib/pull/6561) _(by Karan Anand, stdlib-bot)_
+-   [`d9ad02c`](https://github.com/stdlib-js/stdlib/commit/d9ad02ca1c902ca787d9e9135160871379e40829) - **test:** add tests for IEEE 754-2019 compliance [(#6557)](https://github.com/stdlib-js/stdlib/pull/6557) _(by Karan Anand)_
+-   [`5c0b04d`](https://github.com/stdlib-js/stdlib/commit/5c0b04d1e4d0e03a7364541658bada5f20f8e50c) - **chore:** address commit comments for commit bb378ff (issue #6499) [(#6565)](https://github.com/stdlib-js/stdlib/pull/6565) _(by PrathamBhamare)_
+-   [`d0c1c2b`](https://github.com/stdlib-js/stdlib/commit/d0c1c2b9a307016b894d7fa3d500c98558bbe197) - **test:** add tests for IEEE 754-2019 compliance [(#6558)](https://github.com/stdlib-js/stdlib/pull/6558) _(by Karan Anand)_
+-   [`3e268db`](https://github.com/stdlib-js/stdlib/commit/3e268db3108b0f330cbadcad5c20b7fec6fea355) - **test:** add tests for IEEE 754-2019 compliance [(#6556)](https://github.com/stdlib-js/stdlib/pull/6556) _(by Karan Anand)_
+-   [`7896f80`](https://github.com/stdlib-js/stdlib/commit/7896f80700cc662cc72126b8a9e81bf392f916b8) - **test:** add tests for IEEE 754-2019 compliance [(#6559)](https://github.com/stdlib-js/stdlib/pull/6559) _(by Karan Anand)_
+-   [`1e85369`](https://github.com/stdlib-js/stdlib/commit/1e8536951a859bc8e78a5791a99cbc2553e1df34) - **test:** add tests for IEEE 754-2019 compliance [(#6560)](https://github.com/stdlib-js/stdlib/pull/6560) _(by Karan Anand)_
+-   [`7184862`](https://github.com/stdlib-js/stdlib/commit/71848621a0bb8380055d696c50db378f18ee9663) - **test:** add tests for IEEE 754-2019 compliance [(#6562)](https://github.com/stdlib-js/stdlib/pull/6562) _(by Karan Anand)_
+-   [`d8437b8`](https://github.com/stdlib-js/stdlib/commit/d8437b85b0a0e4a1a27098ea88ccf1332a126408) - **test:** add tests for IEEE 754-2019 compliance [(#6563)](https://github.com/stdlib-js/stdlib/pull/6563) _(by Karan Anand)_
+-   [`f7db171`](https://github.com/stdlib-js/stdlib/commit/f7db17180a75fd1c3b7f5311ded957d4cfca07f5) - **test:** add tests for IEEE 754-2019 compliance [(#6564)](https://github.com/stdlib-js/stdlib/pull/6564) _(by Karan Anand)_
+-   [`b1a5a2d`](https://github.com/stdlib-js/stdlib/commit/b1a5a2d87a0e1f5a0bd6d74d521cae9eeab435c8) - **docs:** replace manual `for` loop in examples [(#6550)](https://github.com/stdlib-js/stdlib/pull/6550) _(by Harsh, Athan Reines)_
+-   [`8a365fc`](https://github.com/stdlib-js/stdlib/commit/8a365fcdd9eb22d5818e44f7447b77345deb1b1e) - **bench:** refactor random number generation `math/base/special/cexp*` [(#5888)](https://github.com/stdlib-js/stdlib/pull/5888) _(by Saurabh Singh, Athan Reines, stdlib-bot)_
+-   [`3e1d620`](https://github.com/stdlib-js/stdlib/commit/3e1d6200c9ca9e7ce0324508f5fcf18d11dd73db) - **bench:** refactor benchmarks in `math/base/special/exp` [(#5855)](https://github.com/stdlib-js/stdlib/pull/5855) _(by Gururaj Gurram, Athan Reines, Gunj Joshi, stdlib-bot)_
+-   [`7584a65`](https://github.com/stdlib-js/stdlib/commit/7584a6584fbeadfb76adc52323cc8e368c2a19a4) - **bench:** remove benchmarks _(by Athan Reines)_
+-   [`cbffd97`](https://github.com/stdlib-js/stdlib/commit/cbffd97f717891016aad4475cb076a0c6ca9a17a) - **test:** add tests for C99 edge cases [(#6519)](https://github.com/stdlib-js/stdlib/pull/6519) _(by Karan Anand)_
+-   [`f9cd43c`](https://github.com/stdlib-js/stdlib/commit/f9cd43c1179fb822caa68afbfc6af56d2e128e9e) - **feat:** add `math/base/special/atan2d` [(#6273)](https://github.com/stdlib-js/stdlib/pull/6273) _(by Karan Anand, Athan Reines, stdlib-bot)_
+-   [`1aa6c6d`](https://github.com/stdlib-js/stdlib/commit/1aa6c6d65fe035bd63db09873e75692f98fda273) - **test:** add tests for C99 edge cases [(#6389)](https://github.com/stdlib-js/stdlib/pull/6389) _(by Karan Anand)_
+-   [`8af2d8d`](https://github.com/stdlib-js/stdlib/commit/8af2d8d5690438af3fb3bcbc03b304ab4bef13cf) - **fix:** update `hypotf` to follow the IEEE 754-2019 standard [(#6511)](https://github.com/stdlib-js/stdlib/pull/6511) _(by Karan Anand)_
+-   [`0dc5e1f`](https://github.com/stdlib-js/stdlib/commit/0dc5e1f8a98e82310a309649f58a0dc3acfedb68) - **fix:** update `hypot` to follow the IEEE 754-2019 standard [(#6509)](https://github.com/stdlib-js/stdlib/pull/6509) _(by Karan Anand)_
+-   [`8297683`](https://github.com/stdlib-js/stdlib/commit/82976838f1d49e5439f658f19c6bc2b9c21c771e) - **feat:** add `math/base/special/fibonaccif` [(#6257)](https://github.com/stdlib-js/stdlib/pull/6257) _(by Karan Anand, stdlib-bot)_
+-   [`9b72f0c`](https://github.com/stdlib-js/stdlib/commit/9b72f0cc9ae1a8fe839c8fc873bc3cd7b68dcb76) - **feat:** add `math/base/special/csignumf` [(#6361)](https://github.com/stdlib-js/stdlib/pull/6361) _(by Karan Anand, Athan Reines, stdlib-bot)_
+-   [`feb552b`](https://github.com/stdlib-js/stdlib/commit/feb552baaf86a434df4724ab94d587dcac75e482) - **bench:** update random value generation [(#6393)](https://github.com/stdlib-js/stdlib/pull/6393) _(by Harsh)_
+-   [`5df078f`](https://github.com/stdlib-js/stdlib/commit/5df078fd493ee2d6750fa0be85cb3b39236e227c) - **docs:** replace manual `for` loop in examples [(#6494)](https://github.com/stdlib-js/stdlib/pull/6494) _(by Harsh)_
+-   [`0dc3f20`](https://github.com/stdlib-js/stdlib/commit/0dc3f204f59a046f0245b22470de431d654a34cd) - **docs:** replace manual `for` loop in examples [(#6496)](https://github.com/stdlib-js/stdlib/pull/6496) _(by Harsh)_
+-   [`220f055`](https://github.com/stdlib-js/stdlib/commit/220f05572a13425bd7b49efbf6102eef8975d9c1) - **chore:** replace manual `for` loop in examples [(#6491)](https://github.com/stdlib-js/stdlib/pull/6491) _(by Harsh)_
+-   [`a81d6c3`](https://github.com/stdlib-js/stdlib/commit/a81d6c35d11075753c928e38258023266932486e) - **chore:** replace manual `for` loop in examples [(#6488)](https://github.com/stdlib-js/stdlib/pull/6488) _(by Harsh)_
+-   [`3425c5a`](https://github.com/stdlib-js/stdlib/commit/3425c5a231e90c72af55fc462e8aa18401a9ebdf) - **bench:** add missing `native.js` and fix variable range [(#6467)](https://github.com/stdlib-js/stdlib/pull/6467) _(by Karan Anand, stdlib-bot)_
+-   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
+-   [`86a5626`](https://github.com/stdlib-js/stdlib/commit/86a5626e1cb0cf5cb208e94c48b79a109025cc8f) - **docs:** replace manual `for` loop in examples [(#6471)](https://github.com/stdlib-js/stdlib/pull/6471) _(by Harsh, stdlib-bot)_
+-   [`bb378ff`](https://github.com/stdlib-js/stdlib/commit/bb378ffa3c07f4acce9504440d26db9d2d97e091) - **docs:** replace manual `for` loop in examples [(#6472)](https://github.com/stdlib-js/stdlib/pull/6472) _(by Harsh)_
+-   [`eb0c8c9`](https://github.com/stdlib-js/stdlib/commit/eb0c8c9b4a7c818e6083383684a139841574f5bb) - **docs:** replace manual `for` loop in examples [(#6468)](https://github.com/stdlib-js/stdlib/pull/6468) _(by Harsh)_
+-   [`7ae0a0a`](https://github.com/stdlib-js/stdlib/commit/7ae0a0a5479ab78f05a9044e1362caabad1db81a) - **bench:** ensure analytic formula is measured [(#5873)](https://github.com/stdlib-js/stdlib/pull/5873) _(by Anshu Kumar)_
+-   [`51ba192`](https://github.com/stdlib-js/stdlib/commit/51ba1926c849a9997662f0f636165b59320214ba) - **bench:** update random value generation [(#6390)](https://github.com/stdlib-js/stdlib/pull/6390) _(by Harsh)_
+-   [`6a954bc`](https://github.com/stdlib-js/stdlib/commit/6a954bc5b7a86abb6671edd83b302c464c228c1c) - **bench:** replace `base/uniform` with `array/uniform` [(#6454)](https://github.com/stdlib-js/stdlib/pull/6454) _(by Sahil Goyal, Sahil Goyal)_
+-   [`b834207`](https://github.com/stdlib-js/stdlib/commit/b834207f43accd6caa5d8e5cc8ad7ff039687f24) - **chore:** replace manual `for` loop in examples [(#6403)](https://github.com/stdlib-js/stdlib/pull/6403) _(by Harsh, stdlib-bot)_
+-   [`e9f9513`](https://github.com/stdlib-js/stdlib/commit/e9f951387dd4387dc0a7b4acfadc59c5b2541736) - **bench:** update random value generation [(#6430)](https://github.com/stdlib-js/stdlib/pull/6430) _(by Harsh)_
+-   [`2decebf`](https://github.com/stdlib-js/stdlib/commit/2decebfef3381b37b7c84ebe6c4e35792d685e1e) - **chore:** update package meta data [(#6447)](https://github.com/stdlib-js/stdlib/pull/6447) _(by stdlib-bot)_
+-   [`8d343e1`](https://github.com/stdlib-js/stdlib/commit/8d343e192c75b0c60451e996351ccf276b49f2c4) - **bench:** update random value generation [(#6398)](https://github.com/stdlib-js/stdlib/pull/6398) _(by Harsh)_
+-   [`07b51a4`](https://github.com/stdlib-js/stdlib/commit/07b51a4996fa515e6a2595413027b1fa670f7503) - **bench:** update random value generation [(#6378)](https://github.com/stdlib-js/stdlib/pull/6378) _(by Harsh, Philipp Burckhardt)_
+-   [`cb2ef9b`](https://github.com/stdlib-js/stdlib/commit/cb2ef9bad19f6adf8735316ea672facec6656ca2) - **bench:** add C native benchmarks and missing variable declaration [(#6443)](https://github.com/stdlib-js/stdlib/pull/6443) _(by Karan Anand)_
+-   [`ed27d17`](https://github.com/stdlib-js/stdlib/commit/ed27d17c614ad01c40d4f82f269541d9f388ab96) - **docs:** remove repeated example input [(#6442)](https://github.com/stdlib-js/stdlib/pull/6442) _(by Karan Anand)_
+-   [`c569d0f`](https://github.com/stdlib-js/stdlib/commit/c569d0ff888bc76a9980f5edb6e1c6f462d6e508) - **bench:** update random value generation [(#6380)](https://github.com/stdlib-js/stdlib/pull/6380) _(by Harsh, Philipp Burckhardt)_
+-   [`3a6a913`](https://github.com/stdlib-js/stdlib/commit/3a6a913fe41d3ffbbb4f73837fc6aa8396cdccce) - **bench:** update random value generation [(#6377)](https://github.com/stdlib-js/stdlib/pull/6377) _(by Harsh)_
+-   [`b9af090`](https://github.com/stdlib-js/stdlib/commit/b9af09027170bf2731cdd50563be1a9d0f86b289) - **bench:** update random value generation [(#6400)](https://github.com/stdlib-js/stdlib/pull/6400) _(by Harsh)_
+-   [`5b8deb1`](https://github.com/stdlib-js/stdlib/commit/5b8deb1707b3e84534d70d2ac20253de39151947) - **bench:** update random value generation [(#6381)](https://github.com/stdlib-js/stdlib/pull/6381) _(by Harsh)_
+-   [`b6667b9`](https://github.com/stdlib-js/stdlib/commit/b6667b9be170d2a64db2d075cec22539b0125187) - **chore:** replace manual `for` loop in examples [(#6350)](https://github.com/stdlib-js/stdlib/pull/6350) _(by Harsh)_
+-   [`d8a20bb`](https://github.com/stdlib-js/stdlib/commit/d8a20bb7b928d03a81a570edec5cc0e2e6e74b99) - **chore:** use `FLOAT64_MAX_SAFE_NTH_FACTORIAL` [(#6370)](https://github.com/stdlib-js/stdlib/pull/6370) _(by Karan Anand)_
+-   [`3bc9214`](https://github.com/stdlib-js/stdlib/commit/3bc921468809e515391760ff43e78f66a263f188) - **chore:** use `FLOAT64_MAX_SAFE_NTH_DOUBLE_FACTORIAL` [(#6363)](https://github.com/stdlib-js/stdlib/pull/6363) _(by Karan Anand)_
+-   [`3408293`](https://github.com/stdlib-js/stdlib/commit/340829337789351817a297fd78fac9fc96b1701a) - **refactor:** replace `pow` with `stdlib_base_pow` [(#6369)](https://github.com/stdlib-js/stdlib/pull/6369) _(by Karan Anand)_
+-   [`dcb628f`](https://github.com/stdlib-js/stdlib/commit/dcb628f8736fb6b1b3ba3f37f42758078a9ad5dc) - **bench:** update `randu` to `uniform` for consistency [(#6041)](https://github.com/stdlib-js/stdlib/pull/6041) _(by Harsh)_
+-   [`1c8af8c`](https://github.com/stdlib-js/stdlib/commit/1c8af8c18d6ad79690b28a1c01bd5874c7b8e68b) - **refactor:** replace `fmax` with `stdlib_base_max` [(#6367)](https://github.com/stdlib-js/stdlib/pull/6367) _(by Karan Anand)_
+-   [`7f74294`](https://github.com/stdlib-js/stdlib/commit/7f7429488d85514b016581098e1faefab81f8034) - **bench:** update random value generation [(#6428)](https://github.com/stdlib-js/stdlib/pull/6428) _(by Harsh)_
+-   [`a644ffe`](https://github.com/stdlib-js/stdlib/commit/a644ffeba579430f342444b80fa9d21cc4a635f4) - **chore:** remove obsolete accuracy and precision scripts [(#6435)](https://github.com/stdlib-js/stdlib/pull/6435) _(by Karan Anand)_
+-   [`2db8e90`](https://github.com/stdlib-js/stdlib/commit/2db8e905c9b92be0062c8faafe79dbd626ce10f2) - **bench:** fix invalid array indexing [(#6434)](https://github.com/stdlib-js/stdlib/pull/6434) _(by Karan Anand)_
+-   [`57efa3d`](https://github.com/stdlib-js/stdlib/commit/57efa3d9de9c4c2f0a94387079e356dad7649a40) - **chore:** rename C files to follow current project conventions [(#6410)](https://github.com/stdlib-js/stdlib/pull/6410) _(by Karan Anand, stdlib-bot)_
+-   [`d6e3fd4`](https://github.com/stdlib-js/stdlib/commit/d6e3fd4cd923481eeb8ca637cd6ec487ae5492f1) - **chore:** remove obsolete accuracy scripts in `acosh` [(#6409)](https://github.com/stdlib-js/stdlib/pull/6409) _(by Karan Anand)_
+-   [`8839ab9`](https://github.com/stdlib-js/stdlib/commit/8839ab90e8b42266b86fbcec4954bb78edce656b) - **style:** disable lint rule [(#6404)](https://github.com/stdlib-js/stdlib/pull/6404) _(by SAHIL KUMAR)_
+-   [`6c34fb7`](https://github.com/stdlib-js/stdlib/commit/6c34fb73a0fc81142c09c1002c2e2c64e21dd018) - **bench:** update random value generation [(#6414)](https://github.com/stdlib-js/stdlib/pull/6414) _(by Harsh)_
 -   [`0c7aeae`](https://github.com/stdlib-js/stdlib/commit/0c7aeae1d2be1dd2c4766a2131c0fb26ba4c6420) - **docs:** update namespace TypeScript declarations [(#6386)](https://github.com/stdlib-js/stdlib/pull/6386) _(by stdlib-bot)_
 -   [`ef90f52`](https://github.com/stdlib-js/stdlib/commit/ef90f526214e3797a5cf1db3fb7e0e79155ac7d5) - **chore:** replace `pow` with `stdlib_base_pow` [(#6366)](https://github.com/stdlib-js/stdlib/pull/6366) _(by Karan Anand)_
 -   [`6001e62`](https://github.com/stdlib-js/stdlib/commit/6001e62175bc901f0ca23e6b8854b88075d0c869) - **refactor:** replace `evalpoly` with compiled polyval functions [(#6368)](https://github.com/stdlib-js/stdlib/pull/6368) _(by Karan Anand)_
