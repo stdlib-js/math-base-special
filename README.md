@@ -111,6 +111,7 @@ var fcns = special;
 
 -   <span class="signature">[`acos( x )`][@stdlib/math/base/special/acos]</span><span class="delimiter">: </span><span class="description">compute the arccosine of a double-precision floating-point number.</span>
 -   <span class="signature">[`acosd( x )`][@stdlib/math/base/special/acosd]</span><span class="delimiter">: </span><span class="description">compute the arccosine in degrees of a double-precision floating-point number.</span>
+-   <span class="signature">[`acosdf( x )`][@stdlib/math/base/special/acosdf]</span><span class="delimiter">: </span><span class="description">compute the arccosine (in degrees) of a single-precision floating-point number.</span>
 -   <span class="signature">[`acosf( x )`][@stdlib/math/base/special/acosf]</span><span class="delimiter">: </span><span class="description">compute the arccosine of a single-precision floating-point number.</span>
 -   <span class="signature">[`acosh( x )`][@stdlib/math/base/special/acosh]</span><span class="delimiter">: </span><span class="description">compute the hyperbolic arccosine of a double-precision floating-point number.</span>
 -   <span class="signature">[`acovercos( x )`][@stdlib/math/base/special/acovercos]</span><span class="delimiter">: </span><span class="description">compute the inverse coversed cosine.</span>
@@ -245,6 +246,7 @@ var fcns = special;
 
 -   <span class="signature">[`acot( x )`][@stdlib/math/base/special/acot]</span><span class="delimiter">: </span><span class="description">compute the inverse cotangent of a double-precision floating-point number.</span>
 -   <span class="signature">[`acotd( x )`][@stdlib/math/base/special/acotd]</span><span class="delimiter">: </span><span class="description">compute the arccotangent in degrees of a double-precision floating-point number.</span>
+-   <span class="signature">[`acotdf( x )`][@stdlib/math/base/special/acotdf]</span><span class="delimiter">: </span><span class="description">compute the arccotangent in degrees of a single-precision floating-point number.</span>
 -   <span class="signature">[`acotf( x )`][@stdlib/math/base/special/acotf]</span><span class="delimiter">: </span><span class="description">compute the inverse cotangent of a single-precision floating-point number.</span>
 -   <span class="signature">[`acoth( x )`][@stdlib/math/base/special/acoth]</span><span class="delimiter">: </span><span class="description">compute the inverse hyperbolic cotangent of a double-precision floating-point number.</span>
 -   <span class="signature">[`acsc( x )`][@stdlib/math/base/special/acsc]</span><span class="delimiter">: </span><span class="description">compute the arccosecant of a number.</span>
@@ -276,6 +278,7 @@ var fcns = special;
 -   <span class="signature">[`cflipsign( z, y )`][@stdlib/math/base/special/cflipsign]</span><span class="delimiter">: </span><span class="description">return a double-precision complex floating-point number with the same magnitude as `z` and the sign of `y*z`.</span>
 -   <span class="signature">[`cflipsignf( z, y )`][@stdlib/math/base/special/cflipsignf]</span><span class="delimiter">: </span><span class="description">return a single-precision complex floating-point number with the same magnitude as `z` and the sign of `y*z`.</span>
 -   <span class="signature">[`cinv( z )`][@stdlib/math/base/special/cinv]</span><span class="delimiter">: </span><span class="description">compute the inverse of a double-precision complex floating-point number.</span>
+-   <span class="signature">[`cinvf( z )`][@stdlib/math/base/special/cinvf]</span><span class="delimiter">: </span><span class="description">compute the inverse of a single-precision complex floating-point number.</span>
 -   <span class="signature">[`copysign( x, y )`][@stdlib/math/base/special/copysign]</span><span class="delimiter">: </span><span class="description">return a double-precision floating-point number with the magnitude of `x` and the sign of `y`.</span>
 -   <span class="signature">[`copysignf( x, y )`][@stdlib/math/base/special/copysignf]</span><span class="delimiter">: </span><span class="description">return a single-precision floating-point number with the magnitude of `x` and the sign of `y`.</span>
 -   <span class="signature">[`cot( x )`][@stdlib/math/base/special/cot]</span><span class="delimiter">: </span><span class="description">evaluate the cotangent of a number.</span>
@@ -517,6 +520,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/math/base/special/acotd]: https://github.com/stdlib-js/math-base-special-acotd
 
+[@stdlib/math/base/special/acotdf]: https://github.com/stdlib-js/math-base-special-acotdf
+
 [@stdlib/math/base/special/acotf]: https://github.com/stdlib-js/math-base-special-acotf
 
 [@stdlib/math/base/special/acoth]: https://github.com/stdlib-js/math-base-special-acoth
@@ -578,6 +583,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [@stdlib/math/base/special/cflipsignf]: https://github.com/stdlib-js/math-base-special-cflipsignf
 
 [@stdlib/math/base/special/cinv]: https://github.com/stdlib-js/math-base-special-cinv
+
+[@stdlib/math/base/special/cinvf]: https://github.com/stdlib-js/math-base-special-cinvf
 
 [@stdlib/math/base/special/copysign]: https://github.com/stdlib-js/math-base-special-copysign
 
@@ -866,6 +873,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [@stdlib/math/base/special/acos]: https://github.com/stdlib-js/math-base-special-acos
 
 [@stdlib/math/base/special/acosd]: https://github.com/stdlib-js/math-base-special-acosd
+
+[@stdlib/math/base/special/acosdf]: https://github.com/stdlib-js/math-base-special-acosdf
 
 [@stdlib/math/base/special/acosf]: https://github.com/stdlib-js/math-base-special-acosf
 

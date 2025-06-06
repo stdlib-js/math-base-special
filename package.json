@@ -295,6 +295,7 @@
     "@stdlib/array-base-linspace": "^0.2.2",
     "@stdlib/array-base-one-to": "^0.2.2",
     "@stdlib/array-base-zeros": "^0.2.2",
+    "@stdlib/array-complex128": "^0.3.0",
     "@stdlib/array-complex64": "^0.3.0",
     "@stdlib/array-float32": "^0.2.2",
     "@stdlib/array-float64": "^0.2.2",
