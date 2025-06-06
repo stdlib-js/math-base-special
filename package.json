@@ -47,6 +47,7 @@
     "@stdlib/math-base-special-acosh": "^0.2.3",
     "@stdlib/math-base-special-acot": "^0.2.3",
     "@stdlib/math-base-special-acotd": "^0.1.1",
+    "@stdlib/math-base-special-acotdf": "github:stdlib-js/math-base-special-acotdf#main",
     "@stdlib/math-base-special-acotf": "^0.1.1",
     "@stdlib/math-base-special-acoth": "^0.2.3",
     "@stdlib/math-base-special-acovercos": "^0.2.4",
