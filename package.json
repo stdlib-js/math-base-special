@@ -42,6 +42,7 @@
     "@stdlib/math-base-special-absf": "^0.2.2",
     "@stdlib/math-base-special-acos": "^0.2.3",
     "@stdlib/math-base-special-acosd": "^0.1.1",
+    "@stdlib/math-base-special-acosdf": "github:stdlib-js/math-base-special-acosdf#main",
     "@stdlib/math-base-special-acosf": "^0.1.1",
     "@stdlib/math-base-special-acosh": "^0.2.3",
     "@stdlib/math-base-special-acot": "^0.2.3",
