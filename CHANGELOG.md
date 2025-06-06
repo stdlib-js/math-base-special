@@ -4,12 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-02)
+## Unreleased (2025-06-06)
 
 <section class="features">
 
 ### Features
 
+-   [`385d970`](https://github.com/stdlib-js/stdlib/commit/385d970dc8415b814c9ce66a96359c2ad508b94a) - add `cinvf` to namespace
+-   [`e99f5d4`](https://github.com/stdlib-js/stdlib/commit/e99f5d409cbc2023da4324afc1ec08680781a2ea) - add `math/base/special/cinvf` [(#7007)](https://github.com/stdlib-js/stdlib/pull/7007)
+-   [`6724610`](https://github.com/stdlib-js/stdlib/commit/672461019c6893cfddc9227d407ebab4e04f4c40) - add `math/base/special/tribonaccif` [(#6066)](https://github.com/stdlib-js/stdlib/pull/6066)
+-   [`f873e1f`](https://github.com/stdlib-js/stdlib/commit/f873e1fa100a3862b53553333843392a6f3cb42f) - add `math/base/special/kernel-cosf` [(#7201)](https://github.com/stdlib-js/stdlib/pull/7201)
+-   [`c037257`](https://github.com/stdlib-js/stdlib/commit/c03725739506261c42c5dfb3121aa165a165d942) - add `math/base/special/kernel-sinf` [(#6191)](https://github.com/stdlib-js/stdlib/pull/6191)
+-   [`9eef97f`](https://github.com/stdlib-js/stdlib/commit/9eef97f87b8607556fa54a4486fecbcb9df027de) - add `math/base/special/rempio2f` [(#6142)](https://github.com/stdlib-js/stdlib/pull/6142)
+-   [`7e4dc08`](https://github.com/stdlib-js/stdlib/commit/7e4dc0807cce5a66011eb186d252e4cc682274a7) - add `math/base/special/wrapf` [(#3055)](https://github.com/stdlib-js/stdlib/pull/3055)
 -   [`3c5ee39`](https://github.com/stdlib-js/stdlib/commit/3c5ee3994b878caa46ad9d5692bb4ba44ab580d7) - add `math/base/special/atan2f` [(#7081)](https://github.com/stdlib-js/stdlib/pull/7081)
 -   [`4eaa59f`](https://github.com/stdlib-js/stdlib/commit/4eaa59f1a7e2754d24e8cd2f417a7dd82cf50cdc) - add `math/base/special/factorial2f` [(#6736)](https://github.com/stdlib-js/stdlib/pull/6736)
 -   [`d609d1f`](https://github.com/stdlib-js/stdlib/commit/d609d1f9ac00a6ffc6a91937e95f875c938d02e8) - add C implementation for `math/base/special/bessely1` [(#4396)](https://github.com/stdlib-js/stdlib/pull/4396)
@@ -231,6 +238,14 @@ A total of 26 issues were closed in this release:
 
 <details>
 
+-   [`385d970`](https://github.com/stdlib-js/stdlib/commit/385d970dc8415b814c9ce66a96359c2ad508b94a) - **feat:** add `cinvf` to namespace _(by Athan Reines)_
+-   [`e99f5d4`](https://github.com/stdlib-js/stdlib/commit/e99f5d409cbc2023da4324afc1ec08680781a2ea) - **feat:** add `math/base/special/cinvf` [(#7007)](https://github.com/stdlib-js/stdlib/pull/7007) _(by Karan Anand, Athan Reines, stdlib-bot)_
+-   [`6724610`](https://github.com/stdlib-js/stdlib/commit/672461019c6893cfddc9227d407ebab4e04f4c40) - **feat:** add `math/base/special/tribonaccif` [(#6066)](https://github.com/stdlib-js/stdlib/pull/6066) _(by Neeraj Pathak, Athan Reines, stdlib-bot, Karan Anand)_
+-   [`f873e1f`](https://github.com/stdlib-js/stdlib/commit/f873e1fa100a3862b53553333843392a6f3cb42f) - **feat:** add `math/base/special/kernel-cosf` [(#7201)](https://github.com/stdlib-js/stdlib/pull/7201) _(by Karan Anand)_
+-   [`c037257`](https://github.com/stdlib-js/stdlib/commit/c03725739506261c42c5dfb3121aa165a165d942) - **feat:** add `math/base/special/kernel-sinf` [(#6191)](https://github.com/stdlib-js/stdlib/pull/6191) _(by Girish Garg, Karan Anand, stdlib-bot)_
+-   [`9eef97f`](https://github.com/stdlib-js/stdlib/commit/9eef97f87b8607556fa54a4486fecbcb9df027de) - **feat:** add `math/base/special/rempio2f` [(#6142)](https://github.com/stdlib-js/stdlib/pull/6142) _(by Karan Anand, stdlib-bot)_
+-   [`47ae7e5`](https://github.com/stdlib-js/stdlib/commit/47ae7e56a5e9fe329b0b95b0bd095aa4f20c79aa) - **docs:** update related packages sections [(#7186)](https://github.com/stdlib-js/stdlib/pull/7186) _(by stdlib-bot)_
+-   [`7e4dc08`](https://github.com/stdlib-js/stdlib/commit/7e4dc0807cce5a66011eb186d252e4cc682274a7) - **feat:** add `math/base/special/wrapf` [(#3055)](https://github.com/stdlib-js/stdlib/pull/3055) _(by Gururaj Gurram, Athan Reines, stdlib-bot, Karan Anand)_
 -   [`4514170`](https://github.com/stdlib-js/stdlib/commit/4514170ad8cf99fd55fc30804fd1f1d17e11ed7f) - **docs:** update namespace table of contents [(#7162)](https://github.com/stdlib-js/stdlib/pull/7162) _(by stdlib-bot)_
 -   [`bef362e`](https://github.com/stdlib-js/stdlib/commit/bef362efc111b0109adf21c219b08a407417d1f7) - **docs:** update phrasing in `wrap` function description _(by Karan Anand)_
 -   [`d3e9457`](https://github.com/stdlib-js/stdlib/commit/d3e9457065368cd4f97c993ac300d408c7cde4d2) - **docs:** remove BSD-3-Clause from license field _(by Karan Anand)_
@@ -750,7 +765,7 @@ A total of 26 issues were closed in this release:
 
 ### Contributors
 
-A total of 29 people contributed to this release. Thank you to the following contributors:
+A total of 30 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Abhijit Raut
@@ -761,6 +776,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 -   Dhruv Arvind Singh
 -   GK Bishnoi
 -   Gautam sharma
+-   Girish Garg
 -   Gunj Joshi
 -   Gururaj Gurram
 -   Harsh
