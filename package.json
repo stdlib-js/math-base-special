@@ -464,6 +464,7 @@
     "@stdlib/number-float64-base-signbit": "^0.2.3",
     "@stdlib/number-float64-base-to-float32": "^0.2.2",
     "@stdlib/number-float64-base-to-words": "^0.2.2",
+    "@stdlib/number-float64-base-ulp-difference": "github:stdlib-js/number-float64-base-ulp-difference#main",
     "@stdlib/number-uint32-base-to-int32": "^0.2.2",
     "@stdlib/random-array-discrete-uniform": "^0.2.1",
     "@stdlib/random-array-uniform": "^0.2.1",

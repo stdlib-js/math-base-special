@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-23)
+## Unreleased (2025-06-30)
 
 <section class="features">
 
 ### Features
 
+-   [`84c97ba`](https://github.com/stdlib-js/stdlib/commit/84c97bab0446d161f66db024c86420899df4886e) - add C implementation for `math/base/special/gammainc` [(#7408)](https://github.com/stdlib-js/stdlib/pull/7408)
 -   [`490d39b`](https://github.com/stdlib-js/stdlib/commit/490d39b7df60bce13a6c082a471c1bf6a00a7002) - add `math/base/special/versinf` [(#7419)](https://github.com/stdlib-js/stdlib/pull/7419)
 -   [`77ede72`](https://github.com/stdlib-js/stdlib/commit/77ede72455000282d9ba9d2582f80f811a01add1) - add `math/base/special/vercosf` [(#7418)](https://github.com/stdlib-js/stdlib/pull/7418)
 -   [`fbc0fee`](https://github.com/stdlib-js/stdlib/commit/fbc0fee494f87deb2886bd5b6326428c9a2629f7) - add `math/base/special/secf` [(#7390)](https://github.com/stdlib-js/stdlib/pull/7390)
@@ -126,6 +127,11 @@
 
 ### Bug Fixes
 
+-   [`4523a49`](https://github.com/stdlib-js/stdlib/commit/4523a495d0320dc757e324e042767417d8acab26) - use correct include header
+-   [`d4be935`](https://github.com/stdlib-js/stdlib/commit/d4be935c9fc5d8e8b32f0ede434079cc62213c9e) - load correct float32 sqrt dependency
+-   [`0ee3577`](https://github.com/stdlib-js/stdlib/commit/0ee35771247780049a0eb19c1c9ceaa914b07efd) - correct variable name typo in hornerDescending function
+-   [`850bfd4`](https://github.com/stdlib-js/stdlib/commit/850bfd4b31a9b981ad6380f08b286ef1a7e35806) - add missing include header
+-   [`48dc3a0`](https://github.com/stdlib-js/stdlib/commit/48dc3a0e06467a3bf3710ef514b70ce61f9dab3e) - add missing include header
 -   [`e82e559`](https://github.com/stdlib-js/stdlib/commit/e82e5599a98d97a288e946f93f59eaccd6572c5a) - remove unused `abs` dependency from `ldexp` manifest
 -   [`484e565`](https://github.com/stdlib-js/stdlib/commit/484e56596656a4c5faaea74260a444eb582bd019) - remove unused `pinf` dependency from `gamma-lanczos-sum` manifest
 -   [`c73d756`](https://github.com/stdlib-js/stdlib/commit/c73d7563879d118ab9de170f49ad52c6d1d4a946) - remove unnecessary parameter checks for int32_t in `factorial2`
@@ -167,6 +173,7 @@
 
 ### Reverts
 
+-   [`5691bc8`](https://github.com/stdlib-js/stdlib/commit/5691bc85544b4ad4ddc1e46ef59d0e11df983471) - fix: load correct float32 sqrt dependency
 -   [`1dd3fdc`](https://github.com/stdlib-js/stdlib/commit/1dd3fdcf42490e1d3c93fa3a21a65aca69454932) - chore: update to modern benchmark Makefile
 -   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
 -   [`d8a4cfb`](https://github.com/stdlib-js/stdlib/commit/d8a4cfb578a949ed07c7a18749e48096f4f9b488) - chore: update to modern benchmark Makefile
@@ -278,6 +285,31 @@ A total of 28 issues were closed in this release:
 
 <details>
 
+-   [`580b0b3`](https://github.com/stdlib-js/stdlib/commit/580b0b3a4535b08100b2a62763723e1fa34bcd9d) - **docs:** resolve NaN return values in `maxabsn` and `minabsn` examples _(by Philipp Burckhardt)_
+-   [`a51fa22`](https://github.com/stdlib-js/stdlib/commit/a51fa22399f36b4d83ba0d189d297af4aa429354) - **docs:** minor clean-up _(by Philipp Burckhardt)_
+-   [`a84070b`](https://github.com/stdlib-js/stdlib/commit/a84070b1742699f8ef3ed810671826c309bd0283) - **chore:** update notes and ensure n is first argument in examples _(by Philipp Burckhardt)_
+-   [`fb42068`](https://github.com/stdlib-js/stdlib/commit/fb4206860899a128b29dfec8ea93e58186537b87) - **docs:** update description to match main.js and add missing quote _(by Philipp Burckhardt)_
+-   [`dd6d9cf`](https://github.com/stdlib-js/stdlib/commit/dd6d9cff0105270f0664490f3c89b36d4df89032) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`5691bc8`](https://github.com/stdlib-js/stdlib/commit/5691bc85544b4ad4ddc1e46ef59d0e11df983471) - **revert:** fix: load correct float32 sqrt dependency _(by Athan Reines)_
+-   [`4523a49`](https://github.com/stdlib-js/stdlib/commit/4523a495d0320dc757e324e042767417d8acab26) - **fix:** use correct include header _(by Philipp Burckhardt)_
+-   [`d4be935`](https://github.com/stdlib-js/stdlib/commit/d4be935c9fc5d8e8b32f0ede434079cc62213c9e) - **fix:** load correct float32 sqrt dependency _(by Philipp Burckhardt)_
+-   [`0ee3577`](https://github.com/stdlib-js/stdlib/commit/0ee35771247780049a0eb19c1c9ceaa914b07efd) - **fix:** correct variable name typo in hornerDescending function _(by Philipp Burckhardt)_
+-   [`850bfd4`](https://github.com/stdlib-js/stdlib/commit/850bfd4b31a9b981ad6380f08b286ef1a7e35806) - **fix:** add missing include header _(by Philipp Burckhardt)_
+-   [`6e77810`](https://github.com/stdlib-js/stdlib/commit/6e77810e2d6bb1f2e9ced24568360e2bb7b5184c) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`580a43f`](https://github.com/stdlib-js/stdlib/commit/580a43fb5dcd86b4e2647cc0b9bdae271e889301) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`48dc3a0`](https://github.com/stdlib-js/stdlib/commit/48dc3a0e06467a3bf3710ef514b70ce61f9dab3e) - **fix:** add missing include header _(by Philipp Burckhardt)_
+-   [`8928b01`](https://github.com/stdlib-js/stdlib/commit/8928b01672f267d8c2ead50efb77083ba5b1ccad) - **bench:** fix missing include _(by Athan Reines)_
+-   [`0240ed9`](https://github.com/stdlib-js/stdlib/commit/0240ed95c31c83898c7605781a2b73e508b8ef71) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`84c97ba`](https://github.com/stdlib-js/stdlib/commit/84c97bab0446d161f66db024c86420899df4886e) - **feat:** add C implementation for `math/base/special/gammainc` [(#7408)](https://github.com/stdlib-js/stdlib/pull/7408) _(by Karan Anand, stdlib-bot)_
+-   [`3335d06`](https://github.com/stdlib-js/stdlib/commit/3335d062f324870a15a182bbceab7cca4a189295) - **test:** pass in options _(by Philipp Burckhardt)_
+-   [`aa8b15b`](https://github.com/stdlib-js/stdlib/commit/aa8b15b9c8aa11db7dc584b0368fedeb98ef885a) - **docs:** minor clean-up _(by Philipp Burckhardt)_
+-   [`6471b8e`](https://github.com/stdlib-js/stdlib/commit/6471b8e01fdce8657278f83e0921faef23e6622e) - **docs:** minor clean-up _(by Philipp Burckhardt)_
+-   [`24e19f9`](https://github.com/stdlib-js/stdlib/commit/24e19f9d7fd8a648489afe4ba29940a4bfbeab6f) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`2de2781`](https://github.com/stdlib-js/stdlib/commit/2de2781ce971b1e03882955a7e22c2f188202546) - **chore:** update examples _(by Philipp Burckhardt)_
+-   [`5df47c3`](https://github.com/stdlib-js/stdlib/commit/5df47c33138ddac50e4a9cfb8f0b22c1821e046b) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`031d469`](https://github.com/stdlib-js/stdlib/commit/031d4696768d3eeac3f9432c57d6c979f58b540c) - **docs:** update related packages sections [(#7470)](https://github.com/stdlib-js/stdlib/pull/7470) _(by stdlib-bot, Athan Reines)_
+-   [`edef1e2`](https://github.com/stdlib-js/stdlib/commit/edef1e298a551ed453c4edc3d769746baf5dbde1) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`7cd0373`](https://github.com/stdlib-js/stdlib/commit/7cd03736a4c79cf5fff04bb84c97c458f987f4c6) - **bench:** fix function name and use `random_uniform` _(by Karan Anand)_
 -   [`3e45add`](https://github.com/stdlib-js/stdlib/commit/3e45adda10132ea8f55ad60c1504c8fd19b0841d) - **chore:** address commit comments for commit `6b1c190` [(#7431)](https://github.com/stdlib-js/stdlib/pull/7431) _(by Lokesh Ranjan)_
 -   [`f63f8df`](https://github.com/stdlib-js/stdlib/commit/f63f8df9abf7a7ddf9de4e895a64e4699d2f378b) - **style:** remove header section comments from C files _(by Philipp Burckhardt)_
 -   [`5d83a20`](https://github.com/stdlib-js/stdlib/commit/5d83a20bab1fd787ba28f19cb13c20d395398b43) - **style:** remove double empty lines in C files _(by Philipp Burckhardt)_
