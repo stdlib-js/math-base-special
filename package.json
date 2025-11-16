@@ -597,6 +597,11 @@
     "mathematics",
     "math"
   ],
+  "__stdlib__": {
+    "scaffold": {
+      "alias_prefix": "stdlib_base_"
+    }
+  },
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"

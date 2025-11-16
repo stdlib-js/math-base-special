@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-07)
+## Unreleased (2025-11-16)
 
 <section class="features">
 
@@ -395,6 +395,34 @@ A total of 35 issues were closed in this release:
 
 <details>
 
+-   [`7db5b32`](https://github.com/stdlib-js/stdlib/commit/7db5b32afe976e2d3c216a45e0927c88e668d340) - **chore:** add `alias_prefix` to parent namespaces [(#8540)](https://github.com/stdlib-js/stdlib/pull/8540) _(by Gunj Joshi)_
+-   [`5c1d94a`](https://github.com/stdlib-js/stdlib/commit/5c1d94adc310470a09ca01c7156f414fad49a73e) - **docs:** update related packages sections [(#8500)](https://github.com/stdlib-js/stdlib/pull/8500) _(by stdlib-bot)_
+-   [`a9fb57e`](https://github.com/stdlib-js/stdlib/commit/a9fb57ec46973d10d247dfbe68d0b11a24970688) - **docs:** update descriptions _(by Philipp Burckhardt)_
+-   [`d2994d4`](https://github.com/stdlib-js/stdlib/commit/d2994d4d0472714a9e3ec6c49a6ab84672afa095) - **docs:** fix return annotation values _(by Philipp Burckhardt)_
+-   [`758249e`](https://github.com/stdlib-js/stdlib/commit/758249efdf36b9ffda6686c8b710fc4d141fa273) - **chore:** minor clean-up of example code _(by Philipp Burckhardt)_
+-   [`8233358`](https://github.com/stdlib-js/stdlib/commit/823335828c7b40896f6bd40d90dc2549013379a6) - **docs:** fix heading level _(by Philipp Burckhardt)_
+-   [`517e66f`](https://github.com/stdlib-js/stdlib/commit/517e66f2c339af51adfef89c9807eb7d16cc5bb3) - **chore:** add structured package data for `math/base/special/gamma-lanczos-sum-expg-scaledf` [(#8459)](https://github.com/stdlib-js/stdlib/pull/8459) _(by Manvith M, Athan Reines)_
+-   [`8c5cd3d`](https://github.com/stdlib-js/stdlib/commit/8c5cd3dc371efc75d4af5fef1d1b179b491f8375) - **chore:** add structured package data for `math/base/special/gamma-lanczos-sum-expg-scaled` [(#8458)](https://github.com/stdlib-js/stdlib/pull/8458) _(by Manvith M, Athan Reines)_
+-   [`17ad00e`](https://github.com/stdlib-js/stdlib/commit/17ad00edc83dcba4fd8d57ed8aa15268decb84a7) - **chore:** add structured package data for `math/base/special/gamma-lanczos-sum` [(#8457)](https://github.com/stdlib-js/stdlib/pull/8457) _(by Manvith M, Athan Reines)_
+-   [`bbcaf4d`](https://github.com/stdlib-js/stdlib/commit/bbcaf4dd3d3fba54504921433eff185ea07d7a54) - **chore:** add structured package data for `math/base/special/cexp` [(#8456)](https://github.com/stdlib-js/stdlib/pull/8456) _(by Manvith M, Athan Reines)_
+-   [`8738587`](https://github.com/stdlib-js/stdlib/commit/8738587aa5d0568c80027478ca630ba9cc4af197) - **chore:** add structured package data for `math/base/special/gamma1pm1` [(#8460)](https://github.com/stdlib-js/stdlib/pull/8460) _(by Manvith M)_
+-   [`56fd54f`](https://github.com/stdlib-js/stdlib/commit/56fd54f95af22940c808c63a92ea229fab27683f) - **chore:** add structured package data for `math/base/special/gammaln` [(#8461)](https://github.com/stdlib-js/stdlib/pull/8461) _(by Manvith M)_
+-   [`c803c81`](https://github.com/stdlib-js/stdlib/commit/c803c81868040ae975f112a414b0a20a42a9a772) - **chore:** add structured package data for `math/base/special/expm1` [(#8462)](https://github.com/stdlib-js/stdlib/pull/8462) _(by Manvith M)_
+-   [`19907c4`](https://github.com/stdlib-js/stdlib/commit/19907c47acc768c31b3018318c37f9168ce33321) - **chore:** add structured package data for `math/base/special/expm1rel` [(#8463)](https://github.com/stdlib-js/stdlib/pull/8463) _(by Manvith M)_
+-   [`9f43b73`](https://github.com/stdlib-js/stdlib/commit/9f43b73f1784481589a925faec34cfbbd3053c47) - **chore:** add structured package data for `math/base/special/fresnels` [(#8450)](https://github.com/stdlib-js/stdlib/pull/8450) _(by Payal Goswami, Athan Reines)_
+-   [`6de31b8`](https://github.com/stdlib-js/stdlib/commit/6de31b8d7d8dae4bc0d53bb9093636a2a7b198e0) - **chore:** add structured package data for `math/base/special/fresnelc` [(#8449)](https://github.com/stdlib-js/stdlib/pull/8449) _(by Payal Goswami, Athan Reines)_
+-   [`723451c`](https://github.com/stdlib-js/stdlib/commit/723451ca0327c892eab9fad1be21a863a279b017) - **chore:** add structured package data for `math/base/special/kernel-log1pf` [(#8434)](https://github.com/stdlib-js/stdlib/pull/8434) _(by Pratik, Athan Reines)_
+-   [`79c59ee`](https://github.com/stdlib-js/stdlib/commit/79c59ee3278c7f0e6da564ceba74f7e2b9be669e) - **chore:** add structured package data for `math/base/special/kernel-log1p` [(#8436)](https://github.com/stdlib-js/stdlib/pull/8436) _(by Pratik, Athan Reines)_
+-   [`e094d12`](https://github.com/stdlib-js/stdlib/commit/e094d12a3cb359839e4856c747b928ad073f2b84) - **chore:** add structured package data for `math/base/special/gamma` [(#8452)](https://github.com/stdlib-js/stdlib/pull/8452) _(by Pratik, Athan Reines)_
+-   [`a0f5883`](https://github.com/stdlib-js/stdlib/commit/a0f58839ab75404a6b93e5e56fdca6a74b588907) - **chore:** add structured package data for `math/base/special/log1p` [(#8429)](https://github.com/stdlib-js/stdlib/pull/8429) _(by Manvith M, Athan Reines)_
+-   [`345f872`](https://github.com/stdlib-js/stdlib/commit/345f872944328e17cf12eb7a701eb3a549f491b5) - **chore:** add structured package data for `math/base/special/log1pexp` [(#8430)](https://github.com/stdlib-js/stdlib/pull/8430) _(by Manvith M, Athan Reines)_
+-   [`2e77dc2`](https://github.com/stdlib-js/stdlib/commit/2e77dc2fa6d71d4da5a906603bb38fd1dc15d07c) - **chore:** add structured package data for `math/base/special/log1pmx` [(#8431)](https://github.com/stdlib-js/stdlib/pull/8431) _(by Manvith M, Athan Reines)_
+-   [`b992e9e`](https://github.com/stdlib-js/stdlib/commit/b992e9eb368ffb97dc7ee69887670c4254f32c46) - **chore:** add structured package data for `math/base/special/gammasgnf` [(#8440)](https://github.com/stdlib-js/stdlib/pull/8440) _(by Pratik, Athan Reines)_
+-   [`6295b0a`](https://github.com/stdlib-js/stdlib/commit/6295b0a66b76c60f2b4cc5613d61447111cf8b90) - **chore:** add structured package data for `math/base/special/gammasgn` [(#8441)](https://github.com/stdlib-js/stdlib/pull/8441) _(by Pratik, Athan Reines)_
+-   [`aa21cdf`](https://github.com/stdlib-js/stdlib/commit/aa21cdf99c2dc289ec6707a1e46df1edfd6997e7) - **chore:** add structured package data for `math/base/special/hacovercos` [(#8437)](https://github.com/stdlib-js/stdlib/pull/8437) _(by Pratik, Athan Reines)_
+-   [`4954940`](https://github.com/stdlib-js/stdlib/commit/495494087ecdcf1a80378e6103df3092bb59b280) - **chore:** add structured package data for `math/base/special/riemann-zeta` [(#8428)](https://github.com/stdlib-js/stdlib/pull/8428) _(by Manvith M, Athan Reines)_
+-   [`1f10d15`](https://github.com/stdlib-js/stdlib/commit/1f10d15d05461baee65d787a0ec965f7d1510ef0) - **chore:** add structured package data for `math/base/special/rcbrt` [(#8426)](https://github.com/stdlib-js/stdlib/pull/8426) _(by Manvith M)_
+-   [`f7c196d`](https://github.com/stdlib-js/stdlib/commit/f7c196d4e006fee9a93206ccf5fcdcd13a3a4229) - **chore:** add structured package data for `math/base/special/rcbrtf` [(#8427)](https://github.com/stdlib-js/stdlib/pull/8427) _(by Manvith M)_
 -   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
 -   [`4cfd074`](https://github.com/stdlib-js/stdlib/commit/4cfd074d453bcd044c063265f5384e50f974a139) - **chore:** add structured package data for `math/base/special/floorf` [(#8418)](https://github.com/stdlib-js/stdlib/pull/8418) _(by Manvith M, Athan Reines)_
 -   [`e5b2051`](https://github.com/stdlib-js/stdlib/commit/e5b2051a308dce49b7ddf71972c6b8421e2f0c16) - **chore:** add structured package data for `math/base/special/fibonacci-index` [(#8414)](https://github.com/stdlib-js/stdlib/pull/8414) _(by Manvith M, Athan Reines)_
