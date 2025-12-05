@@ -423,6 +423,7 @@
     "@stdlib/constants-float32-fourth-pi": "^0.1.0",
     "@stdlib/constants-float32-gamma-lanczos-g": "github:stdlib-js/constants-float32-gamma-lanczos-g#main",
     "@stdlib/constants-float32-half-pi": "^0.1.0",
+    "@stdlib/constants-float32-ln-two": "github:stdlib-js/constants-float32-ln-two#main",
     "@stdlib/constants-float32-max": "^0.2.2",
     "@stdlib/constants-float32-max-nth-double-factorial": "github:stdlib-js/constants-float32-max-nth-double-factorial#main",
     "@stdlib/constants-float32-max-safe-integer": "^0.2.2",

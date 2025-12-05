@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-16)
+## Unreleased (2025-12-05)
 
 <section class="features">
 
 ### Features
 
+-   [`f20489f`](https://github.com/stdlib-js/stdlib/commit/f20489f55e89e7d20640dfe2e05a80c9a0ec6f11) - add `math/base/special/log1pf` [(#5803)](https://github.com/stdlib-js/stdlib/pull/5803)
+-   [`148aff5`](https://github.com/stdlib-js/stdlib/commit/148aff59e237995be90401556aeb4e96207aa5a7) - add `math/base/special/powf` [(#5739)](https://github.com/stdlib-js/stdlib/pull/5739)
 -   [`8f581f1`](https://github.com/stdlib-js/stdlib/commit/8f581f122d9592e1e14707ed8c84884a525ce01c) - add `math/base/special/fast/minf` [(#8112)](https://github.com/stdlib-js/stdlib/pull/8112)
 -   [`0c12692`](https://github.com/stdlib-js/stdlib/commit/0c1269252e78645d914d9bbb8fb2221599ca6c2d) - update `math/base/special/fast` TypeScript declarations
 -   [`eb99018`](https://github.com/stdlib-js/stdlib/commit/eb990185eb01a179244bfda6f5ad8e7382d0af65) - update `math/base/special` TypeScript declarations
@@ -395,6 +397,22 @@ A total of 35 issues were closed in this release:
 
 <details>
 
+-   [`1dcf101`](https://github.com/stdlib-js/stdlib/commit/1dcf1013f5f6b583f11aa4f33750a549114de858) - **docs:** update example code in namespace TSDoc declarations _(by Philipp Burckhardt)_
+-   [`82e7f35`](https://github.com/stdlib-js/stdlib/commit/82e7f3517a61b3d4be4b37398da6119222416825) - **chore:** add structured package data for `math/base/special/log1pf` [(#8800)](https://github.com/stdlib-js/stdlib/pull/8800) _(by Aman Singh, Athan Reines)_
+-   [`c6b78ee`](https://github.com/stdlib-js/stdlib/commit/c6b78ee29d68da5693c4230f6d6a8763be053b56) - **chore:** add structured package data for `math/base/special/csignumf` [(#8775)](https://github.com/stdlib-js/stdlib/pull/8775) _(by Aman Singh)_
+-   [`b7aa4fa`](https://github.com/stdlib-js/stdlib/commit/b7aa4fa7588ce8bdb575bf923d769769c1a1987a) - **docs:** improve doctests for complex number instances in `math/base/special/cfloorf` [(#8792)](https://github.com/stdlib-js/stdlib/pull/8792) _(by Divyanshu)_
+-   [`f7920f6`](https://github.com/stdlib-js/stdlib/commit/f7920f615bfab41bd0c25dd7310d4ef473a1c9fe) - **chore:** add structured package data for `math/base/special/cround` [(#8770)](https://github.com/stdlib-js/stdlib/pull/8770) _(by Aman Singh)_
+-   [`3ba99a8`](https://github.com/stdlib-js/stdlib/commit/3ba99a8c360cb1a87591bb521f2f09e34e3b78c0) - **chore:** add structured package data for `math/base/special/croundf` [(#8773)](https://github.com/stdlib-js/stdlib/pull/8773) _(by Aman Singh)_
+-   [`da3c88a`](https://github.com/stdlib-js/stdlib/commit/da3c88a5810677cb4d5d5f1060427448448c7ae3) - **chore:** add structured package data for `math/base/special/cphasef` [(#8751)](https://github.com/stdlib-js/stdlib/pull/8751) _(by Aman Singh, Athan Reines)_
+-   [`4a6ce56`](https://github.com/stdlib-js/stdlib/commit/4a6ce56d38c164b9e8b5324c2a9155e6c2f7b7a7) - **chore:** add structured package data for `math/base/special/cphase` [(#8728)](https://github.com/stdlib-js/stdlib/pull/8728) _(by Aman Singh, Athan Reines)_
+-   [`902fff9`](https://github.com/stdlib-js/stdlib/commit/902fff9a8deb6bab8a69ed301644bcb4c4e485a3) - **chore:** add structured package data for `math/base/special/cfloorf` [(#8687)](https://github.com/stdlib-js/stdlib/pull/8687) _(by Payal Goswami, Athan Reines)_
+-   [`55ed747`](https://github.com/stdlib-js/stdlib/commit/55ed7477ca69967c364c52e112c48bfda29c9948) - **chore:** add structured package data for `math/base/special/cinvf` [(#8710)](https://github.com/stdlib-js/stdlib/pull/8710) _(by Aman Singh, Athan Reines)_
+-   [`f20489f`](https://github.com/stdlib-js/stdlib/commit/f20489f55e89e7d20640dfe2e05a80c9a0ec6f11) - **feat:** add `math/base/special/log1pf` [(#5803)](https://github.com/stdlib-js/stdlib/pull/5803) _(by Prashant Kumar Yadav, Athan Reines, stdlib-bot, Gunj Joshi, Karan Anand)_
+-   [`de0ed69`](https://github.com/stdlib-js/stdlib/commit/de0ed69e3bac7ce1a081177503b3df442645daf2) - **chore:** add structured package data for `math/base/special/cinv` [(#8703)](https://github.com/stdlib-js/stdlib/pull/8703) _(by Aman Singh)_
+-   [`148aff5`](https://github.com/stdlib-js/stdlib/commit/148aff59e237995be90401556aeb4e96207aa5a7) - **feat:** add `math/base/special/powf` [(#5739)](https://github.com/stdlib-js/stdlib/pull/5739) _(by Neeraj Pathak, Athan Reines, stdlib-bot, Karan Anand)_
+-   [`39cac36`](https://github.com/stdlib-js/stdlib/commit/39cac36da035a7b020cf3d3aee15ed065bac9fb2) - **docs:** update related packages sections [(#8609)](https://github.com/stdlib-js/stdlib/pull/8609) _(by stdlib-bot)_
+-   [`b09b9e6`](https://github.com/stdlib-js/stdlib/commit/b09b9e62684c6498984431e2fc268f6b1c783cf3) - **chore:** add structured package data for `math/base/special/cfloor` [(#8574)](https://github.com/stdlib-js/stdlib/pull/8574) _(by Kaustubh Patange, Athan Reines)_
+-   [`821a0bc`](https://github.com/stdlib-js/stdlib/commit/821a0bc32c11aee8fe746ad0d5d92b70dba69e4d) - **docs:** update related packages sections [(#8535)](https://github.com/stdlib-js/stdlib/pull/8535) _(by stdlib-bot)_
 -   [`7db5b32`](https://github.com/stdlib-js/stdlib/commit/7db5b32afe976e2d3c216a45e0927c88e668d340) - **chore:** add `alias_prefix` to parent namespaces [(#8540)](https://github.com/stdlib-js/stdlib/pull/8540) _(by Gunj Joshi)_
 -   [`5c1d94a`](https://github.com/stdlib-js/stdlib/commit/5c1d94adc310470a09ca01c7156f414fad49a73e) - **docs:** update related packages sections [(#8500)](https://github.com/stdlib-js/stdlib/pull/8500) _(by stdlib-bot)_
 -   [`a9fb57e`](https://github.com/stdlib-js/stdlib/commit/a9fb57ec46973d10d247dfbe68d0b11a24970688) - **docs:** update descriptions _(by Philipp Burckhardt)_
@@ -1325,17 +1343,19 @@ A total of 35 issues were closed in this release:
 
 ### Contributors
 
-A total of 40 people contributed to this release. Thank you to the following contributors:
+A total of 44 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Abhijit Raut
 -   Aman Bhansali
+-   Aman Singh
 -   Anmol Sah
 -   Anshu Kumar
 -   Athan Reines
 -   Devshree Bhati
 -   Dhruv Arvind Singh
 -   Ditsu S
+-   Divyanshu
 -   Gaurav Kaushik
 -   Gautam sharma
 -   Geo Daoyu
@@ -1348,6 +1368,7 @@ A total of 40 people contributed to this release. Thank you to the following con
 -   Jalaj Kumar
 -   Jay Soni
 -   Karan Anand
+-   Kaustubh Patange
 -   Krishnam Agarwal
 -   Lalit Narayan Yadav
 -   Lokesh Ranjan
@@ -1357,6 +1378,7 @@ A total of 40 people contributed to this release. Thank you to the following con
 -   Neeraj Pathak
 -   Payal Goswami
 -   Philipp Burckhardt
+-   Prashant Kumar Yadav
 -   PrathamBhamare
 -   Pratik
 -   SAHIL KUMAR
