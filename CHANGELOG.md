@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-05)
+## Unreleased (2025-12-13)
 
 <section class="features">
 
@@ -397,6 +397,15 @@ A total of 35 issues were closed in this release:
 
 <details>
 
+-   [`6a15889`](https://github.com/stdlib-js/stdlib/commit/6a15889a2462fa8cf48ef659e8962485065c8830) - **docs:** update `math/base/special` TypeScript declarations [(#9017)](https://github.com/stdlib-js/stdlib/pull/9017) _(by stdlib-bot)_
+-   [`f3a591e`](https://github.com/stdlib-js/stdlib/commit/f3a591e3fcf19bdf10a7930c9d01792bd266dfba) - **docs:** improve doctests for complex number instances in `math/base/special/croundn` [(#9008)](https://github.com/stdlib-js/stdlib/pull/9008) _(by Aryan kumar)_
+-   [`c970ea2`](https://github.com/stdlib-js/stdlib/commit/c970ea241b28901fb006bb39f484384d581ae9b8) - **docs:** improve doctests for complex number instances in `math/base/special/cceil` [(#9007)](https://github.com/stdlib-js/stdlib/pull/9007) _(by Aryan kumar)_
+-   [`512334c`](https://github.com/stdlib-js/stdlib/commit/512334c49e27ddff4e3fa672e1e81ac2c4fbc123) - **docs:** improve doctests for complex number instances in `math/base/special/ccis` [(#9014)](https://github.com/stdlib-js/stdlib/pull/9014) _(by Aryan kumar)_
+-   [`0909988`](https://github.com/stdlib-js/stdlib/commit/09099888c7fbd7d723a0c466e2f8d317a5e7c3a1) - **docs:** improve doctests for complex number instances in `math/base/special/cflipsignf` [(#9011)](https://github.com/stdlib-js/stdlib/pull/9011) _(by Aryan kumar)_
+-   [`0b2faa8`](https://github.com/stdlib-js/stdlib/commit/0b2faa8e50b543fa573577cb0baaada5ddd20297) - **docs:** improve doctests for complex number instances in `math/base/special/csignum` [(#9012)](https://github.com/stdlib-js/stdlib/pull/9012) _(by Aryan kumar)_
+-   [`9c412c7`](https://github.com/stdlib-js/stdlib/commit/9c412c7a96d4b5381cda9be8c83f4e701155fe95) - **docs:** update related packages sections [(#8860)](https://github.com/stdlib-js/stdlib/pull/8860) _(by stdlib-bot, Athan Reines)_
+-   [`ed42a4f`](https://github.com/stdlib-js/stdlib/commit/ed42a4f20e80757e6e855dc9ac4e70ab5a28f423) - **docs:** update related packages sections [(#8835)](https://github.com/stdlib-js/stdlib/pull/8835) _(by stdlib-bot)_
+-   [`a297ebe`](https://github.com/stdlib-js/stdlib/commit/a297ebeb5aae3de8c04c56e02e5e0ef4f229b2f8) - **docs:** fix doctest return annotation comment _(by Philipp Burckhardt)_
 -   [`1dcf101`](https://github.com/stdlib-js/stdlib/commit/1dcf1013f5f6b583f11aa4f33750a549114de858) - **docs:** update example code in namespace TSDoc declarations _(by Philipp Burckhardt)_
 -   [`82e7f35`](https://github.com/stdlib-js/stdlib/commit/82e7f3517a61b3d4be4b37398da6119222416825) - **chore:** add structured package data for `math/base/special/log1pf` [(#8800)](https://github.com/stdlib-js/stdlib/pull/8800) _(by Aman Singh, Athan Reines)_
 -   [`c6b78ee`](https://github.com/stdlib-js/stdlib/commit/c6b78ee29d68da5693c4230f6d6a8763be053b56) - **chore:** add structured package data for `math/base/special/csignumf` [(#8775)](https://github.com/stdlib-js/stdlib/pull/8775) _(by Aman Singh)_
@@ -1343,7 +1352,7 @@ A total of 35 issues were closed in this release:
 
 ### Contributors
 
-A total of 44 people contributed to this release. Thank you to the following contributors:
+A total of 45 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Abhijit Raut
@@ -1351,6 +1360,7 @@ A total of 44 people contributed to this release. Thank you to the following con
 -   Aman Singh
 -   Anmol Sah
 -   Anshu Kumar
+-   Aryan kumar
 -   Athan Reines
 -   Devshree Bhati
 -   Dhruv Arvind Singh
