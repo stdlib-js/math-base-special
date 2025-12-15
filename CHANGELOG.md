@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-13)
+## Unreleased (2025-12-15)
 
 <section class="features">
 
@@ -397,6 +397,10 @@ A total of 35 issues were closed in this release:
 
 <details>
 
+-   [`cd063e0`](https://github.com/stdlib-js/stdlib/commit/cd063e08de61b89959085f0f1650f40c34a55929) - **docs:** update examples [(#9036)](https://github.com/stdlib-js/stdlib/pull/9036) _(by stdlib-bot)_
+-   [`62b365f`](https://github.com/stdlib-js/stdlib/commit/62b365f072bd98518e08b00b14344143c8df521c) - **docs:** improve doctests for complex number instances in `math/base/special/cinvf` [(#9020)](https://github.com/stdlib-js/stdlib/pull/9020) _(by Aryan kumar)_
+-   [`b15e507`](https://github.com/stdlib-js/stdlib/commit/b15e507fbb9876c64c68f883217604872a7e76c9) - **docs:** improve doctests for complex number instances in `math/base/special/cinv` [(#9024)](https://github.com/stdlib-js/stdlib/pull/9024) _(by Aryan kumar)_
+-   [`2c59b22`](https://github.com/stdlib-js/stdlib/commit/2c59b225c1d4d2b05bc433837e1c286535783443) - **docs:** improve doctests for complex number instances in `math/base/special/cround` [(#9025)](https://github.com/stdlib-js/stdlib/pull/9025) _(by Prajjwal Bajpai, Philipp Burckhardt)_
 -   [`6a15889`](https://github.com/stdlib-js/stdlib/commit/6a15889a2462fa8cf48ef659e8962485065c8830) - **docs:** update `math/base/special` TypeScript declarations [(#9017)](https://github.com/stdlib-js/stdlib/pull/9017) _(by stdlib-bot)_
 -   [`f3a591e`](https://github.com/stdlib-js/stdlib/commit/f3a591e3fcf19bdf10a7930c9d01792bd266dfba) - **docs:** improve doctests for complex number instances in `math/base/special/croundn` [(#9008)](https://github.com/stdlib-js/stdlib/pull/9008) _(by Aryan kumar)_
 -   [`c970ea2`](https://github.com/stdlib-js/stdlib/commit/c970ea241b28901fb006bb39f484384d581ae9b8) - **docs:** improve doctests for complex number instances in `math/base/special/cceil` [(#9007)](https://github.com/stdlib-js/stdlib/pull/9007) _(by Aryan kumar)_
@@ -1352,7 +1356,7 @@ A total of 35 issues were closed in this release:
 
 ### Contributors
 
-A total of 45 people contributed to this release. Thank you to the following contributors:
+A total of 46 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Abhijit Raut
@@ -1388,6 +1392,7 @@ A total of 45 people contributed to this release. Thank you to the following con
 -   Neeraj Pathak
 -   Payal Goswami
 -   Philipp Burckhardt
+-   Prajjwal Bajpai
 -   Prashant Kumar Yadav
 -   PrathamBhamare
 -   Pratik
