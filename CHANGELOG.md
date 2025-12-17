@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-15)
+## Unreleased (2025-12-17)
 
 <section class="features">
 
 ### Features
 
+-   [`b50060a`](https://github.com/stdlib-js/stdlib/commit/b50060a7145e4f34152573dae067322c16d40b6c) - update `math/base/special` TypeScript declarations [(#9117)](https://github.com/stdlib-js/stdlib/pull/9117)
 -   [`f20489f`](https://github.com/stdlib-js/stdlib/commit/f20489f55e89e7d20640dfe2e05a80c9a0ec6f11) - add `math/base/special/log1pf` [(#5803)](https://github.com/stdlib-js/stdlib/pull/5803)
 -   [`148aff5`](https://github.com/stdlib-js/stdlib/commit/148aff59e237995be90401556aeb4e96207aa5a7) - add `math/base/special/powf` [(#5739)](https://github.com/stdlib-js/stdlib/pull/5739)
 -   [`8f581f1`](https://github.com/stdlib-js/stdlib/commit/8f581f122d9592e1e14707ed8c84884a525ce01c) - add `math/base/special/fast/minf` [(#8112)](https://github.com/stdlib-js/stdlib/pull/8112)
@@ -397,6 +398,8 @@ A total of 35 issues were closed in this release:
 
 <details>
 
+-   [`b50060a`](https://github.com/stdlib-js/stdlib/commit/b50060a7145e4f34152573dae067322c16d40b6c) - **feat:** update `math/base/special` TypeScript declarations [(#9117)](https://github.com/stdlib-js/stdlib/pull/9117) _(by stdlib-bot)_
+-   [`95c53cf`](https://github.com/stdlib-js/stdlib/commit/95c53cf567009172f1105fda7228717e609e7ff5) - **docs:** improve doctests for complex number instances in `math/base/special/csignumf` [(#9042)](https://github.com/stdlib-js/stdlib/pull/9042) _(by Prajjwal Bajpai, Athan Reines)_
 -   [`cd063e0`](https://github.com/stdlib-js/stdlib/commit/cd063e08de61b89959085f0f1650f40c34a55929) - **docs:** update examples [(#9036)](https://github.com/stdlib-js/stdlib/pull/9036) _(by stdlib-bot)_
 -   [`62b365f`](https://github.com/stdlib-js/stdlib/commit/62b365f072bd98518e08b00b14344143c8df521c) - **docs:** improve doctests for complex number instances in `math/base/special/cinvf` [(#9020)](https://github.com/stdlib-js/stdlib/pull/9020) _(by Aryan kumar)_
 -   [`b15e507`](https://github.com/stdlib-js/stdlib/commit/b15e507fbb9876c64c68f883217604872a7e76c9) - **docs:** improve doctests for complex number instances in `math/base/special/cinv` [(#9024)](https://github.com/stdlib-js/stdlib/pull/9024) _(by Aryan kumar)_
