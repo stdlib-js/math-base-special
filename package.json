@@ -525,6 +525,7 @@
     "@stdlib/math-base-special-fast-pow-int": "^0.3.0",
     "@stdlib/math-base-special-fast-uint32-log2": "^0.3.0",
     "@stdlib/math-base-special-fast-uint32-sqrt": "^0.3.0",
+    "@stdlib/math-base-special-powf": "github:stdlib-js/math-base-special-powf#main",
     "@stdlib/math-base-tools-continued-fraction": "^0.2.2",
     "@stdlib/math-base-tools-evalpoly": "^0.2.2",
     "@stdlib/math-base-tools-evalpoly-compile": "^0.3.0",
