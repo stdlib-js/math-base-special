@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-17)
+## Unreleased (2026-01-20)
 
 <section class="features">
 
@@ -403,6 +403,9 @@ A total of 36 issues were closed in this release:
 
 <details>
 
+-   [`457ce9c`](https://github.com/stdlib-js/stdlib/commit/457ce9c6b58b09832b290d2d4ae030421b509eeb) - **docs:** update `math/base/special` TypeScript declaration example code [(#9835)](https://github.com/stdlib-js/stdlib/pull/9835) _(by stdlib-bot)_
+-   [`7ffed96`](https://github.com/stdlib-js/stdlib/commit/7ffed96e4ed10b5ee1a340adc368d27902d54591) - **test:** remove duplicate test cases in `math/base/special` packages _(by Philipp Burckhardt)_
+-   [`7188b0d`](https://github.com/stdlib-js/stdlib/commit/7188b0d35d337eba56bd34d4970b2c852f25ebf9) - **docs:** improve doctests for complex number instances in `math/base/special/cflipsign` [(#9815)](https://github.com/stdlib-js/stdlib/pull/9815) _(by Vishal Gaikwad)_
 -   [`a76d474`](https://github.com/stdlib-js/stdlib/commit/a76d474ab4fa9b2d936d21f9b9aca714b1349ff4) - **docs:** update `math/base/special` TypeScript declaration example code [(#9794)](https://github.com/stdlib-js/stdlib/pull/9794) _(by stdlib-bot)_
 -   [`0472076`](https://github.com/stdlib-js/stdlib/commit/04720767c484e6277ad9411dff3dc5a116c31378) - **docs:** remove duplicated words in documentation and comments _(by Philipp Burckhardt)_
 -   [`4418e62`](https://github.com/stdlib-js/stdlib/commit/4418e626e0a3ec318b6451f4e3b3397b0d43c6f2) - **test:** fix broken tests _(by Athan Reines)_
