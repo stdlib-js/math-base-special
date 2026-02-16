@@ -24,6 +24,7 @@
 
 <details>
 
+-   [`a253e63`](https://github.com/stdlib-js/stdlib/commit/a253e6394fc69bc1251c0544ca051b605c8adad3) - **docs:** update `math/base/special` TypeScript declarations [(#10311)](https://github.com/stdlib-js/stdlib/pull/10311) _(by stdlib-bot)_
 -   [`e83179b`](https://github.com/stdlib-js/stdlib/commit/e83179b9b342021ac4b62eb9985e82137462ff0e) - **docs:** improve doctests for complex number instances in `math/base/special/cceilf` [(#10183)](https://github.com/stdlib-js/stdlib/pull/10183) _(by Vishal Gaikwad)_
 -   [`53aaf81`](https://github.com/stdlib-js/stdlib/commit/53aaf8135f7feba8476da758d895cc24da20caad) - **feat:** add C implementation for `math/base/special/heaviside` [(#10196)](https://github.com/stdlib-js/stdlib/pull/10196) _(by Kamal Singh Rautela)_
 -   [`2eea8bb`](https://github.com/stdlib-js/stdlib/commit/2eea8bb24c99fb81c56ec7c14d0cca8d88b1cb52) - **feat:** add implementation of `math/base/special/coshf` [(#10177)](https://github.com/stdlib-js/stdlib/pull/10177) _(by Shubham)_
