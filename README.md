@@ -35,43 +35,32 @@ limitations under the License.
 
 > Base (i.e., lower-level) special math functions.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-special = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special@umd/browser.js' )
-```
-The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special/tags). For example,
-
-```javascript
-special = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special@v0.4.1-umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var special = require( 'path/to/vendor/umd/math-base-special/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.special;
-})();
-</script>
+var special = require( '@stdlib/math-base-special' );
 ```
 
 #### special
@@ -513,21 +502,11 @@ Finally, the namespace exports the following kernel functions, which are mainly 
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var special = require( '@stdlib/math-base-special' );
 
 console.log( objectKeys( special ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -581,8 +560,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/math-base-special.svg
 [npm-url]: https://npmjs.org/package/@stdlib/math-base-special
 
-[test-image]: https://github.com/stdlib-js/math-base-special/actions/workflows/test.yml/badge.svg?branch=v0.4.1
-[test-url]: https://github.com/stdlib-js/math-base-special/actions/workflows/test.yml?query=branch:v0.4.1
+[test-image]: https://github.com/stdlib-js/math-base-special/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/math-base-special/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math-base-special/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/math-base-special?branch=main
@@ -616,687 +595,687 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/math/base/special/kernel-betainc]: https://github.com/stdlib-js/math-base-special-kernel-betainc/tree/umd
+[@stdlib/math/base/special/kernel-betainc]: https://github.com/stdlib-js/math-base-special-kernel-betainc
 
-[@stdlib/math/base/special/kernel-betaincinv]: https://github.com/stdlib-js/math-base-special-kernel-betaincinv/tree/umd
+[@stdlib/math/base/special/kernel-betaincinv]: https://github.com/stdlib-js/math-base-special-kernel-betaincinv
 
-[@stdlib/math/base/special/kernel-cos]: https://github.com/stdlib-js/math-base-special-kernel-cos/tree/umd
+[@stdlib/math/base/special/kernel-cos]: https://github.com/stdlib-js/math-base-special-kernel-cos
 
-[@stdlib/math/base/special/kernel-sin]: https://github.com/stdlib-js/math-base-special-kernel-sin/tree/umd
+[@stdlib/math/base/special/kernel-sin]: https://github.com/stdlib-js/math-base-special-kernel-sin
 
-[@stdlib/math/base/special/kernel-tan]: https://github.com/stdlib-js/math-base-special-kernel-tan/tree/umd
+[@stdlib/math/base/special/kernel-tan]: https://github.com/stdlib-js/math-base-special-kernel-tan
 
-[@stdlib/math/base/special/rempio2]: https://github.com/stdlib-js/math-base-special-rempio2/tree/umd
+[@stdlib/math/base/special/rempio2]: https://github.com/stdlib-js/math-base-special-rempio2
 
-[@stdlib/math/base/special/fast]: https://github.com/stdlib-js/math-base-special-fast/tree/umd
+[@stdlib/math/base/special/fast]: https://github.com/stdlib-js/math-base-special-fast
 
-[@stdlib/math/base/special/acot]: https://github.com/stdlib-js/math-base-special-acot/tree/umd
+[@stdlib/math/base/special/acot]: https://github.com/stdlib-js/math-base-special-acot
 
-[@stdlib/math/base/special/acotd]: https://github.com/stdlib-js/math-base-special-acotd/tree/umd
+[@stdlib/math/base/special/acotd]: https://github.com/stdlib-js/math-base-special-acotd
 
-[@stdlib/math/base/special/acotdf]: https://github.com/stdlib-js/math-base-special-acotdf/tree/umd
+[@stdlib/math/base/special/acotdf]: https://github.com/stdlib-js/math-base-special-acotdf
 
-[@stdlib/math/base/special/acotf]: https://github.com/stdlib-js/math-base-special-acotf/tree/umd
+[@stdlib/math/base/special/acotf]: https://github.com/stdlib-js/math-base-special-acotf
 
-[@stdlib/math/base/special/acoth]: https://github.com/stdlib-js/math-base-special-acoth/tree/umd
+[@stdlib/math/base/special/acoth]: https://github.com/stdlib-js/math-base-special-acoth
 
-[@stdlib/math/base/special/acsc]: https://github.com/stdlib-js/math-base-special-acsc/tree/umd
+[@stdlib/math/base/special/acsc]: https://github.com/stdlib-js/math-base-special-acsc
 
-[@stdlib/math/base/special/acscd]: https://github.com/stdlib-js/math-base-special-acscd/tree/umd
+[@stdlib/math/base/special/acscd]: https://github.com/stdlib-js/math-base-special-acscd
 
-[@stdlib/math/base/special/acscdf]: https://github.com/stdlib-js/math-base-special-acscdf/tree/umd
+[@stdlib/math/base/special/acscdf]: https://github.com/stdlib-js/math-base-special-acscdf
 
-[@stdlib/math/base/special/acscf]: https://github.com/stdlib-js/math-base-special-acscf/tree/umd
+[@stdlib/math/base/special/acscf]: https://github.com/stdlib-js/math-base-special-acscf
 
-[@stdlib/math/base/special/acsch]: https://github.com/stdlib-js/math-base-special-acsch/tree/umd
+[@stdlib/math/base/special/acsch]: https://github.com/stdlib-js/math-base-special-acsch
 
-[@stdlib/math/base/special/asec]: https://github.com/stdlib-js/math-base-special-asec/tree/umd
+[@stdlib/math/base/special/asec]: https://github.com/stdlib-js/math-base-special-asec
 
-[@stdlib/math/base/special/asecd]: https://github.com/stdlib-js/math-base-special-asecd/tree/umd
+[@stdlib/math/base/special/asecd]: https://github.com/stdlib-js/math-base-special-asecd
 
-[@stdlib/math/base/special/asecdf]: https://github.com/stdlib-js/math-base-special-asecdf/tree/umd
+[@stdlib/math/base/special/asecdf]: https://github.com/stdlib-js/math-base-special-asecdf
 
-[@stdlib/math/base/special/asecf]: https://github.com/stdlib-js/math-base-special-asecf/tree/umd
+[@stdlib/math/base/special/asecf]: https://github.com/stdlib-js/math-base-special-asecf
 
-[@stdlib/math/base/special/asech]: https://github.com/stdlib-js/math-base-special-asech/tree/umd
+[@stdlib/math/base/special/asech]: https://github.com/stdlib-js/math-base-special-asech
 
-[@stdlib/math/base/special/bernoulli]: https://github.com/stdlib-js/math-base-special-bernoulli/tree/umd
+[@stdlib/math/base/special/bernoulli]: https://github.com/stdlib-js/math-base-special-bernoulli
 
-[@stdlib/math/base/special/bernoullif]: https://github.com/stdlib-js/math-base-special-bernoullif/tree/umd
+[@stdlib/math/base/special/bernoullif]: https://github.com/stdlib-js/math-base-special-bernoullif
 
-[@stdlib/math/base/special/beta]: https://github.com/stdlib-js/math-base-special-beta/tree/umd
+[@stdlib/math/base/special/beta]: https://github.com/stdlib-js/math-base-special-beta
 
-[@stdlib/math/base/special/betainc]: https://github.com/stdlib-js/math-base-special-betainc/tree/umd
+[@stdlib/math/base/special/betainc]: https://github.com/stdlib-js/math-base-special-betainc
 
-[@stdlib/math/base/special/betaincinv]: https://github.com/stdlib-js/math-base-special-betaincinv/tree/umd
+[@stdlib/math/base/special/betaincinv]: https://github.com/stdlib-js/math-base-special-betaincinv
 
-[@stdlib/math/base/special/betaln]: https://github.com/stdlib-js/math-base-special-betaln/tree/umd
+[@stdlib/math/base/special/betaln]: https://github.com/stdlib-js/math-base-special-betaln
 
-[@stdlib/math/base/special/binet]: https://github.com/stdlib-js/math-base-special-binet/tree/umd
+[@stdlib/math/base/special/binet]: https://github.com/stdlib-js/math-base-special-binet
 
-[@stdlib/math/base/special/binomcoef]: https://github.com/stdlib-js/math-base-special-binomcoef/tree/umd
+[@stdlib/math/base/special/binomcoef]: https://github.com/stdlib-js/math-base-special-binomcoef
 
-[@stdlib/math/base/special/binomcoeff]: https://github.com/stdlib-js/math-base-special-binomcoeff/tree/umd
+[@stdlib/math/base/special/binomcoeff]: https://github.com/stdlib-js/math-base-special-binomcoeff
 
-[@stdlib/math/base/special/binomcoefln]: https://github.com/stdlib-js/math-base-special-binomcoefln/tree/umd
+[@stdlib/math/base/special/binomcoefln]: https://github.com/stdlib-js/math-base-special-binomcoefln
 
-[@stdlib/math/base/special/boxcox]: https://github.com/stdlib-js/math-base-special-boxcox/tree/umd
+[@stdlib/math/base/special/boxcox]: https://github.com/stdlib-js/math-base-special-boxcox
 
-[@stdlib/math/base/special/boxcox1p]: https://github.com/stdlib-js/math-base-special-boxcox1p/tree/umd
+[@stdlib/math/base/special/boxcox1p]: https://github.com/stdlib-js/math-base-special-boxcox1p
 
-[@stdlib/math/base/special/boxcox1pinv]: https://github.com/stdlib-js/math-base-special-boxcox1pinv/tree/umd
+[@stdlib/math/base/special/boxcox1pinv]: https://github.com/stdlib-js/math-base-special-boxcox1pinv
 
-[@stdlib/math/base/special/boxcoxinv]: https://github.com/stdlib-js/math-base-special-boxcoxinv/tree/umd
+[@stdlib/math/base/special/boxcoxinv]: https://github.com/stdlib-js/math-base-special-boxcoxinv
 
-[@stdlib/math/base/special/cbrt]: https://github.com/stdlib-js/math-base-special-cbrt/tree/umd
+[@stdlib/math/base/special/cbrt]: https://github.com/stdlib-js/math-base-special-cbrt
 
-[@stdlib/math/base/special/cbrtf]: https://github.com/stdlib-js/math-base-special-cbrtf/tree/umd
+[@stdlib/math/base/special/cbrtf]: https://github.com/stdlib-js/math-base-special-cbrtf
 
-[@stdlib/math/base/special/ccis]: https://github.com/stdlib-js/math-base-special-ccis/tree/umd
+[@stdlib/math/base/special/ccis]: https://github.com/stdlib-js/math-base-special-ccis
 
-[@stdlib/math/base/special/cexp]: https://github.com/stdlib-js/math-base-special-cexp/tree/umd
+[@stdlib/math/base/special/cexp]: https://github.com/stdlib-js/math-base-special-cexp
 
-[@stdlib/math/base/special/cflipsign]: https://github.com/stdlib-js/math-base-special-cflipsign/tree/umd
+[@stdlib/math/base/special/cflipsign]: https://github.com/stdlib-js/math-base-special-cflipsign
 
-[@stdlib/math/base/special/cflipsignf]: https://github.com/stdlib-js/math-base-special-cflipsignf/tree/umd
+[@stdlib/math/base/special/cflipsignf]: https://github.com/stdlib-js/math-base-special-cflipsignf
 
-[@stdlib/math/base/special/cinv]: https://github.com/stdlib-js/math-base-special-cinv/tree/umd
+[@stdlib/math/base/special/cinv]: https://github.com/stdlib-js/math-base-special-cinv
 
-[@stdlib/math/base/special/cinvf]: https://github.com/stdlib-js/math-base-special-cinvf/tree/umd
+[@stdlib/math/base/special/cinvf]: https://github.com/stdlib-js/math-base-special-cinvf
 
-[@stdlib/math/base/special/copysign]: https://github.com/stdlib-js/math-base-special-copysign/tree/umd
+[@stdlib/math/base/special/copysign]: https://github.com/stdlib-js/math-base-special-copysign
 
-[@stdlib/math/base/special/copysignf]: https://github.com/stdlib-js/math-base-special-copysignf/tree/umd
+[@stdlib/math/base/special/copysignf]: https://github.com/stdlib-js/math-base-special-copysignf
 
-[@stdlib/math/base/special/cot]: https://github.com/stdlib-js/math-base-special-cot/tree/umd
+[@stdlib/math/base/special/cot]: https://github.com/stdlib-js/math-base-special-cot
 
-[@stdlib/math/base/special/cotd]: https://github.com/stdlib-js/math-base-special-cotd/tree/umd
+[@stdlib/math/base/special/cotd]: https://github.com/stdlib-js/math-base-special-cotd
 
-[@stdlib/math/base/special/cotdf]: https://github.com/stdlib-js/math-base-special-cotdf/tree/umd
+[@stdlib/math/base/special/cotdf]: https://github.com/stdlib-js/math-base-special-cotdf
 
-[@stdlib/math/base/special/cotf]: https://github.com/stdlib-js/math-base-special-cotf/tree/umd
+[@stdlib/math/base/special/cotf]: https://github.com/stdlib-js/math-base-special-cotf
 
-[@stdlib/math/base/special/coth]: https://github.com/stdlib-js/math-base-special-coth/tree/umd
+[@stdlib/math/base/special/coth]: https://github.com/stdlib-js/math-base-special-coth
 
-[@stdlib/math/base/special/cphase]: https://github.com/stdlib-js/math-base-special-cphase/tree/umd
+[@stdlib/math/base/special/cphase]: https://github.com/stdlib-js/math-base-special-cphase
 
-[@stdlib/math/base/special/cphasef]: https://github.com/stdlib-js/math-base-special-cphasef/tree/umd
+[@stdlib/math/base/special/cphasef]: https://github.com/stdlib-js/math-base-special-cphasef
 
-[@stdlib/math/base/special/cpolar]: https://github.com/stdlib-js/math-base-special-cpolar/tree/umd
+[@stdlib/math/base/special/cpolar]: https://github.com/stdlib-js/math-base-special-cpolar
 
-[@stdlib/math/base/special/cpolarf]: https://github.com/stdlib-js/math-base-special-cpolarf/tree/umd
+[@stdlib/math/base/special/cpolarf]: https://github.com/stdlib-js/math-base-special-cpolarf
 
-[@stdlib/math/base/special/csc]: https://github.com/stdlib-js/math-base-special-csc/tree/umd
+[@stdlib/math/base/special/csc]: https://github.com/stdlib-js/math-base-special-csc
 
-[@stdlib/math/base/special/cscd]: https://github.com/stdlib-js/math-base-special-cscd/tree/umd
+[@stdlib/math/base/special/cscd]: https://github.com/stdlib-js/math-base-special-cscd
 
-[@stdlib/math/base/special/cscdf]: https://github.com/stdlib-js/math-base-special-cscdf/tree/umd
+[@stdlib/math/base/special/cscdf]: https://github.com/stdlib-js/math-base-special-cscdf
 
-[@stdlib/math/base/special/cscf]: https://github.com/stdlib-js/math-base-special-cscf/tree/umd
+[@stdlib/math/base/special/cscf]: https://github.com/stdlib-js/math-base-special-cscf
 
-[@stdlib/math/base/special/csch]: https://github.com/stdlib-js/math-base-special-csch/tree/umd
+[@stdlib/math/base/special/csch]: https://github.com/stdlib-js/math-base-special-csch
 
-[@stdlib/math/base/special/deg2rad]: https://github.com/stdlib-js/math-base-special-deg2rad/tree/umd
+[@stdlib/math/base/special/deg2rad]: https://github.com/stdlib-js/math-base-special-deg2rad
 
-[@stdlib/math/base/special/deg2radf]: https://github.com/stdlib-js/math-base-special-deg2radf/tree/umd
+[@stdlib/math/base/special/deg2radf]: https://github.com/stdlib-js/math-base-special-deg2radf
 
-[@stdlib/math/base/special/digamma]: https://github.com/stdlib-js/math-base-special-digamma/tree/umd
+[@stdlib/math/base/special/digamma]: https://github.com/stdlib-js/math-base-special-digamma
 
-[@stdlib/math/base/special/dirac-delta]: https://github.com/stdlib-js/math-base-special-dirac-delta/tree/umd
+[@stdlib/math/base/special/dirac-delta]: https://github.com/stdlib-js/math-base-special-dirac-delta
 
-[@stdlib/math/base/special/dirac-deltaf]: https://github.com/stdlib-js/math-base-special-dirac-deltaf/tree/umd
+[@stdlib/math/base/special/dirac-deltaf]: https://github.com/stdlib-js/math-base-special-dirac-deltaf
 
-[@stdlib/math/base/special/dirichlet-eta]: https://github.com/stdlib-js/math-base-special-dirichlet-eta/tree/umd
+[@stdlib/math/base/special/dirichlet-eta]: https://github.com/stdlib-js/math-base-special-dirichlet-eta
 
-[@stdlib/math/base/special/ellipe]: https://github.com/stdlib-js/math-base-special-ellipe/tree/umd
+[@stdlib/math/base/special/ellipe]: https://github.com/stdlib-js/math-base-special-ellipe
 
-[@stdlib/math/base/special/ellipj]: https://github.com/stdlib-js/math-base-special-ellipj/tree/umd
+[@stdlib/math/base/special/ellipj]: https://github.com/stdlib-js/math-base-special-ellipj
 
-[@stdlib/math/base/special/ellipk]: https://github.com/stdlib-js/math-base-special-ellipk/tree/umd
+[@stdlib/math/base/special/ellipk]: https://github.com/stdlib-js/math-base-special-ellipk
 
-[@stdlib/math/base/special/erf]: https://github.com/stdlib-js/math-base-special-erf/tree/umd
+[@stdlib/math/base/special/erf]: https://github.com/stdlib-js/math-base-special-erf
 
-[@stdlib/math/base/special/erfc]: https://github.com/stdlib-js/math-base-special-erfc/tree/umd
+[@stdlib/math/base/special/erfc]: https://github.com/stdlib-js/math-base-special-erfc
 
-[@stdlib/math/base/special/erfcinv]: https://github.com/stdlib-js/math-base-special-erfcinv/tree/umd
+[@stdlib/math/base/special/erfcinv]: https://github.com/stdlib-js/math-base-special-erfcinv
 
-[@stdlib/math/base/special/erfcx]: https://github.com/stdlib-js/math-base-special-erfcx/tree/umd
+[@stdlib/math/base/special/erfcx]: https://github.com/stdlib-js/math-base-special-erfcx
 
-[@stdlib/math/base/special/erfinv]: https://github.com/stdlib-js/math-base-special-erfinv/tree/umd
+[@stdlib/math/base/special/erfinv]: https://github.com/stdlib-js/math-base-special-erfinv
 
-[@stdlib/math/base/special/factorial]: https://github.com/stdlib-js/math-base-special-factorial/tree/umd
+[@stdlib/math/base/special/factorial]: https://github.com/stdlib-js/math-base-special-factorial
 
-[@stdlib/math/base/special/factorial2]: https://github.com/stdlib-js/math-base-special-factorial2/tree/umd
+[@stdlib/math/base/special/factorial2]: https://github.com/stdlib-js/math-base-special-factorial2
 
-[@stdlib/math/base/special/factorial2f]: https://github.com/stdlib-js/math-base-special-factorial2f/tree/umd
+[@stdlib/math/base/special/factorial2f]: https://github.com/stdlib-js/math-base-special-factorial2f
 
-[@stdlib/math/base/special/factorialln]: https://github.com/stdlib-js/math-base-special-factorialln/tree/umd
+[@stdlib/math/base/special/factorialln]: https://github.com/stdlib-js/math-base-special-factorialln
 
-[@stdlib/math/base/special/factoriallnf]: https://github.com/stdlib-js/math-base-special-factoriallnf/tree/umd
+[@stdlib/math/base/special/factoriallnf]: https://github.com/stdlib-js/math-base-special-factoriallnf
 
-[@stdlib/math/base/special/falling-factorial]: https://github.com/stdlib-js/math-base-special-falling-factorial/tree/umd
+[@stdlib/math/base/special/falling-factorial]: https://github.com/stdlib-js/math-base-special-falling-factorial
 
-[@stdlib/math/base/special/fibonacci-index]: https://github.com/stdlib-js/math-base-special-fibonacci-index/tree/umd
+[@stdlib/math/base/special/fibonacci-index]: https://github.com/stdlib-js/math-base-special-fibonacci-index
 
-[@stdlib/math/base/special/fibonacci-indexf]: https://github.com/stdlib-js/math-base-special-fibonacci-indexf/tree/umd
+[@stdlib/math/base/special/fibonacci-indexf]: https://github.com/stdlib-js/math-base-special-fibonacci-indexf
 
-[@stdlib/math/base/special/fibonacci]: https://github.com/stdlib-js/math-base-special-fibonacci/tree/umd
+[@stdlib/math/base/special/fibonacci]: https://github.com/stdlib-js/math-base-special-fibonacci
 
-[@stdlib/math/base/special/fibonaccif]: https://github.com/stdlib-js/math-base-special-fibonaccif/tree/umd
+[@stdlib/math/base/special/fibonaccif]: https://github.com/stdlib-js/math-base-special-fibonaccif
 
-[@stdlib/math/base/special/flipsign]: https://github.com/stdlib-js/math-base-special-flipsign/tree/umd
+[@stdlib/math/base/special/flipsign]: https://github.com/stdlib-js/math-base-special-flipsign
 
-[@stdlib/math/base/special/flipsignf]: https://github.com/stdlib-js/math-base-special-flipsignf/tree/umd
+[@stdlib/math/base/special/flipsignf]: https://github.com/stdlib-js/math-base-special-flipsignf
 
-[@stdlib/math/base/special/fmod]: https://github.com/stdlib-js/math-base-special-fmod/tree/umd
+[@stdlib/math/base/special/fmod]: https://github.com/stdlib-js/math-base-special-fmod
 
-[@stdlib/math/base/special/fmodf]: https://github.com/stdlib-js/math-base-special-fmodf/tree/umd
+[@stdlib/math/base/special/fmodf]: https://github.com/stdlib-js/math-base-special-fmodf
 
-[@stdlib/math/base/special/fresnel]: https://github.com/stdlib-js/math-base-special-fresnel/tree/umd
+[@stdlib/math/base/special/fresnel]: https://github.com/stdlib-js/math-base-special-fresnel
 
-[@stdlib/math/base/special/fresnelc]: https://github.com/stdlib-js/math-base-special-fresnelc/tree/umd
+[@stdlib/math/base/special/fresnelc]: https://github.com/stdlib-js/math-base-special-fresnelc
 
-[@stdlib/math/base/special/fresnels]: https://github.com/stdlib-js/math-base-special-fresnels/tree/umd
+[@stdlib/math/base/special/fresnels]: https://github.com/stdlib-js/math-base-special-fresnels
 
-[@stdlib/math/base/special/frexp]: https://github.com/stdlib-js/math-base-special-frexp/tree/umd
+[@stdlib/math/base/special/frexp]: https://github.com/stdlib-js/math-base-special-frexp
 
-[@stdlib/math/base/special/frexpf]: https://github.com/stdlib-js/math-base-special-frexpf/tree/umd
+[@stdlib/math/base/special/frexpf]: https://github.com/stdlib-js/math-base-special-frexpf
 
-[@stdlib/math/base/special/gamma]: https://github.com/stdlib-js/math-base-special-gamma/tree/umd
+[@stdlib/math/base/special/gamma]: https://github.com/stdlib-js/math-base-special-gamma
 
-[@stdlib/math/base/special/gamma1pm1]: https://github.com/stdlib-js/math-base-special-gamma1pm1/tree/umd
+[@stdlib/math/base/special/gamma1pm1]: https://github.com/stdlib-js/math-base-special-gamma1pm1
 
-[@stdlib/math/base/special/gammainc]: https://github.com/stdlib-js/math-base-special-gammainc/tree/umd
+[@stdlib/math/base/special/gammainc]: https://github.com/stdlib-js/math-base-special-gammainc
 
-[@stdlib/math/base/special/gammaincinv]: https://github.com/stdlib-js/math-base-special-gammaincinv/tree/umd
+[@stdlib/math/base/special/gammaincinv]: https://github.com/stdlib-js/math-base-special-gammaincinv
 
-[@stdlib/math/base/special/gammaln]: https://github.com/stdlib-js/math-base-special-gammaln/tree/umd
+[@stdlib/math/base/special/gammaln]: https://github.com/stdlib-js/math-base-special-gammaln
 
-[@stdlib/math/base/special/gammasgn]: https://github.com/stdlib-js/math-base-special-gammasgn/tree/umd
+[@stdlib/math/base/special/gammasgn]: https://github.com/stdlib-js/math-base-special-gammasgn
 
-[@stdlib/math/base/special/gammasgnf]: https://github.com/stdlib-js/math-base-special-gammasgnf/tree/umd
+[@stdlib/math/base/special/gammasgnf]: https://github.com/stdlib-js/math-base-special-gammasgnf
 
-[@stdlib/math/base/special/gcd]: https://github.com/stdlib-js/math-base-special-gcd/tree/umd
+[@stdlib/math/base/special/gcd]: https://github.com/stdlib-js/math-base-special-gcd
 
-[@stdlib/math/base/special/gcdf]: https://github.com/stdlib-js/math-base-special-gcdf/tree/umd
+[@stdlib/math/base/special/gcdf]: https://github.com/stdlib-js/math-base-special-gcdf
 
-[@stdlib/math/base/special/heaviside]: https://github.com/stdlib-js/math-base-special-heaviside/tree/umd
+[@stdlib/math/base/special/heaviside]: https://github.com/stdlib-js/math-base-special-heaviside
 
-[@stdlib/math/base/special/heavisidef]: https://github.com/stdlib-js/math-base-special-heavisidef/tree/umd
+[@stdlib/math/base/special/heavisidef]: https://github.com/stdlib-js/math-base-special-heavisidef
 
-[@stdlib/math/base/special/hyp2f1]: https://github.com/stdlib-js/math-base-special-hyp2f1/tree/umd
+[@stdlib/math/base/special/hyp2f1]: https://github.com/stdlib-js/math-base-special-hyp2f1
 
-[@stdlib/math/base/special/hypot]: https://github.com/stdlib-js/math-base-special-hypot/tree/umd
+[@stdlib/math/base/special/hypot]: https://github.com/stdlib-js/math-base-special-hypot
 
-[@stdlib/math/base/special/hypotf]: https://github.com/stdlib-js/math-base-special-hypotf/tree/umd
+[@stdlib/math/base/special/hypotf]: https://github.com/stdlib-js/math-base-special-hypotf
 
-[@stdlib/math/base/special/inv]: https://github.com/stdlib-js/math-base-special-inv/tree/umd
+[@stdlib/math/base/special/inv]: https://github.com/stdlib-js/math-base-special-inv
 
-[@stdlib/math/base/special/invf]: https://github.com/stdlib-js/math-base-special-invf/tree/umd
+[@stdlib/math/base/special/invf]: https://github.com/stdlib-js/math-base-special-invf
 
-[@stdlib/math/base/special/kronecker-delta]: https://github.com/stdlib-js/math-base-special-kronecker-delta/tree/umd
+[@stdlib/math/base/special/kronecker-delta]: https://github.com/stdlib-js/math-base-special-kronecker-delta
 
-[@stdlib/math/base/special/kronecker-deltaf]: https://github.com/stdlib-js/math-base-special-kronecker-deltaf/tree/umd
+[@stdlib/math/base/special/kronecker-deltaf]: https://github.com/stdlib-js/math-base-special-kronecker-deltaf
 
-[@stdlib/math/base/special/lcm]: https://github.com/stdlib-js/math-base-special-lcm/tree/umd
+[@stdlib/math/base/special/lcm]: https://github.com/stdlib-js/math-base-special-lcm
 
-[@stdlib/math/base/special/lcmf]: https://github.com/stdlib-js/math-base-special-lcmf/tree/umd
+[@stdlib/math/base/special/lcmf]: https://github.com/stdlib-js/math-base-special-lcmf
 
-[@stdlib/math/base/special/ldexp]: https://github.com/stdlib-js/math-base-special-ldexp/tree/umd
+[@stdlib/math/base/special/ldexp]: https://github.com/stdlib-js/math-base-special-ldexp
 
-[@stdlib/math/base/special/ldexpf]: https://github.com/stdlib-js/math-base-special-ldexpf/tree/umd
+[@stdlib/math/base/special/ldexpf]: https://github.com/stdlib-js/math-base-special-ldexpf
 
-[@stdlib/math/base/special/lnf]: https://github.com/stdlib-js/math-base-special-lnf/tree/umd
+[@stdlib/math/base/special/lnf]: https://github.com/stdlib-js/math-base-special-lnf
 
-[@stdlib/math/base/special/lucas]: https://github.com/stdlib-js/math-base-special-lucas/tree/umd
+[@stdlib/math/base/special/lucas]: https://github.com/stdlib-js/math-base-special-lucas
 
-[@stdlib/math/base/special/lucasf]: https://github.com/stdlib-js/math-base-special-lucasf/tree/umd
+[@stdlib/math/base/special/lucasf]: https://github.com/stdlib-js/math-base-special-lucasf
 
-[@stdlib/math/base/special/max]: https://github.com/stdlib-js/math-base-special-max/tree/umd
+[@stdlib/math/base/special/max]: https://github.com/stdlib-js/math-base-special-max
 
-[@stdlib/math/base/special/maxf]: https://github.com/stdlib-js/math-base-special-maxf/tree/umd
+[@stdlib/math/base/special/maxf]: https://github.com/stdlib-js/math-base-special-maxf
 
-[@stdlib/math/base/special/maxn]: https://github.com/stdlib-js/math-base-special-maxn/tree/umd
+[@stdlib/math/base/special/maxn]: https://github.com/stdlib-js/math-base-special-maxn
 
-[@stdlib/math/base/special/min]: https://github.com/stdlib-js/math-base-special-min/tree/umd
+[@stdlib/math/base/special/min]: https://github.com/stdlib-js/math-base-special-min
 
-[@stdlib/math/base/special/minf]: https://github.com/stdlib-js/math-base-special-minf/tree/umd
+[@stdlib/math/base/special/minf]: https://github.com/stdlib-js/math-base-special-minf
 
-[@stdlib/math/base/special/minmax]: https://github.com/stdlib-js/math-base-special-minmax/tree/umd
+[@stdlib/math/base/special/minmax]: https://github.com/stdlib-js/math-base-special-minmax
 
-[@stdlib/math/base/special/minmaxf]: https://github.com/stdlib-js/math-base-special-minmaxf/tree/umd
+[@stdlib/math/base/special/minmaxf]: https://github.com/stdlib-js/math-base-special-minmaxf
 
-[@stdlib/math/base/special/minmaxn]: https://github.com/stdlib-js/math-base-special-minmaxn/tree/umd
+[@stdlib/math/base/special/minmaxn]: https://github.com/stdlib-js/math-base-special-minmaxn
 
-[@stdlib/math/base/special/minn]: https://github.com/stdlib-js/math-base-special-minn/tree/umd
+[@stdlib/math/base/special/minn]: https://github.com/stdlib-js/math-base-special-minn
 
-[@stdlib/math/base/special/modf]: https://github.com/stdlib-js/math-base-special-modf/tree/umd
+[@stdlib/math/base/special/modf]: https://github.com/stdlib-js/math-base-special-modf
 
-[@stdlib/math/base/special/modff]: https://github.com/stdlib-js/math-base-special-modff/tree/umd
+[@stdlib/math/base/special/modff]: https://github.com/stdlib-js/math-base-special-modff
 
-[@stdlib/math/base/special/nanmax]: https://github.com/stdlib-js/math-base-special-nanmax/tree/umd
+[@stdlib/math/base/special/nanmax]: https://github.com/stdlib-js/math-base-special-nanmax
 
-[@stdlib/math/base/special/nanmaxf]: https://github.com/stdlib-js/math-base-special-nanmaxf/tree/umd
+[@stdlib/math/base/special/nanmaxf]: https://github.com/stdlib-js/math-base-special-nanmaxf
 
-[@stdlib/math/base/special/nanmin]: https://github.com/stdlib-js/math-base-special-nanmin/tree/umd
+[@stdlib/math/base/special/nanmin]: https://github.com/stdlib-js/math-base-special-nanmin
 
-[@stdlib/math/base/special/nanminf]: https://github.com/stdlib-js/math-base-special-nanminf/tree/umd
+[@stdlib/math/base/special/nanminf]: https://github.com/stdlib-js/math-base-special-nanminf
 
-[@stdlib/math/base/special/negafibonacci]: https://github.com/stdlib-js/math-base-special-negafibonacci/tree/umd
+[@stdlib/math/base/special/negafibonacci]: https://github.com/stdlib-js/math-base-special-negafibonacci
 
-[@stdlib/math/base/special/negafibonaccif]: https://github.com/stdlib-js/math-base-special-negafibonaccif/tree/umd
+[@stdlib/math/base/special/negafibonaccif]: https://github.com/stdlib-js/math-base-special-negafibonaccif
 
-[@stdlib/math/base/special/negalucas]: https://github.com/stdlib-js/math-base-special-negalucas/tree/umd
+[@stdlib/math/base/special/negalucas]: https://github.com/stdlib-js/math-base-special-negalucas
 
-[@stdlib/math/base/special/negalucasf]: https://github.com/stdlib-js/math-base-special-negalucasf/tree/umd
+[@stdlib/math/base/special/negalucasf]: https://github.com/stdlib-js/math-base-special-negalucasf
 
-[@stdlib/math/base/special/nonfibonacci]: https://github.com/stdlib-js/math-base-special-nonfibonacci/tree/umd
+[@stdlib/math/base/special/nonfibonacci]: https://github.com/stdlib-js/math-base-special-nonfibonacci
 
-[@stdlib/math/base/special/nonfibonaccif]: https://github.com/stdlib-js/math-base-special-nonfibonaccif/tree/umd
+[@stdlib/math/base/special/nonfibonaccif]: https://github.com/stdlib-js/math-base-special-nonfibonaccif
 
-[@stdlib/math/base/special/pdiff]: https://github.com/stdlib-js/math-base-special-pdiff/tree/umd
+[@stdlib/math/base/special/pdiff]: https://github.com/stdlib-js/math-base-special-pdiff
 
-[@stdlib/math/base/special/pdifff]: https://github.com/stdlib-js/math-base-special-pdifff/tree/umd
+[@stdlib/math/base/special/pdifff]: https://github.com/stdlib-js/math-base-special-pdifff
 
-[@stdlib/math/base/special/polygamma]: https://github.com/stdlib-js/math-base-special-polygamma/tree/umd
+[@stdlib/math/base/special/polygamma]: https://github.com/stdlib-js/math-base-special-polygamma
 
-[@stdlib/math/base/special/rad2deg]: https://github.com/stdlib-js/math-base-special-rad2deg/tree/umd
+[@stdlib/math/base/special/rad2deg]: https://github.com/stdlib-js/math-base-special-rad2deg
 
-[@stdlib/math/base/special/rad2degf]: https://github.com/stdlib-js/math-base-special-rad2degf/tree/umd
+[@stdlib/math/base/special/rad2degf]: https://github.com/stdlib-js/math-base-special-rad2degf
 
-[@stdlib/math/base/special/ramp]: https://github.com/stdlib-js/math-base-special-ramp/tree/umd
+[@stdlib/math/base/special/ramp]: https://github.com/stdlib-js/math-base-special-ramp
 
-[@stdlib/math/base/special/rampf]: https://github.com/stdlib-js/math-base-special-rampf/tree/umd
+[@stdlib/math/base/special/rampf]: https://github.com/stdlib-js/math-base-special-rampf
 
-[@stdlib/math/base/special/rcbrt]: https://github.com/stdlib-js/math-base-special-rcbrt/tree/umd
+[@stdlib/math/base/special/rcbrt]: https://github.com/stdlib-js/math-base-special-rcbrt
 
-[@stdlib/math/base/special/rcbrtf]: https://github.com/stdlib-js/math-base-special-rcbrtf/tree/umd
+[@stdlib/math/base/special/rcbrtf]: https://github.com/stdlib-js/math-base-special-rcbrtf
 
-[@stdlib/math/base/special/rempio2f]: https://github.com/stdlib-js/math-base-special-rempio2f/tree/umd
+[@stdlib/math/base/special/rempio2f]: https://github.com/stdlib-js/math-base-special-rempio2f
 
-[@stdlib/math/base/special/riemann-zeta]: https://github.com/stdlib-js/math-base-special-riemann-zeta/tree/umd
+[@stdlib/math/base/special/riemann-zeta]: https://github.com/stdlib-js/math-base-special-riemann-zeta
 
-[@stdlib/math/base/special/rsqrt]: https://github.com/stdlib-js/math-base-special-rsqrt/tree/umd
+[@stdlib/math/base/special/rsqrt]: https://github.com/stdlib-js/math-base-special-rsqrt
 
-[@stdlib/math/base/special/rsqrtf]: https://github.com/stdlib-js/math-base-special-rsqrtf/tree/umd
+[@stdlib/math/base/special/rsqrtf]: https://github.com/stdlib-js/math-base-special-rsqrtf
 
-[@stdlib/math/base/special/sec]: https://github.com/stdlib-js/math-base-special-sec/tree/umd
+[@stdlib/math/base/special/sec]: https://github.com/stdlib-js/math-base-special-sec
 
-[@stdlib/math/base/special/secd]: https://github.com/stdlib-js/math-base-special-secd/tree/umd
+[@stdlib/math/base/special/secd]: https://github.com/stdlib-js/math-base-special-secd
 
-[@stdlib/math/base/special/secdf]: https://github.com/stdlib-js/math-base-special-secdf/tree/umd
+[@stdlib/math/base/special/secdf]: https://github.com/stdlib-js/math-base-special-secdf
 
-[@stdlib/math/base/special/secf]: https://github.com/stdlib-js/math-base-special-secf/tree/umd
+[@stdlib/math/base/special/secf]: https://github.com/stdlib-js/math-base-special-secf
 
-[@stdlib/math/base/special/sech]: https://github.com/stdlib-js/math-base-special-sech/tree/umd
+[@stdlib/math/base/special/sech]: https://github.com/stdlib-js/math-base-special-sech
 
-[@stdlib/math/base/special/sici]: https://github.com/stdlib-js/math-base-special-sici/tree/umd
+[@stdlib/math/base/special/sici]: https://github.com/stdlib-js/math-base-special-sici
 
-[@stdlib/math/base/special/spence]: https://github.com/stdlib-js/math-base-special-spence/tree/umd
+[@stdlib/math/base/special/spence]: https://github.com/stdlib-js/math-base-special-spence
 
-[@stdlib/math/base/special/spencef]: https://github.com/stdlib-js/math-base-special-spencef/tree/umd
+[@stdlib/math/base/special/spencef]: https://github.com/stdlib-js/math-base-special-spencef
 
-[@stdlib/math/base/special/sqrt]: https://github.com/stdlib-js/math-base-special-sqrt/tree/umd
+[@stdlib/math/base/special/sqrt]: https://github.com/stdlib-js/math-base-special-sqrt
 
-[@stdlib/math/base/special/sqrt1pm1]: https://github.com/stdlib-js/math-base-special-sqrt1pm1/tree/umd
+[@stdlib/math/base/special/sqrt1pm1]: https://github.com/stdlib-js/math-base-special-sqrt1pm1
 
-[@stdlib/math/base/special/sqrtf]: https://github.com/stdlib-js/math-base-special-sqrtf/tree/umd
+[@stdlib/math/base/special/sqrtf]: https://github.com/stdlib-js/math-base-special-sqrtf
 
-[@stdlib/math/base/special/sqrtpi]: https://github.com/stdlib-js/math-base-special-sqrtpi/tree/umd
+[@stdlib/math/base/special/sqrtpi]: https://github.com/stdlib-js/math-base-special-sqrtpi
 
-[@stdlib/math/base/special/sqrtpif]: https://github.com/stdlib-js/math-base-special-sqrtpif/tree/umd
+[@stdlib/math/base/special/sqrtpif]: https://github.com/stdlib-js/math-base-special-sqrtpif
 
-[@stdlib/math/base/special/tribonacci]: https://github.com/stdlib-js/math-base-special-tribonacci/tree/umd
+[@stdlib/math/base/special/tribonacci]: https://github.com/stdlib-js/math-base-special-tribonacci
 
-[@stdlib/math/base/special/tribonaccif]: https://github.com/stdlib-js/math-base-special-tribonaccif/tree/umd
+[@stdlib/math/base/special/tribonaccif]: https://github.com/stdlib-js/math-base-special-tribonaccif
 
-[@stdlib/math/base/special/trigamma]: https://github.com/stdlib-js/math-base-special-trigamma/tree/umd
+[@stdlib/math/base/special/trigamma]: https://github.com/stdlib-js/math-base-special-trigamma
 
-[@stdlib/math/base/special/trigammaf]: https://github.com/stdlib-js/math-base-special-trigammaf/tree/umd
+[@stdlib/math/base/special/trigammaf]: https://github.com/stdlib-js/math-base-special-trigammaf
 
-[@stdlib/math/base/special/wrap]: https://github.com/stdlib-js/math-base-special-wrap/tree/umd
+[@stdlib/math/base/special/wrap]: https://github.com/stdlib-js/math-base-special-wrap
 
-[@stdlib/math/base/special/wrapf]: https://github.com/stdlib-js/math-base-special-wrapf/tree/umd
+[@stdlib/math/base/special/wrapf]: https://github.com/stdlib-js/math-base-special-wrapf
 
-[@stdlib/math/base/special/abs]: https://github.com/stdlib-js/math-base-special-abs/tree/umd
+[@stdlib/math/base/special/abs]: https://github.com/stdlib-js/math-base-special-abs
 
-[@stdlib/math/base/special/abs2]: https://github.com/stdlib-js/math-base-special-abs2/tree/umd
+[@stdlib/math/base/special/abs2]: https://github.com/stdlib-js/math-base-special-abs2
 
-[@stdlib/math/base/special/abs2f]: https://github.com/stdlib-js/math-base-special-abs2f/tree/umd
+[@stdlib/math/base/special/abs2f]: https://github.com/stdlib-js/math-base-special-abs2f
 
-[@stdlib/math/base/special/absf]: https://github.com/stdlib-js/math-base-special-absf/tree/umd
+[@stdlib/math/base/special/absf]: https://github.com/stdlib-js/math-base-special-absf
 
-[@stdlib/math/base/special/absgammalnf]: https://github.com/stdlib-js/math-base-special-absgammalnf/tree/umd
+[@stdlib/math/base/special/absgammalnf]: https://github.com/stdlib-js/math-base-special-absgammalnf
 
-[@stdlib/math/base/special/cabs]: https://github.com/stdlib-js/math-base-special-cabs/tree/umd
+[@stdlib/math/base/special/cabs]: https://github.com/stdlib-js/math-base-special-cabs
 
-[@stdlib/math/base/special/cabs2]: https://github.com/stdlib-js/math-base-special-cabs2/tree/umd
+[@stdlib/math/base/special/cabs2]: https://github.com/stdlib-js/math-base-special-cabs2
 
-[@stdlib/math/base/special/cabs2f]: https://github.com/stdlib-js/math-base-special-cabs2f/tree/umd
+[@stdlib/math/base/special/cabs2f]: https://github.com/stdlib-js/math-base-special-cabs2f
 
-[@stdlib/math/base/special/cabsf]: https://github.com/stdlib-js/math-base-special-cabsf/tree/umd
+[@stdlib/math/base/special/cabsf]: https://github.com/stdlib-js/math-base-special-cabsf
 
-[@stdlib/math/base/special/cceil]: https://github.com/stdlib-js/math-base-special-cceil/tree/umd
+[@stdlib/math/base/special/cceil]: https://github.com/stdlib-js/math-base-special-cceil
 
-[@stdlib/math/base/special/cceilf]: https://github.com/stdlib-js/math-base-special-cceilf/tree/umd
+[@stdlib/math/base/special/cceilf]: https://github.com/stdlib-js/math-base-special-cceilf
 
-[@stdlib/math/base/special/cceiln]: https://github.com/stdlib-js/math-base-special-cceiln/tree/umd
+[@stdlib/math/base/special/cceiln]: https://github.com/stdlib-js/math-base-special-cceiln
 
-[@stdlib/math/base/special/ceil]: https://github.com/stdlib-js/math-base-special-ceil/tree/umd
+[@stdlib/math/base/special/ceil]: https://github.com/stdlib-js/math-base-special-ceil
 
-[@stdlib/math/base/special/ceil10]: https://github.com/stdlib-js/math-base-special-ceil10/tree/umd
+[@stdlib/math/base/special/ceil10]: https://github.com/stdlib-js/math-base-special-ceil10
 
-[@stdlib/math/base/special/ceil2]: https://github.com/stdlib-js/math-base-special-ceil2/tree/umd
+[@stdlib/math/base/special/ceil2]: https://github.com/stdlib-js/math-base-special-ceil2
 
-[@stdlib/math/base/special/ceilb]: https://github.com/stdlib-js/math-base-special-ceilb/tree/umd
+[@stdlib/math/base/special/ceilb]: https://github.com/stdlib-js/math-base-special-ceilb
 
-[@stdlib/math/base/special/ceilf]: https://github.com/stdlib-js/math-base-special-ceilf/tree/umd
+[@stdlib/math/base/special/ceilf]: https://github.com/stdlib-js/math-base-special-ceilf
 
-[@stdlib/math/base/special/ceiln]: https://github.com/stdlib-js/math-base-special-ceiln/tree/umd
+[@stdlib/math/base/special/ceiln]: https://github.com/stdlib-js/math-base-special-ceiln
 
-[@stdlib/math/base/special/ceilsd]: https://github.com/stdlib-js/math-base-special-ceilsd/tree/umd
+[@stdlib/math/base/special/ceilsd]: https://github.com/stdlib-js/math-base-special-ceilsd
 
-[@stdlib/math/base/special/cfloor]: https://github.com/stdlib-js/math-base-special-cfloor/tree/umd
+[@stdlib/math/base/special/cfloor]: https://github.com/stdlib-js/math-base-special-cfloor
 
-[@stdlib/math/base/special/cfloorf]: https://github.com/stdlib-js/math-base-special-cfloorf/tree/umd
+[@stdlib/math/base/special/cfloorf]: https://github.com/stdlib-js/math-base-special-cfloorf
 
-[@stdlib/math/base/special/cfloorn]: https://github.com/stdlib-js/math-base-special-cfloorn/tree/umd
+[@stdlib/math/base/special/cfloorn]: https://github.com/stdlib-js/math-base-special-cfloorn
 
-[@stdlib/math/base/special/clamp]: https://github.com/stdlib-js/math-base-special-clamp/tree/umd
+[@stdlib/math/base/special/clamp]: https://github.com/stdlib-js/math-base-special-clamp
 
-[@stdlib/math/base/special/clampf]: https://github.com/stdlib-js/math-base-special-clampf/tree/umd
+[@stdlib/math/base/special/clampf]: https://github.com/stdlib-js/math-base-special-clampf
 
-[@stdlib/math/base/special/cround]: https://github.com/stdlib-js/math-base-special-cround/tree/umd
+[@stdlib/math/base/special/cround]: https://github.com/stdlib-js/math-base-special-cround
 
-[@stdlib/math/base/special/croundf]: https://github.com/stdlib-js/math-base-special-croundf/tree/umd
+[@stdlib/math/base/special/croundf]: https://github.com/stdlib-js/math-base-special-croundf
 
-[@stdlib/math/base/special/croundn]: https://github.com/stdlib-js/math-base-special-croundn/tree/umd
+[@stdlib/math/base/special/croundn]: https://github.com/stdlib-js/math-base-special-croundn
 
-[@stdlib/math/base/special/csignum]: https://github.com/stdlib-js/math-base-special-csignum/tree/umd
+[@stdlib/math/base/special/csignum]: https://github.com/stdlib-js/math-base-special-csignum
 
-[@stdlib/math/base/special/csignumf]: https://github.com/stdlib-js/math-base-special-csignumf/tree/umd
+[@stdlib/math/base/special/csignumf]: https://github.com/stdlib-js/math-base-special-csignumf
 
-[@stdlib/math/base/special/floor]: https://github.com/stdlib-js/math-base-special-floor/tree/umd
+[@stdlib/math/base/special/floor]: https://github.com/stdlib-js/math-base-special-floor
 
-[@stdlib/math/base/special/floor10]: https://github.com/stdlib-js/math-base-special-floor10/tree/umd
+[@stdlib/math/base/special/floor10]: https://github.com/stdlib-js/math-base-special-floor10
 
-[@stdlib/math/base/special/floor2]: https://github.com/stdlib-js/math-base-special-floor2/tree/umd
+[@stdlib/math/base/special/floor2]: https://github.com/stdlib-js/math-base-special-floor2
 
-[@stdlib/math/base/special/floorb]: https://github.com/stdlib-js/math-base-special-floorb/tree/umd
+[@stdlib/math/base/special/floorb]: https://github.com/stdlib-js/math-base-special-floorb
 
-[@stdlib/math/base/special/floorf]: https://github.com/stdlib-js/math-base-special-floorf/tree/umd
+[@stdlib/math/base/special/floorf]: https://github.com/stdlib-js/math-base-special-floorf
 
-[@stdlib/math/base/special/floorn]: https://github.com/stdlib-js/math-base-special-floorn/tree/umd
+[@stdlib/math/base/special/floorn]: https://github.com/stdlib-js/math-base-special-floorn
 
-[@stdlib/math/base/special/floorsd]: https://github.com/stdlib-js/math-base-special-floorsd/tree/umd
+[@stdlib/math/base/special/floorsd]: https://github.com/stdlib-js/math-base-special-floorsd
 
-[@stdlib/math/base/special/labs]: https://github.com/stdlib-js/math-base-special-labs/tree/umd
+[@stdlib/math/base/special/labs]: https://github.com/stdlib-js/math-base-special-labs
 
-[@stdlib/math/base/special/maxabs]: https://github.com/stdlib-js/math-base-special-maxabs/tree/umd
+[@stdlib/math/base/special/maxabs]: https://github.com/stdlib-js/math-base-special-maxabs
 
-[@stdlib/math/base/special/maxabsf]: https://github.com/stdlib-js/math-base-special-maxabsf/tree/umd
+[@stdlib/math/base/special/maxabsf]: https://github.com/stdlib-js/math-base-special-maxabsf
 
-[@stdlib/math/base/special/maxabsn]: https://github.com/stdlib-js/math-base-special-maxabsn/tree/umd
+[@stdlib/math/base/special/maxabsn]: https://github.com/stdlib-js/math-base-special-maxabsn
 
-[@stdlib/math/base/special/minabs]: https://github.com/stdlib-js/math-base-special-minabs/tree/umd
+[@stdlib/math/base/special/minabs]: https://github.com/stdlib-js/math-base-special-minabs
 
-[@stdlib/math/base/special/minabsf]: https://github.com/stdlib-js/math-base-special-minabsf/tree/umd
+[@stdlib/math/base/special/minabsf]: https://github.com/stdlib-js/math-base-special-minabsf
 
-[@stdlib/math/base/special/minabsn]: https://github.com/stdlib-js/math-base-special-minabsn/tree/umd
+[@stdlib/math/base/special/minabsn]: https://github.com/stdlib-js/math-base-special-minabsn
 
-[@stdlib/math/base/special/minmaxabs]: https://github.com/stdlib-js/math-base-special-minmaxabs/tree/umd
+[@stdlib/math/base/special/minmaxabs]: https://github.com/stdlib-js/math-base-special-minmaxabs
 
-[@stdlib/math/base/special/minmaxabsf]: https://github.com/stdlib-js/math-base-special-minmaxabsf/tree/umd
+[@stdlib/math/base/special/minmaxabsf]: https://github.com/stdlib-js/math-base-special-minmaxabsf
 
-[@stdlib/math/base/special/minmaxabsn]: https://github.com/stdlib-js/math-base-special-minmaxabsn/tree/umd
+[@stdlib/math/base/special/minmaxabsn]: https://github.com/stdlib-js/math-base-special-minmaxabsn
 
-[@stdlib/math/base/special/round-nearest-even]: https://github.com/stdlib-js/math-base-special-round-nearest-even/tree/umd
+[@stdlib/math/base/special/round-nearest-even]: https://github.com/stdlib-js/math-base-special-round-nearest-even
 
-[@stdlib/math/base/special/round]: https://github.com/stdlib-js/math-base-special-round/tree/umd
+[@stdlib/math/base/special/round]: https://github.com/stdlib-js/math-base-special-round
 
-[@stdlib/math/base/special/round10]: https://github.com/stdlib-js/math-base-special-round10/tree/umd
+[@stdlib/math/base/special/round10]: https://github.com/stdlib-js/math-base-special-round10
 
-[@stdlib/math/base/special/round2]: https://github.com/stdlib-js/math-base-special-round2/tree/umd
+[@stdlib/math/base/special/round2]: https://github.com/stdlib-js/math-base-special-round2
 
-[@stdlib/math/base/special/roundb]: https://github.com/stdlib-js/math-base-special-roundb/tree/umd
+[@stdlib/math/base/special/roundb]: https://github.com/stdlib-js/math-base-special-roundb
 
-[@stdlib/math/base/special/roundf]: https://github.com/stdlib-js/math-base-special-roundf/tree/umd
+[@stdlib/math/base/special/roundf]: https://github.com/stdlib-js/math-base-special-roundf
 
-[@stdlib/math/base/special/roundn]: https://github.com/stdlib-js/math-base-special-roundn/tree/umd
+[@stdlib/math/base/special/roundn]: https://github.com/stdlib-js/math-base-special-roundn
 
-[@stdlib/math/base/special/roundsd]: https://github.com/stdlib-js/math-base-special-roundsd/tree/umd
+[@stdlib/math/base/special/roundsd]: https://github.com/stdlib-js/math-base-special-roundsd
 
-[@stdlib/math/base/special/signum]: https://github.com/stdlib-js/math-base-special-signum/tree/umd
+[@stdlib/math/base/special/signum]: https://github.com/stdlib-js/math-base-special-signum
 
-[@stdlib/math/base/special/signumf]: https://github.com/stdlib-js/math-base-special-signumf/tree/umd
+[@stdlib/math/base/special/signumf]: https://github.com/stdlib-js/math-base-special-signumf
 
-[@stdlib/math/base/special/trunc]: https://github.com/stdlib-js/math-base-special-trunc/tree/umd
+[@stdlib/math/base/special/trunc]: https://github.com/stdlib-js/math-base-special-trunc
 
-[@stdlib/math/base/special/trunc10]: https://github.com/stdlib-js/math-base-special-trunc10/tree/umd
+[@stdlib/math/base/special/trunc10]: https://github.com/stdlib-js/math-base-special-trunc10
 
-[@stdlib/math/base/special/trunc2]: https://github.com/stdlib-js/math-base-special-trunc2/tree/umd
+[@stdlib/math/base/special/trunc2]: https://github.com/stdlib-js/math-base-special-trunc2
 
-[@stdlib/math/base/special/truncb]: https://github.com/stdlib-js/math-base-special-truncb/tree/umd
+[@stdlib/math/base/special/truncb]: https://github.com/stdlib-js/math-base-special-truncb
 
-[@stdlib/math/base/special/truncf]: https://github.com/stdlib-js/math-base-special-truncf/tree/umd
+[@stdlib/math/base/special/truncf]: https://github.com/stdlib-js/math-base-special-truncf
 
-[@stdlib/math/base/special/truncn]: https://github.com/stdlib-js/math-base-special-truncn/tree/umd
+[@stdlib/math/base/special/truncn]: https://github.com/stdlib-js/math-base-special-truncn
 
-[@stdlib/math/base/special/truncsd]: https://github.com/stdlib-js/math-base-special-truncsd/tree/umd
+[@stdlib/math/base/special/truncsd]: https://github.com/stdlib-js/math-base-special-truncsd
 
-[@stdlib/math/base/special/besselj0]: https://github.com/stdlib-js/math-base-special-besselj0/tree/umd
+[@stdlib/math/base/special/besselj0]: https://github.com/stdlib-js/math-base-special-besselj0
 
-[@stdlib/math/base/special/besselj1]: https://github.com/stdlib-js/math-base-special-besselj1/tree/umd
+[@stdlib/math/base/special/besselj1]: https://github.com/stdlib-js/math-base-special-besselj1
 
-[@stdlib/math/base/special/bessely0]: https://github.com/stdlib-js/math-base-special-bessely0/tree/umd
+[@stdlib/math/base/special/bessely0]: https://github.com/stdlib-js/math-base-special-bessely0
 
-[@stdlib/math/base/special/bessely1]: https://github.com/stdlib-js/math-base-special-bessely1/tree/umd
+[@stdlib/math/base/special/bessely1]: https://github.com/stdlib-js/math-base-special-bessely1
 
-[@stdlib/math/base/special/acos]: https://github.com/stdlib-js/math-base-special-acos/tree/umd
+[@stdlib/math/base/special/acos]: https://github.com/stdlib-js/math-base-special-acos
 
-[@stdlib/math/base/special/acosd]: https://github.com/stdlib-js/math-base-special-acosd/tree/umd
+[@stdlib/math/base/special/acosd]: https://github.com/stdlib-js/math-base-special-acosd
 
-[@stdlib/math/base/special/acosdf]: https://github.com/stdlib-js/math-base-special-acosdf/tree/umd
+[@stdlib/math/base/special/acosdf]: https://github.com/stdlib-js/math-base-special-acosdf
 
-[@stdlib/math/base/special/acosf]: https://github.com/stdlib-js/math-base-special-acosf/tree/umd
+[@stdlib/math/base/special/acosf]: https://github.com/stdlib-js/math-base-special-acosf
 
-[@stdlib/math/base/special/acosh]: https://github.com/stdlib-js/math-base-special-acosh/tree/umd
+[@stdlib/math/base/special/acosh]: https://github.com/stdlib-js/math-base-special-acosh
 
-[@stdlib/math/base/special/acovercos]: https://github.com/stdlib-js/math-base-special-acovercos/tree/umd
+[@stdlib/math/base/special/acovercos]: https://github.com/stdlib-js/math-base-special-acovercos
 
-[@stdlib/math/base/special/acovercosf]: https://github.com/stdlib-js/math-base-special-acovercosf/tree/umd
+[@stdlib/math/base/special/acovercosf]: https://github.com/stdlib-js/math-base-special-acovercosf
 
-[@stdlib/math/base/special/acoversin]: https://github.com/stdlib-js/math-base-special-acoversin/tree/umd
+[@stdlib/math/base/special/acoversin]: https://github.com/stdlib-js/math-base-special-acoversin
 
-[@stdlib/math/base/special/acoversinf]: https://github.com/stdlib-js/math-base-special-acoversinf/tree/umd
+[@stdlib/math/base/special/acoversinf]: https://github.com/stdlib-js/math-base-special-acoversinf
 
-[@stdlib/math/base/special/ahavercos]: https://github.com/stdlib-js/math-base-special-ahavercos/tree/umd
+[@stdlib/math/base/special/ahavercos]: https://github.com/stdlib-js/math-base-special-ahavercos
 
-[@stdlib/math/base/special/ahavercosf]: https://github.com/stdlib-js/math-base-special-ahavercosf/tree/umd
+[@stdlib/math/base/special/ahavercosf]: https://github.com/stdlib-js/math-base-special-ahavercosf
 
-[@stdlib/math/base/special/ahaversin]: https://github.com/stdlib-js/math-base-special-ahaversin/tree/umd
+[@stdlib/math/base/special/ahaversin]: https://github.com/stdlib-js/math-base-special-ahaversin
 
-[@stdlib/math/base/special/ahaversinf]: https://github.com/stdlib-js/math-base-special-ahaversinf/tree/umd
+[@stdlib/math/base/special/ahaversinf]: https://github.com/stdlib-js/math-base-special-ahaversinf
 
-[@stdlib/math/base/special/asin]: https://github.com/stdlib-js/math-base-special-asin/tree/umd
+[@stdlib/math/base/special/asin]: https://github.com/stdlib-js/math-base-special-asin
 
-[@stdlib/math/base/special/asind]: https://github.com/stdlib-js/math-base-special-asind/tree/umd
+[@stdlib/math/base/special/asind]: https://github.com/stdlib-js/math-base-special-asind
 
-[@stdlib/math/base/special/asindf]: https://github.com/stdlib-js/math-base-special-asindf/tree/umd
+[@stdlib/math/base/special/asindf]: https://github.com/stdlib-js/math-base-special-asindf
 
-[@stdlib/math/base/special/asinf]: https://github.com/stdlib-js/math-base-special-asinf/tree/umd
+[@stdlib/math/base/special/asinf]: https://github.com/stdlib-js/math-base-special-asinf
 
-[@stdlib/math/base/special/asinh]: https://github.com/stdlib-js/math-base-special-asinh/tree/umd
+[@stdlib/math/base/special/asinh]: https://github.com/stdlib-js/math-base-special-asinh
 
-[@stdlib/math/base/special/atan]: https://github.com/stdlib-js/math-base-special-atan/tree/umd
+[@stdlib/math/base/special/atan]: https://github.com/stdlib-js/math-base-special-atan
 
-[@stdlib/math/base/special/atan2]: https://github.com/stdlib-js/math-base-special-atan2/tree/umd
+[@stdlib/math/base/special/atan2]: https://github.com/stdlib-js/math-base-special-atan2
 
-[@stdlib/math/base/special/atan2d]: https://github.com/stdlib-js/math-base-special-atan2d/tree/umd
+[@stdlib/math/base/special/atan2d]: https://github.com/stdlib-js/math-base-special-atan2d
 
-[@stdlib/math/base/special/atan2f]: https://github.com/stdlib-js/math-base-special-atan2f/tree/umd
+[@stdlib/math/base/special/atan2f]: https://github.com/stdlib-js/math-base-special-atan2f
 
-[@stdlib/math/base/special/atand]: https://github.com/stdlib-js/math-base-special-atand/tree/umd
+[@stdlib/math/base/special/atand]: https://github.com/stdlib-js/math-base-special-atand
 
-[@stdlib/math/base/special/atandf]: https://github.com/stdlib-js/math-base-special-atandf/tree/umd
+[@stdlib/math/base/special/atandf]: https://github.com/stdlib-js/math-base-special-atandf
 
-[@stdlib/math/base/special/atanf]: https://github.com/stdlib-js/math-base-special-atanf/tree/umd
+[@stdlib/math/base/special/atanf]: https://github.com/stdlib-js/math-base-special-atanf
 
-[@stdlib/math/base/special/atanh]: https://github.com/stdlib-js/math-base-special-atanh/tree/umd
+[@stdlib/math/base/special/atanh]: https://github.com/stdlib-js/math-base-special-atanh
 
-[@stdlib/math/base/special/avercos]: https://github.com/stdlib-js/math-base-special-avercos/tree/umd
+[@stdlib/math/base/special/avercos]: https://github.com/stdlib-js/math-base-special-avercos
 
-[@stdlib/math/base/special/avercosf]: https://github.com/stdlib-js/math-base-special-avercosf/tree/umd
+[@stdlib/math/base/special/avercosf]: https://github.com/stdlib-js/math-base-special-avercosf
 
-[@stdlib/math/base/special/aversin]: https://github.com/stdlib-js/math-base-special-aversin/tree/umd
+[@stdlib/math/base/special/aversin]: https://github.com/stdlib-js/math-base-special-aversin
 
-[@stdlib/math/base/special/aversinf]: https://github.com/stdlib-js/math-base-special-aversinf/tree/umd
+[@stdlib/math/base/special/aversinf]: https://github.com/stdlib-js/math-base-special-aversinf
 
-[@stdlib/math/base/special/cos]: https://github.com/stdlib-js/math-base-special-cos/tree/umd
+[@stdlib/math/base/special/cos]: https://github.com/stdlib-js/math-base-special-cos
 
-[@stdlib/math/base/special/cosd]: https://github.com/stdlib-js/math-base-special-cosd/tree/umd
+[@stdlib/math/base/special/cosd]: https://github.com/stdlib-js/math-base-special-cosd
 
-[@stdlib/math/base/special/cosdf]: https://github.com/stdlib-js/math-base-special-cosdf/tree/umd
+[@stdlib/math/base/special/cosdf]: https://github.com/stdlib-js/math-base-special-cosdf
 
-[@stdlib/math/base/special/cosf]: https://github.com/stdlib-js/math-base-special-cosf/tree/umd
+[@stdlib/math/base/special/cosf]: https://github.com/stdlib-js/math-base-special-cosf
 
-[@stdlib/math/base/special/cosh]: https://github.com/stdlib-js/math-base-special-cosh/tree/umd
+[@stdlib/math/base/special/cosh]: https://github.com/stdlib-js/math-base-special-cosh
 
-[@stdlib/math/base/special/cosm1]: https://github.com/stdlib-js/math-base-special-cosm1/tree/umd
+[@stdlib/math/base/special/cosm1]: https://github.com/stdlib-js/math-base-special-cosm1
 
-[@stdlib/math/base/special/cosm1f]: https://github.com/stdlib-js/math-base-special-cosm1f/tree/umd
+[@stdlib/math/base/special/cosm1f]: https://github.com/stdlib-js/math-base-special-cosm1f
 
-[@stdlib/math/base/special/cospi]: https://github.com/stdlib-js/math-base-special-cospi/tree/umd
+[@stdlib/math/base/special/cospi]: https://github.com/stdlib-js/math-base-special-cospi
 
-[@stdlib/math/base/special/cospif]: https://github.com/stdlib-js/math-base-special-cospif/tree/umd
+[@stdlib/math/base/special/cospif]: https://github.com/stdlib-js/math-base-special-cospif
 
-[@stdlib/math/base/special/covercos]: https://github.com/stdlib-js/math-base-special-covercos/tree/umd
+[@stdlib/math/base/special/covercos]: https://github.com/stdlib-js/math-base-special-covercos
 
-[@stdlib/math/base/special/covercosf]: https://github.com/stdlib-js/math-base-special-covercosf/tree/umd
+[@stdlib/math/base/special/covercosf]: https://github.com/stdlib-js/math-base-special-covercosf
 
-[@stdlib/math/base/special/coversin]: https://github.com/stdlib-js/math-base-special-coversin/tree/umd
+[@stdlib/math/base/special/coversin]: https://github.com/stdlib-js/math-base-special-coversin
 
-[@stdlib/math/base/special/coversinf]: https://github.com/stdlib-js/math-base-special-coversinf/tree/umd
+[@stdlib/math/base/special/coversinf]: https://github.com/stdlib-js/math-base-special-coversinf
 
-[@stdlib/math/base/special/hacovercos]: https://github.com/stdlib-js/math-base-special-hacovercos/tree/umd
+[@stdlib/math/base/special/hacovercos]: https://github.com/stdlib-js/math-base-special-hacovercos
 
-[@stdlib/math/base/special/hacovercosf]: https://github.com/stdlib-js/math-base-special-hacovercosf/tree/umd
+[@stdlib/math/base/special/hacovercosf]: https://github.com/stdlib-js/math-base-special-hacovercosf
 
-[@stdlib/math/base/special/hacoversin]: https://github.com/stdlib-js/math-base-special-hacoversin/tree/umd
+[@stdlib/math/base/special/hacoversin]: https://github.com/stdlib-js/math-base-special-hacoversin
 
-[@stdlib/math/base/special/hacoversinf]: https://github.com/stdlib-js/math-base-special-hacoversinf/tree/umd
+[@stdlib/math/base/special/hacoversinf]: https://github.com/stdlib-js/math-base-special-hacoversinf
 
-[@stdlib/math/base/special/havercos]: https://github.com/stdlib-js/math-base-special-havercos/tree/umd
+[@stdlib/math/base/special/havercos]: https://github.com/stdlib-js/math-base-special-havercos
 
-[@stdlib/math/base/special/havercosf]: https://github.com/stdlib-js/math-base-special-havercosf/tree/umd
+[@stdlib/math/base/special/havercosf]: https://github.com/stdlib-js/math-base-special-havercosf
 
-[@stdlib/math/base/special/haversin]: https://github.com/stdlib-js/math-base-special-haversin/tree/umd
+[@stdlib/math/base/special/haversin]: https://github.com/stdlib-js/math-base-special-haversin
 
-[@stdlib/math/base/special/haversinf]: https://github.com/stdlib-js/math-base-special-haversinf/tree/umd
+[@stdlib/math/base/special/haversinf]: https://github.com/stdlib-js/math-base-special-haversinf
 
-[@stdlib/math/base/special/kernel-cosf]: https://github.com/stdlib-js/math-base-special-kernel-cosf/tree/umd
+[@stdlib/math/base/special/kernel-cosf]: https://github.com/stdlib-js/math-base-special-kernel-cosf
 
-[@stdlib/math/base/special/kernel-sincos]: https://github.com/stdlib-js/math-base-special-kernel-sincos/tree/umd
+[@stdlib/math/base/special/kernel-sincos]: https://github.com/stdlib-js/math-base-special-kernel-sincos
 
-[@stdlib/math/base/special/kernel-sincosf]: https://github.com/stdlib-js/math-base-special-kernel-sincosf/tree/umd
+[@stdlib/math/base/special/kernel-sincosf]: https://github.com/stdlib-js/math-base-special-kernel-sincosf
 
-[@stdlib/math/base/special/kernel-sinf]: https://github.com/stdlib-js/math-base-special-kernel-sinf/tree/umd
+[@stdlib/math/base/special/kernel-sinf]: https://github.com/stdlib-js/math-base-special-kernel-sinf
 
-[@stdlib/math/base/special/kernel-tanf]: https://github.com/stdlib-js/math-base-special-kernel-tanf/tree/umd
+[@stdlib/math/base/special/kernel-tanf]: https://github.com/stdlib-js/math-base-special-kernel-tanf
 
-[@stdlib/math/base/special/rising-factorial]: https://github.com/stdlib-js/math-base-special-rising-factorial/tree/umd
+[@stdlib/math/base/special/rising-factorial]: https://github.com/stdlib-js/math-base-special-rising-factorial
 
-[@stdlib/math/base/special/sin]: https://github.com/stdlib-js/math-base-special-sin/tree/umd
+[@stdlib/math/base/special/sin]: https://github.com/stdlib-js/math-base-special-sin
 
-[@stdlib/math/base/special/sinc]: https://github.com/stdlib-js/math-base-special-sinc/tree/umd
+[@stdlib/math/base/special/sinc]: https://github.com/stdlib-js/math-base-special-sinc
 
-[@stdlib/math/base/special/sincf]: https://github.com/stdlib-js/math-base-special-sincf/tree/umd
+[@stdlib/math/base/special/sincf]: https://github.com/stdlib-js/math-base-special-sincf
 
-[@stdlib/math/base/special/sincos]: https://github.com/stdlib-js/math-base-special-sincos/tree/umd
+[@stdlib/math/base/special/sincos]: https://github.com/stdlib-js/math-base-special-sincos
 
-[@stdlib/math/base/special/sincosd]: https://github.com/stdlib-js/math-base-special-sincosd/tree/umd
+[@stdlib/math/base/special/sincosd]: https://github.com/stdlib-js/math-base-special-sincosd
 
-[@stdlib/math/base/special/sincosf]: https://github.com/stdlib-js/math-base-special-sincosf/tree/umd
+[@stdlib/math/base/special/sincosf]: https://github.com/stdlib-js/math-base-special-sincosf
 
-[@stdlib/math/base/special/sincospi]: https://github.com/stdlib-js/math-base-special-sincospi/tree/umd
+[@stdlib/math/base/special/sincospi]: https://github.com/stdlib-js/math-base-special-sincospi
 
-[@stdlib/math/base/special/sind]: https://github.com/stdlib-js/math-base-special-sind/tree/umd
+[@stdlib/math/base/special/sind]: https://github.com/stdlib-js/math-base-special-sind
 
-[@stdlib/math/base/special/sindf]: https://github.com/stdlib-js/math-base-special-sindf/tree/umd
+[@stdlib/math/base/special/sindf]: https://github.com/stdlib-js/math-base-special-sindf
 
-[@stdlib/math/base/special/sinf]: https://github.com/stdlib-js/math-base-special-sinf/tree/umd
+[@stdlib/math/base/special/sinf]: https://github.com/stdlib-js/math-base-special-sinf
 
-[@stdlib/math/base/special/sinh]: https://github.com/stdlib-js/math-base-special-sinh/tree/umd
+[@stdlib/math/base/special/sinh]: https://github.com/stdlib-js/math-base-special-sinh
 
-[@stdlib/math/base/special/sinpi]: https://github.com/stdlib-js/math-base-special-sinpi/tree/umd
+[@stdlib/math/base/special/sinpi]: https://github.com/stdlib-js/math-base-special-sinpi
 
-[@stdlib/math/base/special/sinpif]: https://github.com/stdlib-js/math-base-special-sinpif/tree/umd
+[@stdlib/math/base/special/sinpif]: https://github.com/stdlib-js/math-base-special-sinpif
 
-[@stdlib/math/base/special/tan]: https://github.com/stdlib-js/math-base-special-tan/tree/umd
+[@stdlib/math/base/special/tan]: https://github.com/stdlib-js/math-base-special-tan
 
-[@stdlib/math/base/special/tand]: https://github.com/stdlib-js/math-base-special-tand/tree/umd
+[@stdlib/math/base/special/tand]: https://github.com/stdlib-js/math-base-special-tand
 
-[@stdlib/math/base/special/tandf]: https://github.com/stdlib-js/math-base-special-tandf/tree/umd
+[@stdlib/math/base/special/tandf]: https://github.com/stdlib-js/math-base-special-tandf
 
-[@stdlib/math/base/special/tanf]: https://github.com/stdlib-js/math-base-special-tanf/tree/umd
+[@stdlib/math/base/special/tanf]: https://github.com/stdlib-js/math-base-special-tanf
 
-[@stdlib/math/base/special/tanh]: https://github.com/stdlib-js/math-base-special-tanh/tree/umd
+[@stdlib/math/base/special/tanh]: https://github.com/stdlib-js/math-base-special-tanh
 
-[@stdlib/math/base/special/vercos]: https://github.com/stdlib-js/math-base-special-vercos/tree/umd
+[@stdlib/math/base/special/vercos]: https://github.com/stdlib-js/math-base-special-vercos
 
-[@stdlib/math/base/special/vercosf]: https://github.com/stdlib-js/math-base-special-vercosf/tree/umd
+[@stdlib/math/base/special/vercosf]: https://github.com/stdlib-js/math-base-special-vercosf
 
-[@stdlib/math/base/special/versin]: https://github.com/stdlib-js/math-base-special-versin/tree/umd
+[@stdlib/math/base/special/versin]: https://github.com/stdlib-js/math-base-special-versin
 
-[@stdlib/math/base/special/versinf]: https://github.com/stdlib-js/math-base-special-versinf/tree/umd
+[@stdlib/math/base/special/versinf]: https://github.com/stdlib-js/math-base-special-versinf
 
-[@stdlib/math/base/special/exp]: https://github.com/stdlib-js/math-base-special-exp/tree/umd
+[@stdlib/math/base/special/exp]: https://github.com/stdlib-js/math-base-special-exp
 
-[@stdlib/math/base/special/exp10]: https://github.com/stdlib-js/math-base-special-exp10/tree/umd
+[@stdlib/math/base/special/exp10]: https://github.com/stdlib-js/math-base-special-exp10
 
-[@stdlib/math/base/special/exp2]: https://github.com/stdlib-js/math-base-special-exp2/tree/umd
+[@stdlib/math/base/special/exp2]: https://github.com/stdlib-js/math-base-special-exp2
 
-[@stdlib/math/base/special/expit]: https://github.com/stdlib-js/math-base-special-expit/tree/umd
+[@stdlib/math/base/special/expit]: https://github.com/stdlib-js/math-base-special-expit
 
-[@stdlib/math/base/special/expm1]: https://github.com/stdlib-js/math-base-special-expm1/tree/umd
+[@stdlib/math/base/special/expm1]: https://github.com/stdlib-js/math-base-special-expm1
 
-[@stdlib/math/base/special/expm1rel]: https://github.com/stdlib-js/math-base-special-expm1rel/tree/umd
+[@stdlib/math/base/special/expm1rel]: https://github.com/stdlib-js/math-base-special-expm1rel
 
-[@stdlib/math/base/special/kernel-log1p]: https://github.com/stdlib-js/math-base-special-kernel-log1p/tree/umd
+[@stdlib/math/base/special/kernel-log1p]: https://github.com/stdlib-js/math-base-special-kernel-log1p
 
-[@stdlib/math/base/special/kernel-log1pf]: https://github.com/stdlib-js/math-base-special-kernel-log1pf/tree/umd
+[@stdlib/math/base/special/kernel-log1pf]: https://github.com/stdlib-js/math-base-special-kernel-log1pf
 
-[@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln/tree/umd
+[@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln
 
-[@stdlib/math/base/special/log]: https://github.com/stdlib-js/math-base-special-log/tree/umd
+[@stdlib/math/base/special/log]: https://github.com/stdlib-js/math-base-special-log
 
-[@stdlib/math/base/special/log10]: https://github.com/stdlib-js/math-base-special-log10/tree/umd
+[@stdlib/math/base/special/log10]: https://github.com/stdlib-js/math-base-special-log10
 
-[@stdlib/math/base/special/log1mexp]: https://github.com/stdlib-js/math-base-special-log1mexp/tree/umd
+[@stdlib/math/base/special/log1mexp]: https://github.com/stdlib-js/math-base-special-log1mexp
 
-[@stdlib/math/base/special/log1p]: https://github.com/stdlib-js/math-base-special-log1p/tree/umd
+[@stdlib/math/base/special/log1p]: https://github.com/stdlib-js/math-base-special-log1p
 
-[@stdlib/math/base/special/log1pexp]: https://github.com/stdlib-js/math-base-special-log1pexp/tree/umd
+[@stdlib/math/base/special/log1pexp]: https://github.com/stdlib-js/math-base-special-log1pexp
 
-[@stdlib/math/base/special/log1pmx]: https://github.com/stdlib-js/math-base-special-log1pmx/tree/umd
+[@stdlib/math/base/special/log1pmx]: https://github.com/stdlib-js/math-base-special-log1pmx
 
-[@stdlib/math/base/special/log2]: https://github.com/stdlib-js/math-base-special-log2/tree/umd
+[@stdlib/math/base/special/log2]: https://github.com/stdlib-js/math-base-special-log2
 
-[@stdlib/math/base/special/logaddexp]: https://github.com/stdlib-js/math-base-special-logaddexp/tree/umd
+[@stdlib/math/base/special/logaddexp]: https://github.com/stdlib-js/math-base-special-logaddexp
 
-[@stdlib/math/base/special/logf]: https://github.com/stdlib-js/math-base-special-logf/tree/umd
+[@stdlib/math/base/special/logf]: https://github.com/stdlib-js/math-base-special-logf
 
-[@stdlib/math/base/special/logitf]: https://github.com/stdlib-js/math-base-special-logitf/tree/umd
+[@stdlib/math/base/special/logitf]: https://github.com/stdlib-js/math-base-special-logitf
 
-[@stdlib/math/base/special/pow]: https://github.com/stdlib-js/math-base-special-pow/tree/umd
+[@stdlib/math/base/special/pow]: https://github.com/stdlib-js/math-base-special-pow
 
-[@stdlib/math/base/special/powm1]: https://github.com/stdlib-js/math-base-special-powm1/tree/umd
+[@stdlib/math/base/special/powm1]: https://github.com/stdlib-js/math-base-special-powm1
 
-[@stdlib/math/base/special/xlog1py]: https://github.com/stdlib-js/math-base-special-xlog1py/tree/umd
+[@stdlib/math/base/special/xlog1py]: https://github.com/stdlib-js/math-base-special-xlog1py
 
-[@stdlib/math/base/special/xlogy]: https://github.com/stdlib-js/math-base-special-xlogy/tree/umd
+[@stdlib/math/base/special/xlogy]: https://github.com/stdlib-js/math-base-special-xlogy
 
-[@stdlib/math/base/special/xlogyf]: https://github.com/stdlib-js/math-base-special-xlogyf/tree/umd
+[@stdlib/math/base/special/xlogyf]: https://github.com/stdlib-js/math-base-special-xlogyf
 
 <!-- </toc-links> -->
 
