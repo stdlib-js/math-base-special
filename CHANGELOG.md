@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-23)
+## Unreleased (2026-03-05)
 
 <section class="features">
 
@@ -19,12 +19,35 @@
 
 <!-- /.features -->
 
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#10377](https://github.com/stdlib-js/stdlib/issues/10377)
+
+</section>
+
+<!-- /.issues -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`8145443`](https://github.com/stdlib-js/stdlib/commit/8145443dd757751d025b175d64e425244cddb97f) - **docs:** update `math/base/special` TypeScript declarations [(#10711)](https://github.com/stdlib-js/stdlib/pull/10711) _(by stdlib-bot)_
+-   [`2727b51`](https://github.com/stdlib-js/stdlib/commit/2727b5129ea9956b5e0caf989654454912fe9d24) - **docs:** improve doctests for complex number instances in `math/base/special/croundf` [(#10510)](https://github.com/stdlib-js/stdlib/pull/10510) _(by AyushiJain18270, Philipp Burckhardt)_
+-   [`3422651`](https://github.com/stdlib-js/stdlib/commit/3422651a3ec2e6717f25d82020a62f00dbe2aa78) - **docs:** add missing section closing comments in READMEs _(by Philipp Burckhardt)_
+-   [`40a80f6`](https://github.com/stdlib-js/stdlib/commit/40a80f62a767edfc5d664d617f44a4b8cb335cdd) - **docs:** add missing section closing comments in `math/base/special` READMEs _(by Philipp Burckhardt)_
+-   [`abedf58`](https://github.com/stdlib-js/stdlib/commit/abedf5837f3b62af132cc2e9a8dac5dabc3939bc) - **docs:** fix typo in section closing comments in `math/base/special/gammasgn*` READMEs _(by Philipp Burckhardt)_
+-   [`4fb4995`](https://github.com/stdlib-js/stdlib/commit/4fb49958095bee6d0cfee8b5d63fcfdf94f87e6e) - **docs:** fix missing and malformed section tags in README files _(by Philipp Burckhardt)_
+-   [`f7191c0`](https://github.com/stdlib-js/stdlib/commit/f7191c093f0607ad6de9b7a21612f36bb3a84d90) - **chore:** use relative paths and remove trailing slashes in require paths _(by Philipp Burckhardt)_
+-   [`0ca797b`](https://github.com/stdlib-js/stdlib/commit/0ca797b5558b96111256a7446eafe101761b240b) - **bench:** use float literals for `uniform` range arguments _(by Philipp Burckhardt)_
+-   [`a60fc25`](https://github.com/stdlib-js/stdlib/commit/a60fc2596e69278abc19df474aa63f259f9bdbe5) - **test:** use powf in `absgammaInf` [(#10437)](https://github.com/stdlib-js/stdlib/pull/10437) _(by Sagar Ratna Chaudhary)_
+-   [`1ca4102`](https://github.com/stdlib-js/stdlib/commit/1ca410285a07bc2fe47b66732c4c24bfadd50771) - **chore:** fix EditorConfig lint errors [(#10406)](https://github.com/stdlib-js/stdlib/pull/10406) _(by Kamal Singh Rautela)_
+-   [`6979901`](https://github.com/stdlib-js/stdlib/commit/697990190ede7a6b807372e724546eb9470aa81b) - **bench:** refactor to use string interpolation in `math/base/special/sec` [(#10359)](https://github.com/stdlib-js/stdlib/pull/10359) _(by AyushiJain18270)_
 -   [`c51df70`](https://github.com/stdlib-js/stdlib/commit/c51df700dde62d157e7fd9bbcfa9148d82ccef7f) - **feat:** add implementation of `math/base/special/floor2f` [(#10323)](https://github.com/stdlib-js/stdlib/pull/10323) _(by Shubham, Philipp Burckhardt)_
 -   [`1ac0545`](https://github.com/stdlib-js/stdlib/commit/1ac0545653898f2f1c6943f52d42afb9d46195c6) - **chore:** update tests and use string interpolation in `math/base/special/sqrt1pm1` [(#10324)](https://github.com/stdlib-js/stdlib/pull/10324) _(by Shubham)_
 -   [`6ecc272`](https://github.com/stdlib-js/stdlib/commit/6ecc272a3117e71d4a9b0ec55864e5fed4e2386c) - **chore:** fix example code and add missing semicolon _(by Philipp Burckhardt)_
@@ -44,10 +67,12 @@
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
+-   AyushiJain18270
 -   Kamal Singh Rautela
 -   Philipp Burckhardt
+-   Sagar Ratna Chaudhary
 -   Shantanu Kharwar
 -   Shubham
 -   Vishal Gaikwad
