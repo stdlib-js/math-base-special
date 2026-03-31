@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-23)
+## Unreleased (2026-03-31)
 
 <section class="features">
 
@@ -37,6 +37,14 @@ This release closes the following issue:
 
 <details>
 
+-   [`8448f5a`](https://github.com/stdlib-js/stdlib/commit/8448f5a44bad7e305d50ac9e92ba195bac863389) - **chore:** ensure consistent use of semicolons [(#11170)](https://github.com/stdlib-js/stdlib/pull/11170) _(by Philipp Burckhardt, Athan Reines)_
+-   [`e81a8c0`](https://github.com/stdlib-js/stdlib/commit/e81a8c0c8501d4bc3e3b3843a86476a2e088a9d6) - **docs:** fix C examples [(#11134)](https://github.com/stdlib-js/stdlib/pull/11134) _(by anee3)_
+-   [`b20816f`](https://github.com/stdlib-js/stdlib/commit/b20816f0b727f9a365b0fd526092db9cd2ad75fc) - **docs:** fix incorrect return annotation [(#11128)](https://github.com/stdlib-js/stdlib/pull/11128) _(by anee3)_
+-   [`b7feba2`](https://github.com/stdlib-js/stdlib/commit/b7feba2d63f20199707be94ffa1284538e0c4395) - **docs:** fix C example variable declaration [(#11127)](https://github.com/stdlib-js/stdlib/pull/11127) _(by anee3)_
+-   [`727c508`](https://github.com/stdlib-js/stdlib/commit/727c508beee8414b732fadb3f882d98cbb3f69cf) - **docs:** fix C example function call [(#11126)](https://github.com/stdlib-js/stdlib/pull/11126) _(by anee3)_
+-   [`d42b153`](https://github.com/stdlib-js/stdlib/commit/d42b153778f21dd1cd0814887086f43417de3738) - **docs:** fix C example variable declaration [(#11125)](https://github.com/stdlib-js/stdlib/pull/11125) _(by anee3)_
+-   [`2604e21`](https://github.com/stdlib-js/stdlib/commit/2604e213f90904e2dbf64a18afdd68cfa5881719) - **docs:** fix C example variable declaration [(#11124)](https://github.com/stdlib-js/stdlib/pull/11124) _(by anee3)_
+-   [`1790fd8`](https://github.com/stdlib-js/stdlib/commit/1790fd8540adf9a62bdd63361c7cdcc8ad540c36) - **bench:** refactor to use string interpolation in `math/base/special/beta` [(#11090)](https://github.com/stdlib-js/stdlib/pull/11090) _(by Partha Das)_
 -   [`a5f1905`](https://github.com/stdlib-js/stdlib/commit/a5f190528adacae01ce743e29bc4e1f91d005947) - **bench:** use string interpolation in `math/base/special/floor` [(#10736)](https://github.com/stdlib-js/stdlib/pull/10736) _(by travisBREAKS, Egger)_
 -   [`f838879`](https://github.com/stdlib-js/stdlib/commit/f83887976cd26ae9bc431233a46777b281bf91e8) - **bench:** use string interpolation in `math/base/special/ceil` [(#10735)](https://github.com/stdlib-js/stdlib/pull/10735) _(by travisBREAKS)_
 -   [`6f7ee58`](https://github.com/stdlib-js/stdlib/commit/6f7ee58852bbba14f20d0ef3f0e6855cd7e5ab1b) - **bench:** use string interpolation in `math/base/special/abs` [(#10734)](https://github.com/stdlib-js/stdlib/pull/10734) _(by travisBREAKS)_
@@ -70,16 +78,19 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 9 people contributed to this release. Thank you to the following contributors:
+A total of 12 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   AyushiJain18270
 -   Egger
 -   Kamal Singh Rautela
+-   Partha Das
 -   Philipp Burckhardt
 -   Sagar Ratna Chaudhary
 -   Shantanu Kharwar
 -   Shubham
 -   Vishal Gaikwad
+-   anee3
 -   travisBREAKS
 
 </section>
