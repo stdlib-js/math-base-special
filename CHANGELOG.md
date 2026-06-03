@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-08)
+## Unreleased (2026-06-03)
 
 <section class="features">
 
@@ -23,6 +23,10 @@
 
 ### Bug Fixes
 
+-   [`6c5aba3`](https://github.com/stdlib-js/stdlib/commit/6c5aba3180401175318f88be776841d126e3d470) - correct `ellipj` declaration signature, parameters, and examples [(#12458)](https://github.com/stdlib-js/stdlib/pull/12458)
+-   [`c3d9ed0`](https://github.com/stdlib-js/stdlib/commit/c3d9ed0054c6c6a822d7ca87876048d44c3914ba) - narrow `fresnel` return type to a two-element tuple [(#12466)](https://github.com/stdlib-js/stdlib/pull/12466)
+-   [`0a659c4`](https://github.com/stdlib-js/stdlib/commit/0a659c475d1030c15e9bbb6647e14bedd5d76a31) - improve numerical accuracy for large `x` values
+-   [`2c71e4a`](https://github.com/stdlib-js/stdlib/commit/2c71e4ab39d867c8f01435226150b86c85c26459) - use correct `Complex64` import in `math/base/special/cceilf` [(#12039)](https://github.com/stdlib-js/stdlib/pull/12039)
 -   [`7a04cb9`](https://github.com/stdlib-js/stdlib/commit/7a04cb90b3fbb4a98f74f4299d0cc0b131d482a1) - address bug and improve C implementation of `math/base/special/hyp2f1` [(#11353)](https://github.com/stdlib-js/stdlib/pull/11353)
 -   [`48446bf`](https://github.com/stdlib-js/stdlib/commit/48446bf41b398ccab27b401cff5f1545dac0b279) - rename header file [(#11232)](https://github.com/stdlib-js/stdlib/pull/11232)
 
@@ -34,9 +38,9 @@
 
 ### Closed Issues
 
-A total of 4 issues were closed in this release:
+A total of 8 issues were closed in this release:
 
-[#10377](https://github.com/stdlib-js/stdlib/issues/10377), [#11230](https://github.com/stdlib-js/stdlib/issues/11230), [#11327](https://github.com/stdlib-js/stdlib/issues/11327), [#11883](https://github.com/stdlib-js/stdlib/issues/11883)
+[#1891](https://github.com/stdlib-js/stdlib/issues/1891), [#10377](https://github.com/stdlib-js/stdlib/issues/10377), [#11230](https://github.com/stdlib-js/stdlib/issues/11230), [#11327](https://github.com/stdlib-js/stdlib/issues/11327), [#11883](https://github.com/stdlib-js/stdlib/issues/11883), [#11983](https://github.com/stdlib-js/stdlib/issues/11983), [#12121](https://github.com/stdlib-js/stdlib/issues/12121), [#12334](https://github.com/stdlib-js/stdlib/issues/12334)
 
 </section>
 
@@ -48,6 +52,20 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`1c3f9bf`](https://github.com/stdlib-js/stdlib/commit/1c3f9bfb122bd8143144506554c94d4a2b736806) - **docs:** update namespace table of contents [(#12480)](https://github.com/stdlib-js/stdlib/pull/12480) _(by stdlib-bot)_
+-   [`f8a0988`](https://github.com/stdlib-js/stdlib/commit/f8a0988ad1c6fa3c7f79384b1f4b0d4313c61715) - **docs:** fix stale identifier in `math/base/special/expm1rel` C comment [(#12444)](https://github.com/stdlib-js/stdlib/pull/12444) _(by Philipp Burckhardt)_
+-   [`6c5aba3`](https://github.com/stdlib-js/stdlib/commit/6c5aba3180401175318f88be776841d126e3d470) - **fix:** correct `ellipj` declaration signature, parameters, and examples [(#12458)](https://github.com/stdlib-js/stdlib/pull/12458) _(by Philipp Burckhardt, Athan Reines)_
+-   [`f348c8e`](https://github.com/stdlib-js/stdlib/commit/f348c8ee1b89586db2ce19c6e9c0ed6fc8095b6c) - **docs:** correct overflow note in `math/base/special/factorial2f` [(#12460)](https://github.com/stdlib-js/stdlib/pull/12460) _(by Philipp Burckhardt)_
+-   [`a0992ac`](https://github.com/stdlib-js/stdlib/commit/a0992ac9c74a6e8d90f9d80a1bf837852c45f827) - **docs:** drop erroneous \"(in radians)\" qualifier from `math/base/special/sincf` [(#12469)](https://github.com/stdlib-js/stdlib/pull/12469) _(by Philipp Burckhardt)_
+-   [`c3d9ed0`](https://github.com/stdlib-js/stdlib/commit/c3d9ed0054c6c6a822d7ca87876048d44c3914ba) - **fix:** narrow `fresnel` return type to a two-element tuple [(#12466)](https://github.com/stdlib-js/stdlib/pull/12466) _(by Philipp Burckhardt)_
+-   [`0a659c4`](https://github.com/stdlib-js/stdlib/commit/0a659c475d1030c15e9bbb6647e14bedd5d76a31) - **fix:** improve numerical accuracy for large `x` values _(by Athan Reines)_
+-   [`ac73ec4`](https://github.com/stdlib-js/stdlib/commit/ac73ec4a3cfa54e8e541d47b55fcfa99db10d65e) - **chore:** fix EditorConfig lint errors [(#12337)](https://github.com/stdlib-js/stdlib/pull/12337) _(by Anurag Pappula)_
+-   [`906bab9`](https://github.com/stdlib-js/stdlib/commit/906bab98b9f33bc8c3a92e58eeafa2942990d5ab) - **docs:** propagate lint and example fixes to `math` and `stats` siblings [(#12146)](https://github.com/stdlib-js/stdlib/pull/12146) _(by Philipp Burckhardt)_
+-   [`f797ee0`](https://github.com/stdlib-js/stdlib/commit/f797ee08c2803353aba4a15f22b866327488dd9b) - **chore:** fix JavaScript lint errors [(#12134)](https://github.com/stdlib-js/stdlib/pull/12134) _(by Syed Ishmum Ahnaf)_
+-   [`508cffa`](https://github.com/stdlib-js/stdlib/commit/508cffaabd50a383412af306e36e4f2523cd7fa2) - **docs:** update related packages sections [(#12106)](https://github.com/stdlib-js/stdlib/pull/12106) _(by stdlib-bot)_
+-   [`245721a`](https://github.com/stdlib-js/stdlib/commit/245721a27bef29698e641c0a718c649b01da2736) - **chore:** address JavaScript lint error [(#12074)](https://github.com/stdlib-js/stdlib/pull/12074) _(by Akshit Jain)_
+-   [`48141ca`](https://github.com/stdlib-js/stdlib/commit/48141ca21c1bf935f236e815a400cb3911056556) - **bench:** fix `Complex64` import in `math/base/special/cphasef` [(#12040)](https://github.com/stdlib-js/stdlib/pull/12040) _(by Karan Anand)_
+-   [`2c71e4a`](https://github.com/stdlib-js/stdlib/commit/2c71e4ab39d867c8f01435226150b86c85c26459) - **fix:** use correct `Complex64` import in `math/base/special/cceilf` [(#12039)](https://github.com/stdlib-js/stdlib/pull/12039) _(by Karan Anand)_
 -   [`7b42c38`](https://github.com/stdlib-js/stdlib/commit/7b42c38ece3da063237e51eb98b8e402aaeb91c1) - **docs:** update example [(#11897)](https://github.com/stdlib-js/stdlib/pull/11897) _(by stdlib-bot)_
 -   [`c2b92b4`](https://github.com/stdlib-js/stdlib/commit/c2b92b4e7c4840bb859808dc0dacd97833019549) - **chore:** propagate fixes to sibling packages [(#11892)](https://github.com/stdlib-js/stdlib/pull/11892) _(by Philipp Burckhardt)_
 -   [`87038a4`](https://github.com/stdlib-js/stdlib/commit/87038a414428ad7c24c2682c43de840793854280) - **chore:** fix EditorConfig lint errors [(#11889)](https://github.com/stdlib-js/stdlib/pull/11889) _(by alok chando)_
@@ -125,8 +143,10 @@ A total of 4 issues were closed in this release:
 
 ### Contributors
 
-A total of 21 people contributed to this release. Thank you to the following contributors:
+A total of 24 people contributed to this release. Thank you to the following contributors:
 
+-   Akshit Jain
+-   Anurag Pappula
 -   Athan Reines
 -   AyushiJain18270
 -   Bhumika Sudarshani
@@ -144,6 +164,7 @@ A total of 21 people contributed to this release. Thank you to the following con
 -   Sagar Ratna Chaudhary
 -   Shantanu Kharwar
 -   Shubham
+-   Syed Ishmum Ahnaf
 -   Vishal Gaikwad
 -   alok chando
 -   anee3
