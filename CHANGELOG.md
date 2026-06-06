@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-03)
+## Unreleased (2026-06-06)
 
 <section class="features">
 
@@ -52,6 +52,9 @@ A total of 8 issues were closed in this release:
 
 <details>
 
+-   [`b8c22c7`](https://github.com/stdlib-js/stdlib/commit/b8c22c71c9d592a1debd5f38c279392edb4f3339) - **docs:** update `math/base/special` TypeScript declarations [(#12586)](https://github.com/stdlib-js/stdlib/pull/12586) _(by stdlib-bot)_
+-   [`62a90b1`](https://github.com/stdlib-js/stdlib/commit/62a90b1fbe78abef13e0af08f5d9acf474033c03) - **test:** add missing opts guard in native tests [(#12526)](https://github.com/stdlib-js/stdlib/pull/12526) _(by Philipp Burckhardt)_
+-   [`f9d8a26`](https://github.com/stdlib-js/stdlib/commit/f9d8a26f6b9963db09a013cb359a27fb3a6ec24a) - **docs:** fix package-wide doc errors [(#12474)](https://github.com/stdlib-js/stdlib/pull/12474) _(by Philipp Burckhardt)_
 -   [`1c3f9bf`](https://github.com/stdlib-js/stdlib/commit/1c3f9bfb122bd8143144506554c94d4a2b736806) - **docs:** update namespace table of contents [(#12480)](https://github.com/stdlib-js/stdlib/pull/12480) _(by stdlib-bot)_
 -   [`f8a0988`](https://github.com/stdlib-js/stdlib/commit/f8a0988ad1c6fa3c7f79384b1f4b0d4313c61715) - **docs:** fix stale identifier in `math/base/special/expm1rel` C comment [(#12444)](https://github.com/stdlib-js/stdlib/pull/12444) _(by Philipp Burckhardt)_
 -   [`6c5aba3`](https://github.com/stdlib-js/stdlib/commit/6c5aba3180401175318f88be776841d126e3d470) - **fix:** correct `ellipj` declaration signature, parameters, and examples [(#12458)](https://github.com/stdlib-js/stdlib/pull/12458) _(by Philipp Burckhardt, Athan Reines)_
