@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-06)
+## Unreleased (2026-06-16)
 
 <section class="features">
 
@@ -52,6 +52,10 @@ A total of 8 issues were closed in this release:
 
 <details>
 
+-   [`6b79aec`](https://github.com/stdlib-js/stdlib/commit/6b79aece2b82996d0fcf00ca8f670fb5e466fd0f) - **test:** migrate `math/base/special/ceiln` to ULP-based testing [(#12751)](https://github.com/stdlib-js/stdlib/pull/12751) _(by Philipp Burckhardt)_
+-   [`8117e16`](https://github.com/stdlib-js/stdlib/commit/8117e16e8d95a4362c78c02fc858a5085321f665) - **test:** migrate `math/base/special/haversin` to ULP-based testing [(#12752)](https://github.com/stdlib-js/stdlib/pull/12752) _(by Philipp Burckhardt)_
+-   [`5956601`](https://github.com/stdlib-js/stdlib/commit/595660167b57f03f8aa304fdcbabc6f265396943) - **test:** migrate `math/base/special/sinc` to ULP-based testing [(#12749)](https://github.com/stdlib-js/stdlib/pull/12749) _(by Philipp Burckhardt)_
+-   [`ba00d5e`](https://github.com/stdlib-js/stdlib/commit/ba00d5ef59a526a0ebbdbbce4b7ef7255e53a051) - **test:** migrate `math/base/special/acsc` to ULP-based testing [(#12753)](https://github.com/stdlib-js/stdlib/pull/12753) _(by Philipp Burckhardt)_
 -   [`b8c22c7`](https://github.com/stdlib-js/stdlib/commit/b8c22c71c9d592a1debd5f38c279392edb4f3339) - **docs:** update `math/base/special` TypeScript declarations [(#12586)](https://github.com/stdlib-js/stdlib/pull/12586) _(by stdlib-bot)_
 -   [`62a90b1`](https://github.com/stdlib-js/stdlib/commit/62a90b1fbe78abef13e0af08f5d9acf474033c03) - **test:** add missing opts guard in native tests [(#12526)](https://github.com/stdlib-js/stdlib/pull/12526) _(by Philipp Burckhardt)_
 -   [`f9d8a26`](https://github.com/stdlib-js/stdlib/commit/f9d8a26f6b9963db09a013cb359a27fb3a6ec24a) - **docs:** fix package-wide doc errors [(#12474)](https://github.com/stdlib-js/stdlib/pull/12474) _(by Philipp Burckhardt)_
