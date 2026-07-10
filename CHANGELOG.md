@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-03)
+## Unreleased (2026-07-10)
 
 <section class="features">
 
 ### Features
 
+-   [`6512a7a`](https://github.com/stdlib-js/stdlib/commit/6512a7a5ac20f3efb7d40d65085cc74f18f6a1ba) - add C implementation of `math/base/special/kernel-betainc` [(#10279)](https://github.com/stdlib-js/stdlib/pull/10279)
 -   [`c51df70`](https://github.com/stdlib-js/stdlib/commit/c51df700dde62d157e7fd9bbcfa9148d82ccef7f) - add implementation of `math/base/special/floor2f` [(#10323)](https://github.com/stdlib-js/stdlib/pull/10323)
 -   [`53aaf81`](https://github.com/stdlib-js/stdlib/commit/53aaf8135f7feba8476da758d895cc24da20caad) - add C implementation for `math/base/special/heaviside` [(#10196)](https://github.com/stdlib-js/stdlib/pull/10196)
 -   [`2eea8bb`](https://github.com/stdlib-js/stdlib/commit/2eea8bb24c99fb81c56ec7c14d0cca8d88b1cb52) - add implementation of `math/base/special/coshf` [(#10177)](https://github.com/stdlib-js/stdlib/pull/10177)
@@ -53,6 +54,11 @@ A total of 10 issues were closed in this release:
 
 <details>
 
+-   [`fe9e95e`](https://github.com/stdlib-js/stdlib/commit/fe9e95e50351d69e5405c3c0827daff54119e723) - **docs:** update `math/base/special` TypeScript declarations [(#13399)](https://github.com/stdlib-js/stdlib/pull/13399) _(by stdlib-bot)_
+-   [`6512a7a`](https://github.com/stdlib-js/stdlib/commit/6512a7a5ac20f3efb7d40d65085cc74f18f6a1ba) - **feat:** add C implementation of `math/base/special/kernel-betainc` [(#10279)](https://github.com/stdlib-js/stdlib/pull/10279) _(by Nirmal Jyoti Biswas, Gunj Joshi, Neeraj Pathak, Philipp Burckhardt, stdlib-bot)_
+-   [`a9ded39`](https://github.com/stdlib-js/stdlib/commit/a9ded39203d2cbc9ff79b0cc96f0fbd2a962b36f) - **chore:** clean-up [(#12446)](https://github.com/stdlib-js/stdlib/pull/12446) _(by Philipp Burckhardt, Athan Reines)_
+-   [`1a2e90a`](https://github.com/stdlib-js/stdlib/commit/1a2e90a925bc6b2c347f452b7ec00ba4e42a9b3c) - **bench:** add missing native benchmark [(#13325)](https://github.com/stdlib-js/stdlib/pull/13325) _(by Philipp Burckhardt)_
+-   [`b0041dc`](https://github.com/stdlib-js/stdlib/commit/b0041dc7d2c51b9fed6cc0f6d99a0b35b6827403) - **test:** migrate `math/base/special/xlogy` to ULP-based testing [(#13230)](https://github.com/stdlib-js/stdlib/pull/13230) _(by Ujjwal Verma)_
 -   [`b71a63d`](https://github.com/stdlib-js/stdlib/commit/b71a63d212d3943412faa229884d0ee56ee429da) - **style:** remove stray spaces [(#13248)](https://github.com/stdlib-js/stdlib/pull/13248) _(by Philipp Burckhardt)_
 -   [`e9f7554`](https://github.com/stdlib-js/stdlib/commit/e9f75542701aa7535be20b624f35a483b4c6e34d) - **docs:** update related packages sections [(#13187)](https://github.com/stdlib-js/stdlib/pull/13187) _(by stdlib-bot)_
 -   [`cf2e33c`](https://github.com/stdlib-js/stdlib/commit/cf2e33ca49296c59cfebedac3c20a6058c36a195) - **chore:** fix C lint errors [(#13047)](https://github.com/stdlib-js/stdlib/pull/13047) _(by A Sivasubramanian Manoj, Athan Reines)_
@@ -211,7 +217,7 @@ A total of 10 issues were closed in this release:
 
 ### Contributors
 
-A total of 26 people contributed to this release. Thank you to the following contributors:
+A total of 29 people contributed to this release. Thank you to the following contributors:
 
 -   A Sivasubramanian Manoj
 -   Akshit Jain
@@ -221,11 +227,13 @@ A total of 26 people contributed to this release. Thank you to the following con
 -   Bhumika Sudarshani
 -   Egger
 -   Gautam Kaushik
+-   Gunj Joshi
 -   Kamal Singh Rautela
 -   Karan Anand
 -   Mandeep2333
 -   Mara Averick
 -   Moh Zaid Khan
+-   Neeraj Pathak
 -   Nirmal Jyoti Biswas
 -   NotFoundOvO
 -   Partha Das
@@ -235,6 +243,7 @@ A total of 26 people contributed to this release. Thank you to the following con
 -   Shantanu Kharwar
 -   Shubham
 -   Syed Ishmum Ahnaf
+-   Ujjwal Verma
 -   Vishal Gaikwad
 -   alok chando
 -   anee3
