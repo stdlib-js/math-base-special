@@ -552,6 +552,7 @@
     "@stdlib/number-float32-base-to-uint32": "^0.2.3",
     "@stdlib/number-float32-base-to-word": "^0.2.3",
     "@stdlib/number-float32-base-ulp-difference": "^0.1.1",
+    "@stdlib/number-float64-base-assert-is-almost-same-value": "^0.1.1",
     "@stdlib/number-float64-base-exponent": "^0.2.3",
     "@stdlib/number-float64-base-from-words": "^0.2.3",
     "@stdlib/number-float64-base-get-high-word": "^0.2.3",
