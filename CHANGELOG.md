@@ -4,12 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-20)
+## Unreleased (2026-09-16)
 
 <section class="features">
 
 ### Features
 
+-   [`5258215`](https://github.com/stdlib-js/stdlib/commit/5258215e0c96ffb92fe573da2e92cfc6c6a23aea) - add `math/base/special/tanhf` [(#14829)](https://github.com/stdlib-js/stdlib/pull/14829)
+-   [`e91b3ba`](https://github.com/stdlib-js/stdlib/commit/e91b3ba876c987d2e4b4a7bd42e0d8f4af4db0c1) - add `math/base/special/round2f` [(#9695)](https://github.com/stdlib-js/stdlib/pull/9695)
+-   [`979fe66`](https://github.com/stdlib-js/stdlib/commit/979fe66f29c222ec0e32732ba82becd0a72b7b50) - add `math/base/special/roundsdf` [(#9866)](https://github.com/stdlib-js/stdlib/pull/9866)
+-   [`fd5bfb4`](https://github.com/stdlib-js/stdlib/commit/fd5bfb49cac0b48b994a163effb4c3a1cc14d81d) - add `math/base/special/trunc10f` [(#10421)](https://github.com/stdlib-js/stdlib/pull/10421)
+-   [`699cfd2`](https://github.com/stdlib-js/stdlib/commit/699cfd2750203e3e7025c095f6843010d061c7d7) - add `math/base/special/trunc2f` [(#10673)](https://github.com/stdlib-js/stdlib/pull/10673)
 -   [`70452f1`](https://github.com/stdlib-js/stdlib/commit/70452f1225845d1ae89bae40a32e6c1e998d47d3) - add `math/base/special/log2f` [(#4179)](https://github.com/stdlib-js/stdlib/pull/4179)
 -   [`d3a0e0f`](https://github.com/stdlib-js/stdlib/commit/d3a0e0f11833fe6212b60a1f40085ffd5e3f2b6f) - add `math/base/special/sincospif` [(#10215)](https://github.com/stdlib-js/stdlib/pull/10215)
 -   [`5476fbb`](https://github.com/stdlib-js/stdlib/commit/5476fbb7ba22dc2479e39e7aae2bd40ca70a4954) - add `math/base/special/erfinvf` [(#10526)](https://github.com/stdlib-js/stdlib/pull/10526)
@@ -74,6 +79,56 @@ A total of 12 issues were closed in this release:
 
 <details>
 
+-   [`3e1e509`](https://github.com/stdlib-js/stdlib/commit/3e1e509f1de3b38a3b72ab6ef3436c9d812c218d) - **test:** restore removed test file [(#15237)](https://github.com/stdlib-js/stdlib/pull/15237) _(by Philipp Burckhardt)_
+-   [`20bf301`](https://github.com/stdlib-js/stdlib/commit/20bf30114c67933b796dd3a59ca499fc7bec1e51) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`9167d66`](https://github.com/stdlib-js/stdlib/commit/9167d6643ae29f18c83dd328124a71794bf84697) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
+-   [`a694451`](https://github.com/stdlib-js/stdlib/commit/a6944514c10643264f1079383c1b9d005757fafb) - **test:** migrate `math/base/special/cabs` to ULP-based assertions [(#15254)](https://github.com/stdlib-js/stdlib/pull/15254) _(by Philipp Burckhardt)_
+-   [`5258215`](https://github.com/stdlib-js/stdlib/commit/5258215e0c96ffb92fe573da2e92cfc6c6a23aea) - **feat:** add `math/base/special/tanhf` [(#14829)](https://github.com/stdlib-js/stdlib/pull/14829) _(by Aryan Sharma, Athan Reines, Karan Anand)_
+-   [`a7ca750`](https://github.com/stdlib-js/stdlib/commit/a7ca7503fe4bc9f12d987bc70fb70ae533720b0e) - **test:** migrate `math/base/special/riemann-zeta` to ULP-based assertions [(#15208)](https://github.com/stdlib-js/stdlib/pull/15208) _(by Devansh Patel)_
+-   [`8e05fb3`](https://github.com/stdlib-js/stdlib/commit/8e05fb3ba3643d952cb62f1e88e150e1b712b365) - **test:** migrate `math/base/special/lnf` to ULP-based assertions [(#15218)](https://github.com/stdlib-js/stdlib/pull/15218) _(by Devansh Patel)_
+-   [`e91b3ba`](https://github.com/stdlib-js/stdlib/commit/e91b3ba876c987d2e4b4a7bd42e0d8f4af4db0c1) - **feat:** add `math/base/special/round2f` [(#9695)](https://github.com/stdlib-js/stdlib/pull/9695) _(by Aryan kumar, Karan Anand)_
+-   [`16838cc`](https://github.com/stdlib-js/stdlib/commit/16838cccb372ae9473e5dae0e34f540cd33fe18b) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`47f445e`](https://github.com/stdlib-js/stdlib/commit/47f445e37c0a56984f7110f28d7fe556e75af8c3) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`9b745fa`](https://github.com/stdlib-js/stdlib/commit/9b745fa94f0ba5de62821dc0b94118cb5b73228d) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
+-   [`979fe66`](https://github.com/stdlib-js/stdlib/commit/979fe66f29c222ec0e32732ba82becd0a72b7b50) - **feat:** add `math/base/special/roundsdf` [(#9866)](https://github.com/stdlib-js/stdlib/pull/9866) _(by Aryan kumar, Karan Anand)_
+-   [`fd5bfb4`](https://github.com/stdlib-js/stdlib/commit/fd5bfb49cac0b48b994a163effb4c3a1cc14d81d) - **feat:** add `math/base/special/trunc10f` [(#10421)](https://github.com/stdlib-js/stdlib/pull/10421) _(by Nirmal Jyoti Biswas, Karan Anand)_
+-   [`ad74c25`](https://github.com/stdlib-js/stdlib/commit/ad74c2566f27422949c906bedf51c9936f5d62a8) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`005136b`](https://github.com/stdlib-js/stdlib/commit/005136bcf965f089b836fa5dafff2abd3c696115) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
+-   [`b60adcb`](https://github.com/stdlib-js/stdlib/commit/b60adcb2240b3cdec5090f460856ea27d672fb91) - **refactor:** use `constants/float32/nan` in `math/base/special/gammasgnf` [(#15013)](https://github.com/stdlib-js/stdlib/pull/15013) _(by Abdelrahim Abdelazim)_
+-   [`699cfd2`](https://github.com/stdlib-js/stdlib/commit/699cfd2750203e3e7025c095f6843010d061c7d7) - **feat:** add `math/base/special/trunc2f` [(#10673)](https://github.com/stdlib-js/stdlib/pull/10673) _(by Aashrith-Vellampalli, Karan Anand)_
+-   [`2d9f528`](https://github.com/stdlib-js/stdlib/commit/2d9f52814b7ed08bda0cbb89cb485e6ed2d78865) - **docs:** add equations [(#14687)](https://github.com/stdlib-js/stdlib/pull/14687) _(by Karan Anand)_
+-   [`8325057`](https://github.com/stdlib-js/stdlib/commit/8325057f59dacc6c43fbb3fa5c1026bf3cc5c296) - **docs:** add equations [(#14695)](https://github.com/stdlib-js/stdlib/pull/14695) _(by Karan Anand)_
+-   [`71ab5f8`](https://github.com/stdlib-js/stdlib/commit/71ab5f8bbaf3ee9e0740d8ca5f6ee1c4c299bac8) - **test:** migrate `math/base/special/ln` to ULP-based assertions [(#14945)](https://github.com/stdlib-js/stdlib/pull/14945) _(by Puneet Deshwani)_
+-   [`4359924`](https://github.com/stdlib-js/stdlib/commit/43599246a31b178c42f23d7f9a9f9caa4931efb9) - **test:** migrate `math/base/special/sincospi` to ULP-based assertions [(#14782)](https://github.com/stdlib-js/stdlib/pull/14782) _(by Athan Reines)_
+-   [`87fba64`](https://github.com/stdlib-js/stdlib/commit/87fba64382625884f728c6522888413a781ad2d2) - **test:** migrate `math/base/special/betaln` to ULP-based testing [(#14767)](https://github.com/stdlib-js/stdlib/pull/14767) _(by Checkmate)_
+-   [`c568729`](https://github.com/stdlib-js/stdlib/commit/c568729af2a4908e564647f15cadccc8ad62f59b) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`8e4bd02`](https://github.com/stdlib-js/stdlib/commit/8e4bd02646c8926e8a68e82ce6f558d128269f54) - **test:** migrate `math/base/special/gammaincinv` to ULP-based assertions [(#14752)](https://github.com/stdlib-js/stdlib/pull/14752) _(by Aryan kumar, Athan Reines)_
+-   [`cf24eb5`](https://github.com/stdlib-js/stdlib/commit/cf24eb54dc07160d15e5fb382982699f76df5cde) - **test:** migrate `math/base/special/kernel-sincos` to ULP-based assertions [(#14751)](https://github.com/stdlib-js/stdlib/pull/14751) _(by Aryan kumar)_
+-   [`e67a5aa`](https://github.com/stdlib-js/stdlib/commit/e67a5aad659d8f6623e4ab8ac94687a8586ea83a) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`85f4853`](https://github.com/stdlib-js/stdlib/commit/85f48534ef6908bbcd982d48f1c5fbea3fb7aafd) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
+-   [`dfc2a75`](https://github.com/stdlib-js/stdlib/commit/dfc2a7516a44ed3a3ecc51a6e1d72d7fdfa9ff3d) - **test:** migrate `math/base/special/gamma` to ULP-based assertions [(#14742)](https://github.com/stdlib-js/stdlib/pull/14742) _(by Athan Reines)_
+-   [`f29caab`](https://github.com/stdlib-js/stdlib/commit/f29caab3cf07040e0f813e5c17357e8442db92d9) - **test:** migrate `math/base/special/digamma` to ULP-based assertions [(#14717)](https://github.com/stdlib-js/stdlib/pull/14717) _(by Aryan kumar, Athan Reines)_
+-   [`02bc116`](https://github.com/stdlib-js/stdlib/commit/02bc116b172372c8c232df25e196365a6f105179) - **test:** migrate `math/base/special/atandf` to ULP-based assertions [(#14699)](https://github.com/stdlib-js/stdlib/pull/14699) _(by Athan Reines)_
+-   [`c782464`](https://github.com/stdlib-js/stdlib/commit/c7824645f4527c54afc18e03b79e73224d156265) - **docs:** add equations [(#14688)](https://github.com/stdlib-js/stdlib/pull/14688) _(by Karan Anand)_
+-   [`d5da0cb`](https://github.com/stdlib-js/stdlib/commit/d5da0cbb9558361e16b90a5351c04bf4cdc917f7) - **docs:** add introductory text to READMEs [(#14697)](https://github.com/stdlib-js/stdlib/pull/14697) _(by Karan Anand)_
+-   [`9a46793`](https://github.com/stdlib-js/stdlib/commit/9a4679369f5ad122cd1b41fba5eead58ca84faf2) - **docs:** add equations [(#14696)](https://github.com/stdlib-js/stdlib/pull/14696) _(by Karan Anand)_
+-   [`7513923`](https://github.com/stdlib-js/stdlib/commit/751392345a08c5337b930175249f55483ba81134) - **docs:** add equations [(#14691)](https://github.com/stdlib-js/stdlib/pull/14691) _(by Karan Anand)_
+-   [`1ad5851`](https://github.com/stdlib-js/stdlib/commit/1ad585103d22754bf57382ef241e5f71edcbb12e) - **docs:** add equations [(#14683)](https://github.com/stdlib-js/stdlib/pull/14683) _(by Karan Anand)_
+-   [`ac0d55f`](https://github.com/stdlib-js/stdlib/commit/ac0d55f57c0eba355827ab600b2b6a6081f04d61) - **docs:** add equations [(#14684)](https://github.com/stdlib-js/stdlib/pull/14684) _(by Karan Anand)_
+-   [`e446bd6`](https://github.com/stdlib-js/stdlib/commit/e446bd626d92ff7cd36f40c9980f928cee4f1692) - **docs:** add equations [(#14686)](https://github.com/stdlib-js/stdlib/pull/14686) _(by Karan Anand)_
+-   [`6989982`](https://github.com/stdlib-js/stdlib/commit/69899821b975f745bd5d69d01829cb52cd818ac9) - **docs:** add equations [(#14685)](https://github.com/stdlib-js/stdlib/pull/14685) _(by Karan Anand)_
+-   [`101dcdb`](https://github.com/stdlib-js/stdlib/commit/101dcdb0f0235284f0d378bc087aea81cf20fff5) - **test:** migrate `math/base/special/kernel-cos` to ULP-based assertions [(#14672)](https://github.com/stdlib-js/stdlib/pull/14672) _(by Aryan kumar)_
+-   [`b69f125`](https://github.com/stdlib-js/stdlib/commit/b69f125e64207b556cf745414f2d67b59758b514) - **docs:** add equations [(#14689)](https://github.com/stdlib-js/stdlib/pull/14689) _(by Karan Anand)_
+-   [`795a5dc`](https://github.com/stdlib-js/stdlib/commit/795a5dc8faad670819a5151bcf249176dbdac6b4) - **docs:** add equations [(#14690)](https://github.com/stdlib-js/stdlib/pull/14690) _(by Karan Anand)_
+-   [`a1103f4`](https://github.com/stdlib-js/stdlib/commit/a1103f489806e7e0c0bff50a28f585580c1391b3) - **test:** migrate `math/base/special/binet` to ULP-based assertions [(#14633)](https://github.com/stdlib-js/stdlib/pull/14633) _(by Philipp Burckhardt)_
+-   [`b542995`](https://github.com/stdlib-js/stdlib/commit/b5429954e481f5f484fe45386d12ddd527157389) - **test:** migrate `math/base/special/binomcoeff` to ULP-based assertions [(#14572)](https://github.com/stdlib-js/stdlib/pull/14572) _(by Philipp Burckhardt)_
+-   [`b65e7f1`](https://github.com/stdlib-js/stdlib/commit/b65e7f19847adf7faed76e3558090fc3e1cca8b1) - **test:** migrate `math/base/special/cfloorn` to ULP-based assertions [(#14542)](https://github.com/stdlib-js/stdlib/pull/14542) _(by Philipp Burckhardt)_
+-   [`354db88`](https://github.com/stdlib-js/stdlib/commit/354db88cd0d40faeeb8b16caab1f717c90577c30) - **test:** migrate `math/base/special/roundb` to ULP-based assertions [(#14538)](https://github.com/stdlib-js/stdlib/pull/14538) _(by Athan Reines)_
+-   [`10c2645`](https://github.com/stdlib-js/stdlib/commit/10c2645963514a6ddea0745e17420191fa00ecd0) - **test:** migrate `math/base/special/sincosdf` to ULP-based assertions [(#14521)](https://github.com/stdlib-js/stdlib/pull/14521) _(by Athan Reines)_
+-   [`1a14048`](https://github.com/stdlib-js/stdlib/commit/1a140488d5cef9fc7bf5651a386811da784e7129) - **test:** migrate `math/base/special/fast/atanh` to ULP-based assertions [(#14457)](https://github.com/stdlib-js/stdlib/pull/14457) _(by Athan Reines)_
+-   [`3b154ee`](https://github.com/stdlib-js/stdlib/commit/3b154eee6ba4492fabfe146fce790f8829660deb) - **test:** migrate `math/base/special/sici` to ULP-based assertions [(#14453)](https://github.com/stdlib-js/stdlib/pull/14453) _(by Athan Reines)_
+-   [`ed6a07c`](https://github.com/stdlib-js/stdlib/commit/ed6a07cf30ce2dc190222bc04cb54bb4137241af) - **test:** migrate `math/base/special/logitf` to ULP-based assertions [(#14456)](https://github.com/stdlib-js/stdlib/pull/14456) _(by Athan Reines)_
+-   [`0902b03`](https://github.com/stdlib-js/stdlib/commit/0902b03d126d351193fd22733163bf277d4306ee) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`10dda53`](https://github.com/stdlib-js/stdlib/commit/10dda5309507d8420c36ec20958ae07b6a32fd17) - **chore:** clean-up [(#14413)](https://github.com/stdlib-js/stdlib/pull/14413) _(by Philipp Burckhardt)_
 -   [`3d3d4bf`](https://github.com/stdlib-js/stdlib/commit/3d3d4bf15d38c7327989f8b43f9c0fd1a18da8a8) - **test:** migrate `math/base/special/betaincinv` to ULP-based assertions [(#14423)](https://github.com/stdlib-js/stdlib/pull/14423) _(by Philipp Burckhardt, Athan Reines)_
 -   [`f7a98db`](https://github.com/stdlib-js/stdlib/commit/f7a98db8b264e3974513dbef4402a26bd709c501) - **test:** migrate `math/base/special/cflipsignf` to ULP-based assertions [(#14414)](https://github.com/stdlib-js/stdlib/pull/14414) _(by Athan Reines)_
@@ -405,17 +460,22 @@ A total of 12 issues were closed in this release:
 
 ### Contributors
 
-A total of 40 people contributed to this release. Thank you to the following contributors:
+A total of 46 people contributed to this release. Thank you to the following contributors:
 
 -   A Sivasubramanian Manoj
+-   Aashrith-Vellampalli
 -   Aayush Khanna
+-   Abdelrahim Abdelazim
 -   Akshit Jain
 -   Anurag Pappula
 -   Arjan-P
+-   Aryan Sharma
 -   Aryan kumar
 -   Athan Reines
 -   AyushiJain18270
 -   Bhumika Sudarshani
+-   Checkmate
+-   Devansh Patel
 -   Egger
 -   Gautam Kaushik
 -   Gunj Joshi
@@ -433,6 +493,7 @@ A total of 40 people contributed to this release. Thank you to the following con
 -   Partha Das
 -   Philipp Burckhardt
 -   Prajjwal Bajpai
+-   Puneet Deshwani
 -   Rohit R Bhat
 -   Sagar Ratna Chaudhary
 -   Shantanu Kharwar
