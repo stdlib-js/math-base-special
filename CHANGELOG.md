@@ -4,12 +4,26 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-22)
+## Unreleased (2026-10-12)
 
 <section class="features">
 
 ### Features
 
+-   [`c4242cb`](https://github.com/stdlib-js/stdlib/commit/c4242cb2890945d3d443de72a98c95c004eb03c8) - update `math/base/special` TypeScript declarations [(#15837)](https://github.com/stdlib-js/stdlib/pull/15837)
+-   [`fc129b4`](https://github.com/stdlib-js/stdlib/commit/fc129b4a89ae438c8b6f5b3bef0bcf5708ce8298) - add C implementation for `math/base/special/betaincinv` [(#15384)](https://github.com/stdlib-js/stdlib/pull/15384)
+-   [`e5108ac`](https://github.com/stdlib-js/stdlib/commit/e5108ac0e5288d6fee39b03bf5baf080b5dbb904) - add `math/base/special/fresnelf` [(#10844)](https://github.com/stdlib-js/stdlib/pull/10844)
+-   [`019291d`](https://github.com/stdlib-js/stdlib/commit/019291d53f6305e81eaf695ce915a2c2d10f981e) - add `assign` and `strided` methods to `math/base/special/cexp` [(#14106)](https://github.com/stdlib-js/stdlib/pull/14106)
+-   [`57dd677`](https://github.com/stdlib-js/stdlib/commit/57dd6774f55c86b25b298462ab5519caa73459d4) - add C implementation for `math/base/special/kernel-betaincinv` [(#13418)](https://github.com/stdlib-js/stdlib/pull/13418)
+-   [`049eecc`](https://github.com/stdlib-js/stdlib/commit/049eecc715219bdb5b72bd696ea9eb6fb4fac8b4) - add `math/base/special/besselj1f` [(#13627)](https://github.com/stdlib-js/stdlib/pull/13627)
+-   [`a9d579e`](https://github.com/stdlib-js/stdlib/commit/a9d579e64e6f9342abecc9c577d7ac524ce3750c) - add `math/base/special/powm1f` [(#10315)](https://github.com/stdlib-js/stdlib/pull/10315)
+-   [`c4db1b9`](https://github.com/stdlib-js/stdlib/commit/c4db1b94503a1e7f72deb4a8ca7aac2e69dce7ef) - add `math/base/special/truncsdf` [(#10606)](https://github.com/stdlib-js/stdlib/pull/10606)
+-   [`5d3c88e`](https://github.com/stdlib-js/stdlib/commit/5d3c88e192aaef1ecb1a93aed6d216f7e7b7cfd6) - add `math/base/special/digammaf` [(#10265)](https://github.com/stdlib-js/stdlib/pull/10265)
+-   [`838614d`](https://github.com/stdlib-js/stdlib/commit/838614df9111fae3806dfe195fd2ab680960f9f3) - add C implementation for `math/base/special/polygamma` [(#13419)](https://github.com/stdlib-js/stdlib/pull/13419)
+-   [`923f116`](https://github.com/stdlib-js/stdlib/commit/923f116a84e9a9064e5c1e2a555c01170d2b5272) - add `math/base/special/cothf` [(#15301)](https://github.com/stdlib-js/stdlib/pull/15301)
+-   [`05ed6e8`](https://github.com/stdlib-js/stdlib/commit/05ed6e856f1a438383cd761b9b743d26e3f9554d) - add `math/base/special/fast/acoshf` [(#8984)](https://github.com/stdlib-js/stdlib/pull/8984)
+-   [`dc4565a`](https://github.com/stdlib-js/stdlib/commit/dc4565a34719e6bb918598db213f4aefa0ab0e55) - add `math/base/special/exp10f` [(#15118)](https://github.com/stdlib-js/stdlib/pull/15118)
+-   [`46e7def`](https://github.com/stdlib-js/stdlib/commit/46e7defa875f829220eec20bd205250839adff3e) - add `math/base/special/fast/asinhf` [(#8987)](https://github.com/stdlib-js/stdlib/pull/8987)
 -   [`5258215`](https://github.com/stdlib-js/stdlib/commit/5258215e0c96ffb92fe573da2e92cfc6c6a23aea) - add `math/base/special/tanhf` [(#14829)](https://github.com/stdlib-js/stdlib/pull/14829)
 -   [`e91b3ba`](https://github.com/stdlib-js/stdlib/commit/e91b3ba876c987d2e4b4a7bd42e0d8f4af4db0c1) - add `math/base/special/round2f` [(#9695)](https://github.com/stdlib-js/stdlib/pull/9695)
 -   [`979fe66`](https://github.com/stdlib-js/stdlib/commit/979fe66f29c222ec0e32732ba82becd0a72b7b50) - add `math/base/special/roundsdf` [(#9866)](https://github.com/stdlib-js/stdlib/pull/9866)
@@ -46,6 +60,9 @@
 
 ### Bug Fixes
 
+-   [`7271dd6`](https://github.com/stdlib-js/stdlib/commit/7271dd6a16bce56365bc430fe925908b9ff55ebc) - preserve sign in `math/base/special/{ceil2,floor2}` [(#15686)](https://github.com/stdlib-js/stdlib/pull/15686)
+-   [`85d7c62`](https://github.com/stdlib-js/stdlib/commit/85d7c6294a488b7f21489da662c71504486a0f10) - preserve sign
+-   [`8c521ed`](https://github.com/stdlib-js/stdlib/commit/8c521ed7a2aeeffd28bf6ab2fc01452d1aa521cc) - preserve sign when rounding the smallest subnormal [(#15667)](https://github.com/stdlib-js/stdlib/pull/15667)
 -   [`b3feca8`](https://github.com/stdlib-js/stdlib/commit/b3feca8ade8ac03c6da0e194d54f31a8887197bf) - correct argument reduction in `rempio2` and `rempio2f` [(#10869)](https://github.com/stdlib-js/stdlib/pull/10869)
 -   [`d95a002`](https://github.com/stdlib-js/stdlib/commit/d95a002c08feee22ca4b37924a13199ceca37b59) - remove unused variable
 -   [`37facc3`](https://github.com/stdlib-js/stdlib/commit/37facc314354eb317977bab2bca09842120d1d63) - replace `pow` with `powf` in `math/base/special/frexpf` [(#13948)](https://github.com/stdlib-js/stdlib/pull/13948)
@@ -65,9 +82,9 @@
 
 ### Closed Issues
 
-A total of 12 issues were closed in this release:
+A total of 13 issues were closed in this release:
 
-[#1891](https://github.com/stdlib-js/stdlib/issues/1891), [#2089](https://github.com/stdlib-js/stdlib/issues/2089), [#10377](https://github.com/stdlib-js/stdlib/issues/10377), [#10846](https://github.com/stdlib-js/stdlib/issues/10846), [#11230](https://github.com/stdlib-js/stdlib/issues/11230), [#11327](https://github.com/stdlib-js/stdlib/issues/11327), [#11883](https://github.com/stdlib-js/stdlib/issues/11883), [#11983](https://github.com/stdlib-js/stdlib/issues/11983), [#12121](https://github.com/stdlib-js/stdlib/issues/12121), [#12334](https://github.com/stdlib-js/stdlib/issues/12334), [#13033](https://github.com/stdlib-js/stdlib/issues/13033), [#13113](https://github.com/stdlib-js/stdlib/issues/13113)
+[#1891](https://github.com/stdlib-js/stdlib/issues/1891), [#2089](https://github.com/stdlib-js/stdlib/issues/2089), [#10377](https://github.com/stdlib-js/stdlib/issues/10377), [#10846](https://github.com/stdlib-js/stdlib/issues/10846), [#11230](https://github.com/stdlib-js/stdlib/issues/11230), [#11327](https://github.com/stdlib-js/stdlib/issues/11327), [#11883](https://github.com/stdlib-js/stdlib/issues/11883), [#11983](https://github.com/stdlib-js/stdlib/issues/11983), [#12121](https://github.com/stdlib-js/stdlib/issues/12121), [#12334](https://github.com/stdlib-js/stdlib/issues/12334), [#13033](https://github.com/stdlib-js/stdlib/issues/13033), [#13113](https://github.com/stdlib-js/stdlib/issues/13113), [#15666](https://github.com/stdlib-js/stdlib/issues/15666)
 
 </section>
 
@@ -79,6 +96,49 @@ A total of 12 issues were closed in this release:
 
 <details>
 
+-   [`c4242cb`](https://github.com/stdlib-js/stdlib/commit/c4242cb2890945d3d443de72a98c95c004eb03c8) - **feat:** update `math/base/special` TypeScript declarations [(#15837)](https://github.com/stdlib-js/stdlib/pull/15837) _(by stdlib-bot)_
+-   [`8c05bc6`](https://github.com/stdlib-js/stdlib/commit/8c05bc6d4db92616375d80463af6950eb5bddb9f) - **bench:** clean-up [(#15934)](https://github.com/stdlib-js/stdlib/pull/15934) _(by Philipp Burckhardt, Athan Reines)_
+-   [`01425e2`](https://github.com/stdlib-js/stdlib/commit/01425e27988c55cb9ace3469f7854bdf90e58371) - **docs:** add JSDoc examples [(#15948)](https://github.com/stdlib-js/stdlib/pull/15948) _(by Philipp Burckhardt, Athan Reines)_
+-   [`bc4afc4`](https://github.com/stdlib-js/stdlib/commit/bc4afc42a59bd9003d68b0a1ac543a0b9f297384) - **test:** migrate `math/base/special/atan` to ULP-based testing [(#15872)](https://github.com/stdlib-js/stdlib/pull/15872) _(by Yug Bhatia)_
+-   [`4c5e602`](https://github.com/stdlib-js/stdlib/commit/4c5e6025ed434c64a9960f37da2381558c7318cb) - **docs:** fix missing examples and fix spacing [(#16006)](https://github.com/stdlib-js/stdlib/pull/16006) _(by Philipp Burckhardt)_
+-   [`a2a3770`](https://github.com/stdlib-js/stdlib/commit/a2a3770a05544594e5d67f3ef19ed440dd206c90) - **style:** add missing space [(#16061)](https://github.com/stdlib-js/stdlib/pull/16061) _(by Philipp Burckhardt)_
+-   [`80dc97e`](https://github.com/stdlib-js/stdlib/commit/80dc97e06d35d2939e14645ca83383e20b41e01d) - **chore:** clean-up _(by Athan Reines)_
+-   [`fc129b4`](https://github.com/stdlib-js/stdlib/commit/fc129b4a89ae438c8b6f5b3bef0bcf5708ce8298) - **feat:** add C implementation for `math/base/special/betaincinv` [(#15384)](https://github.com/stdlib-js/stdlib/pull/15384) _(by Philipp Burckhardt, Karan Anand)_
+-   [`84f8ffb`](https://github.com/stdlib-js/stdlib/commit/84f8ffb065248517c4b8ea2470b454c64a058d26) - **chore:** clean-up _(by Athan Reines)_
+-   [`4fa2661`](https://github.com/stdlib-js/stdlib/commit/4fa266186afb82024f14f5fb6a3c076eff50c7bc) - **style:** ensure consistent spacing _(by Athan Reines)_
+-   [`e5108ac`](https://github.com/stdlib-js/stdlib/commit/e5108ac0e5288d6fee39b03bf5baf080b5dbb904) - **feat:** add `math/base/special/fresnelf` [(#10844)](https://github.com/stdlib-js/stdlib/pull/10844) _(by anee3, stdlib-bot, Karan Anand, Philipp Burckhardt)_
+-   [`019291d`](https://github.com/stdlib-js/stdlib/commit/019291d53f6305e81eaf695ce915a2c2d10f981e) - **feat:** add `assign` and `strided` methods to `math/base/special/cexp` [(#14106)](https://github.com/stdlib-js/stdlib/pull/14106) _(by Karan Anand)_
+-   [`57dd677`](https://github.com/stdlib-js/stdlib/commit/57dd6774f55c86b25b298462ab5519caa73459d4) - **feat:** add C implementation for `math/base/special/kernel-betaincinv` [(#13418)](https://github.com/stdlib-js/stdlib/pull/13418) _(by Philipp Burckhardt, Karan Anand)_
+-   [`049eecc`](https://github.com/stdlib-js/stdlib/commit/049eecc715219bdb5b72bd696ea9eb6fb4fac8b4) - **feat:** add `math/base/special/besselj1f` [(#13627)](https://github.com/stdlib-js/stdlib/pull/13627) _(by Ujjwal Verma, Karan Anand)_
+-   [`1a78936`](https://github.com/stdlib-js/stdlib/commit/1a789367328a127b029ac01287a730c649884c0c) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`7a67bd3`](https://github.com/stdlib-js/stdlib/commit/7a67bd3e5cb80df7208ba3a63e118e9bdf6b5afa) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
+-   [`a9d579e`](https://github.com/stdlib-js/stdlib/commit/a9d579e64e6f9342abecc9c577d7ac524ce3750c) - **feat:** add `math/base/special/powm1f` [(#10315)](https://github.com/stdlib-js/stdlib/pull/10315) _(by Nirmal Jyoti Biswas, Athan Reines, Karan Anand)_
+-   [`4d37c8b`](https://github.com/stdlib-js/stdlib/commit/4d37c8bc26822cc1c8a6947bae1c718d2737661f) - **docs:** fix equation _(by Athan Reines)_
+-   [`b751bc1`](https://github.com/stdlib-js/stdlib/commit/b751bc15912ae1df0f94968d2d47eabe80620bb1) - **docs:** update equation _(by Athan Reines)_
+-   [`2ae6670`](https://github.com/stdlib-js/stdlib/commit/2ae6670cd62351feda72b27a548b1fef076741d5) - **docs:** update equation _(by Athan Reines)_
+-   [`cd25362`](https://github.com/stdlib-js/stdlib/commit/cd25362c01af11e5becdfacba740fbe11ca9e9d3) - **docs:** update equation _(by Athan Reines)_
+-   [`4142981`](https://github.com/stdlib-js/stdlib/commit/414298163423cdbd514f26569e7de322d2129104) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`b41c953`](https://github.com/stdlib-js/stdlib/commit/b41c953b185783768ac50677b4e07eeae0b84cdc) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
+-   [`c4db1b9`](https://github.com/stdlib-js/stdlib/commit/c4db1b94503a1e7f72deb4a8ca7aac2e69dce7ef) - **feat:** add `math/base/special/truncsdf` [(#10606)](https://github.com/stdlib-js/stdlib/pull/10606) _(by Aryan kumar, Karan Anand)_
+-   [`931925e`](https://github.com/stdlib-js/stdlib/commit/931925e170e8064dc045793df38c74326f2664d1) - **test:** add medium-large range fixtures and test cases [(#15699)](https://github.com/stdlib-js/stdlib/pull/15699) _(by anee3)_
+-   [`6333df0`](https://github.com/stdlib-js/stdlib/commit/6333df0e6b22f4480ae3f7f63fa22537029a557b) - **test:** add medium-large range fixtures and test cases [(#15707)](https://github.com/stdlib-js/stdlib/pull/15707) _(by anee3)_
+-   [`7271dd6`](https://github.com/stdlib-js/stdlib/commit/7271dd6a16bce56365bc430fe925908b9ff55ebc) - **fix:** preserve sign in `math/base/special/{ceil2,floor2}` [(#15686)](https://github.com/stdlib-js/stdlib/pull/15686) _(by Philipp Burckhardt)_
+-   [`7728021`](https://github.com/stdlib-js/stdlib/commit/77280218ae986d22d7227326173658e7172db899) - **chore:** clean-up [(#15685)](https://github.com/stdlib-js/stdlib/pull/15685) _(by Philipp Burckhardt)_
+-   [`5d3c88e`](https://github.com/stdlib-js/stdlib/commit/5d3c88e192aaef1ecb1a93aed6d216f7e7b7cfd6) - **feat:** add `math/base/special/digammaf` [(#10265)](https://github.com/stdlib-js/stdlib/pull/10265) _(by anee3, Athan Reines, Karan Anand)_
+-   [`838614d`](https://github.com/stdlib-js/stdlib/commit/838614df9111fae3806dfe195fd2ab680960f9f3) - **feat:** add C implementation for `math/base/special/polygamma` [(#13419)](https://github.com/stdlib-js/stdlib/pull/13419) _(by Philipp Burckhardt, Karan Anand)_
+-   [`132ef67`](https://github.com/stdlib-js/stdlib/commit/132ef67d22d68509e2de12425a2fc295387ed3d0) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`85d7c62`](https://github.com/stdlib-js/stdlib/commit/85d7c6294a488b7f21489da662c71504486a0f10) - **fix:** preserve sign _(by Athan Reines)_
+-   [`8c521ed`](https://github.com/stdlib-js/stdlib/commit/8c521ed7a2aeeffd28bf6ab2fc01452d1aa521cc) - **fix:** preserve sign when rounding the smallest subnormal [(#15667)](https://github.com/stdlib-js/stdlib/pull/15667) _(by Manit Roy)_
+-   [`d770ac4`](https://github.com/stdlib-js/stdlib/commit/d770ac4bf1e14e5028877ff482c03c0253bbc70f) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`a692228`](https://github.com/stdlib-js/stdlib/commit/a692228605a448865adb4ef64e063f3bf4680a36) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
+-   [`923f116`](https://github.com/stdlib-js/stdlib/commit/923f116a84e9a9064e5c1e2a555c01170d2b5272) - **feat:** add `math/base/special/cothf` [(#15301)](https://github.com/stdlib-js/stdlib/pull/15301) _(by Aryan Sharma, Athan Reines, Karan Anand)_
+-   [`accef08`](https://github.com/stdlib-js/stdlib/commit/accef08061b43e666ef44d0673cce0ab5db76bf3) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`ee0f8b8`](https://github.com/stdlib-js/stdlib/commit/ee0f8b81c2f2a317660ec9b8296516037cc66e3d) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`d175fd6`](https://github.com/stdlib-js/stdlib/commit/d175fd63bd070783ff6c4a2b2b9bf1922e1da687) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
+-   [`05ed6e8`](https://github.com/stdlib-js/stdlib/commit/05ed6e856f1a438383cd761b9b743d26e3f9554d) - **feat:** add `math/base/special/fast/acoshf` [(#8984)](https://github.com/stdlib-js/stdlib/pull/8984) _(by Nakul Krishnakumar, Athan Reines, Karan Anand)_
+-   [`dc4565a`](https://github.com/stdlib-js/stdlib/commit/dc4565a34719e6bb918598db213f4aefa0ab0e55) - **feat:** add `math/base/special/exp10f` [(#15118)](https://github.com/stdlib-js/stdlib/pull/15118) _(by Aashrith-Vellampalli, Athan Reines, Karan Anand)_
+-   [`46e7def`](https://github.com/stdlib-js/stdlib/commit/46e7defa875f829220eec20bd205250839adff3e) - **feat:** add `math/base/special/fast/asinhf` [(#8987)](https://github.com/stdlib-js/stdlib/pull/8987) _(by Nakul Krishnakumar, Athan Reines, Karan Anand)_
+-   [`8a518c5`](https://github.com/stdlib-js/stdlib/commit/8a518c59e356d57b718cb937dac92b8be1bd4e49) - **test:** migrate `math/base/special/ellipj` to ULP-based assertions [(#15264)](https://github.com/stdlib-js/stdlib/pull/15264) _(by Devansh Patel)_
 -   [`95fd0e2`](https://github.com/stdlib-js/stdlib/commit/95fd0e2f65dbfbc1ae9c02276382bc6624046aaf) - **test:** migrate `math/base/special/asinh` to ULP-based testing [(#15363)](https://github.com/stdlib-js/stdlib/pull/15363) _(by Divyanshu)_
 -   [`48f3eda`](https://github.com/stdlib-js/stdlib/commit/48f3eda37d26a72e370cb10891b9966104735974) - **style:** add spaces [(#15370)](https://github.com/stdlib-js/stdlib/pull/15370) _(by Philipp Burckhardt)_
 -   [`32b82d9`](https://github.com/stdlib-js/stdlib/commit/32b82d9f283368f29ac5ea02163a664c1ead8483) - **docs:** update Markdown equation elements _(by stdlib-bot)_
@@ -464,7 +524,7 @@ A total of 12 issues were closed in this release:
 
 ### Contributors
 
-A total of 47 people contributed to this release. Thank you to the following contributors:
+A total of 50 people contributed to this release. Thank you to the following contributors:
 
 -   A Sivasubramanian Manoj
 -   Aashrith-Vellampalli
@@ -488,8 +548,10 @@ A total of 47 people contributed to this release. Thank you to the following con
 -   Kamal Singh Rautela
 -   Karan Anand
 -   Mandeep2333
+-   Manit Roy
 -   Mara Averick
 -   Moh Zaid Khan
+-   Nakul Krishnakumar
 -   Navyansh Kesarwani
 -   Neeraj Pathak
 -   Nirmal Jyoti Biswas
@@ -509,6 +571,7 @@ A total of 47 people contributed to this release. Thank you to the following con
 -   Vishal Gaikwad
 -   Vishal..
 -   Vivek Maurya
+-   Yug Bhatia
 -   alok chando
 -   anee3
 -   fiboNacci1163
