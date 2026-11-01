@@ -409,6 +409,7 @@
     "@stdlib/assert-is-negative-zero": "^0.2.3",
     "@stdlib/assert-is-number": "^0.2.3",
     "@stdlib/assert-is-positive-zero": "^0.2.3",
+    "@stdlib/assert-is-same-float32array": "^0.2.3",
     "@stdlib/assert-is-same-float64array": "^0.2.3",
     "@stdlib/assert-is-same-value": "^0.2.3",
     "@stdlib/complex-float32-ctor": "^0.1.1",

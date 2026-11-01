@@ -4,12 +4,24 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-13)
+## Unreleased (2026-11-01)
 
 <section class="features">
 
 ### Features
 
+-   [`ec3050c`](https://github.com/stdlib-js/stdlib/commit/ec3050cfb6a889a513a2b5c576d146b8b0367070) - add `assign` and `strided` methods to `math/base/special/csignumf` [(#16052)](https://github.com/stdlib-js/stdlib/pull/16052)
+-   [`4cb9318`](https://github.com/stdlib-js/stdlib/commit/4cb9318e4562195a5fa3ccd93c3e0c4d49eb2aaa) - add `assign` and `strided` methods to `math/base/special/csignum` [(#16051)](https://github.com/stdlib-js/stdlib/pull/16051)
+-   [`9e5e372`](https://github.com/stdlib-js/stdlib/commit/9e5e372b8889458ed23cd2625a7ca3593db3fa1b) - add `assign` and `strided` methods to `math/base/special/ccis` [(#16050)](https://github.com/stdlib-js/stdlib/pull/16050)
+-   [`8729960`](https://github.com/stdlib-js/stdlib/commit/87299609e3a2c734cce1945b6828d4c6829272f0) - add `assign` and `strided` methods to `math/base/special/cinvf` [(#16044)](https://github.com/stdlib-js/stdlib/pull/16044)
+-   [`2a22c73`](https://github.com/stdlib-js/stdlib/commit/2a22c737b45001e32f925ce360447a848daed234) - add `assign` and `strided` methods to `math/base/special/cinv` [(#16043)](https://github.com/stdlib-js/stdlib/pull/16043)
+-   [`13fcc1d`](https://github.com/stdlib-js/stdlib/commit/13fcc1d32ec408a0edbfc545dc6d5c19a9b8bf20) - add `assign` and `strided` methods to `math/base/special/croundf` [(#16039)](https://github.com/stdlib-js/stdlib/pull/16039)
+-   [`fa49d31`](https://github.com/stdlib-js/stdlib/commit/fa49d316e8cde8ec32c5c77a43e51c472788b519) - add `assign` and `strided` methods to `math/base/special/cfloorf` [(#16030)](https://github.com/stdlib-js/stdlib/pull/16030)
+-   [`fc437a4`](https://github.com/stdlib-js/stdlib/commit/fc437a4fc7618ca3aa4b9cd8e16e0d1c30704ff4) - add `assign` and `strided` methods to `math/base/special/cceilf` [(#16028)](https://github.com/stdlib-js/stdlib/pull/16028)
+-   [`70c9c47`](https://github.com/stdlib-js/stdlib/commit/70c9c47836b664e425f90dc6db6769f0829832bf) - add `assign` and `strided` methods to `math/base/special/cround` [(#16026)](https://github.com/stdlib-js/stdlib/pull/16026)
+-   [`e54799b`](https://github.com/stdlib-js/stdlib/commit/e54799b2de8cde482ffcf55979f4bb3f5ba92921) - add `assign` and `strided` methods to `math/base/special/cfloor` [(#16025)](https://github.com/stdlib-js/stdlib/pull/16025)
+-   [`c04562b`](https://github.com/stdlib-js/stdlib/commit/c04562b99ff9c456601d40206959a676cd2cb977) - add `assign` and `strided` methods to `math/base/special/cceil` [(#16003)](https://github.com/stdlib-js/stdlib/pull/16003)
+-   [`ea173d3`](https://github.com/stdlib-js/stdlib/commit/ea173d385ff7fa41b0914ce4996564777702c6c3) - add `assign` and `strided` methods to `math/base/special/cexpf` [(#16000)](https://github.com/stdlib-js/stdlib/pull/16000)
 -   [`c4242cb`](https://github.com/stdlib-js/stdlib/commit/c4242cb2890945d3d443de72a98c95c004eb03c8) - update `math/base/special` TypeScript declarations [(#15837)](https://github.com/stdlib-js/stdlib/pull/15837)
 -   [`fc129b4`](https://github.com/stdlib-js/stdlib/commit/fc129b4a89ae438c8b6f5b3bef0bcf5708ce8298) - add C implementation for `math/base/special/betaincinv` [(#15384)](https://github.com/stdlib-js/stdlib/pull/15384)
 -   [`e5108ac`](https://github.com/stdlib-js/stdlib/commit/e5108ac0e5288d6fee39b03bf5baf080b5dbb904) - add `math/base/special/fresnelf` [(#10844)](https://github.com/stdlib-js/stdlib/pull/10844)
@@ -96,6 +108,23 @@ A total of 13 issues were closed in this release:
 
 <details>
 
+-   [`480d5ee`](https://github.com/stdlib-js/stdlib/commit/480d5ee654552a7a60a6df14a694a68edb1926ce) - **docs:** update `math/base/special` TypeScript declarations [(#16413)](https://github.com/stdlib-js/stdlib/pull/16413) _(by stdlib-bot)_
+-   [`98e34a7`](https://github.com/stdlib-js/stdlib/commit/98e34a782b2318a2941c26ac1838f7213e59844a) - **docs:** update Markdown equation elements [(#16411)](https://github.com/stdlib-js/stdlib/pull/16411) _(by stdlib-bot)_
+-   [`ec3050c`](https://github.com/stdlib-js/stdlib/commit/ec3050cfb6a889a513a2b5c576d146b8b0367070) - **feat:** add `assign` and `strided` methods to `math/base/special/csignumf` [(#16052)](https://github.com/stdlib-js/stdlib/pull/16052) _(by Karan Anand)_
+-   [`4cb9318`](https://github.com/stdlib-js/stdlib/commit/4cb9318e4562195a5fa3ccd93c3e0c4d49eb2aaa) - **feat:** add `assign` and `strided` methods to `math/base/special/csignum` [(#16051)](https://github.com/stdlib-js/stdlib/pull/16051) _(by Karan Anand)_
+-   [`9e5e372`](https://github.com/stdlib-js/stdlib/commit/9e5e372b8889458ed23cd2625a7ca3593db3fa1b) - **feat:** add `assign` and `strided` methods to `math/base/special/ccis` [(#16050)](https://github.com/stdlib-js/stdlib/pull/16050) _(by Karan Anand)_
+-   [`8729960`](https://github.com/stdlib-js/stdlib/commit/87299609e3a2c734cce1945b6828d4c6829272f0) - **feat:** add `assign` and `strided` methods to `math/base/special/cinvf` [(#16044)](https://github.com/stdlib-js/stdlib/pull/16044) _(by Karan Anand)_
+-   [`2a22c73`](https://github.com/stdlib-js/stdlib/commit/2a22c737b45001e32f925ce360447a848daed234) - **feat:** add `assign` and `strided` methods to `math/base/special/cinv` [(#16043)](https://github.com/stdlib-js/stdlib/pull/16043) _(by Karan Anand)_
+-   [`13fcc1d`](https://github.com/stdlib-js/stdlib/commit/13fcc1d32ec408a0edbfc545dc6d5c19a9b8bf20) - **feat:** add `assign` and `strided` methods to `math/base/special/croundf` [(#16039)](https://github.com/stdlib-js/stdlib/pull/16039) _(by Karan Anand)_
+-   [`fa49d31`](https://github.com/stdlib-js/stdlib/commit/fa49d316e8cde8ec32c5c77a43e51c472788b519) - **feat:** add `assign` and `strided` methods to `math/base/special/cfloorf` [(#16030)](https://github.com/stdlib-js/stdlib/pull/16030) _(by Karan Anand)_
+-   [`fc437a4`](https://github.com/stdlib-js/stdlib/commit/fc437a4fc7618ca3aa4b9cd8e16e0d1c30704ff4) - **feat:** add `assign` and `strided` methods to `math/base/special/cceilf` [(#16028)](https://github.com/stdlib-js/stdlib/pull/16028) _(by Karan Anand)_
+-   [`70c9c47`](https://github.com/stdlib-js/stdlib/commit/70c9c47836b664e425f90dc6db6769f0829832bf) - **feat:** add `assign` and `strided` methods to `math/base/special/cround` [(#16026)](https://github.com/stdlib-js/stdlib/pull/16026) _(by Karan Anand)_
+-   [`e54799b`](https://github.com/stdlib-js/stdlib/commit/e54799b2de8cde482ffcf55979f4bb3f5ba92921) - **feat:** add `assign` and `strided` methods to `math/base/special/cfloor` [(#16025)](https://github.com/stdlib-js/stdlib/pull/16025) _(by Karan Anand)_
+-   [`c04562b`](https://github.com/stdlib-js/stdlib/commit/c04562b99ff9c456601d40206959a676cd2cb977) - **feat:** add `assign` and `strided` methods to `math/base/special/cceil` [(#16003)](https://github.com/stdlib-js/stdlib/pull/16003) _(by Karan Anand)_
+-   [`ea173d3`](https://github.com/stdlib-js/stdlib/commit/ea173d385ff7fa41b0914ce4996564777702c6c3) - **feat:** add `assign` and `strided` methods to `math/base/special/cexpf` [(#16000)](https://github.com/stdlib-js/stdlib/pull/16000) _(by Karan Anand)_
+-   [`f3d9641`](https://github.com/stdlib-js/stdlib/commit/f3d96414757120d4577b1d406629573520f9073d) - **test:** migrate `math/base/special/ellipj` to ULP-based assertions [(#14788)](https://github.com/stdlib-js/stdlib/pull/14788) _(by Aryan kumar)_
+-   [`cb57c9e`](https://github.com/stdlib-js/stdlib/commit/cb57c9e4507ab2731542c3d53ab4dadeb9069a69) - **docs:** add examples and keywords [(#16152)](https://github.com/stdlib-js/stdlib/pull/16152) _(by Philipp Burckhardt)_
+-   [`a034693`](https://github.com/stdlib-js/stdlib/commit/a034693f4b3761ec90635d100e98f82f5c84b485) - **test:** add medium-large range fixtures and test cases [(#15701)](https://github.com/stdlib-js/stdlib/pull/15701) _(by anee3)_
 -   [`0fa9c9d`](https://github.com/stdlib-js/stdlib/commit/0fa9c9d77641a4b4c3723814064825c3b4d11335) - **docs:** update examples [(#16099)](https://github.com/stdlib-js/stdlib/pull/16099) _(by stdlib-bot)_
 -   [`8f62240`](https://github.com/stdlib-js/stdlib/commit/8f622403b8f6ff3781a17dc7ceb077e341e91aa3) - **docs:** clean-up [(#16084)](https://github.com/stdlib-js/stdlib/pull/16084) _(by Philipp Burckhardt)_
 -   [`c4242cb`](https://github.com/stdlib-js/stdlib/commit/c4242cb2890945d3d443de72a98c95c004eb03c8) - **feat:** update `math/base/special` TypeScript declarations [(#15837)](https://github.com/stdlib-js/stdlib/pull/15837) _(by stdlib-bot)_
