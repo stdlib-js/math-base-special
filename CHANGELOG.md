@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-01)
+## Unreleased (2026-11-03)
 
 <section class="features">
 
 ### Features
 
+-   [`159b43a`](https://github.com/stdlib-js/stdlib/commit/159b43a8fb51cc2b4a8b08210ffab53aa28c6c42) - update `math/base/special` TypeScript declarations [(#16458)](https://github.com/stdlib-js/stdlib/pull/16458)
 -   [`ec3050c`](https://github.com/stdlib-js/stdlib/commit/ec3050cfb6a889a513a2b5c576d146b8b0367070) - add `assign` and `strided` methods to `math/base/special/csignumf` [(#16052)](https://github.com/stdlib-js/stdlib/pull/16052)
 -   [`4cb9318`](https://github.com/stdlib-js/stdlib/commit/4cb9318e4562195a5fa3ccd93c3e0c4d49eb2aaa) - add `assign` and `strided` methods to `math/base/special/csignum` [(#16051)](https://github.com/stdlib-js/stdlib/pull/16051)
 -   [`9e5e372`](https://github.com/stdlib-js/stdlib/commit/9e5e372b8889458ed23cd2625a7ca3593db3fa1b) - add `assign` and `strided` methods to `math/base/special/ccis` [(#16050)](https://github.com/stdlib-js/stdlib/pull/16050)
@@ -108,6 +109,7 @@ A total of 13 issues were closed in this release:
 
 <details>
 
+-   [`159b43a`](https://github.com/stdlib-js/stdlib/commit/159b43a8fb51cc2b4a8b08210ffab53aa28c6c42) - **feat:** update `math/base/special` TypeScript declarations [(#16458)](https://github.com/stdlib-js/stdlib/pull/16458) _(by stdlib-bot)_
 -   [`7be6477`](https://github.com/stdlib-js/stdlib/commit/7be64773404680cd10096e9cac6b27d3a589ff94) - **docs:** update namespace table of contents [(#16417)](https://github.com/stdlib-js/stdlib/pull/16417) _(by stdlib-bot)_
 -   [`480d5ee`](https://github.com/stdlib-js/stdlib/commit/480d5ee654552a7a60a6df14a694a68edb1926ce) - **docs:** update `math/base/special` TypeScript declarations [(#16413)](https://github.com/stdlib-js/stdlib/pull/16413) _(by stdlib-bot)_
 -   [`98e34a7`](https://github.com/stdlib-js/stdlib/commit/98e34a782b2318a2941c26ac1838f7213e59844a) - **docs:** update Markdown equation elements [(#16411)](https://github.com/stdlib-js/stdlib/pull/16411) _(by stdlib-bot)_
