@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-03)
+## Unreleased (2026-11-06)
 
 <section class="features">
 
@@ -109,6 +109,13 @@ A total of 13 issues were closed in this release:
 
 <details>
 
+-   [`34d508a`](https://github.com/stdlib-js/stdlib/commit/34d508a4977ad9ed687293d18fb74dcbc1da2912) - **style:** add missing whitespace [(#16515)](https://github.com/stdlib-js/stdlib/pull/16515) _(by stdlib-bot)_
+-   [`7349dff`](https://github.com/stdlib-js/stdlib/commit/7349dffeddd90289879f06e70acc1be8544af75b) - **style:** add missing whitespace [(#16507)](https://github.com/stdlib-js/stdlib/pull/16507) _(by Philipp Burckhardt)_
+-   [`7cf5642`](https://github.com/stdlib-js/stdlib/commit/7cf56423a8fe3e959bd334981a00f8428d086127) - **chore:** clean-up [(#16491)](https://github.com/stdlib-js/stdlib/pull/16491) _(by Philipp Burckhardt)_
+-   [`d0d8e26`](https://github.com/stdlib-js/stdlib/commit/d0d8e26ce806b50d11397f4bf75269b6b4adee66) - **chore:** clean-up [(#16436)](https://github.com/stdlib-js/stdlib/pull/16436) _(by Philipp Burckhardt, Athan Reines)_
+-   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
+-   [`136f68b`](https://github.com/stdlib-js/stdlib/commit/136f68b4d9d45706c7ea0183b5990203a7e0a3b8) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`b7ad899`](https://github.com/stdlib-js/stdlib/commit/b7ad8998c9f914b92976cf5c4cdc860572bd87dd) - **chore:** clean-up [(#16437)](https://github.com/stdlib-js/stdlib/pull/16437) _(by Philipp Burckhardt)_
 -   [`159b43a`](https://github.com/stdlib-js/stdlib/commit/159b43a8fb51cc2b4a8b08210ffab53aa28c6c42) - **feat:** update `math/base/special` TypeScript declarations [(#16458)](https://github.com/stdlib-js/stdlib/pull/16458) _(by stdlib-bot)_
 -   [`7be6477`](https://github.com/stdlib-js/stdlib/commit/7be64773404680cd10096e9cac6b27d3a589ff94) - **docs:** update namespace table of contents [(#16417)](https://github.com/stdlib-js/stdlib/pull/16417) _(by stdlib-bot)_
 -   [`480d5ee`](https://github.com/stdlib-js/stdlib/commit/480d5ee654552a7a60a6df14a694a68edb1926ce) - **docs:** update `math/base/special` TypeScript declarations [(#16413)](https://github.com/stdlib-js/stdlib/pull/16413) _(by stdlib-bot)_
